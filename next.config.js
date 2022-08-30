@@ -7,7 +7,7 @@ const nextConfig = {
             For dev: Comment [ basePath: "/blog", ]
             For build: Uncomment [ basePath: "/blog", ]
      */
-    // basePath: "/blog",
+    basePath: "/blog",
 };
 
 module.exports = nextConfig;
