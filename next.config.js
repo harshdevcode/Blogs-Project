@@ -1,7 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-}
+    swcMinify: true,
 
-module.exports = nextConfig
+    /*
+        Todo
+            For dev: Comment [ basePath: "/blog", ]
+            For build: Uncomment [ basePath: "/blog", ]
+     */
+    // basePath: "/blog",
+};
+
+module.exports = nextConfig;
