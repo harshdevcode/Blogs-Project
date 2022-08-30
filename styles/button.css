@@ -1,3 +1,14 @@
 .button {
-  @apply p-5 bg-indigo-500 text-white;
+    @apply px-6 py-2 font-semibold outline-none border border-transparent rounded-full 
+    focus:animate-pop;
+}
+
+.button.primary {
+    @apply bg-emerald-400 text-white duration-150
+    hover:bg-emerald-500;
+}
+
+.button.secondary {
+    @apply bg-white border border-slate-300 text-slate-900
+    hover:bg-slate-100;
 }
