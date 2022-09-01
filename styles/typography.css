@@ -1,0 +1,19 @@
+.display {
+    @apply font-semibold text-5xl leading-relaxed;
+}
+
+.heading {
+    @apply font-semibold text-xl leading-relaxed;
+}
+
+.title {
+    @apply font-semibold text-base leading-relaxed;
+}
+
+.body {
+    @apply font-normal text-sm leading-relaxed;
+}
+
+.caption {
+    @apply font-normal text-xs leading-relaxed;
+}

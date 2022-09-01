@@ -1,5 +1,5 @@
-import Head from 'next/head';
-import { getAllPosts, getPostBySlug, markdownToHTML } from './lib/api/helpers';
+import Head from "next/head";
+import { getAllPosts, getPostBySlug, markdownToHTML } from "../helpers/helpers";
 
 const Blog = ({
     post: {
@@ -19,20 +19,20 @@ const Blog = ({
                 {/* SEO Meta Tags */}
                 <title>{title}</title>
                 <meta
-                    property='description'
+                    property="description"
                     content={description}
-                    key='description'
+                    key="description"
                 />
-                <meta property='keywords' content={keywords} key='keywords' />
+                <meta property="keywords" content={keywords} key="keywords" />
 
                 {/* Open Graph Tags */}
-                <meta property='og:title' content={ogTitle} key='ogTitle' />
+                <meta property="og:title" content={ogTitle} key="ogTitle" />
                 <meta
-                    property='og:description'
+                    property="og:description"
                     content={ogDescription}
-                    key='ogDescription'
+                    key="ogDescription"
                 />
-                <meta property='og:image' content={ogImage} key='ogImage' />
+                <meta property="og:image" content={ogImage} key="ogImage" />
             </Head>
 
             {/* Content */}
@@ -46,16 +46,17 @@ export async function getStaticProps({ params }) {
     const slug = params.slug;
 
     const post = getPostBySlug(slug, [
-        'title',
-        'description',
-        'ogTitle',
-        'ogDescription',
-        'ogImage',
-        'content',
-        'keywords',
+        "title",
+        "description",
+        "ogTitle",
+        "ogDescription",
+        "ogImage",
+        "content",
+        "keywords",
+        "type",
     ]);
 
-    const htmlContent = await markdownToHTML(post.content || '');
+    const htmlContent = await markdownToHTML(post.content || "");
 
     return {
         props: {
@@ -68,7 +69,7 @@ export async function getStaticProps({ params }) {
 }
 
 export function getStaticPaths() {
-    const posts = getAllPosts(['slug']);
+    const posts = getAllPosts(["slug"]);
     return {
         paths: posts.map((post) => {
             return { params: { slug: post.slug } };
