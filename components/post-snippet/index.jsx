@@ -11,13 +11,7 @@ function PostSnippet({ post, className }) {
         >
             <h4 className="title">{post.title}</h4>
             <p className="mt-2 body">
-                Published on
-                <span className="font-semibold">
-                    {" "}
-                    {new Date(post.createdOn).toDateString()}{" "}
-                </span>
-                by
-                <span className="font-semibold"> {post.author.name} </span>
+                {new Date(post.createdOn).toDateString()}{" "}
             </p>
         </div>
     );
