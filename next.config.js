@@ -8,10 +8,6 @@ const nextConfig = {
             For build: Uncomment [ basePath: "/blog", ]
      */
     basePath: "/blog",
-    images: {
-        loader: "imgix",
-        path: "/blog",
-    },
 };
 
 module.exports = nextConfig;
