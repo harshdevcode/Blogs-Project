@@ -17,6 +17,7 @@ export default function FeaturedPostItem({ post, className }) {
                         loading="lazy"
                         className="absolute w-full h-full top-0 right-0 bottom-0 left-0 object-cover"
                         src={`${post.thumbnail}`}
+                        alt={post.slug}
                     />
                 </div>
 
