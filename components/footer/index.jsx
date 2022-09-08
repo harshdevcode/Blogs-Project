@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <footer
             className={`
-                [ h-auto bg-zinc-800 flex flex-col ]
+                [ w-full h-auto bg-zinc-800 flex flex-col ]
             `}
         >
             <div
