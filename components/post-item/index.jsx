@@ -1,14 +1,15 @@
 import Link from "next/link";
 
-export default function FeaturedPostItem({ post, className }) {
+export default function PostItem({ post, className }) {
     return (
         <Link href={`/${post.slug}`}>
             <div
                 className={`
-                flex flex-col duration-150 cursor-pointer bg-white border border-slate-300
-                hover:shadow-md
-                ${className}
-            `}
+                    ${className}
+                    h-[328px] flex flex-col duration-150 cursor-pointer bg-white border border-slate-300 rounded-smooth overflow-hidden
+                    hover:shadow-md
+                    lg:h-auto                                        
+                `}
             >
                 <div
                     className={`relative w-full grow bg-slate-100 shadow-none`}
