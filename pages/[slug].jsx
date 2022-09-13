@@ -70,6 +70,7 @@ const Blog = ({
                         </a>
                         {headlines.map((headline) => (
                             <a
+                                key={headline.id}
                                 href={`#${headline.id}`}
                                 className="body font-semibold  px-4 py-2"
                             >
