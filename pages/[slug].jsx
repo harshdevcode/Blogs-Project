@@ -3,8 +3,13 @@ import CommentBox from "../components/comment-box";
 import CommentsList from "../components/comments-list";
 import Footer from "../components/footer";
 import TagsList from "../components/tags-list";
-import { getAllPosts, getPostBySlug, markdownToHTML } from "../helpers/helpers";
-
+import {
+    getAllPosts,
+    getHeadlines,
+    getPostBySlug,
+    markdownToHTML,
+} from "../helpers/helpers";
+import { parse } from "node-html-parser";
 import markdownStyles from "./markdown-styles.module.css";
 
 const Blog = ({
@@ -17,12 +22,13 @@ const Blog = ({
         htmlContent,
         tags,
         keywords,
+        headlines,
     },
 }) => {
     return (
         <section
             className={`
-                [ w-full h-full pt-header bg-white ]
+                [ w-full h-full mt-header bg-white ]
             `}
         >
             {/* Head */}
@@ -55,11 +61,27 @@ const Blog = ({
                         [ lg:block ]
                     `}
                 >
-                    <div className="sticky top-headspace py-6"></div>
+                    <div className="sticky top-headspace py-6 flex flex-col gap-2">
+                        <a
+                            href={`#main`}
+                            className="body font-semibold bg-slate-100 rounded-smooth px-4 py-2"
+                        >
+                            Introduction
+                        </a>
+                        {headlines.map((headline) => (
+                            <a
+                                href={`#${headline.id}`}
+                                className="body font-semibold  px-4 py-2"
+                            >
+                                {headline.text}
+                            </a>
+                        ))}
+                    </div>
                 </aside>
 
                 {/* Blog Content */}
                 <main
+                    id="main"
                     dangerouslySetInnerHTML={{ __html: htmlContent }}
                     className={`${markdownStyles["markdown"]} w-full [ lg:w-6/12 ] p-6`}
                 />
@@ -130,11 +152,27 @@ export async function getStaticProps({ params }) {
 
     const htmlContent = await markdownToHTML(post.content || "");
 
+    const headlines = getHeadlines(htmlContent);
+    const arrHeadlines = headlines.toString().split(",");
+
+    const headlinesObj = [];
+
+    for (let i = 0; i < arrHeadlines.length; i++) {
+        const h = parse(arrHeadlines[i]);
+        let id = "";
+        h.childNodes.forEach((val) => {
+            id = val.id;
+        });
+
+        headlinesObj.push({ id: id, text: h.textContent });
+    }
+
     return {
         props: {
             post: {
                 ...post,
                 htmlContent,
+                headlines: headlinesObj,
             },
         },
     };

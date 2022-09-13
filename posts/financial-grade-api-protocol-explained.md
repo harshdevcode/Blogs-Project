@@ -19,17 +19,17 @@ tags: ["Technology", "Finance", "Fintech", "Banking", "FAPI", "API Protocol"]
 
 ![The San Juan Mountains are beautiful!](https://mdg.imgix.net/assets/images/san-juan-mountains.jpg?auto=format&fit=clip&q=40&w=1080)
 
-## What is Financial-grade API protocol and Open Banking?
+## What is Financial-grade API protocol and Open Banking? {#intro}
 
 FAPI and **Open Banking** are two concepts that are being mentioned increasingly in the online financial discourse. You’ll often find these terms used in the same sentence. But what exactly is FAPI and why is it important? What does it have to do with Open Banking? Let’s have a look.
 
-### What is open banking {#What}
+### What is open banking {#What-is-open-banking}
 
 The advent of digital marketplaces, eCommerce, and smartphones has paved the way for Open Banking to become ever popular. Open banking refers to when financial institutions share their customer’s data with each other via APIs to integrate their services. It grants consumers the flexibility to make transactions and invest their money on a global scale. However, it also opens a new set of challenges and risks that must be addressed.
 
 Open Banking can also involve sharing customer data over APIs with third-party developers that build a web or mobile applications. These applications can facilitate the banking services provided by FinTech companies, bringing value to the customer experience. As such, greater financial transparency and trust in data protection become a priority for these users.
 
-### What is FAPI? {#myid}
+### What is FAPI? {#What-is-FAPI}
 
 ![The San Juan Mountains are beautiful!](https://images.ctfassets.net/23aumh6u8s0i/6hQzZDLgIXjcNVRrq0VNPO/8a076709ee64de9d284feac05554e0c2/ciam-hero-image)
 
@@ -46,7 +46,7 @@ FAPI, however, isn’t just limited to the EEA. It is a protocol developed by th
 -   The exchange of JWT allows a limited set of security algorithms.
 -   It offers conformance testing methods, which can be automated.
 
-### Benefits of FAPI
+### Benefits of FAPI {#Benefits-of-FAPI}
 
 **Strong level of authentication**
 Clients can trust the authentication that includes mutual Transport Layer Security (TLS) and JSON Web Token (JWT) based mechanism that functions on the application level.
@@ -63,7 +63,7 @@ Adding stringent regulations and limitations often hamper the usability and prof
 **Flexible to many industries**  
 The banking-level security of FAPI using OAuth and OpenID Connect is available not just for financial providers. It can be used by just about any online service provider that deals with a sizable number of clients and customers that need their private information protected, yet easily accessible.
 
-### Scope of FAFI
+### Scope of FAFI {#Scope-of-FAFI}
 
 As mentioned above, FAPI isn’t just limited to the banking sector. It can be used as a general standard for sharing sensitive information via APIs while guaranteeing client security. This is made possible by using one of the following four standards
 
