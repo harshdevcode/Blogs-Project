@@ -3,6 +3,8 @@ import { join } from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
+import remarkHeadingId from "remark-heading-id";
+import { parse } from "node-html-parser";
 import { categories } from "../utils/categories";
 
 const postsDirectory = join(process.cwd(), "posts");
@@ -38,6 +40,12 @@ export function getPostBySlug(filename, fields) {
 
 export function getPostByTitle() {}
 
+export function getHeadlines(htmlContent) {
+    const root = parse(htmlContent);
+    const headlines = root.querySelectorAll("h3");
+    return headlines.toString();
+}
+
 export function getPostsForCategory(fields, category) {
     const slugs = getPostSlugs();
     const posts = slugs
@@ -64,7 +72,11 @@ export function getAllPosts(fields) {
 }
 
 export async function markdownToHTML(markdown) {
-    const resultHtml = await remark().use(html).process(markdown);
+    const resultHtml = await remark()
+        .use(remarkHeadingId)
+        .use(html)
+        .process(markdown);
+
     return resultHtml.toString();
 }
 
