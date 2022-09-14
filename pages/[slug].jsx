@@ -54,7 +54,10 @@ const Blog = ({
             </Head>
 
             {/* Content */}
-            <div className="flex flex-col items-center w-full py-8 lg:py-14 lg:flex-row border-b lg:px-40 px-6 gap-14">
+            <div
+                id="main"
+                className="flex flex-col items-center w-full py-8 lg:py-14 lg:flex-row border-b lg:px-40 px-6 gap-14"
+            >
                 <div className="w-full lg:w-6/12">
                     <h1 className="mt-6 lg:mt-0 display">{title}</h1>
                     <p className="body mt-6">{description}</p>
@@ -96,7 +99,6 @@ const Blog = ({
 
                 {/* Blog Content */}
                 <main
-                    id="main"
                     dangerouslySetInnerHTML={{ __html: htmlContent }}
                     className={`
                         [ ${markdownStyles["markdown"]} w-full [ lg:w-6/12 ] order-2 p-6 ]
