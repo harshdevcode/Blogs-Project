@@ -8,7 +8,7 @@ module.exports = {
         extend: {
             spacing: {
                 header: "75px",
-                headspace: "99px",
+                headspace: "123px",
             },
             gridTemplateColumns: {
                 primary: "repeat(auto-fit,minmax(198px,1fr))",
