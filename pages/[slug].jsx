@@ -23,6 +23,7 @@ const Blog = ({
         tags,
         keywords,
         headlines,
+        thumbnail,
     },
 }) => {
     return (
@@ -53,15 +54,28 @@ const Blog = ({
             </Head>
 
             {/* Content */}
-            <article className="flex justify-center">
+            <div className="flex flex-col items-center w-full py-8 lg:py-14 lg:flex-row border-b lg:px-40 px-6 gap-14">
+                <div className="w-full lg:w-6/12">
+                    <h1 className="mt-6 lg:mt-0 display">{title}</h1>
+                    <p className="body mt-6">{description}</p>
+                    <button className="button primary mt-8">Get Demo</button>
+                </div>
+                <figure className="w-full aspect-cover lg:w-6/12 rounded-smooth overflow-hidden">
+                    <img
+                        src={thumbnail}
+                        className="aspect-video object-cover"
+                    />
+                </figure>
+            </div>
+            <article className="flex flex-col justify-center lg:flex-row border-b">
                 {/* Left Section */}
                 <aside
                     className={`
-                        [ w-3/12 hidden py-6 px-8 ]
+                        [ w-3/12 hidden px-8 py-8 border-r ]
                         [ lg:block ]
                     `}
                 >
-                    <div className="sticky top-headspace py-6 flex flex-col gap-2">
+                    <div className="hidden sticky top-headspace flex-col gap-1 lg:flex">
                         <a
                             href={`#main`}
                             className="body font-semibold bg-slate-100 rounded-smooth px-4 py-2"
@@ -72,7 +86,7 @@ const Blog = ({
                             <a
                                 key={headline.id}
                                 href={`#${headline.id}`}
-                                className="body font-semibold  px-4 py-2"
+                                className="body font-semibold px-4 py-2"
                             >
                                 {headline.text}
                             </a>
@@ -84,16 +98,21 @@ const Blog = ({
                 <main
                     id="main"
                     dangerouslySetInnerHTML={{ __html: htmlContent }}
-                    className={`${markdownStyles["markdown"]} w-full [ lg:w-6/12 ] p-6`}
-                />
+                    className={`
+                        [ ${markdownStyles["markdown"]} w-full [ lg:w-6/12 ] order-2 p-6 ]
+                        [ lg:order-2 ]
+                    `}
+                ></main>
 
                 {/* Right Section */}
                 <aside
                     className={`
-                        [ w-3/12 hidden ]
-                        [ lg:block ]
+                        [ w-full order-1 py-8 px-6 border-l ]
+                        [ lg:order-3 lg:w-3/12 lg:px-6 ]
                     `}
-                ></aside>
+                >
+                    <TagsList tags={tags} />
+                </aside>
             </article>
 
             {/* Comments */}
@@ -128,9 +147,7 @@ const Blog = ({
                         [ w-full order-1 py-6 ]
                         [ lg:order-3 lg:w-3/12 lg:px-6 lg:py-0 ]
                     `}
-                >
-                    <TagsList tags={tags} />
-                </aside>
+                ></aside>
             </section>
             <Footer />
         </section>
@@ -149,6 +166,7 @@ export async function getStaticProps({ params }) {
         "content",
         "keywords",
         "tags",
+        "thumbnail",
     ]);
 
     const htmlContent = await markdownToHTML(post.content || "");
