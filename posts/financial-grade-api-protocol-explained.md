@@ -17,12 +17,6 @@ category: ["featured", "atlassian", "technology"]
 tags: ["Technology", "Finance", "Fintech", "Banking", "FAPI", "API Protocol"]
 ---
 
-![The San Juan Mountains are beautiful!](https://mdg.imgix.net/assets/images/san-juan-mountains.jpg?auto=format&fit=clip&q=40&w=1080)
-
-## What is Financial-grade API protocol and Open Banking? {#intro}
-
-FAPI and **Open Banking** are two concepts that are being mentioned increasingly in the online financial discourse. You’ll often find these terms used in the same sentence. But what exactly is FAPI and why is it important? What does it have to do with Open Banking? Let’s have a look.
-
 ### What is open banking {#What-is-open-banking}
 
 The advent of digital marketplaces, eCommerce, and smartphones has paved the way for Open Banking to become ever popular. Open banking refers to when financial institutions share their customer’s data with each other via APIs to integrate their services. It grants consumers the flexibility to make transactions and invest their money on a global scale. However, it also opens a new set of challenges and risks that must be addressed.
