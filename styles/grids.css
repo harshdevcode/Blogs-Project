@@ -1,0 +1,97 @@
+/* Latest Posts Grid */
+.featured-posts-grid {
+    display: grid;
+    gap: 18px;
+    grid-template-areas: none;
+    grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
+}
+
+/* Latest Posts Grid */
+.latest-posts-grid {
+    display: grid;
+    gap: 18px;
+    grid-template-areas: none;
+    grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
+}
+
+@media (min-width: 1024px) {
+    /* Latest Posts Grid */
+    .featured-posts-grid {
+        @apply gap-4 grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "fp0 fp0 fp0 fp0 fp1 fp1"
+            "fp0 fp0 fp0 fp0 fp2 fp2";
+    }
+
+    .fp0 {
+        grid-area: fp0;
+    }
+
+    .fp1 {
+        grid-area: fp1;
+    }
+
+    .fp2 {
+        grid-area: fp2;
+    }
+
+    .latest-posts-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "lp0 lp1 lp2"
+            "lp0 lp1 lp3";
+    }
+    .lp0 {
+        grid-area: lp0;
+    }
+
+    .lp1 {
+        grid-area: lp1;
+    }
+
+    .lp2 {
+        grid-area: lp2;
+    }
+    .lp3 {
+        grid-area: lp3;
+    }
+}
+
+.blogs-grid {
+    @apply gap-4;
+    display: grid;
+    grid-template-areas:
+        "b0 b0 b1 b1 b2 b2"
+        "b0 b0 b1 b1 b3 b3"
+        "b4 b4 b4 b6 b6 b6"
+        "b5 b5 b5 b6 b6 b6";
+}
+
+.b0 {
+    grid-area: b0;
+}
+
+.b1 {
+    grid-area: b1;
+}
+
+.b2 {
+    grid-area: b2;
+}
+
+.b3 {
+    grid-area: b3;
+}
+
+.b4 {
+    grid-area: b4;
+}
+
+.b5 {
+    grid-area: b5;
+}
+
+.b6 {
+    grid-area: b6;
+}

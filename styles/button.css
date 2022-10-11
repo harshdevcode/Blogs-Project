@@ -1,11 +1,11 @@
 .button {
-    @apply px-6 py-2 font-semibold outline-none border border-transparent rounded-full 
+    @apply px-6 py-2 font-semibold outline-none border border-transparent rounded-md 
     focus:animate-pop;
 }
 
 .button.primary {
-    @apply bg-emerald-400 text-white duration-150
-    hover:bg-emerald-500;
+    @apply bg-orange-400 text-white duration-150
+    hover:bg-orange-500;
 }
 
 .button.secondary {

@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <footer
             className={`
-                [ h-auto bg-zinc-800 flex flex-col ]
+                [ w-full h-auto bg-zinc-800 flex flex-col ]
             `}
         >
             <div
@@ -16,7 +16,14 @@ export default function Footer() {
                 `}
             >
                 <div className="py-6">
-                    <h3>Miniorange</h3>
+                    <figure className="w-40 text-lg font-medium cursor-pointer">
+                        <img
+                            alt="miniorange logo"
+                            className="w-full aspect-auto"
+                            src="https://idp.miniorange.com/wp-content/uploads/sites/9/2019/11/mo-logo.png"
+                        />
+                    </figure>
+
                     <p className="text-zinc-400 mt-3">
                         Secure Identity Solutions for your Workforce & Customers
                     </p>

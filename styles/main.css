@@ -28,5 +28,10 @@
     }
 }
 
-@import url("./button.css");
-@import url("./typography.css");
+html {
+    scroll-behavior: smooth;
+}
+
+@import "./button.css";
+@import "./typography.css";
+@import "./grids.css";

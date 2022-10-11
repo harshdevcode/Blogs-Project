@@ -1,5 +1,5 @@
 .display {
-    @apply font-semibold text-5xl leading-relaxed;
+    @apply font-semibold text-2xl leading-normal;
 }
 
 .heading {
@@ -11,7 +11,7 @@
 }
 
 .body {
-    @apply font-normal text-sm leading-relaxed;
+    @apply font-normal text-sm leading-loose;
 }
 
 .caption {
