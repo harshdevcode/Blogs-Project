@@ -7,10 +7,10 @@ const nextConfig = {
             For dev: Comment [ basePath: "/blog", ]
             For build: Uncomment [ basePath: "/blog", ]
      */
-    basePath: "/blog",
+    basePath: "",
     images: {
         loader: "imgix",
-        path: "/blog",
+        path: "",
     },
 };
 
