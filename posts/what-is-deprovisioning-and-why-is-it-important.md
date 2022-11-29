@@ -1,4 +1,5 @@
 ---
+id: "5"
 title: "What is Deprovisioning and why is it important?"
 description: "Deprovisioning is the process of automatically removing a user’s access from numerous SAAS app accounts and network infrastructure at the same time. Deprovisioning safeguards the security and confidentiality of the company by prohibiting departing employees from using corporate resources. The Deprovisioning action is triggered when an employee quits their job or changes roles within the company."
 keywords: ""

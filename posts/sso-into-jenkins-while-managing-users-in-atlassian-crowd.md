@@ -1,4 +1,5 @@
 ---
+id: "4"
 title: "SSO into Jenkins while managing users in Atlassian Crowd"
 description: "Jenkins manages and controls software delivery processes throughout the entire lifecycle, including build, document, test, package, stage, deployment, static code analysis, and much more."
 keywords: ""
