@@ -11,7 +11,7 @@ function CommentBox({ value, onCommentChange, onPostComment, status }) {
                 onChange={onCommentChange}
                 type="text"
                 name="user_name"
-                className="outline-none p-4"
+                className="outline-none p-regular"
                 placeholder="Full Name"
             />
             <input
@@ -20,7 +20,7 @@ function CommentBox({ value, onCommentChange, onPostComment, status }) {
                 onChange={onCommentChange}
                 type="email"
                 name="user_email"
-                className="outline-none p-4"
+                className="outline-none p-regular"
                 placeholder="Email Address"
             />
             <textarea
@@ -29,12 +29,12 @@ function CommentBox({ value, onCommentChange, onPostComment, status }) {
                 onChange={onCommentChange}
                 name="content"
                 placeholder="Write your comment here"
-                className="outline-none resize-none h-28 p-4"
+                className="outline-none resize-none h-28 p-regular"
             />
             <button
                 disabled={status === POSTING_COMMENT}
                 onClick={onPostComment}
-                className="button primary w-max self-end m-4"
+                className="button primary w-max self-end m-regular"
             >
                 {status === POSTING_COMMENT && <Spinner />}
                 <span>

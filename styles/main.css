@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM Sans:wght@400;500;600&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -36,3 +36,4 @@ html {
 @import "./button.css";
 @import "./typography.css";
 @import "./grids.css";
+@import "./card.css";

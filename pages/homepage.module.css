@@ -1,6 +1,6 @@
 .homepage_container {
     @apply w-full h-full p-regular pt-[107px] bg-slate-50
-    xl:px-[150px];
+    xl:px-large;
 }
 
 .categories_container {

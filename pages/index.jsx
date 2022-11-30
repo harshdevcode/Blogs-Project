@@ -23,7 +23,7 @@ export default function Home({ featuredPosts, latestPosts, categories }) {
     return (
         <>
             <main className={styles.homepage_container}>
-                {/* Featured Postss */}
+                {/* Featured Posts */}
                 <div className="featured-posts-grid">
                     {featuredPosts.map((post, index) => (
                         <PostItem
@@ -34,7 +34,7 @@ export default function Home({ featuredPosts, latestPosts, categories }) {
                     ))}
                 </div>
 
-                <h4 className="mt-14 mb-4 heading">Latest Posts</h4>
+                <h4 className="mt-large mb-regular heading">Latest Posts</h4>
 
                 {/* Latest Posts */}
                 {latestPosts.length !== 0 && (
@@ -51,7 +51,7 @@ export default function Home({ featuredPosts, latestPosts, categories }) {
 
                 {/* Categories */}
                 <section>
-                    <h4 className="mt-14 mb-4 heading">More Topics</h4>
+                    <h4 className="mt-large mb-regular heading">More Topics</h4>
                     <ul className={styles.categories_container}>
                         {categories.map((category, index) => {
                             return (
@@ -62,7 +62,7 @@ export default function Home({ featuredPosts, latestPosts, categories }) {
                 </section>
 
                 {/* Initiatives */}
-                <h4 className="mt-14 mb-4 heading">Initiatives</h4>
+                <h4 className="mt-large mb-regular heading">Initiatives</h4>
 
                 <div className={styles.initiatives_grid}>
                     <InitiativeCard
