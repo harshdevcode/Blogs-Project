@@ -41,7 +41,10 @@ module.exports = {
                 header: "75px",
                 headspace: "123px",
 
-                //
+                // Button Height
+                "button-small": "36px",
+                "button-regular": "44px",
+                "button-large": "56px",
             },
 
             gridTemplateColumns: {
