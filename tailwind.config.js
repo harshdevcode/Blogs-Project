@@ -11,7 +11,8 @@ module.exports = {
                 headspace: "123px",
             },
             gridTemplateColumns: {
-                primary: "repeat(auto-fit,minmax(198px,1fr))",
+                footer: "repeat(auto-fit,minmax(198px,1fr))",
+                primary: "repeat(auto-fit,minmax(328px,1fr))",
                 categories: "repeat(auto-fit,minmax(128px,1fr))",
             },
 

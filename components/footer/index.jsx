@@ -11,7 +11,7 @@ export default function Footer() {
         >
             <div
                 className={`
-                    [ p-4 grid grid-cols-primary gap-4 text-white ]
+                    [ p-4 grid grid-cols-footer gap-4 text-white ]
                     [ md:p-14 ]
                 `}
             >
