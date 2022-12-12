@@ -20,8 +20,8 @@ export default function Header() {
     return (
         <header
             className={`
-              [ px-4 h-header flex items-center border-b fixed top-0 right-0 left-0 bg-white z-50 ]
-              [ sm:px-14 ]
+              [ px-small h-header flex items-center border-b fixed top-0 right-0 left-0 bg-white z-50 ]
+              [ sm:px-large ]
             `}
         >
             <Link href="/">
@@ -54,13 +54,13 @@ export default function Header() {
                 <NavItem>Concepts</NavItem>
                 <NavItem>Integrations</NavItem>
                 <button
-                    className="ml-8 button primary"
+                    className="ml-medium button primary"
                     onClick={handleOnSignupClick}
                 >
                     Sign up
                 </button>
                 <button
-                    className="ml-2 button secondary"
+                    className="ml-small button secondary"
                     onClick={handleOnContactUsClick}
                 >
                     Contact us

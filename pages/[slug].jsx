@@ -1,3 +1,4 @@
+import styles from "./blog-details.module.css";
 import Head from "next/head";
 import CommentBox from "../components/comment-box";
 import CommentsList from "../components/comments-list";
@@ -97,11 +98,7 @@ const Blog = ({
     }, [posting]);
 
     return (
-        <section
-            className={`
-                [ w-full h-full mt-header bg-white ]
-            `}
-        >
+        <section className={styles.container}>
             <Head>
                 {/* SEO Meta Tags */}
                 <title>{title}</title>
@@ -123,13 +120,10 @@ const Blog = ({
             </Head>
 
             {/* Hero Section */}
-            <div
-                id="main"
-                className="flex flex-col items-center w-full py-8 lg:py-14 lg:flex-row border-b lg:px-40 px-6 gap-14"
-            >
+            <div id="main" className={styles.hero_section}>
                 <div className="w-full lg:w-6/12">
-                    <h1 className="mt-6 lg:mt-0 display">{title}</h1>
-                    <p className="body mt-6">{description}</p>
+                    <h1 className="mt-medium lg:mt-0 display">{title}</h1>
+                    <p className="body mt-medium">{description}</p>
                     <button className="button primary mt-8">Get Demo</button>
                 </div>
                 <figure className="w-full aspect-cover lg:w-6/12 rounded-smooth overflow-hidden">
@@ -141,16 +135,11 @@ const Blog = ({
             </div>
             <article className="flex flex-col justify-center lg:flex-row border-b">
                 {/* Side Nav Links */}
-                <aside
-                    className={`
-                        [ w-3/12 hidden px-8 py-8 border-r ]
-                        [ lg:block ]
-                    `}
-                >
-                    <div className="hidden sticky top-headspace flex-col gap-1 lg:flex">
+                <aside className={styles.side_nav_container}>
+                    <div className={styles.side_nav_wrapper}>
                         <a
                             href={`#main`}
-                            className="body font-semibold bg-slate-100 rounded-smooth px-4 py-2"
+                            className={`title ${styles.side_nav_link}`}
                         >
                             Introduction
                         </a>
@@ -158,7 +147,7 @@ const Blog = ({
                             <a
                                 key={headline.id}
                                 href={`#${headline.id}`}
-                                className="body font-semibold px-4 py-2"
+                                className={`title ${styles.side_nav_link}`}
                             >
                                 {headline.text}
                             </a>
@@ -170,29 +159,19 @@ const Blog = ({
                 <main
                     dangerouslySetInnerHTML={{ __html: htmlContent }}
                     className={`
-                        [ ${markdownStyles["markdown"]} w-full [ lg:w-6/12 ] order-2 p-6 ]
+                        [ ${markdownStyles["markdown"]} w-full [ lg:w-6/12 ] order-2 p-medium ]
                         [ lg:order-2 ]
                     `}
                 ></main>
 
                 {/* Tags Section */}
-                <aside
-                    className={`
-                        [ w-full order-1 py-8 px-6 border-l ]
-                        [ lg:order-3 lg:w-3/12 lg:px-6 ]
-                    `}
-                >
+                <aside className={styles.tags_container}>
                     <TagsList tags={tags} />
                 </aside>
             </article>
 
             {/* Comments */}
-            <section
-                className={`
-                    [ w-full flex flex-col justify-center p-6 bg-slate-50 ]
-                    [ lg:flex-row ]
-                `}
-            >
+            <section className={styles.comments_container}>
                 <aside
                     className={`
                         [ w-3/12 hidden py-6 px-8 ]
@@ -203,12 +182,12 @@ const Blog = ({
                 {/* Comment Section */}
                 <section
                     className={`
-                        [ w-full [ lg:w-6/12 ] order-2 ]
+                        [ w-full lg:w-6/12 order-2 ]
                         [ lg:order-2 ]
                     `}
                 >
                     {posting === COMMENT_POSTED && (
-                        <div className="py-3 px-4 flex items-center justify-center bg-green-100 rounded-smooth mb-6">
+                        <div className="py-3 px-regular flex items-center justify-center bg-green-100 rounded-smooth mb-6">
                             <span className="text-green-600 font-medium">
                                 Comment Posted Successfully, Your comment is
                                 under review to check if it contains any
@@ -234,7 +213,7 @@ const Blog = ({
                 <aside
                     className={`
                         [ w-full order-1 py-6 ]
-                        [ lg:order-3 lg:w-3/12 lg:px-6 lg:py-0 ]
+                        [ lg:order-3 lg:w-3/12 lg:px-medium lg:py-0 ]
                     `}
                 ></aside>
             </section>

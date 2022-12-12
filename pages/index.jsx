@@ -6,6 +6,8 @@
 ------------------------------------------------------
 */
 
+import styles from "./homepage.module.css";
+
 import CategoryCard from "../components/category-card";
 import Footer from "../components/footer";
 import InitiativeCard from "../components/initiative-card";
@@ -20,13 +22,8 @@ import {
 export default function Home({ featuredPosts, latestPosts, categories }) {
     return (
         <>
-            <main
-                className={`
-                [ w-full h-full px-4 py-4 pt-[107px] bg-slate-50 ]
-                [ xl:px-[150px] ]
-            `}
-            >
-                {/* Featured Postss */}
+            <main className={styles.homepage_container}>
+                {/* Featured Posts */}
                 <div className="featured-posts-grid">
                     {featuredPosts.map((post, index) => (
                         <PostItem
@@ -37,7 +34,7 @@ export default function Home({ featuredPosts, latestPosts, categories }) {
                     ))}
                 </div>
 
-                <h4 className="mt-14 mb-4 heading">Latest Posts</h4>
+                <h4 className="mt-large mb-regular heading">Latest Posts</h4>
 
                 {/* Latest Posts */}
                 {latestPosts.length !== 0 && (
@@ -54,8 +51,8 @@ export default function Home({ featuredPosts, latestPosts, categories }) {
 
                 {/* Categories */}
                 <section>
-                    <h4 className="mt-14 mb-4 heading">More Topics</h4>
-                    <ul className="w-full grid grid-cols-categories gap-4">
+                    <h4 className="mt-large mb-regular heading">More Topics</h4>
+                    <ul className={styles.categories_container}>
                         {categories.map((category, index) => {
                             return (
                                 <CategoryCard key={index} category={category} />
@@ -65,9 +62,9 @@ export default function Home({ featuredPosts, latestPosts, categories }) {
                 </section>
 
                 {/* Initiatives */}
-                <h4 className="mt-14 mb-4 heading">Initiatives</h4>
+                <h4 className="mt-large mb-regular heading">Initiatives</h4>
 
-                <div className="grid grid-cols-primary gap-4">
+                <div className={styles.initiatives_grid}>
                     <InitiativeCard
                         initiative={{
                             title: "Guest Authors",

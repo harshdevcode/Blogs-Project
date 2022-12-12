@@ -6,13 +6,12 @@ export default function PostItem({ post, className }) {
             <div
                 className={`
                     ${className}
-                    h-[328px] flex flex-col duration-150 cursor-pointer bg-white border border-slate-300 rounded-smooth overflow-hidden
-                    hover:shadow-md
+                    card h-[328px] flex flex-col duration-150 cursor-pointer overflow-hidden
                     lg:h-auto                                        
                 `}
             >
                 <div
-                    className={`relative w-full grow bg-slate-100 shadow-none`}
+                    className={`relative w-full grow bg-secondary-bg shadow-none`}
                 >
                     <img
                         loading="lazy"
@@ -22,9 +21,9 @@ export default function PostItem({ post, className }) {
                     />
                 </div>
 
-                <div className="p-6">
+                <div className="p-medium">
                     <h4 className="title">{post.title}</h4>
-                    <p className="mt-2 body">
+                    <p className="mt-xsmall body">
                         {new Date(post.createdOn).toDateString()}{" "}
                     </p>
                 </div>

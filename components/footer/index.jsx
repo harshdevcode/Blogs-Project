@@ -11,11 +11,11 @@ export default function Footer() {
         >
             <div
                 className={`
-                    [ p-4 grid grid-cols-primary gap-4 text-white ]
-                    [ md:p-14 ]
+                    [ p-regular grid grid-cols-primary gap-regular text-white ]
+                    [ md:p-large ]
                 `}
             >
-                <div className="py-6">
+                <div className="py-medium">
                     <figure className="w-40 text-lg font-medium cursor-pointer">
                         <img
                             alt="miniorange logo"
@@ -24,23 +24,23 @@ export default function Footer() {
                         />
                     </figure>
 
-                    <p className="text-zinc-400 mt-3">
+                    <p className="text-zinc-400 mt-small">
                         Secure Identity Solutions for your Workforce & Customers
                     </p>
-                    <h3 className="h3 mt-8">+1 978 658 9387 (USA)</h3>
-                    <h3 className="h3 mt-1">+91 97178 45846 (India)</h3>
-                    <h3 className="h3 mt-1">info@xecurify.com</h3>
+                    <h3 className="h3 mt-medium">+1 978 658 9387 (USA)</h3>
+                    <h3 className="h3 mt-xsmall">+91 97178 45846 (India)</h3>
+                    <h3 className="h3 mt-xsmall">info@xecurify.com</h3>
                     <button
                         onClick={handleOnSignupClick}
-                        className="button secondary mt-8"
+                        className="button secondary mt-medium"
                     >
                         Sign up free
                     </button>
                 </div>
 
-                <div className="py-6">
+                <div className="py-medium">
                     <h3>Products</h3>
-                    <div className="mt-3 flex flex-col gap-4">
+                    <div className="mt-medium flex flex-col gap-regular">
                         <a
                             href="https://www.miniorange.com/products/single-sign-on-sso"
                             className="text-zinc-400"
@@ -91,9 +91,9 @@ export default function Footer() {
                         </a>
                     </div>
                 </div>
-                <div className="py-6">
+                <div className="py-medium">
                     <h3>Solutions</h3>
-                    <div className="mt-3 flex flex-col gap-4">
+                    <div className="mt-medium flex flex-col gap-regular">
                         <a
                             href="https://idp.miniorange.com/apps-integration/?id=saml"
                             className="text-zinc-400"
@@ -150,9 +150,9 @@ export default function Footer() {
                         </a>
                     </div>
                 </div>
-                <div className="py-6">
+                <div className="py-medium">
                     <h3>Resources</h3>
-                    <div className="mt-3 flex flex-col gap-4">
+                    <div className="mt-medium flex flex-col gap-regular">
                         <a
                             href="https://idp.miniorange.com/success-stories"
                             className="text-zinc-400"
@@ -185,9 +185,9 @@ export default function Footer() {
                         </a>
                     </div>
                 </div>
-                <div className="py-6">
+                <div className="py-medium">
                     <h3>Company</h3>
-                    <div className="mt-3 flex flex-col gap-4">
+                    <div className="mt-medium flex flex-col gap-regular">
                         <a
                             href="https://www.miniorange.com/newsandevents"
                             className="text-zinc-400"
@@ -217,12 +217,12 @@ export default function Footer() {
             </div>
             <div
                 className={`
-                    [ px-4 py-6 border-t border-slate-600 flex flex-col gap-4 items-center text-slate-50 ]
+                    [ px-4 py-medium border-t border-slate-600 flex flex-col gap-regular items-center text-slate-50 ]
                     [ sm:flex-row ]
-                    [ lg:px-14 ]
+                    [ lg:px-large ]
                 `}
             >
-                <div className="grow flex gap-4">
+                <div className="grow flex gap-regular">
                     {/* Facebook Icon */}
                     <a href="https://www.facebook.com/miniorangeinc/">
                         <svg
