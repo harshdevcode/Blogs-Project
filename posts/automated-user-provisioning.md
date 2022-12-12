@@ -1,4 +1,5 @@
 ---
+id: "1"
 title: "What is Deprovisioning and why is it important"
 description: "Imagine manually onboarding hundreds of new employees at once. If you’re a corporate organization that doesn’t have an IAM, that’s often the case. How do you provision hundreds of new users to their respected systems & applications efficiently? Read through the blog & find the solution yourself."
 keywords: ""

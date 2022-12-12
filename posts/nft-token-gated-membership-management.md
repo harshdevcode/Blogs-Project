@@ -1,4 +1,5 @@
 ---
+id: "3"
 title: "NFT token-gated membership management"
 description: "In the Web3 world, memberships based on NFTs are providing new opportunities and solving problems that traditional Web 2.0 memberships couldn’t. Token-gated (or NFT-based) memberships use blockchain technology that offers a host of features while being secure and decentralized."
 keywords: ""

@@ -1,18 +1,12 @@
 import React from "react";
 import CommentCard from "../comment-card";
 
-function CommentsList() {
+function CommentsList({ comments }) {
     return (
-        <ul className="border mt-4 rounded-smooth">
-            <CommentCard />
-            <CommentCard />
-            <CommentCard />
-            <CommentCard />
-            <CommentCard />
-            <CommentCard />
-            <CommentCard />
-            <CommentCard />
-            <CommentCard />
+        <ul className="border mt-4 rounded-smooth bg-white">
+            {comments.map((comment) => (
+                <CommentCard key={comment.id} {...comment} />
+            ))}
         </ul>
     );
 }

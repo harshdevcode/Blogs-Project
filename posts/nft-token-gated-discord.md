@@ -1,4 +1,5 @@
 ---
+id: "2"
 title: "How does NFT token gated discord work"
 description: "NFT token gated discord allows users access to channels on the discord server based on the NFT collection users own in their cryptocurrency wallet. The assigning of roles within the channel can also be assigned based on the NFT collection"
 keywords: ""
