@@ -11,7 +11,7 @@
 }
 
 .body {
-    @apply font-normal text-sm leading-loose;
+    @apply font-normal text-sm leading-loose text-caption;
 }
 
 .caption {

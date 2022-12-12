@@ -1,0 +1,32 @@
+.container {
+    @apply w-full h-full mt-header bg-primary-bg;
+}
+
+.hero_section {
+    @apply flex flex-col items-center w-full py-medium px-regular gap-large border-b
+	lg:py-large lg:flex-row lg:px-xlarge;
+}
+
+.side_nav_container {
+    @apply w-3/12 hidden p-medium border-r
+	lg:block;
+}
+
+.side_nav_wrapper {
+    @apply hidden sticky top-headspace flex-col gap-xsmall 
+	lg:flex;
+}
+
+.side_nav_link {
+    @apply rounded-smooth px-regular py-small;
+}
+
+.tags_container {
+    @apply w-full order-1 py-medium px-medium border-l
+	lg:order-3 lg:w-3/12 lg:px-medium;
+}
+
+.comments_container {
+    @apply w-full flex flex-col justify-center p-medium bg-slate-50
+	lg:flex-row;
+}

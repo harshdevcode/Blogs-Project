@@ -1,14 +1,14 @@
 .button {
-    @apply px-6 py-2 font-semibold outline-none border border-transparent rounded-md flex gap-3 items-center 
+    @apply px-regular py-small font-semibold outline-none border border-transparent rounded-md flex gap-regular items-center 
     focus:animate-pop;
 }
 
 .button.primary {
-    @apply bg-orange-400 text-white duration-150
-    hover:bg-orange-500;
+    @apply bg-primary text-white duration-150
+    hover:bg-primary/95;
 }
 
 .button.secondary {
-    @apply bg-white border border-slate-300 text-slate-900
-    hover:bg-slate-100;
+    @apply bg-primary-bg border border-primary-border text-title
+    hover:bg-secondary-bg;
 }
