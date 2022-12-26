@@ -11,8 +11,8 @@ export default function Footer() {
         >
             <div
                 className={`
-                    [ p-regular grid grid-cols-primary gap-regular text-white ]
-                    [ md:p-large ]
+                    [ p-4 grid grid-cols-footer gap-4 text-white ]
+                    [ md:p-14 ]
                 `}
             >
                 <div className="py-medium">
