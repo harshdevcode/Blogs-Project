@@ -2,13 +2,13 @@ import { useRouter } from "next/router";
 import React from "react";
 import Footer from "../../components/footer";
 import PostItem from "../../components/post-item";
-import { getCategories, getPostsForCategory } from "../../helpers/helpers";
+import { getTag, getPostsForTag } from "../../helpers/helpers";
 import { capitalizeFirstLetter } from "../../helpers/string";
 
-export default function Category({ posts }) {
+export default function Tag({ posts }) {
   const router = useRouter();
-  const { category } = router.query;
-  console.log(posts);
+  const { tag } = router.query;
+
   return (
     <div>
       <div
@@ -17,7 +17,8 @@ export default function Category({ posts }) {
                 [ xl:px-[150px] ]
             `}
       >
-        <div className="heading">{capitalizeFirstLetter(category)}</div>
+        <div className="heading">{capitalizeFirstLetter(tag)}</div>
+
         <div className="mt-8 grid grid-cols-primary auto-rows-[328px] gap-4">
           {posts.map((post) => (
             <PostItem key={post.slug} post={post} />
@@ -30,8 +31,9 @@ export default function Category({ posts }) {
 }
 
 export async function getStaticProps({ params }) {
-  const { category } = params;
-  const posts = getPostsForCategory(
+  const { tag } = params;
+
+  const posts = getPostsForTag(
     [
       "title",
       "description",
@@ -45,7 +47,7 @@ export async function getStaticProps({ params }) {
       "tags",
       "createdOn",
     ],
-    category
+    tag
   );
 
   return {
@@ -57,11 +59,11 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
   // Get Blogs for Category
-  const categories = JSON.parse(getCategories());
+  const tags = JSON.parse(getTag());
 
   return {
-    paths: categories.map((category) => {
-      return { params: { category: category.title.toLowerCase() } };
+    paths: tags.map((tag) => {
+      return { params: { tag: tag.title.toLowerCase() } };
     }),
     fallback: "blocking",
   };

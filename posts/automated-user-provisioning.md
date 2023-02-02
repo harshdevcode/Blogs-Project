@@ -15,7 +15,7 @@ ogDescription: ""
 ogImage:
     url: ""
 category: ["latest", "atlassian", "technology"]
-tags: ["Technology", "Finance", "Fintech", "Banking", "FAPI", "API Protocol"]
+tags: ["finance", "fintech", "banking", "fapi"]
 ---
 
 # This is content of page

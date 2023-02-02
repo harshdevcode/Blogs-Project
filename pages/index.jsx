@@ -108,6 +108,7 @@ export async function getStaticProps() {
             "excerpt",
             "content",
             "category",
+			"tags",
             "createdOn",
         ],
         "latest"
@@ -124,6 +125,7 @@ export async function getStaticProps() {
             "excerpt",
             "content",
             "category",
+			"tags",
             "createdOn",
         ],
         "featured"
@@ -139,6 +141,7 @@ export async function getStaticProps() {
         "excerpt",
         "content",
         "category",
+		"tags",
         "createdOn",
     ]);
 
