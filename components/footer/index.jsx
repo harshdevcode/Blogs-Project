@@ -20,7 +20,7 @@ export default function Footer() {
                         <img
                             alt="miniorange logo"
                             className="w-full aspect-auto"
-                            src="https://idp.miniorange.com/wp-content/uploads/sites/9/2019/11/mo-logo.png"
+                            src="miniorange-white.webp"
                         />
                     </figure>
 

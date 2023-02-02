@@ -29,7 +29,7 @@ export default function Header() {
                     <img
                         alt="miniorange logo"
                         className="w-full aspect-auto"
-                        src="https://www.drupal.org/files/styles/grid-3-2x/public/miniorange-logo%20%281%29.png?itok=PPJXgvlU"
+                        src="miniorange-logo.webp"
                     />
                 </figure>
             </Link>
