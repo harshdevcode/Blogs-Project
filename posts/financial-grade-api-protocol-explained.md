@@ -1,5 +1,5 @@
 ---
-id: "021cb0d6-f2c7-4284-8c8f-912f965786ca"
+id: "d797aa61-d755-414a-95dd-324a003e31a4"
 title: "What is Financial-grade API protocol and Open Banking?"
 description: "FAPI and Open Banking are two concepts that are being mentioned increasingly in the online financial discourse. You’ll often find these terms used in the same sentence. But what exactly is FAPI and why is it important? What does it have to do with Open Banking? Let’s have a look."
 keywords: ""
@@ -10,9 +10,9 @@ updatedOn: ""
 ogTitle: ""
 ogDescription: ""
 ogImage:
-    url: ""
+  url: ""
 category: ["featured", "atlassian", "technology"]
-tags: ["Technology", "Finance", "Fintech", "Banking", "FAPI", "API Protocol"]
+tags: ["technology", "finance", "fintech", "banking", "fapi", "api protocol"]
 ---
 
 ### What is open banking {#What-is-open-banking}
@@ -33,10 +33,10 @@ Strong Customer Authentication (SCA) is a requirement of the Payment Services Di
 
 FAPI, however, isn’t just limited to the EEA. It is a protocol developed by the OpenID foundation and is built on the OAuth 2.0 and OIDC (OpenID Connect) frameworks. It aims to bring enhanced security to API standards for online transactions in various industries such as healthcare, insurance, telecommunications, etc. This is done thanks to four important factors:
 
--   Any exchange of data between the client and server is via JSON Web Tokens (JWT).
--   JWTs use asymmetrical key pairs to ensure cryptographic password exchange.
--   The exchange of JWT allows a limited set of security algorithms.
--   It offers conformance testing methods, which can be automated.
+- Any exchange of data between the client and server is via JSON Web Tokens (JWT).
+- JWTs use asymmetrical key pairs to ensure cryptographic password exchange.
+- The exchange of JWT allows a limited set of security algorithms.
+- It offers conformance testing methods, which can be automated.
 
 ### Benefits of FAPI {#Benefits-of-FAPI}
 
