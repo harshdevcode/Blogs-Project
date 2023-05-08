@@ -1,8 +1,10 @@
-import Link from "next/link";
-import { useState } from "react";
-import IconButton from "../icon-button";
-import NavItem from "../nav-item";
-import NavbarMobile from "../navbar-mobile";
+import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
+import Button from 'components/button';
+import IconButton from 'components/icon-button';
+import NavItem from 'components/nav-item';
+import NavbarMobile from 'components/navbar-mobile';
 
 export default function Header() {
     const [showNav, setShowNav] = useState(false);
@@ -12,59 +14,56 @@ export default function Header() {
     };
 
     const handleOnSignupClick = () => {
-        window.location.href = "https://www.miniorange.com/businessfreetrial";
+        window.location.href = 'https://www.miniorange.com/businessfreetrial';
     };
     const handleOnContactUsClick = () => {
-        window.location.href = "https://www.miniorange.com/contact";
+        window.location.href = 'https://www.miniorange.com/contact';
     };
     return (
         <header
             className={`
-              [ px-small h-header flex items-center border-b fixed top-0 right-0 left-0 bg-white z-50 ]
-              [ sm:px-large ]
+              [ px-md w-full h-header flex items-center border-b fixed top-0 right-0 left-0 bg-white z-50 ]
+              [ xl:px-huge ]
             `}
         >
-            <Link href="/">
-                <figure className="w-40 text-lg font-medium cursor-pointer">
-                    <img
-                        alt="miniorange logo"
-                        className="w-full aspect-auto"
-                        src="miniorange-logo.webp"
+            <Link href='/'>
+                <figure className='w-40 text-lg title cursor-pointer'>
+                    <Image
+                        width={250}
+                        height={55}
+                        alt='miniorange logo'
+                        src='https://www.miniorange.com/images/logo/miniorange-logo.webp'
                     />
                 </figure>
             </Link>
-            <div className="grow"></div>
-            <IconButton
-                iconName="hamburger"
-                onClick={handleNavToggle}
+            <div className='grow'></div>
+            <span
                 className={`
                     [ block ]
                     [ xl:hidden ] 
                 `}
-            />
+            >
+                <IconButton icon='hamburger' onClick={handleNavToggle} className='flex' />
+            </span>
+
             <nav
                 className={`
                   [ hidden h-full items-center ]
                   [ xl:flex ]
                 `}
             >
-                <NavItem>Home</NavItem>
-                <NavItem>Identity & Security</NavItem>
-                <NavItem>Atlassian</NavItem>
-                <NavItem>Concepts</NavItem>
-                <NavItem>Integrations</NavItem>
-                <button
-                    className="ml-medium button primary"
-                    onClick={handleOnSignupClick}
-                >
-                    Sign up
-                </button>
-                <button
-                    className="ml-small button secondary"
-                    onClick={handleOnContactUsClick}
-                >
-                    Contact us
-                </button>
+                <NavItem path='/category/identity-and-security'>Identity & Security</NavItem>
+                <NavItem path='/category/atlassian'>Atlassian</NavItem>
+                <NavItem path='/category/concepts'>Concepts</NavItem>
+                <NavItem path='/category/integrations'>Integrations</NavItem>
+                <div className='flex gap-sm ml-sm'>
+                    <Button text='Sign up' onClick={handleOnSignupClick} />
+                    <Button
+                        text='Contact us'
+                        variant='secondary'
+                        onClick={handleOnContactUsClick}
+                    />
+                </div>
             </nav>
 
             {showNav && <NavbarMobile onClose={handleNavToggle} />}

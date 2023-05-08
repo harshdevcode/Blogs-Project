@@ -6,153 +6,191 @@
 ------------------------------------------------------
 */
 
-import styles from "./homepage.module.css";
+import styles from 'styles/homepage.module.css';
 
-import CategoryCard from "../components/category-card";
-import Footer from "../components/footer";
-import InitiativeCard from "../components/initiative-card";
-import PostItem from "../components/post-item";
+import Head from 'next/head';
+import CategoryCard from '../components/category-card';
+import Footer from '../components/footer';
+import PostItem from '../components/post-item';
+import PostSnippet from '../components/post-snippet';
 
-import {
-    getAllPosts,
-    getCategories,
-    getPostsForCategory,
-} from "../helpers/helpers";
+import { getCategories, getPostsForCategory } from '../helpers/helpers';
+import Headline from 'components/heading';
+import TabItem from 'components/tab-item';
+import { HOMEPAGE_DATA } from 'lib/data/homepage';
+import { useState } from 'react';
+import ResourceList from 'components/resource-list';
 
-export default function Home({ featuredPosts, latestPosts, categories }) {
+export default function Home({ payload }) {
+    const data = JSON.parse(payload);
+
+    const [resourcesActiveTab, setResourcesActiveTab] = useState('forums');
+
+    const onTabClicked = (id) => {
+        setResourcesActiveTab(id);
+    };
+
     return (
         <>
+            <Head>
+                {/* SEO Meta Tags */}
+                <title>Blog • miniOrange</title>
+                <meta
+                    name='description'
+                    content='Everything you need to know about Identity Access Management, SSO and Authentication. Company updates &amp; Technology Trends.'
+                    key='description'
+                />
+                <meta
+                    property='keywords'
+                    content='blogs, miniorange, wordpress, sso'
+                    key='keywords'
+                />
+
+                {/* Open Graph Tags */}
+                <meta property='og:title' content='Blog • miniOrange' key='ogTitle' />
+                <meta
+                    property='og:description'
+                    content='Everything you need to know about Identity Access Management, SSO and Authentication. Company updates &amp; Technology Trends.'
+                    key='ogDescription'
+                />
+            </Head>
             <main className={styles.homepage_container}>
-                {/* Featured Posts */}
-                <div className="featured-posts-grid">
-                    {featuredPosts.map((post, index) => (
-                        <PostItem
-                            post={post}
-                            className={`fp${index}`}
-                            key={post.slug}
-                        />
-                    ))}
+                <Headline text='Featured Posts' />
+                <div className='flex flex-col gap-md md:flex-row'>
+                    <PostItem
+                        {...data.main_blog}
+                        key={data.main_blog.slug}
+                        className='w-full md:w-3/4'
+                    />
+                    <div className='w-full flex flex-col gap-md md:w-2/6'>
+                        {data.featured.map((post) => (
+                            <PostSnippet {...post} key={post.slug} />
+                        ))}
+                    </div>
                 </div>
 
-                <h4 className="mt-large mb-regular heading">Latest Posts</h4>
-
                 {/* Latest Posts */}
-                {latestPosts.length !== 0 && (
-                    <div className="latest-posts-grid">
-                        {latestPosts.map((post, index) => (
-                            <PostItem
-                                post={post}
-                                className={`lp${index}`}
-                                key={post.slug}
-                            />
+                <Headline text='Latest Posts' />
+                {data.latest.length !== 0 && (
+                    <div className='latest-posts-grid'>
+                        {data.latest.map((post, index) => (
+                            <PostItem {...post} key={post.slug} />
                         ))}
                     </div>
                 )}
 
                 {/* Categories */}
                 <section>
-                    <h4 className="mt-large mb-regular heading">More Topics</h4>
+                    <Headline text='Categories' />
                     <ul className={styles.categories_container}>
-                        {categories.map((category, index) => {
-                            return (
-                                <CategoryCard key={index} category={category} />
-                            );
+                        {HOMEPAGE_DATA.categories.map((category, index) => {
+                            return <CategoryCard key={index} category={category} />;
                         })}
                     </ul>
                 </section>
 
-                {/* Initiatives */}
-                <h4 className="mt-large mb-regular heading">Initiatives</h4>
+                <section className='mt-xxl'>
+                    {/* Tabs Container */}
+                    <div className='flex gap-rg items-center'>
+                        <TabItem
+                            id='forums'
+                            title='Forums'
+                            active={resourcesActiveTab === 'forums'}
+                            className='flex-1'
+                            onClick={onTabClicked}
+                        />
+                        <TabItem
+                            id='videos'
+                            title='Videos'
+                            active={resourcesActiveTab === 'videos'}
+                            className='flex-1'
+                            onClick={onTabClicked}
+                        />
+                        <TabItem
+                            id='partnerships'
+                            title='Partnerships'
+                            active={resourcesActiveTab === 'partnerships'}
+                            className='flex-1'
+                            onClick={onTabClicked}
+                        />
+                    </div>
 
-                <div className={styles.initiatives_grid}>
-                    <InitiativeCard
-                        initiative={{
-                            title: "Guest Authors",
-                            description:
-                                "Write for Auth0's blog and become a part of one of the most popular technical blogs in the world.",
-                        }}
-                        className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white"
-                    />
-                    <InitiativeCard
-                        initiative={{
-                            title: "Ambassadors Program",
-                            description:
-                                "Do you want to empower the developer community, make the internet safer, and build your own brand while you're at it?",
-                        }}
-                        className="bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white"
-                    />
-                    <InitiativeCard
-                        initiative={{
-                            title: "Auth0 Community",
-                            description:
-                                "Interact with other developers implementing innovative solutions with Auth0.",
-                        }}
-                        className="bg-gradient-to-r from-indigo-500 to-indigo-600 text-white"
-                    />
-                </div>
+                    {/* Tab Content */}
+                    <div className='mt-md'>
+                        <ResourceList data={HOMEPAGE_DATA[resourcesActiveTab]} />
+                    </div>
+                </section>
             </main>
+            {/* Footer */}
             <Footer />
         </>
     );
 }
 
 export async function getStaticProps() {
-    const latestPosts = getPostsForCategory(
+    const latest = getPostsForCategory(
         [
-            "title",
-            "description",
-            "date",
-            "slug",
-            "author",
-            "thumbnail",
-            "excerpt",
-            "content",
-            "category",
-			"tags",
-            "createdOn",
+            'title',
+            'description',
+            'date',
+            'slug',
+            'author',
+            'thumbnail',
+            'excerpt',
+            'content',
+            'category',
+            'tags',
+            'createdOn',
         ],
-        "latest"
+        'latest'
     );
 
-    const featuredPosts = getPostsForCategory(
+    const featured = getPostsForCategory(
         [
-            "title",
-            "description",
-            "date",
-            "slug",
-            "author",
-            "thumbnail",
-            "excerpt",
-            "content",
-            "category",
-			"tags",
-            "createdOn",
+            'title',
+            'description',
+            'date',
+            'slug',
+            'author',
+            'thumbnail',
+            'excerpt',
+            'content',
+            'category',
+            'tags',
+            'createdOn',
         ],
-        "featured"
+        'featured'
     );
 
-    const allPosts = getAllPosts([
-        "title",
-        "description",
-        "date",
-        "slug",
-        "author",
-        "thumbnail",
-        "excerpt",
-        "content",
-        "category",
-		"tags",
-        "createdOn",
-    ]);
+    const main = getPostsForCategory(
+        [
+            'title',
+            'description',
+            'date',
+            'slug',
+            'author',
+            'thumbnail',
+            'excerpt',
+            'content',
+            'category',
+            'tags',
+            'createdOn',
+        ],
+        'main'
+    );
 
     const categories = getCategories();
 
+    const payload = {
+        featured,
+        latest,
+        categories,
+        main_blog: main[0],
+    };
+
     return {
         props: {
-            featuredPosts,
-            latestPosts,
-            categories: JSON.parse(categories),
-            allPosts,
+            payload: JSON.stringify(payload),
         },
     };
 }

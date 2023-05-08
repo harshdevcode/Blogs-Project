@@ -1,16 +1,19 @@
-import React from "react";
+import Link from 'next/link';
+import React from 'react';
 
-function NavItem({ children, className }) {
+function NavItem({ children, path, className }) {
     return (
-        <div
-            className={`
+        <Link href={path}>
+            <div
+                className={`
 				[ min-h-full px-4 border-b-4 border-transparent flex items-center justify-center cursor-pointer duration-150 ]
 				[ hover:border-slate-200 ]
                 [ ${className} ]
 			`}
-        >
-            {children}
-        </div>
+            >
+                {children}
+            </div>
+        </Link>
     );
 }
 

@@ -7,10 +7,15 @@ const nextConfig = {
             For dev: Comment [ basePath: "/blog", ]
             For build: Uncomment [ basePath: "/blog", ]
      */
-    basePath: "/blog",
+
     images: {
-        loader: "imgix",
-        path: "/blog",
+        domains: [
+            'testsite.miniorange.com',
+            'images.ctfassets.net',
+            'firebasestorage.googleapis.com',
+            'blog.miniorange.com',
+            'www.miniorange.com',
+        ],
     },
 };
 

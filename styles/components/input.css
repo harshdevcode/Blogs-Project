@@ -1,0 +1,21 @@
+.input {
+    @apply flex items-center outline-none border border-inactive px-rg py-sm rounded-smooth
+	bg-secondary duration-150
+	/* Hover */
+	hover:bg-secondary
+    /* Focus */
+	focus:outline-2 focus:outline-accent focus:bg-primary;
+}
+
+.textarea {
+    @apply flex items-center outline-none border border-inactive p-rg rounded-smooth resize-none
+	bg-secondary duration-150
+	/* Hover */
+	hover:bg-secondary
+    /* Focus */
+	focus:outline-2 focus:outline-accent focus:bg-primary;
+}
+
+.plain-input {
+    @apply outline-none border-none bg-transparent;
+}

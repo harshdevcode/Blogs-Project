@@ -1,20 +1,20 @@
 export const categories = [
     {
-        title: "Atlassian",
+        title: 'atlassian',
     },
     {
-        title: "Latest",
+        title: 'latest',
     },
     {
-        title: "Popular",
+        title: 'popular',
     },
     {
-        title: "Automation",
+        title: 'automation',
     },
     {
-        title: "Marketing",
+        title: 'marketing',
     },
     {
-        title: "Education",
+        title: 'education',
     },
 ];

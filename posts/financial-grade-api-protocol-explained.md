@@ -1,18 +1,18 @@
 ---
-id: "d797aa61-d755-414a-95dd-324a003e31a4"
-title: "What is Financial-grade API protocol and Open Banking?"
-description: "FAPI and Open Banking are two concepts that are being mentioned increasingly in the online financial discourse. You’ll often find these terms used in the same sentence. But what exactly is FAPI and why is it important? What does it have to do with Open Banking? Let’s have a look."
-keywords: ""
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-thumbnail: "https://images.ctfassets.net/23aumh6u8s0i/1hMPYApOKrcrGV6Koi2Ekt/041eb09b09ae149d3d497beae72ee221/Introducing_Auth0_Actions02A.png"
-createdOn: "2020-03-16T05:35:07.322Z"
-updatedOn: ""
-ogTitle: ""
-ogDescription: ""
+id: 'd797aa61-d755-414a-95dd-324a003e31a4'
+title: 'What is Financial-grade API protocol and Open Banking?'
+description: 'FAPI and Open Banking are two concepts that are being mentioned increasingly in the online financial discourse. You’ll often find these terms used in the same sentence. But what exactly is FAPI and why is it important? What does it have to do with Open Banking? Let’s have a look.'
+keywords: ''
+excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+thumbnail: 'https://images.ctfassets.net/23aumh6u8s0i/1hMPYApOKrcrGV6Koi2Ekt/041eb09b09ae149d3d497beae72ee221/Introducing_Auth0_Actions02A.png'
+createdOn: '2020-03-16T05:35:07.322Z'
+updatedOn: ''
+ogTitle: ''
+ogDescription: ''
 ogImage:
-  url: ""
-category: ["featured", "atlassian", "technology"]
-tags: ["technology", "finance", "fintech", "banking", "fapi", "api protocol"]
+    url: ''
+category: ['main', 'featured', 'atlassian', 'technology']
+tags: ['technology', 'finance', 'fintech', 'banking', 'fapi', 'api protocol']
 ---
 
 ### What is open banking {#What-is-open-banking}
@@ -33,10 +33,10 @@ Strong Customer Authentication (SCA) is a requirement of the Payment Services Di
 
 FAPI, however, isn’t just limited to the EEA. It is a protocol developed by the OpenID foundation and is built on the OAuth 2.0 and OIDC (OpenID Connect) frameworks. It aims to bring enhanced security to API standards for online transactions in various industries such as healthcare, insurance, telecommunications, etc. This is done thanks to four important factors:
 
-- Any exchange of data between the client and server is via JSON Web Tokens (JWT).
-- JWTs use asymmetrical key pairs to ensure cryptographic password exchange.
-- The exchange of JWT allows a limited set of security algorithms.
-- It offers conformance testing methods, which can be automated.
+-   Any exchange of data between the client and server is via JSON Web Tokens (JWT).
+-   JWTs use asymmetrical key pairs to ensure cryptographic password exchange.
+-   The exchange of JWT allows a limited set of security algorithms.
+-   It offers conformance testing methods, which can be automated.
 
 ### Benefits of FAPI {#Benefits-of-FAPI}
 
