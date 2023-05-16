@@ -1,0 +1,4 @@
+/* Section Header */
+.dialog-header {
+    @apply flex items-center gap-rg p-rg w-full h-dialog-header border-b border-inactive bg-primary rounded-tl-smooth rounded-tr-smooth;
+}

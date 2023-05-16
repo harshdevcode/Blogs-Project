@@ -1,4 +1,0 @@
-.card {
-    @apply bg-white border border-primary-border rounded-smooth 
-	hover:shadow-md hover:shadow-slate-200;
-}

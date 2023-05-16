@@ -1,0 +1,3 @@
+.modal {
+    @apply border border-inactive bg-primary rounded-smooth shadow-modal;
+}

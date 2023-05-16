@@ -1,19 +1,19 @@
 import React from "react";
-import IconButton from "../icon-button";
-import NavItemMobile from "../nav-item-mobile";
+import IconButton from "components/icon-button";
+import NavItemMobile from "components/nav-item-mobile";
 
 function NavbarMobile({ onClose }) {
     return (
         <nav className="w-full h-full fixed top-0 right-0 bottom-0 left-0 bg-white">
             <div
                 className={`
-              		[ px-4 h-header flex items-center justify-end border-b fixed top-0 right-0 left-0 bg-white z-50 ]
-              		[ sm:px-14 ]
+              		[ px-md h-header flex items-center justify-end border-b fixed top-0 right-0 left-0 bg-white z-50 ]
+              		[ sm:px-md ]
             	`}
             >
-                <IconButton iconName="close" onClick={onClose} />
+                <IconButton icon="cross" onClick={onClose} />
             </div>
-            <div className="pt-header flex flex-col p-6 gap-3 mt-4">
+            <div className="pt-header flex flex-col p-md gap-md mt-md">
                 <NavItemMobile>Home</NavItemMobile>
                 <NavItemMobile>Identity & Security</NavItemMobile>
                 <NavItemMobile>Atlassian</NavItemMobile>

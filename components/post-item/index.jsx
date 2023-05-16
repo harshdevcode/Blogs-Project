@@ -1,32 +1,35 @@
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
-export default function PostItem({ post, className }) {
+export default function PostItem({
+    slug,
+    title,
+    description,
+    thumbnail,
+    createdOn,
+    className,
+    index,
+}) {
     return (
-        <Link href={`/${post.slug}`}>
-            <div
-                className={`
+        <Link
+            href={`/${slug}`}
+            className={`
                     ${className}
-                    card h-[328px] flex flex-col duration-150 cursor-pointer overflow-hidden
-                    lg:h-auto                                        
+                    card flex flex-col duration-150 cursor-pointer overflow-hidden                                      
                 `}
-            >
-                <div
-                    className={`relative w-full grow bg-secondary-bg shadow-none`}
-                >
-                    <img
-                        loading="lazy"
-                        className="absolute w-full h-full top-0 right-0 bottom-0 left-0 object-cover"
-                        src={`${post.thumbnail}`}
-                        alt={post.slug}
-                    />
-                </div>
+        >
+            <div className='relative w-full h-0 pb-[55%]'>
+                <Image
+                    className='absolute inset-0 object-cover w-full h-full'
+                    src={thumbnail}
+                    alt={slug}
+                    fill
+                />
+            </div>
 
-                <div className="p-medium">
-                    <h4 className="title">{post.title}</h4>
-                    <p className="mt-xsmall body">
-                        {new Date(post.createdOn).toDateString()}{" "}
-                    </p>
-                </div>
+            <div className='p-md'>
+                <h4 className='title-semibold'>{title}</h4>
+                <p className={`mt-xs caption truncate`}>{description}</p>
             </div>
         </Link>
     );

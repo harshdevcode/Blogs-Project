@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+
+        // Setting up aliases for absolute imports
+        "paths": {
+            "components/*": ["components/*"],
+            "config/*": ["config/*"],
+            "constants": ["constants/*"],
+            "database/*": ["database/*"],
+            "helpers/*": ["helpers/*"],
+            "hooks/*": ["hooks/*"],
+            "pages/*": ["pages/*"],
+            "styles/*": ["./styles/*"],
+            "utils/*": ["utils/*"],
+            "lib/*": ["lib/*"]
+        }
+    }
+}

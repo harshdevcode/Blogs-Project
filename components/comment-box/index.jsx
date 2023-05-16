@@ -1,46 +1,51 @@
-import React from "react";
-import { POSTING_COMMENT } from "../../utils/string-constants";
-import Spinner from "../spinner";
+import React from 'react';
+import Button from 'components/button';
 
 function CommentBox({ value, onCommentChange, onPostComment, status }) {
     return (
-        <div className="flex flex-col border rounded-smooth divide-y overflow-hidden bg-white">
-            <input
-                disabled={status === POSTING_COMMENT}
-                value={value.user_name}
-                onChange={onCommentChange}
-                type="text"
-                name="user_name"
-                className="outline-none p-regular"
-                placeholder="Full Name"
-            />
-            <input
-                disabled={status === POSTING_COMMENT}
-                value={value.user_email}
-                onChange={onCommentChange}
-                type="email"
-                name="user_email"
-                className="outline-none p-regular"
-                placeholder="Email Address"
-            />
+        <div className='flex flex-col gap-rg'>
+            <div
+                className={`
+                    [ flex flex-col gap-rg ]
+                    [ sm:flex-row ]
+                `}
+            >
+                <input
+                    disabled={status.loading === true}
+                    value={value.name}
+                    onChange={onCommentChange}
+                    type='text'
+                    name='name'
+                    className='input flex-1'
+                    placeholder='Full Name'
+                />
+                <input
+                    disabled={status.loading === true}
+                    value={value.email}
+                    onChange={onCommentChange}
+                    type='email'
+                    name='email'
+                    className='input flex-1'
+                    placeholder='Email Address'
+                />
+            </div>
             <textarea
-                disabled={status === POSTING_COMMENT}
+                disabled={status.loading === true}
                 value={value.content}
                 onChange={onCommentChange}
-                name="content"
-                placeholder="Write your comment here"
-                className="outline-none resize-none h-28 p-regular"
+                name='content'
+                placeholder='Write your comment here'
+                className='textarea h-[150px]'
             />
-            <button
-                disabled={status === POSTING_COMMENT}
+            <Button
+                className='w-max self-end'
+                text='Post Comment'
                 onClick={onPostComment}
-                className="button primary w-max self-end m-regular"
-            >
-                {status === POSTING_COMMENT && <Spinner />}
-                <span>
-                    {status === POSTING_COMMENT ? "Posting" : "Post Comment"}
-                </span>
-            </button>
+                status={status}
+                loadingText='Posting'
+                successText='Posted'
+                errorText='Try Again'
+            />
         </div>
     );
 }

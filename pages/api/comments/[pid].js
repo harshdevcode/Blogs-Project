@@ -1,6 +1,6 @@
-import { INTERNAL_SERVER_ERROR, OK } from "../../../utils/http-status-codes";
-import Comment from "../../../database/models/Comment";
-import User from "../../../database/models/User";
+import { INTERNAL_SERVER_ERROR, OK } from '../../../utils/http-status-codes';
+import Comment from '../../../database/models/Comment';
+import User from '../../../database/models/User';
 
 // Handler Functions
 // GET comments Handler
@@ -10,9 +10,7 @@ const getCommentsHandler = async (req, res) => {
         const comments = await Comment.findAll({ where: { post_id: pid } });
         return res.status(OK).json(comments);
     } catch (e) {
-        return res
-            .status(INTERNAL_SERVER_ERROR)
-            .json({ message: "Internal Server Error" });
+        return res.status(INTERNAL_SERVER_ERROR).json({ message: 'Internal Server Error' });
     }
 };
 
@@ -51,9 +49,7 @@ const postCommentHandler = async (req, res) => {
             return res.status(OK).json(comment);
         }
     } catch (e) {
-        return res
-            .status(INTERNAL_SERVER_ERROR)
-            .json({ message: "Internal Server Error" });
+        return res.status(INTERNAL_SERVER_ERROR).json({ message: 'Internal Server Error' });
     }
 };
 
@@ -62,15 +58,15 @@ export default async function handler(req, res) {
     try {
         // Handle Request
         switch (req.method) {
-            case "GET":
+            case 'GET':
                 return getCommentsHandler(req, res);
-            case "POST":
+            case 'POST':
                 return postCommentHandler(req, res);
-            case "DELETE":
+            case 'DELETE':
                 break;
             // return await deleteComment(req, res);
             default:
-                return res.status(200).json({ message: "Invalid method." });
+                return res.status(200).json({ message: 'Invalid method.' });
         }
     } catch (e) {
         // Handle Error

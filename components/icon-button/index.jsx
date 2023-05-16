@@ -1,19 +1,14 @@
 import React from "react";
-import Icon from "../icon";
+import Icon from "components/icon";
 
-function IconButton({ iconName, onClick, className }) {
+export default function IconButton({ icon, onClick, size = "regular", className }) {
     return (
-        <div
-            className={`
-                    [ border rounded-full cursor-pointer duration-150 ]
-					[ hover:bg-slate-100 ]					
-					[ ${className} ]
-                `}
-            onClick={onClick}
-        >
-            <Icon name={iconName} />
-        </div>
+        <span className={`icon-button ${size} secondary ${className}`} onClick={onClick}>
+            <Icon
+                name={icon}
+                size={size === "small" ? "w-icon-sm h-icon-sm" : "w-icon-rg h-icon-rg"}
+                className="cursor-inherit"
+            />
+        </span>
     );
 }
-
-export default IconButton;
