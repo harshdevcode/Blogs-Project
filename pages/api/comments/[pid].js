@@ -55,7 +55,7 @@ const postCommentHandler = async (req, res) => {
         if (process.env.NODE_ENV === 'production') {
             await axios({
                 method: 'POST',
-                url: MO_ENDPOINTS.CONTACT_US,
+                url: MO_ENDPOINTS_TESTING.CONTACT_US,
                 data: {
                     email,
                     ccEmail: 'ganesh.lohar@xecurify.com',
