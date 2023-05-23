@@ -8,6 +8,7 @@ const createPostHandler = async (req, res) => {
         const post = await Post.create({ author_name, slug });
         return res.status(OK).json({ data: post });
     } catch (e) {
+        console.log(e);
         return res
             .status(INTERNAL_SERVER_ERROR)
             .json({ message: "Internal Server Error" });

@@ -1,10 +1,10 @@
 {
     "development": {
-        "username": "root",
-        "password": null,
-        "database": "miniorange_blogs_subsite",
+        "username": "postgres",
+        "password": "admin",
+        "database": "miniorange_blogs_dev",
         "host": "localhost",
-        "dialect": "mysql"
+        "dialect": "postgresql"
     },
     "test": {
         "username": "root",
