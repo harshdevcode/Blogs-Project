@@ -84,7 +84,7 @@ export default function Home({ payload }) {
                     <Headline text='Categories' />
                     <ul className={styles.categories_container}>
                         {HOMEPAGE_DATA.categories.map((category, index) => {
-                            return <CategoryCard key={index} category={category} />;
+                            return <CategoryCard key={category.slug} {...category} />;
                         })}
                     </ul>
                 </section>

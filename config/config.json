@@ -1,23 +1,16 @@
 {
-    "development": {
-        "username": "root",
-        "password": null,
-        "database": "miniorange_blogs_subsite",
-        "host": "localhost",
-        "dialect": "mysql"
-    },
-    "test": {
-        "username": "root",
-        "password": null,
-        "database": "miniorange_blogs_subsite",
-        "host": "localhost",
-        "dialect": "mysql"
-    },
-    "production": {
-        "username": "root",
-        "password": null,
-        "database": "miniorange_blogs_subsite",
-        "host": "localhost",
-        "dialect": "mysql"
-    }
+  "development": {
+    "username": "postgres",
+    "password": "admin",
+    "database": "miniorange_blogs_dev_db",
+    "host": "localhost",
+    "dialect": "postgresql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "miniorange_blogs_dev_db",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
 }

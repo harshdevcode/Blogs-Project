@@ -61,7 +61,7 @@ const Blog = ({ payload }) => {
             // Update comments array on frontend
             setStatus({ loading: true, success: false, error: false });
             try {
-                const comment = await axios({
+                const postedComment = await axios({
                     method: 'POST',
                     url: `/api/comments/${id}`,
                     headers: {
@@ -70,7 +70,7 @@ const Blog = ({ payload }) => {
                     data: JSON.stringify(comment),
                 });
 
-                await comment.data;
+                await postedComment.data;
                 setComment({ ...INITIAL_COMMENT_TEXT, post_slug: slug });
                 setStatus({ loading: false, success: true, error: false });
             } catch (e) {

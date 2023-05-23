@@ -16,6 +16,7 @@ const nextConfig = {
             'blog.miniorange.com',
             'www.miniorange.com',
         ],
+        unoptimized: true,
     },
 };
 
