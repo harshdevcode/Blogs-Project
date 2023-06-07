@@ -11,7 +11,7 @@ ogTitle: ""
 ogDescription: ""
 ogImage:
     url: ""
-category: ["iam","product"]
+category: ["latest","iam","product"]
 tags: ["2FA", "2FA Security", "MFA", "Multi-factor Authentication", "Two Factor"]
 ---
 

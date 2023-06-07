@@ -17,7 +17,7 @@ export default function Footer() {
                         <SocialIcon href={link.href} icon={link.icon} key={index} />
                     ))}
                 </div>
-                <p className='title !text-slate-400'>
+                <p className='title !text-gray-400'>
                     © Copyright 2022 miniOrange All Rights Reserved
                 </p>
             </div>
