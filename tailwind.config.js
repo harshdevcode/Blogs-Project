@@ -13,7 +13,7 @@ module.exports = {
                 // Background Colors
                 primary: 'rgb(255 255 255)',
                 secondary: 'rgb(241 245 249)',
-                inverted: 'rgb(30 41 59)',
+                inverted: 'rgb(39 39 39)',
 
                 // Text Colors
                 heading: 'rgb(15 23 42)',
@@ -65,10 +65,10 @@ module.exports = {
             // Font Size Line Height Letter Spacing
             fontSize: {
                 display: ['28px', { lineHeight: '45px', fontWeight: '600' }],
-                heading: ['18px', { lineHeight: '28px', fontWeight: '600' }],
-                title: ['15px', { lineHeight: '25px', fontWeight: '500' }],
-                'title-semibold': ['15px', { lineHeight: '25px', fontWeight: '600' }],
-                caption: ['15px', { lineHeight: '25px', fontWeight: '400' }],
+                heading: ['18px', { lineHeight: '28px', fontWeight: '500' }],
+                title: ['14px', { lineHeight: '25px', fontWeight: '500' }],
+                'title-semibold': ['14px', { lineHeight: '25px', fontWeight: '500' }],
+                caption: ['14px', { lineHeight: '25px', fontWeight: '400' }],
                 label: ['12px', { lineHeight: '15px', fontWeight: '500' }],
             },
 

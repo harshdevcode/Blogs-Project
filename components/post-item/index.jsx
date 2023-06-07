@@ -6,6 +6,7 @@ export default function PostItem({
     title,
     description,
     thumbnail,
+    thumbnailLoading = 'lazy',
     createdOn,
     className,
     index,
@@ -24,6 +25,7 @@ export default function PostItem({
                     src={thumbnail}
                     alt={slug}
                     fill
+                    loading={thumbnailLoading}
                 />
             </div>
 

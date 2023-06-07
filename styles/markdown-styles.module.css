@@ -2,11 +2,15 @@
     @apply text-base leading-loose;
 }
 
+.markdown strong {
+    @apply font-semibold;
+}
+
 .markdown p,
 .markdown ul,
 .markdown ol,
 .markdown blockquote {
-    @apply my-lg leading-loose;
+    @apply leading-[38px];
 }
 
 .markdown h2 {
@@ -22,12 +26,12 @@
 }
 
 .markdown a {
-    @apply py-1 font-semibold border-b-2 border-slate-300 duration-150
+    @apply py-1 font-medium border-b-2 border-slate-300 duration-150
     hover:border-b-2 hover:border-slate-900;
 }
 
 .markdown ul {
-    @apply list-inside list-disc;
+    @apply list-disc pl-rg
 }
 
 .blogs-grid {

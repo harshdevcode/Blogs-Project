@@ -52,10 +52,10 @@ export default function Header() {
                   [ xl:flex ]
                 `}
             >
-                <NavItem path='/category/identity-and-security'>Identity & Security</NavItem>
+                <NavItem path='/category/iam'>Identity & Security</NavItem>
                 <NavItem path='/category/atlassian'>Atlassian</NavItem>
                 <NavItem path='/category/concepts'>Concepts</NavItem>
-                <NavItem path='/category/integrations'>Integrations</NavItem>
+                <NavItem path='https://www.miniorange.com/iam/solutions/'>Integrations</NavItem>
                 <div className='flex gap-sm ml-sm'>
                     <Button text='Sign up' onClick={handleOnSignupClick} />
                     <Button

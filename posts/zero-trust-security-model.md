@@ -11,7 +11,7 @@ ogTitle: ""
 ogDescription: ""
 ogImage:
     url: ""
-category: ["concepts", "iam"]
+category: ["latest","concepts", "iam"]
 tags: ["Security", "Zero Trust", "Zero Trust Security"]
 ---
 

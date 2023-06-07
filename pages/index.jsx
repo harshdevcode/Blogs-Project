@@ -61,6 +61,7 @@ export default function Home({ payload }) {
                         {...data.main_blog}
                         key={data.main_blog.slug}
                         className='w-full md:w-3/4'
+                        thumbnailLoading='eager'
                     />
                     <div className='w-full flex flex-col gap-md md:w-2/6'>
                         {data.featured.map((post) => (
@@ -78,16 +79,6 @@ export default function Home({ payload }) {
                         ))}
                     </div>
                 )}
-
-                {/* Categories */}
-                <section>
-                    <Headline text='Categories' />
-                    <ul className={styles.categories_container}>
-                        {HOMEPAGE_DATA.categories.map((category, index) => {
-                            return <CategoryCard key={category.slug} {...category} />;
-                        })}
-                    </ul>
-                </section>
 
                 <section className='mt-xxl'>
                     {/* Tabs Container */}

@@ -21,7 +21,7 @@ Imagine manually onboarding hundreds of new employees at once. If you’re a cor
 
 ### What is Automated Provisioning? {#what-is-automated-provisioning}
 
-“**Automated provisioning**”, or “**Automated User Provisioning**”, is the method of granting & managing access to apps, websites, data & systems within your organization, through an automated process.
+**Automated provisioning** or **Automated User Provisioning** is the method of granting & managing access to apps, websites, data & systems within your organization, through an automated process.
 
 But just as automated provisioning can deploy & activate services for users, it can also remove user access from systems, applications & data. This is called automated de-provisioning. It’s much more efficient than traditional processes of employees’ onboarding & offboarding as changes occur across an organization.
 

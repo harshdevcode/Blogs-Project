@@ -38,7 +38,7 @@ Multi-Factor Authentication (Salesforce MFA) can be bifurcated into two:
 
 Instead of only asking for a username and password, Salesforce MFA (Multi-Factor authentication) adds additional verification factors (OTP, push notifications, fingerprint, etc.) which indirectly halts cyberattack activities like phishing, Malware, etc providing a high level of assurance and security. In simpler terms, you need to convince the system or online service of your identity more than once, so the system can detect if you have the right to obtain the data services that you’re trying to retrieve.
 
-### Requirements to be done before Feb 1, 2022! {#requirements-to-be-done-before-feb-1-2022}
+### Requirements to be done before Feb 1 2022 {#requirements-to-be-done-before-feb-1-2022}
 
 Do your Salesforce products as of now have SSO configured through any vendor? Are your users already utilizing Salesforce MFA? Provided that it’s true and you meet the necessity of an MFA, you don’t need to worry! 
 
