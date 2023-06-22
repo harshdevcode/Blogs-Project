@@ -2,8 +2,11 @@
 node_modules/
 dist/
 blog/
+config/
 
 .env.local
+.env.production
+.env.development
 
 # 
 .next/

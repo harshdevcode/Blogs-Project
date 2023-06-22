@@ -5,7 +5,7 @@ export default function ResourceList({ data }) {
     return (
         <div className='grid grid-cols-primary gap-rg'>
             {data.map((item, index) => (
-                <ResourceCard {...item} key={index} />
+                <ResourceCard {...item} key={item.id} />
             ))}
         </div>
     );
