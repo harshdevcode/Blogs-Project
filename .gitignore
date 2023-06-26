@@ -8,6 +8,8 @@ config/
 .env.production
 .env.development
 
+**/sitemap.xml
+
 # 
 .next/
 

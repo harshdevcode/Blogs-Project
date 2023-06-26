@@ -253,7 +253,7 @@ export async function getStaticProps({ params }) {
         comments.data = [];
     }
 
-    const canonical = `https://www.miniorange.com/blog/${slug}`;
+    const canonical = `https://www.miniorange.com/blog/${slug}/`;
 
     const payload = {
         comments: comments.data,

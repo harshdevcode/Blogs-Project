@@ -53,6 +53,8 @@ export default function Home({ payload }) {
                     content='Everything you need to know about Identity Access Management, SSO and Authentication. Company updates &amp; Technology Trends.'
                     key='ogDescription'
                 />
+
+                <link rel='canonical' href='https://www.miniorange.com/blog/' />
             </Head>
             <main className={styles.homepage_container}>
                 <Headline text='Featured Posts' />
