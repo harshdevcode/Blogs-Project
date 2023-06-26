@@ -4,7 +4,8 @@
     "private": true,
     "scripts": {
         "dev": "next dev",
-        "build": "next build && next export -o blog",
+        "build": "node ./lib/helpers/generate-sitemap.js && next build && next export -o blog",
+        "generate-sitemap": "node ./lib/helpers/generate-sitemap.js",
         "start": "next start",
         "lint": "next lint"
     },

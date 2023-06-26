@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <!--We manually set the two URLs we know already-->
+    <url>
+    <loc>https://www.miniorange.com/blog</loc>
+	<lastmod>2023-06-26T05:44:04.000Z</lastmod>
+    </url>
+    
+                <url>
+                    <loc>https://www.miniorange.com/blog/5-reasons-to-deploy-context-based-authentication-for-your-organization</loc>
+					<lastmod></lastmod>
+                </url>
+            
+                <url>
+                    <loc>https://www.miniorange.com/blog/atlassian-security-for-jira-and-confluence-with-casb</loc>
+					<lastmod></lastmod>
+                </url>
+            
+                <url>
+                    <loc>https://www.miniorange.com/blog/automated-user-provisioning</loc>
+					<lastmod></lastmod>
+                </url>
+            
+                <url>
+                    <loc>https://www.miniorange.com/blog/casb-salesforce-data-security</loc>
+					<lastmod>2022-5-19T05:35:07.322Z</lastmod>
+                </url>
+            
+                <url>
+                    <loc>https://www.miniorange.com/blog/crowd-user-management-at-your-fingertips</loc>
+					<lastmod></lastmod>
+                </url>
+            
+                <url>
+                    <loc>https://www.miniorange.com/blog/ensuring-secure-sharing-of-confluence-pages-with-external-users-the-miniorange-approach</loc>
+					<lastmod></lastmod>
+                </url>
+            
+                <url>
+                    <loc>https://www.miniorange.com/blog/everything-you-need-to-know-about-biometric-authentication</loc>
+					<lastmod></lastmod>
+                </url>
+            
+                <url>
+                    <loc>https://www.miniorange.com/blog/how-miniorange-scim-simplifies-centralized-idp-user-management-in-atlassian-apps</loc>
+					<lastmod></lastmod>
+                </url>
+            
+                <url>
+                    <loc>https://www.miniorange.com/blog/how-to-restrict-hubspot-knowledge-base-content-only-to-authorized-users</loc>
+					<lastmod></lastmod>
+                </url>
+            
+                <url>
+                    <loc>https://www.miniorange.com/blog/how-to-secure-atlassian-cloud-applications</loc>
+					<lastmod></lastmod>
+                </url>
+            
+                <url>
+                    <loc>https://www.miniorange.com/blog/identity-and-access-management-iam-market-after-economic-turndown</loc>
+					<lastmod></lastmod>
+                </url>
+            
+                <url>
+                    <loc>https://www.miniorange.com/blog/salesforce-multi-factor-authentication-mfa-requirement</loc>
+					<lastmod></lastmod>
+                </url>
+            
+                <url>
+                    <loc>https://www.miniorange.com/blog/save-your-budget-by-sharing-confluence-space-pages-with-unlicensed-users</loc>
+					<lastmod></lastmod>
+                </url>
+            
+                <url>
+                    <loc>https://www.miniorange.com/blog/sso-into-atlassian-cloud-using-oauth-oidc-provider</loc>
+					<lastmod></lastmod>
+                </url>
+            
+                <url>
+                    <loc>https://www.miniorange.com/blog/what-is-a-directory-service</loc>
+					<lastmod></lastmod>
+                </url>
+            
+                <url>
+                    <loc>https://www.miniorange.com/blog/what-is-kerberos</loc>
+					<lastmod></lastmod>
+                </url>
+            
+                <url>
+                    <loc>https://www.miniorange.com/blog/why-your-business-needs-multifactor-authentication-mfa</loc>
+					<lastmod></lastmod>
+                </url>
+            
+                <url>
+                    <loc>https://www.miniorange.com/blog/zero-trust-security-model</loc>
+					<lastmod></lastmod>
+                </url>
+            
+   </urlset>
+ 
