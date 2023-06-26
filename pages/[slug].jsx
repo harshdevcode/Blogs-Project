@@ -39,6 +39,7 @@ const Blog = ({ payload }) => {
         },
         tocs,
         comments,
+        canonical,
     } = data;
 
     const router = useRouter();
@@ -95,6 +96,7 @@ const Blog = ({ payload }) => {
                 <meta property='og:title' content={ogTitle} key='ogTitle' />
                 <meta property='og:description' content={ogDescription} key='ogDescription' />
                 <meta property='og:image' content={ogImage} key='ogImage' />
+                <link rel='canonical' href={canonical} />
             </Head>
             <section className={styles.container}>
                 {/* Hero Section */}
@@ -192,6 +194,12 @@ const Blog = ({ payload }) => {
                 `}
                     ></aside>
                 </section>
+
+                <section>
+                    {/* get data using api */}
+                    <p></p>
+                </section>
+
                 <Footer />
             </section>
         </>
@@ -245,11 +253,14 @@ export async function getStaticProps({ params }) {
         comments.data = [];
     }
 
+    const canonical = `https://www.miniorange.com/blog/${slug}/`;
+
     const payload = {
         comments: comments.data,
         post,
         html,
         tocs,
+        canonical,
     };
 
     return {
@@ -265,6 +276,7 @@ export async function getStaticProps({ params }) {
 
 export function getStaticPaths() {
     const posts = getAllPosts(['slug']);
+
     return {
         paths: posts.map((post) => {
             return { params: { slug: post.slug } };
