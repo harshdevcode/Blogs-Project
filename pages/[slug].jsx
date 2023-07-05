@@ -281,7 +281,7 @@ export function getStaticPaths() {
         paths: posts.map((post) => {
             return { params: { slug: post.slug } };
         }),
-        fallback: 'blocking',
+        fallback: false,
     };
 }
 
