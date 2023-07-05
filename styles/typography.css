@@ -1,0 +1,19 @@
+.display {
+    @apply text-display;
+}
+
+.heading {
+    @apply text-heading;
+}
+
+.title {
+    @apply text-title;
+}
+
+.title-semibold {
+    @apply text-title-semibold;
+}
+
+.caption {
+    @apply text-caption;
+}

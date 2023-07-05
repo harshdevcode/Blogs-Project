@@ -1,0 +1,18 @@
+.footer-wrapper {
+    @apply w-full h-auto bg-inverted flex flex-col;
+}
+
+.footer-container {
+    @apply flex flex-col p-md text-white
+	xl:px-huge md:py-xxl md:flex-row;
+}
+
+.footer-links {
+    @apply flex-1 grid grid-cols-footer gap-rg;
+}
+
+.copyright-container {
+    @apply px-lg py-md border-t border-slate-600 flex flex-col gap-rg items-center
+	sm:flex-row
+	xl:px-huge;
+}

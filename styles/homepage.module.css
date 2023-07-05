@@ -1,0 +1,12 @@
+.homepage_container {
+    @apply w-full h-full p-md pt-[75px] bg-slate-50
+    xl:px-huge;
+}
+
+.categories_container {
+    @apply w-full grid grid-cols-categories gap-md;
+}
+
+.initiatives_grid {
+    @apply grid grid-cols-primary gap-md;
+}

@@ -1,0 +1,73 @@
+.button {
+    @apply flex items-center justify-center outline-none text-title-semibold border border-transparent py-sm pl-lg pr-rg gap-rg rounded-smooth duration-150;
+}
+
+.button.primary {
+    @apply bg-accent text-white duration-150
+	
+	/* Hover */
+	hover:outline-2 hover:outline-accent/20
+	
+	/* Focus */
+	focus:outline-accent/50
+
+	/* Disabled */
+	disabled:bg-accent/50;
+}
+
+.button.secondary {
+    @apply bg-primary duration-150 border-inactive text-title font-semibold
+	
+	/* Hover */
+	hover:outline-2 hover:outline-secondary
+	
+	/* Focus */
+	focus:outline-secondary;
+}
+
+.button.success {
+    @apply bg-success duration-150 text-white
+	
+	/* Hover */
+	hover:outline-2 hover:outline-success/20
+	
+	/* Focus */
+	focus:outline-success;
+}
+
+.button.danger {
+    @apply bg-error duration-150 text-white
+	
+	/* Hover */
+	hover:outline-2 hover:outline-error/20
+	
+	/* Focus */
+	focus:outline-error
+
+    /* Disabled */
+    disabled:bg-error/50;
+}
+
+.icon-button {
+    @apply flex items-center justify-center border border-inactive cursor-pointer
+	duration-150;
+}
+
+.icon-button.regular {
+    @apply w-icon-button-rg h-icon-button-rg;
+}
+
+.icon-button.small {
+    @apply w-icon-button-sm h-icon-button-sm;
+}
+
+.icon-button.secondary {
+    @apply bg-primary rounded-full
+	
+	/* Hover */
+	hover:bg-primary hover:shadow-md
+	hover:outline-2 hover:outline-inactive
+	
+	/* Focus */
+	focus:outline-inactive;
+}

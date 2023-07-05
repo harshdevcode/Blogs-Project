@@ -1,0 +1,32 @@
+.container {
+    @apply w-full h-full mt-header bg-primary;
+}
+
+.hero_section {
+    @apply flex flex-col w-full py-md px-md gap-lg border-b
+	lg:flex-row lg:px-huge lg:py-xxxl;
+}
+
+.side_nav_container {
+    @apply w-4/12 hidden p-md border-r
+	lg:block;
+}
+
+.side_nav_wrapper {
+    @apply hidden sticky top-headspace flex-col gap-xs 
+	lg:flex;
+}
+
+.side_nav_link {
+    @apply rounded-smooth px-rg py-sm;
+}
+
+.tags_container {
+    @apply w-full order-1 py-md px-md border-l
+	lg:order-3 lg:w-3/12 lg:px-md;
+}
+
+.comments_container {
+    @apply w-full flex flex-col justify-center p-md bg-slate-50
+	lg:flex-row;
+}
