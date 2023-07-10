@@ -1,40 +1,52 @@
 ---
-id: ""
-title: "Kerberos NTLM Windows SSO"
-description: "Kerberos is a cryptography-based authentication protocol that guards access to applications. This protocol is designed to provide secure authentication over an insecure network."
-keywords: ""
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-thumbnail: "https://blog.miniorange.com/wp-content/uploads/sites/19/2022/08/Kerberos-SSO-authentication-steps.webp"
-createdOn: "2022-08-23T05:35:07.322Z"
-updatedOn: ""
-ogTitle: ""
-ogDescription: ""
+id: '2d2191bb-90db-4a70-98a2-47d5a0320d77'
+title: 'Kerberos NTLM Windows SSO'
+description: 'Kerberos is a cryptography-based authentication protocol that guards access to applications. This protocol is designed to provide secure authentication over an insecure network.'
+keywords: ''
+excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+thumbnail: 'https://blog.miniorange.com/wp-content/uploads/sites/19/2022/08/Kerberos-SSO-authentication-steps.webp'
+createdOn: '2022-08-23T05:35:07.322Z'
+updatedOn: ''
+ogTitle: ''
+ogDescription: ''
 ogImage:
-    url: ""
-category: ["latest","concepts", "iam"]
-tags: ["GSSAPI", "IIS Windows Authentication", "kerberos", "kerberos authentication", "kerberos login", "kerberos protocol", "kerberos single sign on", "kerberos sso", "keycloak kerberos", "keytab"]
+    url: ''
+category: ['latest', 'concepts', 'iam']
+tags:
+    [
+        'GSSAPI',
+        'IIS Windows Authentication',
+        'kerberos',
+        'kerberos authentication',
+        'kerberos login',
+        'kerberos protocol',
+        'kerberos single sign on',
+        'kerberos sso',
+        'keycloak kerberos',
+        'keytab',
+    ]
 ---
 
 ## What is Kerberos ?
 
 Users traditionally submit a password to get access to computer systems. The problem with this authentication mechanism is that if hackers get a hold of the password, they can assume the user’s identity and access a network within an enterprise. There must be a better approach for businesses to safeguard their users and systems. Herein lies the role of the Kerberos authentication protocol.
 
-A Kerberos authentication system acts as a gateway for users to access the internet. As a result, it aids in preventing online intruders from accessing a private network. Cybercriminals will find it considerably harder to access your network thanks to the robust cryptography and third-party ticket authorization. 
+A Kerberos authentication system acts as a gateway for users to access the internet. As a result, it aids in preventing online intruders from accessing a private network. Cybercriminals will find it considerably harder to access your network thanks to the robust cryptography and third-party ticket authorization.
 
 Microsoft Windows presently uses Kerberos authentication as its standard authorization method. Kerberos is also supported by Apple OS, FreeBSD, UNIX, and Linux. Kerberos has drastically increased the security of the internet and its users while allowing users to perform more tasks online and in the office without risking their safety.
 
 What makes the [Kerberos authentication protocol](https://plugins.miniorange.com/guide-to-setup-kerberos-single-sign-sso) different from others is a couple of strong security-based features.
 
-- Passwords are never sent across the network.
-- Encryption keys are never directly exchanged.
-- The application can mutually authenticate each other.
-- Many organizations use it as the basis for Active Directory SSO.
+-   Passwords are never sent across the network.
+-   Encryption keys are never directly exchanged.
+-   The application can mutually authenticate each other.
+-   Many organizations use it as the basis for Active Directory SSO.
 
 ### Kerberos terms : {#kerberos-terms}
 
 1. **Kerberos Realm :** Group of systems over which Kerberos has authority to authenticate the user to a service.
 2. **Principal :** Unique identity(user/service/application).
-3. **Clients/Users :** a process that accesses a service on the behalf of a user. Can have multiple clients or users within a realm. 
+3. **Clients/Users :** a process that accesses a service on the behalf of a user. Can have multiple clients or users within a realm.
 4. **Service :** Something the user wants to gain access to.
 5. **KDC (Kerberos Key Description Center) :** Supplies tickets and generates temporary session keys that allow a user to securely authenticate to a service. The KDC stores all the secret symmetric keys for users and services.
 
@@ -49,12 +61,12 @@ There are 2 servers that enable Kerberos to work. An authentication server, and 
 1. **Authentication Server :** Confirms that a known user is making an access request and gives a ticket-granting ticket.
 
 2. **Ticket granting Server :** Confirms that a user is making an access request to a known service and gives service tickets.
- 
+
 ![Key Destribution Center](https://blog.miniorange.com/wp-content/uploads/sites/19/2022/08/Kerberos-SSO-authentication-steps.webp)
 
-**Step 1 :** User sends a request to the authentication server mentioning they want to access a service. The Authentication service is validated if the service is coming from a known and grants a TGT: ticket-granting ticket. 
+**Step 1 :** User sends a request to the authentication server mentioning they want to access a service. The Authentication service is validated if the service is coming from a known and grants a TGT: ticket-granting ticket.
 
-**Step 2 :** The authentication server sends the TGT back to the user along with another message encrypted with the user’s secret key. 
+**Step 2 :** The authentication server sends the TGT back to the user along with another message encrypted with the user’s secret key.
 
 **Step 3 :** The user decrypts the message with their secret key and sends the TGT with some additional information to the Ticket Granting Server.
 
@@ -66,8 +78,8 @@ There are 2 servers that enable Kerberos to work. An authentication server, and 
 
 ### Benefits of Authenticating using Kerberos {#benefits-of-authenticating-with-kerberos}
 
-- Passwords will never be sent across the network due to its extreme security. Only keys are permitted.
-- Mutual authentication always takes place in order for the client and server to connect simultaneously and converse with the appropriate counterpart.
-- The authentication is always valid and never expires.
-- The internet standard is the only factor that matters.
-- A large portion of the industry has embraced Kerberos since it offers security, and they are glad to employ its security protocol.
+-   Passwords will never be sent across the network due to its extreme security. Only keys are permitted.
+-   Mutual authentication always takes place in order for the client and server to connect simultaneously and converse with the appropriate counterpart.
+-   The authentication is always valid and never expires.
+-   The internet standard is the only factor that matters.
+-   A large portion of the industry has embraced Kerberos since it offers security, and they are glad to employ its security protocol.

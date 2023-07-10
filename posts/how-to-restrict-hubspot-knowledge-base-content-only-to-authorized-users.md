@@ -1,18 +1,25 @@
 ---
-id: ""
-title: "How to restrict HubSpot knowledge base content only to authorized users?"
-description: "Learn how to restrict your HubSpot KnowledgeBase content to only authorized users with our comprehensive guide. Ensure confidential information is secure and accessible only to authorized personnel."
-keywords: ""
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-thumbnail: "https://blog.miniorange.com/wp-content/uploads/sites/19/2023/02/supported-multiple-apps.webp"
-createdOn: "2022-02-17T05:35:07.322Z"
-updatedOn: ""
-ogTitle: ""
-ogDescription: ""
+id: '2d2191bb-90db-4a70-98a2-47d5a0320d70'
+title: 'How to restrict HubSpot knowledge base content only to authorized users?'
+description: 'Learn how to restrict your HubSpot KnowledgeBase content to only authorized users with our comprehensive guide. Ensure confidential information is secure and accessible only to authorized personnel.'
+keywords: ''
+excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+thumbnail: 'https://blog.miniorange.com/wp-content/uploads/sites/19/2023/02/supported-multiple-apps.webp'
+createdOn: '2022-02-17T05:35:07.322Z'
+updatedOn: ''
+ogTitle: ''
+ogDescription: ''
 ogImage:
-    url: ""
-category: ["featured","solutions"]
-tags: ["Hubspot SSO", "Hubspot Single Sign-On", "Protect Hubspot Knowledge base", "Protect Hubspot Pages", "User Authentication"]
+    url: ''
+category: ['featured', 'solutions']
+tags:
+    [
+        'Hubspot SSO',
+        'Hubspot Single Sign-On',
+        'Protect Hubspot Knowledge base',
+        'Protect Hubspot Pages',
+        'User Authentication',
+    ]
 ---
 
 ## How to restrict HubSpot knowledge base content only to authorized users?
@@ -21,7 +28,7 @@ Single Sign-On (SSO) applications are becoming increasingly popular for business
 
 ![miniOrange Hubspot SSO application](https://blog.miniorange.com/wp-content/uploads/sites/19/2023/02/supported-multiple-apps.webp)
 
-With miniOrange HubSpot SSO, protecting your valuable HubSpot Knowledge Base content is easy. **Restricting access to only logged-in users ensures** that your content is secure, while still allowing you to share and collaborate with colleagues. miniOrange makes it simple and straightforward to set up access restrictions and keep your content safe. 
+With miniOrange HubSpot SSO, protecting your valuable HubSpot Knowledge Base content is easy. **Restricting access to only logged-in users ensures** that your content is secure, while still allowing you to share and collaborate with colleagues. miniOrange makes it simple and straightforward to set up access restrictions and keep your content safe.
 
 Our simple solution offers an easy way to **protect your HubSpot Knowledge Base from unauthorized users**. By integrating miniOrange HubSpot SSO with your HubSpot Knowledge Base, you can easily control who has access to your Knowledge Base content.
 
@@ -41,13 +48,13 @@ Another benefit of using miniOrange HubSpot SSO is that it integrates seamlessly
 
 ### Features provided by miniOrange HubSpot SSO : {#miniorange-hubspot-sso-features}
 
-**- Multiple IdP Support :**  Multiple Identity Provider (IdP) support in a single sign-on (SSO) refers to the ability of an SSO system to authenticate users through multiple IdPs. This means that a user can log into a single application or a set of applications using different IdPs, without having to enter their credentials multiple times.
+**- Multiple IdP Support :** Multiple Identity Provider (IdP) support in a single sign-on (SSO) refers to the ability of an SSO system to authenticate users through multiple IdPs. This means that a user can log into a single application or a set of applications using different IdPs, without having to enter their credentials multiple times.
 
 For example, a user may have an account with Google, Facebook, KeyCloak, JumpCloud, OneLogin, and Microsoft. If a company has an SSO system in place with support for multiple IdPs, the user can log into the company’s applications using any of their Google, Facebook, or Microsoft accounts, or any other IdP.
 
 Additionally, **multiple IdP support** can also provide a level of security, as it allows organizations to use multiple authentication mechanisms and choose the most secure option for their needs. For example, an organization may choose to use Google for consumer-level applications and Microsoft for business-critical applications, to ensure that the most secure authentication method is used for sensitive data.
 
-**- Track Visitors :** With the miniOrange HubSpot SSO application you can track visitors who use SSO to log into your HubSpot website or KnowledgeBase content. By tracking user profiles, you can gain a better understanding of who your visitors are, including information such as their login time and number of visits, and interests. This data can be used to personalize the user experience and improve engagement. 
+**- Track Visitors :** With the miniOrange HubSpot SSO application you can track visitors who use SSO to log into your HubSpot website or KnowledgeBase content. By tracking user profiles, you can gain a better understanding of who your visitors are, including information such as their login time and number of visits, and interests. This data can be used to personalize the user experience and improve engagement.
 
 **- Hubspot Contact Sync :** HubSpot is a customer relationship management (CRM) platform that can be integrated with Single Sign-On (SSO) systems to provide a seamless and secure login experience for users. When integrated with SSO, HubSpot’s contact sync feature can help keep your contacts in sync across your different systems and applications.
 
@@ -59,7 +66,7 @@ There should a section of features as well where you can show the features we pr
 
 Using Single Sign-On (SSO) for restricting access to your HubSpot knowledge base content offers several benefits for businesses, including :
 
-**- Improved Security :** Single Sign-On adds a  layer of security for your HubSpot KnowledgeBase content. With SSO, only authorized users can access your knowledge base articles, ensuring that sensitive information is protected.
+**- Improved Security :** Single Sign-On adds a layer of security for your HubSpot KnowledgeBase content. With SSO, only authorized users can access your knowledge base articles, ensuring that sensitive information is protected.
 
 **- Streamlined Login Process :** SSO eliminates the need for users to remember multiple login credentials. This makes the login process easier and more efficient for users.
 
@@ -73,9 +80,10 @@ Using Single Sign-On (SSO) for restricting access to your HubSpot knowledge base
 
 At miniOrange, we are committed to providing businesses with the tools they need to protect their valuable information. With miniOrange HubSpot SSO, you can have peace of mind knowing that your HubSpot Knowledge Base content is secure and protected. Our solution is designed to be straightforward to use, so you can get up and running quickly and start protecting your information right away.
 
-In conclusion,  if you’re looking for an easy and reliable solution to protect your HubSpot Knowledge Base content, look no further than miniOrange HubSpot SSO. Our solution is designed to help you control who has access to your content, while still allowing you to share and collaborate with colleagues. Whether you’re a small business or a large enterprise, miniOrange HubSpot SSO has got you covered.
+In conclusion, if you’re looking for an easy and reliable solution to protect your HubSpot Knowledge Base content, look no further than miniOrange HubSpot SSO. Our solution is designed to help you control who has access to your content, while still allowing you to share and collaborate with colleagues. Whether you’re a small business or a large enterprise, miniOrange HubSpot SSO has got you covered.
 
 ### Reference links : {#reference-links}
+
 1. [Hubspot Page Protection](https://plugins.miniorange.com/hubspot-page-restriction/)
 2. [Hubspot Solutions](https://plugins.miniorange.com/hubspot)
 3. [Hubspot Single Sign-On (SSO)](https://plugins.miniorange.com/hubspot-single-sign-on/)
