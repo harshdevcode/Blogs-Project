@@ -1,18 +1,18 @@
 ---
-id: ""
-title: "Identity and Access Management (IAM) Market After Economic Turndown"
-description: "Identity and Access Management in today’s economy, organizations are feeling the pinch. They’re looking for ways to cut costs, and one area that’s often targeted is IT. However, even in lean times, it’s important to maintain strong security practices. This is where IAM comes in."
-keywords: ""
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-thumbnail: "https://www.miniorange.com/images/landing-page/iam-market.webp"
-createdOn: "2022-09-17T05:35:07.322Z"
-updatedOn: ""
-ogTitle: ""
-ogDescription: ""
+id: '2d2191bb-90db-4a70-98a2-47d5a0320d72'
+title: 'Identity and Access Management (IAM) Market After Economic Turndown'
+description: 'Identity and Access Management in today’s economy, organizations are feeling the pinch. They’re looking for ways to cut costs, and one area that’s often targeted is IT. However, even in lean times, it’s important to maintain strong security practices. This is where IAM comes in.'
+keywords: ''
+excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+thumbnail: 'https://www.miniorange.com/images/landing-page/iam-market.webp'
+createdOn: '2022-09-17T05:35:07.322Z'
+updatedOn: ''
+ogTitle: ''
+ogDescription: ''
 ogImage:
-    url: ""
-category: ["featured","iam"]
-tags: ["2FA", "IAM", "SSO"]
+    url: ''
+category: ['featured', 'iam']
+tags: ['2FA', 'IAM', 'SSO']
 ---
 
 ## Identity and Access Management (IAM) Market After Economic Turndown
@@ -43,7 +43,7 @@ IAM solutions are used to manage both internal and external user access. Interna
 
 IAM usually includes a combination of technology, process, and people. The technology component includes the software and hardware that are used to manage access and track user activity. The process component includes the policies and procedures that are used to manage access. The people component includes the people who are responsible for managing access and enforcing the policies and procedures.
 
-There are many different types of IAM solutions, and the one that’s right for a particular organization depends on the organization’s size, needs, and budget. Some of the most popular IAM solutions include Microsoft Active Directory, Oracle Identity Manager, and IBM Tivoli Access Manager. 
+There are many different types of IAM solutions, and the one that’s right for a particular organization depends on the organization’s size, needs, and budget. Some of the most popular IAM solutions include Microsoft Active Directory, Oracle Identity Manager, and IBM Tivoli Access Manager.
 
 The leading players in the IAM market are Microsoft (US), Ping Identity (US), Okta (US), AWS (US), OneLogin (US), and miniOrange (IN).
 
