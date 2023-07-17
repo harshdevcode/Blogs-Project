@@ -1,18 +1,18 @@
 ---
-id: ""
-title: "What is Zero Trust Security & How does it work?"
-description: "Zero Trust is an approach to perimeter-less security that helps create an effective environment, policies, and infrastructure to minimize data breaches. Although many enterprises were moving towards the Zero-Trust model, Remote working (Work From Home) accelerated it by ten folds."
-keywords: ""
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-thumbnail: "https://www.miniorange.com/images/landing-page/ztna.webp"
-createdOn: "2022-07-23T05:35:07.322Z"
-updatedOn: ""
-ogTitle: ""
-ogDescription: ""
+id: '2d2191bb-90db-4a70-98a2-47d5a0320d79'
+title: 'What is Zero Trust Security & How does it work?'
+description: 'Zero Trust is an approach to perimeter-less security that helps create an effective environment, policies, and infrastructure to minimize data breaches. Although many enterprises were moving towards the Zero-Trust model, Remote working (Work From Home) accelerated it by ten folds.'
+keywords: ''
+excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+thumbnail: 'https://www.miniorange.com/images/landing-page/ztna.webp'
+createdOn: '2022-07-23T05:35:07.322Z'
+updatedOn: ''
+ogTitle: ''
+ogDescription: ''
 ogImage:
-    url: ""
-category: ["latest","concepts", "iam"]
-tags: ["Security", "Zero Trust", "Zero Trust Security"]
+    url: ''
+category: ['latest', 'concepts', 'iam']
+tags: ['Security', 'Zero Trust', 'Zero Trust Security']
 ---
 
 ## What is Zero Trust Security & How does it work ?
@@ -21,7 +21,7 @@ tags: ["Security", "Zero Trust", "Zero Trust Security"]
 
 Zero Trust assumes that no **conventional** network **exists**; networks maybe local, cloud-based, or a combination or hybrid with resources anywhere as well as workers in any location. Although a lot of sellers have tried to create their own definitions of Zero Trust, there are a number of recognized organization standards that can help you bring Zero Trust into alignment with your organization.
 
-Remote Work increased demand for a zero trust model, because of its potential to remedy the Remote working challenges to security  
+Remote Work increased demand for a zero trust model, because of its potential to remedy the Remote working challenges to security
 
 ### What is Zero Trust ? {#what-is-zero-trust}
 
@@ -55,21 +55,21 @@ All the user requests and data pass through the security policy enforcement engi
 
 The philosophy behind zero-trust assumes that no user/device can be trusted and must be verified for authentication and authorization. The 4 pillars of the zero-trust approach are:
 
-   - Assumption of all environments being hostile and breached.
-   - Verifying user, user device.
-   - Focusing on data protection and not the breach attack.
-   - Least privilege access to all users.
-   - Real-time monitoring of traffic for Malicious activities.
+-   Assumption of all environments being hostile and breached.
+-   Verifying user, user device.
+-   Focusing on data protection and not the breach attack.
+-   Least privilege access to all users.
+-   Real-time monitoring of traffic for Malicious activities.
 
 Users and devices are always verified and given the least privileges and access to requested resources. Users need to request access to other resources and are verified again for them. This way, the zero trust approach offers unrealistic security.
 
 ### Challenges to Zero Trust {#challenges-to-zero-trust}
 
-As Zero trust is a security methodology, it requires organizations to evaluate their security strategies and parameters for their system and make consistent efforts to evaluate and improve existing strategies. Some of the major challenges are: 
+As Zero trust is a security methodology, it requires organizations to evaluate their security strategies and parameters for their system and make consistent efforts to evaluate and improve existing strategies. Some of the major challenges are:
 
-   - Support for Zero trust system from management and users
-   - The rapid increase in devices leading to increased chances of unsecured end-point. 
-   - The exponential growth of applications increases the need for tracking and monitoring.
+-   Support for Zero trust system from management and users
+-   The rapid increase in devices leading to increased chances of unsecured end-point.
+-   The exponential growth of applications increases the need for tracking and monitoring.
 
 ### Zero trust Maturity Curve {#zero-trust-maturity-curve}
 
@@ -81,9 +81,9 @@ Zero trust is the Implementation of the zero tesut model that can be classified 
 
 Organizations use multiple On-premise and cloud applications, and most of them are not connected with each other or a centralized directory. Identities for the different applications are stored on a number of devices.
 
-Due to these fragmented Identities, Securing and managing access to various applications becomes a challenge for IT, as it leaves large windows for attackers to exploit, and for users too, as it means they will need to maintain different login credentials for different applications. 
+Due to these fragmented Identities, Securing and managing access to various applications becomes a challenge for IT, as it leaves large windows for attackers to exploit, and for users too, as it means they will need to maintain different login credentials for different applications.
 
-This further increases the security concerns for IT probability of password fatigue or weak login credentials. 
+This further increases the security concerns for IT probability of password fatigue or weak login credentials.
 
 #### Stage 1: Unified IAM
 
@@ -97,7 +97,7 @@ This involves adding a layer of context-based access policy on top of Unified IA
 
 For example, Asking for 2-factor authentication if a user logins from a new location or device.
 
-#### Stage 3: Adaptive Workforce 
+#### Stage 3: Adaptive Workforce
 
 This can be defined as the last stage of Zero Trust implementation and focuses on Authentication & authorization access. At this stage, Authentication is a recurring process throughout the user experience through adaptive authentication and risk-based assessment to identify potential threats. Sessions are continuously monitored and Risk scores for sessions are calculated based on assessment. Security is increased through Risk intelligence while risk-based access help simplify the user experience.
 

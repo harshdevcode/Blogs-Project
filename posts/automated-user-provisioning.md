@@ -1,18 +1,18 @@
 ---
-id: ""
-title: "Automated Provisioning | 4 main benefits of Automated User Provisioning"
-description: "Automated Provisioning streamlines user management across apps/websites, increases security, reduces risk, saves time and money."
-keywords: ""
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-thumbnail: "https://blog.miniorange.com/wp-content/uploads/sites/19/2022/02/automated-provisioning-flow.webp"
-createdOn: "2022-2-14T05:35:07.322Z"
-updatedOn: ""
-ogTitle: ""
-ogDescription: ""
+id: '2d2191bb-90db-4a70-98a2-47d5a0320d64'
+title: 'Automated Provisioning | 4 main benefits of Automated User Provisioning'
+description: 'Automated Provisioning streamlines user management across apps/websites, increases security, reduces risk, saves time and money.'
+keywords: ''
+excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+thumbnail: 'https://blog.miniorange.com/wp-content/uploads/sites/19/2022/02/automated-provisioning-flow.webp'
+createdOn: '2022-2-14T05:35:07.322Z'
+updatedOn: ''
+ogTitle: ''
+ogDescription: ''
 ogImage:
-    url: ""
-category: ["featured","iam", "product"]
-tags: ["Automated Provisioning", "Deprovisioning", "Provisioning"]
+    url: ''
+category: ['featured', 'iam', 'product']
+tags: ['Automated Provisioning', 'Deprovisioning', 'Provisioning']
 ---
 
 ## Automated Provisioning
@@ -40,15 +40,19 @@ For eg:
 ### Benefits of automated provisioning {#benefits-of-automated-provisioning}
 
 #### Security
+
 It guarantees that you provide the right permissions for the right people.
 
 #### Streamlined onboarding
+
 Automated provisioning allows you to take the onboarding burden off of your Human Resources or IT department through automated provisioning.
 
 #### Cost-Efficient
+
 With automated provisioning, you can free up time & resources for other tasks.
 
 #### Error reduction
+
 Because automated provisioning eliminates manual processes, it also greatly reduces the margin of error.
 
 ### Why does your company need Automated provisioning? {#why-you-need-automated-provisioning}
@@ -86,10 +90,13 @@ SCIM, or the System for Cross-domain Identity Management (opens new window)speci
 For more details refer : [SCIM Provisioning Gateway](https://bit.ly/3JULXWk)
 
 ### Additional Resources {#additional-resources}
-- Salesforce Provisioning
 
-- Azure AD Provisioning
+-   Salesforce Provisioning
 
-- JIT Provisioning
+-   Azure AD Provisioning
+
+-   JIT Provisioning
 
 Watch a Video to understand more about Automated Provisioning
+
+Automated Provisioning | 4 main benefits of Automated User Provision

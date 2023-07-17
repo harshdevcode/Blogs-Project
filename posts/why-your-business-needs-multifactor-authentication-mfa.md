@@ -1,25 +1,25 @@
 ---
-id: ""
-title: "5 Reasons Why Your Business Needs Multifactor Authentication"
-description: "5 Reasons Why Your Business Needs Multifactor Authentication - Learn what is multifactor authentication and why should your business use MFA?"
-keywords: ""
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-thumbnail: "https://blog.miniorange.com/wp-content/uploads/sites/19/2021/10/need-of-mfa.webp"
-createdOn: "2022-10-19T05:35:07.322Z"
-updatedOn: ""
-ogTitle: ""
-ogDescription: ""
+id: '2d2191bb-90db-4a70-98a2-47d5a0320d78'
+title: '5 Reasons Why Your Business Needs Multifactor Authentication'
+description: '5 Reasons Why Your Business Needs Multifactor Authentication - Learn what is multifactor authentication and why should your business use MFA?'
+keywords: ''
+excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+thumbnail: 'https://blog.miniorange.com/wp-content/uploads/sites/19/2021/10/need-of-mfa.webp'
+createdOn: '2022-10-19T05:35:07.322Z'
+updatedOn: ''
+ogTitle: ''
+ogDescription: ''
 ogImage:
-    url: ""
-category: ["latest","iam","product"]
-tags: ["2FA", "2FA Security", "MFA", "Multi-factor Authentication", "Two Factor"]
+    url: ''
+category: ['latest', 'iam', 'product']
+tags: ['2FA', '2FA Security', 'MFA', 'Multi-factor Authentication', 'Two Factor']
 ---
 
 ## 5 Reasons Why Your Business Needs Multifactor Authentication
 
 ![Need of MFA](https://blog.miniorange.com/wp-content/uploads/sites/19/2021/10/need-of-mfa.webp)
 
-In today’s technological age, along with keeping up with the latest trends in technology, businesses need to make sure that their cybersecurity and data protection measures are up to par. The COVID-19 pandemic has forced companies to adopt remote working practices and utilize cloud-based platforms, reinforcing the need for better cybersecurity measures. 
+In today’s technological age, along with keeping up with the latest trends in technology, businesses need to make sure that their cybersecurity and data protection measures are up to par. The COVID-19 pandemic has forced companies to adopt remote working practices and utilize cloud-based platforms, reinforcing the need for better cybersecurity measures.
 
 By the end of the 3rd quarter of 2020, around 36 billion records were exposed because of data breaches with information such as email addresses, names, passwords, SSNs, and credit card information as part of the data types lost in these breaches from various industries including healthcare, information, finance and insurance, and public administration. Research has shown that around $5.2 trillion is globally at risk from 2019 to 2023 from direct and indirect cyberattacks, but a means to avoid this number from increasing is by nipping these attacks from the bud and utilize better defense systems to protect data or access services.
 
