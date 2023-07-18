@@ -1,8 +1,12 @@
-import React from "react";
+import React from 'react';
 
-function NavItemMobile({ children, className }) {
+function NavItemMobile({ children, className, href, onClick }) {
+    const handleOnClick = () => {
+        onClick(href);
+    };
     return (
-        <div
+        <span
+            onClick={handleOnClick}
             className={`
 				[ min-h-full border-b-4 border-transparent flex items-center justify-start cursor-pointer duration-150 ]
 				[ hover:font-bold ]
@@ -10,7 +14,7 @@ function NavItemMobile({ children, className }) {
 			`}
         >
             {children}
-        </div>
+        </span>
     );
 }
 
