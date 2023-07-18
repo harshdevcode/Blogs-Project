@@ -18,7 +18,7 @@ export default function Footer() {
                     ))}
                 </div>
                 <p className='title !text-gray-400'>
-                    © Copyright 2022 miniOrange All Rights Reserved
+                    © Copyright 2023 miniOrange All Rights Reserved
                 </p>
             </div>
         </footer>
