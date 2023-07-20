@@ -2,6 +2,7 @@
 const nextConfig = {
     swcMinify: true,
     trailingSlash: true,
+	custom-error:false,
     /*
         Todo
             For dev: Comment [ basePath: "/blog", ]
