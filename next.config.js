@@ -15,6 +15,7 @@ const nextConfig = {
             'firebasestorage.googleapis.com',
             'blog.miniorange.com',
             'www.miniorange.com',
+            'blogs.miniorange.com',
         ],
         unoptimized: true,
     },

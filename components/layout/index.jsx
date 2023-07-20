@@ -1,10 +1,11 @@
 import dynamic from 'next/dynamic';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import ContactButton from 'components/contact-widget/contact-button';
 
 // Components
 import Header from 'components/header';
 import Spinner from 'components/spinner';
+import { useRouter } from 'next/router';
 
 // Lazy Loaded Components
 const ContactWidget = dynamic(() => import('components/contact-widget'), {
@@ -16,6 +17,7 @@ export default function Layout({ children }) {
     const toggleWidget = () => {
         setWidget(!widget);
     };
+
     return (
         <div>
             <Header />
