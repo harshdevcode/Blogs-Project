@@ -35,6 +35,7 @@ export default function Home({ payload }) {
             <Head>
                 {/* SEO Meta Tags */}
                 <title>Blog • miniOrange</title>
+                <meta name='title' content='Blog • miniOrange' />
                 <meta
                     name='description'
                     content='Everything you need to know about Identity Access Management, SSO and Authentication. Company updates &amp; Technology Trends.'

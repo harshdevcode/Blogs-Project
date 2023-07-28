@@ -89,6 +89,7 @@ const Blog = ({ payload }) => {
             <Head>
                 {/* SEO Meta Tags */}
                 <title>{title}</title>
+                <meta name='title' content={title} />
                 <meta name='description' content={description} key='description' />
                 <meta property='keywords' content={keywords} key='keywords' />
 
