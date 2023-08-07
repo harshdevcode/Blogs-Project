@@ -14,6 +14,7 @@ import Image from 'next/image';
 
 import axios from 'axios';
 import { getAllPosts, getHeadlines, getPostBySlug, markdownToHTML } from 'helpers/helpers';
+import Link from 'next/link';
 
 const INITIAL_COMMENT_TEXT = {
     content: '',
@@ -35,6 +36,8 @@ const Blog = ({ payload }) => {
             ogImage,
             tags,
             keywords,
+            mainButtonText,
+            mainButtonLink,
             thumbnail,
         },
         tocs,
@@ -91,7 +94,6 @@ const Blog = ({ payload }) => {
                 <title>{title}</title>
                 <meta name='title' content={title} />
                 <meta name='description' content={description} key='description' />
-                <meta property='keywords' content={keywords} key='keywords' />
 
                 {/* Open Graph Info */}
                 <meta property='og:title' content={ogTitle} key='ogTitle' />
@@ -105,7 +107,9 @@ const Blog = ({ payload }) => {
                     <div className='flex-1'>
                         <h1 className='mt-md lg:mt-0 display'>{title}</h1>
                         <p className='caption mt-md'>{description}</p>
-                        <Button text='Get Demo' className='mt-xl' />
+                        <Link href={mainButtonLink || 'https://www.miniorange.com/contact'}>
+                            <Button text={mainButtonText || 'Get Demo'} className='mt-xl' />
+                        </Link>
                     </div>
 
                     <picture className='relative w-[50%] h-0 pb-[25%]'>
@@ -219,6 +223,8 @@ export async function getStaticProps({ params }) {
         'ogImage',
         'content',
         'keywords',
+        'mainButtonText',
+        'mainButtonLink',
         'tags',
         'thumbnail',
     ]);
