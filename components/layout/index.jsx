@@ -1,11 +1,11 @@
 import dynamic from 'next/dynamic';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import ContactButton from 'components/contact-widget/contact-button';
 
 // Components
 import Header from 'components/header';
 import Spinner from 'components/spinner';
-import { useRouter } from 'next/router';
+import Head from 'next/head';
 
 // Lazy Loaded Components
 const ContactWidget = dynamic(() => import('components/contact-widget'), {
@@ -20,6 +20,9 @@ export default function Layout({ children }) {
 
     return (
         <div>
+            <Head>
+                <link rel='icon' href='/blog/favicon.ico' />
+            </Head>
             <Header />
             <main>{children}</main>
             {widget && (
