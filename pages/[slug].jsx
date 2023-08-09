@@ -66,7 +66,7 @@ const Blog = ({ payload }) => {
             try {
                 const postedComment = await axios({
                     method: 'POST',
-                    url: `/api/comments/${id}`,
+                    url: `/blog/api/comments/${id}`,
                     headers: {
                         'Content-Type': 'application/json',
                     },
