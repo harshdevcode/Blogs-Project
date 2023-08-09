@@ -11,13 +11,8 @@ export default function ResourceCard({ className, thumbnail, title, caption, url
                     card flex flex-col duration-150 cursor-pointer overflow-hidden                                      
                 `}
             >
-                <div className='relative w-full h-0 pb-[55%] bg-slate-100'>
-                    <Image
-                        className='absolute inset-0 object-cover w-full h-full'
-                        src={thumbnail}
-                        alt=''
-                        fill
-                    />
+                <div className='relative aspect-video bg-slate-100'>
+                    <Image className='w-full h-full object-cover' src={thumbnail} alt='' fill />
                 </div>
 
                 <div className='p-md'>

@@ -7,7 +7,7 @@ const nextConfig = {
             For dev: Comment [ basePath: "/blog", ]
             For build: Uncomment [ basePath: "/blog", ]
     */
-    basePath: "/blog",
+    basePath: '/blog',
     images: {
         domains: [
             'testsite.miniorange.com',
@@ -16,7 +16,7 @@ const nextConfig = {
             'blog.miniorange.com',
             'www.miniorange.com',
             'blogs.miniorange.com',
-
+            'plugins.miniorange.com',
         ],
         unoptimized: true,
     },

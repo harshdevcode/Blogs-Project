@@ -1,4 +1,4 @@
-const { Sequelize } = require("sequelize");
+const { Sequelize } = require('sequelize');
 
 const sequelize = new Sequelize(process.env.DATABASE_URL, {
     logging: console.log,
@@ -7,9 +7,9 @@ const sequelize = new Sequelize(process.env.DATABASE_URL, {
 const connect = async () => {
     try {
         await sequelize.authenticate();
-        console.log("Connection has been established successfully.");
+        console.log('Connection has been established successfully.');
     } catch (error) {
-        console.error("Unable to connect to the database:", error);
+        console.error('Unable to connect to the database:', error);
     }
 };
 
