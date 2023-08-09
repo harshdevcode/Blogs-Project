@@ -41,11 +41,6 @@ export default function Home({ payload }) {
                     content='Everything you need to know about Identity Access Management, SSO and Authentication. Company updates &amp; Technology Trends.'
                     key='description'
                 />
-                <meta
-                    property='keywords'
-                    content='blogs, miniorange, wordpress, sso'
-                    key='keywords'
-                />
 
                 {/* Open Graph Tags */}
                 <meta property='og:title' content='Blog • miniOrange' key='ogTitle' />

@@ -15,13 +15,13 @@ export default function PostItem({
         <Link
             href={`/${slug}`}
             className={`
-                    ${className}
-                    card flex flex-col duration-150 cursor-pointer overflow-hidden                                      
-                `}
+                ${className}
+                card flex flex-col duration-150 cursor-pointer overflow-hidden                                      
+            `}
         >
-            <div className='relative w-full h-0 pb-[55%]'>
+            <div className='aspect-video relative'>
                 <Image
-                    className='absolute inset-0 object-cover w-full h-full'
+                    className='object-cover'
                     src={thumbnail}
                     alt={slug}
                     fill

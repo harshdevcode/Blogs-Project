@@ -14,6 +14,7 @@ import Image from 'next/image';
 
 import axios from 'axios';
 import { getAllPosts, getHeadlines, getPostBySlug, markdownToHTML } from 'helpers/helpers';
+import Link from 'next/link';
 
 const INITIAL_COMMENT_TEXT = {
     content: '',
@@ -34,7 +35,8 @@ const Blog = ({ payload }) => {
             ogDescription,
             ogImage,
             tags,
-            keywords,
+            mainButtonText,
+            mainButtonLink,
             thumbnail,
         },
         tocs,
@@ -91,7 +93,6 @@ const Blog = ({ payload }) => {
                 <title>{title}</title>
                 <meta name='title' content={title} />
                 <meta name='description' content={description} key='description' />
-                <meta property='keywords' content={keywords} key='keywords' />
 
                 {/* Open Graph Info */}
                 <meta property='og:title' content={ogTitle} key='ogTitle' />
@@ -105,7 +106,9 @@ const Blog = ({ payload }) => {
                     <div className='flex-1'>
                         <h1 className='mt-md lg:mt-0 display'>{title}</h1>
                         <p className='caption mt-md'>{description}</p>
-                        <Button text='Get Demo' className='mt-xl' />
+                        <Link href={mainButtonLink || 'https://www.miniorange.com/contact'}>
+                            <Button text={mainButtonText || 'Get Demo'} className='mt-xl' />
+                        </Link>
                     </div>
 
                     <picture className='relative w-[50%] h-0 pb-[25%]'>
@@ -219,6 +222,8 @@ export async function getStaticProps({ params }) {
         'ogImage',
         'content',
         'keywords',
+        'mainButtonText',
+        'mainButtonLink',
         'tags',
         'thumbnail',
     ]);
@@ -240,18 +245,21 @@ export async function getStaticProps({ params }) {
         tocs.push({ id: id, text: h.textContent });
     }
 
-    let comments = [];
+    let comments = { data: [] };
 
-    try {
-        const fecthedComments = await Comment.findAll({
-            where: { post_id: post.id, is_approved: true },
-            include: { model: User, as: 'user' },
-            raw: true,
-            nest: true,
-        });
-        comments = { data: JSON.stringify(fecthedComments) };
-    } catch (e) {
-        comments.data = [];
+    // Fetch Comments in Production only
+    if (process.env.NODE_ENV === 'production') {
+        try {
+            const fecthedComments = await Comment.findAll({
+                where: { post_id: post.id, is_approved: true },
+                include: { model: User, as: 'user' },
+                raw: true,
+                nest: true,
+            });
+            comments = { data: JSON.stringify(fecthedComments) };
+        } catch (e) {
+            comments.data = [];
+        }
     }
 
     const canonical = `https://www.miniorange.com/blog/${slug}/`;
