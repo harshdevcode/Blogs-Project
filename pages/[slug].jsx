@@ -143,7 +143,7 @@ const Blog = ({ payload }) => {
                     <main
                         dangerouslySetInnerHTML={{ __html: html }}
                         className={`
-                            [ ${markdownStyles['markdown']} w-full [ lg:w-7/12 ] order-2 p-md ]
+                            [ ${markdownStyles['markdown']} w-full [ lg:w-8/12 ] order-2 p-md ]
                             [ lg:order-2 ]
                         `}
                     ></main>
@@ -158,7 +158,7 @@ const Blog = ({ payload }) => {
                 <section className={styles.comments_container}>
                     <aside
                         className={`
-                    [ w-4/12 hidden py-6 px-8 ]
+                    [ w-3/12 hidden py-6 px-8 ]
                     [ lg:block ]
                 `}
                     ></aside>
@@ -166,7 +166,7 @@ const Blog = ({ payload }) => {
                     {/* Comment Section */}
                     <section
                         className={`
-                    [ w-full lg:w-7/12 order-2 ]
+                    [ w-full lg:w-6/12 order-2 ]
                     [ lg:order-2 ]
                 `}
                     >
