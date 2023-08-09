@@ -35,7 +35,6 @@ const Blog = ({ payload }) => {
             ogDescription,
             ogImage,
             tags,
-            keywords,
             mainButtonText,
             mainButtonLink,
             thumbnail,
@@ -246,18 +245,21 @@ export async function getStaticProps({ params }) {
         tocs.push({ id: id, text: h.textContent });
     }
 
-    let comments = [];
+    let comments = { data: [] };
 
-    try {
-        const fecthedComments = await Comment.findAll({
-            where: { post_id: post.id, is_approved: true },
-            include: { model: User, as: 'user' },
-            raw: true,
-            nest: true,
-        });
-        comments = { data: JSON.stringify(fecthedComments) };
-    } catch (e) {
-        comments.data = [];
+    // Fetch Comments in Production only
+    if (process.env.NODE_ENV === 'production') {
+        try {
+            const fecthedComments = await Comment.findAll({
+                where: { post_id: post.id, is_approved: true },
+                include: { model: User, as: 'user' },
+                raw: true,
+                nest: true,
+            });
+            comments = { data: JSON.stringify(fecthedComments) };
+        } catch (e) {
+            comments.data = [];
+        }
     }
 
     const canonical = `https://www.miniorange.com/blog/${slug}/`;

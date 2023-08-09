@@ -74,7 +74,7 @@ module.exports = {
 
             gridTemplateColumns: {
                 footer: 'repeat(auto-fit,minmax(198px,1fr))',
-                primary: 'repeat(auto-fit,minmax(328px,1fr))',
+                primary: 'repeat(auto-fit,minmax(348px,1fr))',
                 categories: 'repeat(auto-fit,minmax(128px,1fr))',
             },
 
