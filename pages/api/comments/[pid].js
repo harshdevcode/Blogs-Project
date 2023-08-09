@@ -55,7 +55,7 @@ const postCommentHandler = async (req, res) => {
                 url: MO_ENDPOINTS_TESTING.CONTACT_US,
                 data: {
                     email,
-                    ccEmail: 'ganesh.lohar@xecurify.com',
+                    ccEmail: 'marketing@xecurify.com',
                     phone: '',
                     query: `New comment is posted on blog<br>${post_slug}<br>Comment Content<br>${content}<br>`,
                 },
