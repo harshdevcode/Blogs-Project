@@ -6,13 +6,13 @@ keywords: ''
 mainButtonLink: 'https://plugins.miniorange.com/wordpress-ldap-directory-search'
 mainButtonText: 'Learn More'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-thumbnail: '/blog/assets/2023/08/what-is-an-employee-directory.webp'
+thumbnail: '/blog/assets/2023/what-is-an-employee-directory.webp'
 createdOn: '2023-8-11'
 updatedOn: '2023-8-11'
 ogTitle: 'What Is An Employee Directory and Its Importance'
 ogDescription: 'In this blog we will cover what is an employee directory, its importance in an organization and benefits of having an employee directory'
 ogImage:
-    url: '/blog/assets/2023/08/what-is-an-employee-directory.webp'
+    url: '/blog/assets/2023/what-is-an-employee-directory.webp'
 category: ['latest', 'concepts', 'product']
 tags:
     [
