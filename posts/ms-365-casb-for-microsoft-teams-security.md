@@ -57,11 +57,11 @@ Let’s understand how the MS 365 CASB works to secure Microsoft Teams with an e
 
 Suppose we have an employee Harry, who works in the sales team. Harry is currently handling a list of fresh leads in the company. His manager has shared the Excel sheet on a Microsoft Teams group and now he has to follow up on it. But Harry decides to work late on his task and takes work home. He logs into his office Microsoft Teams apps through his personal laptop. As soon as he logs in and tries to access the leads file, the MS 365 CASB security policies kick in and detect that an unauthorized device has requested access to a business file on Teams. It instantly blocks requests and revokes the user’s access, in this case Harry, from accessing any other files on Teams. It also alerts the Security Operations Center (the SOC team) about this incident. After reviewing that Harry was only using his personal device, his access is reinstated and now he can continue working via the office issued laptop.
 
-![Gmail Group Based Access CASB Workflow](/blog/assets/2023/harry-ms-excel-casb-solution.webp)
+![Microsoft excel team CASB Workflow](/blog/assets/2023/harry-ms-excel-casb-solution.webp)
 
 Additionally, if Harry or any other user tries to share this Excel sheet with other users in a different department, that action will also be blocked and the MS 365 CASB will prevent oversharing of business critical data among the company employees.
 
-![Gmail Group Based Access CASB Workflow](/blog/assets/2023/share-ms-excel-sheet-casb.webp)
+![Share ms excel sheet team CASB Workflow](/blog/assets/2023/share-ms-excel-sheet-casb.webp)
 
 This is how the MS 365 CASB works in real-time to provide all-round security for Microsoft Teams.
 
