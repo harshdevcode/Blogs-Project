@@ -7,8 +7,8 @@ mainButtonLink: 'https://plugins.miniorange.com/wordpress-ldap-login-intranet-si
 mainButtonText: 'Learn More'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
 thumbnail: '/blog/assets/2023/wordpress-gravity-forms-and-ldap-integration.webp'
-createdOn: '2023-8-11'
-updatedOn: '2023-8-11'
+createdOn: '2023-08-11'
+updatedOn: '2023-08-11'
 ogTitle: 'Why Connect WordPress Gravity Forms with LDAP Active Directory?'
 ogDescription: 'Integration to connect your gravity forms with Active Directory / LDAP Server to seamlessly fill your forms with the active directory data'
 ogImage:

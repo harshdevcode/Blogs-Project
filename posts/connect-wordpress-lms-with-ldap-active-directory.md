@@ -7,8 +7,8 @@ mainButtonLink: 'https://plugins.miniorange.com/wordpress-lms-ldap-active-direct
 mainButtonText: 'Learn More'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
 thumbnail: '/blog/assets/2023/wordpress-lms-ldap-server-active-directory-integration.webp'
-createdOn: '2023-8-11'
-updatedOn: '2023-8-11'
+createdOn: '2023-08-11'
+updatedOn: '2023-08-11'
 ogTitle: 'Connect WordPress LMS with LDAP Server/Active Directory'
 ogDescription: 'WordPress LMS integrations for Active Directory/LDAP Server to automate various tasks and benefits WordPress LMS Integrations.'
 ogImage:
