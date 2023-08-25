@@ -7,8 +7,8 @@ mainButtonLink: 'https://plugins.miniorange.com/wordpress-login-and-user-managem
 mainButtonText: 'Learn More'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
 thumbnail: '/blog/assets/2023/wordpress-user-and-login-management.webp'
-createdOn: '2023-8-11'
-updatedOn: '2023-8-11'
+createdOn: '2023-08-11'
+updatedOn: '2023-08-11'
 ogTitle: 'Mastering WordPress User and Login Management'
 ogDescription: 'Importance of WordPress user management and the essential features of the miniOrange WordPress User and Login Management plugin'
 ogImage:
