@@ -2,6 +2,8 @@
 id: '2d2191bb-90db-4a70-98a2-47d5a0320d73'
 title: 'Salesforce Multi-factor Authentication | Salesforce MFA'
 description: 'Configure Salesforce Multi-factor authentication (MFA). Setup MFA for all your web &amp; SaaS Apps including Salesforce for authorized network users.'
+metaTitle: 'Salesforce Multi-Factor Authentication (MFA): Strengthening Your Security'
+metaDescription: 'Salesforce Multi-Factor Authentication (MFA) Implementation: Secure Your Network Users and Web Apps.'
 keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
