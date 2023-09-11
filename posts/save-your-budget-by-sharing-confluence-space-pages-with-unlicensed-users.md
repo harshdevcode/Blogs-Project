@@ -1,8 +1,8 @@
 ---
 id: '2d2191bb-90db-4a70-98a2-47d5a0320d74'
-title: 'Sharing Confluence Space &amp; Pages With Unlicensed Users! 💸💰'
+title: 'Sharing Confluence Space & Pages With Unlicensed Users!'
 description: 'Secure Share Pages for Confluence Cloud that helps replicate and share live Confluence spaces and pages with unlicensed or external users'
-metaTitle: 'Sharing Confluence Space &amp; Pages With Unlicensed Users! 💸💰'
+metaTitle: 'Sharing Confluence Space & Pages With Unlicensed Users!'
 metaDescription: 'Secure Share Pages for Confluence Cloud that helps replicate and share live Confluence spaces and pages with unlicensed or external users'
 keywords: ''
 mainButtonLink: ''
