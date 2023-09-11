@@ -7,7 +7,7 @@ metaDescription: 'Salesforce Multi-Factor Authentication (MFA) Implementation: S
 keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+excerpt: 'Configure Salesforce Multi-factor authentication (MFA). Setup MFA for all your web &amp; SaaS Apps including Salesforce for authorized network users.'
 thumbnail: 'https://blog.miniorange.com/wp-content/uploads/sites/19/2022/01/salesforce-mfa.webp'
 createdOn: '2022-05-12'
 updatedOn: '2022-05-12'

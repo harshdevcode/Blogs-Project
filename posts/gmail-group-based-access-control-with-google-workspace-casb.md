@@ -2,6 +2,8 @@
 id: 'aa4d47b9-405c-49e4-a234-03a4b742ed22'
 title: 'Enable Group-based access to Gmail using the Google Workspace CASB security solution'
 description: 'Enabling Gmail security for users working remotely with the help of Google Workspace CASB by miniOrange to set up custom security restrictions and enable granular access control permissions. These security policies help the SOC teams to timely detect potential data breaches and prevents data from being shared outside the scope of access between users in the organization.'
+metaTitle: 'Enable Group-based access to Gmail using the Google Workspace CASB security solution'
+metaDescription: 'Enhance Remote Gmail Security with Google Workspace CASB by miniOrange. Set custom restrictions, prevent data breaches.'
 keywords: ''
 mainButtonLink: 'https://proxy.miniorange.com/login?source=https://www.miniorange.com/blog/gmail-group-based-access-control-with-google-workspace-casb/'
 mainButtonText: 'Contact us'
