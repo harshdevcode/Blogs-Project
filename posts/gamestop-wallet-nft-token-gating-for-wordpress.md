@@ -2,6 +2,8 @@
 id: 'f71b7897-cdb3-4c06-9a96-fbef8cee9a39'
 title: 'NFT Token Gate users with GameStop wallet over Loopring blockchain'
 description: 'Enable NFT Token Gating for your website, over the Loopring blockchain and the NFTs stored in the GameStop wallet. Admin can specify NFTs to be owned in order to access the NFT Token Gated Pages. NFT can be mapped to a page based on Contract Address and can also specify further which token IDs from contract to be owned in order to access the page.'
+metaTitle: 'NFT Token Gate users with GameStop wallet over Loopring blockchain'
+metaDescription: 'Empower Website with NFT Token Gating via Loopring Blockchain. Control access by NFT ownership from GameStop wallet, including criteria of Contract Address.'
 keywords: ''
 mainButtonLink: 'https://plugins.miniorange.com/wordpress-web3-suite#trial-form'
 mainButtonText: 'Contact us'

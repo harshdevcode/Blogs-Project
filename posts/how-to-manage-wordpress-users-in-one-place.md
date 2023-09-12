@@ -1,11 +1,13 @@
 ---
 id: '99ccb7ba-f3cd-4c89-a6e6-cdb76c653542'
-title: 'Mastering WordPress User Management: How to Manage Your Website’s Users in One Place'
+title: "Mastering WordPress User Management: How to Manage Your Website’s Users in One Place"
 description: 'Importance of WordPress user management and the essential features of the miniOrange WordPress User and Login Management plugin'
+metaTitle: "Mastering WordPress User Management: How to Manage Your Website’s Users in One Place"
+metaDescription: 'Importance of WordPress user management and the essential features of the miniOrange WordPress User and Login Management plugin'
 keywords: ''
 mainButtonLink: 'https://plugins.miniorange.com/wordpress-login-and-user-management-plugin'
 mainButtonText: 'Learn More'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+excerpt: 'Importance of WordPress user management and the essential features of the miniOrange WordPress User and Login Management plugin'
 thumbnail: '/blog/assets/2023/wordpress-user-and-login-management.webp'
 createdOn: '2023-08-11'
 updatedOn: '2023-08-11'

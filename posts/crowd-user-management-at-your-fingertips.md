@@ -1,7 +1,9 @@
 ---
 id: '2d2191bb-90db-4a70-98a2-47d5a0320d66'
-title: 'Crowd User Management at your fingertips 🙌 - Blog - miniOrange'
+title: 'Crowd User Management at your fingertips - Blog - miniOrange'
 description: 'Use Crowd SCIM to sync your users, groups and directories with SCIM for Server/DC. Support for Azure AD, Okta, Onelogin, Oracle IDCS, ... IDPs'
+metaTitle: 'Crowd User Management at your fingertips - Blog - miniOrange'
+metaDescription: 'Use Crowd SCIM to sync your users, groups and directories with SCIM for Server/DC. Support for Azure AD, Okta, Onelogin, Oracle IDCS, ... IDPs'
 keywords: ''
 mainButtonLink: ''
 mainButtonText: ''

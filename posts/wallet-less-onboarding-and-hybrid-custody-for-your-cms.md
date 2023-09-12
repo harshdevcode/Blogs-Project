@@ -1,8 +1,9 @@
 ---
 id: 'fc146a8d-871d-4ca8-8112-355bdd0beb0f'
 title: 'Wallet-less Onboarding and Hybrid Custody for your CMS'
-description: 'Blockchain technology has disrupted various industries by offering decentralized and transparent solutions. However, the intricacies of managing wallets and private keys have been a barrier to entry for many potential users. Wallet-less onboarding and hybrid custody aim to eliminate these barriers while maintaining a high level of security.
- '
+description: 'Blockchain technology has disrupted various industries by offering decentralized and transparent solutions. However, the intricacies of managing wallets and private keys have been a barrier to entry for many potential users. Wallet-less onboarding and hybrid custody aim to eliminate these barriers while maintaining a high level of security.'
+metaTitle: 'Wallet-less Onboarding and Hybrid Custody for your CMS'
+metaDescription: "Blockchain's Transparency, Wallet-Less Onboarding & Hybrid Custody for User-Friendly Security. Explore Decentralized Solutions."
 keywords: ''
 mainButtonLink: 'https://plugins.miniorange.com/wordpress-web3-suite#trial-form'
 mainButtonText: 'Contact us'
