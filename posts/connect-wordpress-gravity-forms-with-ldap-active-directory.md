@@ -1,13 +1,13 @@
 ---
 id: 'e08ddabf-a4c3-4327-b26c-43b8618fe8c2'
 title: 'Why Connect WordPress Gravity Forms with LDAP Active Directory?'
-description: 'In this blog post, we will explore the benefits of integrating Gravity Forms with LDAP or Active Directory to enable seamless authentication and data synchronization with your organization’s user directory.'
+description: "In this blog post, we will explore the benefits of integrating Gravity Forms with LDAP or Active Directory to enable seamless authentication and data synchronization with your organization’s user directory."
 metaTitle: 'Why Connect WordPress Gravity Forms with LDAP Active Directory?'
 metaDescription: 'Explore Gravity Forms Integration with LDAP/Active Directory for Seamless Authentication and Data Sync in Your Organization.'
 keywords: ''
 mainButtonLink: 'https://plugins.miniorange.com/wordpress-ldap-login-intranet-sites#LDAP-intranet-add-ons'
 mainButtonText: 'Learn More'
-excerpt: 'In this blog post, we will explore the benefits of integrating Gravity Forms with LDAP or Active Directory to enable seamless authentication and data synchronization with your organization’s user directory.'
+excerpt: "In this blog post, we will explore the benefits of integrating Gravity Forms with LDAP or Active Directory to enable seamless authentication and data synchronization with your organization’s user directory."
 thumbnail: '/blog/assets/2023/wordpress-gravity-forms-and-ldap-integration.webp'
 createdOn: '2023-08-11'
 updatedOn: '2023-08-11'

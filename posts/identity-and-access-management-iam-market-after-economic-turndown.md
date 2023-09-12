@@ -1,13 +1,13 @@
 ---
 id: '2d2191bb-90db-4a70-98a2-47d5a0320d72'
 title: 'Identity and Access Management (IAM) Market After Economic Turndown'
-description: 'Identity and Access Management in today’s economy, organizations are feeling the pinch. They’re looking for ways to cut costs, and one area that’s often targeted is IT. However, even in lean times, it’s important to maintain strong security practices. This is where IAM comes in.'
+description: "Identity and Access Management in today’s economy, organizations are feeling the pinch. They’re looking for ways to cut costs, and one area that’s often targeted is IT. However, even in lean times, it’s important to maintain strong security practices. This is where IAM comes in."
 metaTitle: 'Identity and Access Management (IAM) Market After Economic Turndown'
 metaDescription: 'In the economy today, organizations seek cost-cutting without compromising security. Explore the role of IAM in maintaining strong security practices.'
 keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
-excerpt: 'Identity and Access Management in today’s economy, organizations are feeling the pinch. They’re looking for ways to cut costs, and one area that’s often targeted is IT. However, even in lean times, it’s important to maintain strong security practices. This is where IAM comes in.'
+excerpt: "Identity and Access Management in today’s economy, organizations are feeling the pinch. They’re looking for ways to cut costs, and one area that’s often targeted is IT. However, even in lean times, it’s important to maintain strong security practices. This is where IAM comes in."
 thumbnail: 'https://www.miniorange.com/images/landing-page/iam-market.webp'
 createdOn: '2022-05-12'
 updatedOn: '2022-05-12'
