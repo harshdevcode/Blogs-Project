@@ -141,6 +141,7 @@ const Blog = ({ payload }) => {
 
                     {/* Blog Content */}
                     <main
+                        id='markdown-container'
                         dangerouslySetInnerHTML={{ __html: html }}
                         className={`
                             [ ${markdownStyles['markdown']} w-full [ lg:w-8/12 ] order-2 p-md ]
