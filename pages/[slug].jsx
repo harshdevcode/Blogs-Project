@@ -31,6 +31,8 @@ const Blog = ({ payload }) => {
             id,
             title,
             description,
+            metaTitle,
+            metaDescription,
             ogTitle,
             ogDescription,
             ogImage,
@@ -91,12 +93,12 @@ const Blog = ({ payload }) => {
             <Head>
                 {/* SEO Meta Tags */}
                 <title>{title}</title>
-                <meta name='title' content={title} />
-                <meta name='description' content={description} key='description' />
+                <meta name='title' content={metaTitle} />
+                <meta name='description' content={metaDescription}/>
 
                 {/* Open Graph Info */}
-                <meta property='og:title' content={ogTitle} key='ogTitle' />
-                <meta property='og:description' content={ogDescription} key='ogDescription' />
+                <meta property='og:title' content={metaTitle}/>
+                <meta property='og:description' content={metaDescription}/>
                 <meta property='og:image' content={ogImage} key='ogImage' />
                 <link rel='canonical' href={canonical} />
             </Head>
@@ -141,6 +143,7 @@ const Blog = ({ payload }) => {
 
                     {/* Blog Content */}
                     <main
+                        id='markdown-container'
                         dangerouslySetInnerHTML={{ __html: html }}
                         className={`
                             [ ${markdownStyles['markdown']} w-full [ lg:w-8/12 ] order-2 p-md ]
@@ -217,6 +220,8 @@ export async function getStaticProps({ params }) {
         'id',
         'title',
         'description',
+        'metaTitle',
+        'metaDescription',
         'ogTitle',
         'ogDescription',
         'ogImage',

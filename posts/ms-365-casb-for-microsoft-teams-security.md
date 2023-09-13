@@ -2,6 +2,8 @@
 id: '0d851056-632d-4d8b-bb35-ca4d9810f23a'
 title: 'Securing Microsoft Teams with the miniOrange MS 365 CASB cloud security solution'
 description: 'Secure data sharing between employees using MS Teams for business workflows, and set custom user group based security polices that prevent data leaking to unauthorized users. Get started with the miniOrange MS 365 CASB solution by miniOrange today to secure Microsoft Teams and boost office productivity.'
+metaTitle: 'Securing Microsoft Teams with the miniOrange MS 365 CASB cloud security solution'
+metaDescription: 'Enhance MS Teams Security: Custom User Group Policies for Data Sharing. Explore miniOrange MS 365 CASB for Secure Collaboration.'
 keywords: ''
 mainButtonLink: 'https://proxy.miniorange.com/login?source=https://www.miniorange.com/blog/ms-365-casb-for-microsoft-teams-security/'
 mainButtonText: 'Contact us'

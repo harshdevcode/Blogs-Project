@@ -1,11 +1,13 @@
 ---
 id: '2d2191bb-90db-4a70-98a2-47d5a0320d67'
 title: 'Ensuring Secure Sharing of Confluence Pages with External Users: The miniOrange Approach'
-description: 'Developed by miniOrange, ‘Secure Share’ enables you to generate secure, unique links to the Confluence pages and share them with external non-confluence users without making it public.'
+description: "Developed by miniOrange, ‘Secure Share’ enables you to generate secure, unique links to the Confluence pages and share them with external non-confluence users without making it public."
+metaTitle: 'Ensuring Secure Sharing of Confluence Pages with External Users: The miniOrange Approach'
+metaDescription: "Securely Share Confluence Pages with 'Secure Share' by miniOrange - Create Unique Links for External Access."
 keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
-excerpt: 'Developed by miniOrange, ‘Secure Share’ enables you to generate secure, unique links to the Confluence pages and share them with external non-confluence users without making it public.'
+excerpt: "Developed by miniOrange, ‘Secure Share’ enables you to generate secure, unique links to the Confluence pages and share them with external non-confluence users without making it public."
 thumbnail: 'https://blog.miniorange.com/wp-content/uploads/sites/19/2023/05/Secure-share.webp'
 createdOn: '2022-05-12'
 updatedOn: '2022-05-12'

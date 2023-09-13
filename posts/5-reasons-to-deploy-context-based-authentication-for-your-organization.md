@@ -2,6 +2,8 @@
 id: '2d2191bb-90db-4a70-98a2-47d5a0320d61'
 title: '5 Reasons to Deploy Context-Based Authentication'
 description: 'Amidst cyber security threats that organizations face, context-based authentication can minimize unauthorized access and safeguard your sensitive information.'
+metaTitle: '5 Reasons to Deploy Context-Based Authentication'
+metaDescription: 'Amidst cyber security threats that organizations face, context-based authentication can minimize unauthorized access and safeguard your sensitive information.'
 keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
