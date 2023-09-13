@@ -2,6 +2,8 @@
 id: '011fd199-f922-4f4a-aac8-5486bf88b122'
 title: 'What is Financial-grade API protocol and Open Banking?'
 description: 'The Financial-grade API  protocol is a set of standards and guidelines that aim to ensure the security and reliability of APIs  used in the financial industry. APIs are a way for different software systems to communicate and exchange data. FAPI provides a framework for financial institutions to develop and implement APIs that meet certain security and privacy requirements. '
+metaTitle: "Financial-grade API protocol and Open Banking "
+metaDescription: "The Financial-grade API protocol is a set of standards and guidelines that aim to ensure the security and reliability of APIs used in the financial industry."
 keywords: ''
 mainButtonLink: 'https://plugins.miniorange.com/wordpress-web3-suite#trial-form'
 mainButtonText: 'Contact us'
@@ -11,7 +13,7 @@ thumbnail: '/blog/assets/2023/banking-thumbnail.webp'
 createdOn: '2023-09-04'
 updatedOn: '2023-09-04'
 ogTitle: "Financial-grade API protocol and Open Banking"
-ogDescription: "he Financial-grade API protocol is a set of standards and guidelines that aim to ensure the security and reliability of APIs used in the financial industry."
+ogDescription: "The Financial-grade API protocol is a set of standards and guidelines that aim to ensure the security and reliability of APIs used in the financial industry."
 ogImage:
     url: ''
 category: ['Solutions']

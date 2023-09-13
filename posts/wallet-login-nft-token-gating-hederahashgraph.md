@@ -2,6 +2,8 @@
 id: '75596029-7fc3-49be-9b3a-93682bd5ef27'
 title: 'Login with HashPack to Website and gate content with NFT token'
 description: 'Users can log in with HashPack to the website, pages, and user profile and secure the login process with one step. With the HashPack wallet connected to the website use cases such as NFT token gating and role mapping, Discount on eCommerce stores based on NFT owned can be achieved. Further support for crypto wallet login for Blade, Guarda, Dropp, HEX, INFINITE, MyHbarWallet, and NFT Token gating for Hedera HashGraph custom minted NFT. '
+metaTitle: "Login to Your Website with HashPack and Protect Content with NFT Tokens"
+metaDescription: "Enhance your website's security with HashPack a robust login solution that utilizes the power of NFT tokens. Gate your content with NFT tokens to ensure only authorized users can access your valuable resources."
 keywords: ''
 mainButtonLink: 'https://plugins.miniorange.com/wordpress-web3-suite#trial-form'
 mainButtonText: 'Contact us'

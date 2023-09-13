@@ -2,6 +2,8 @@
 id: 'bc053adf-9ef1-4a99-ab84-2c29683a4e59'
 title: 'Web3 Analytics '
 description: 'Web3 technology has assisted us to move towards a decentralized web with benefits like faster transactions, security from black hat activities, and data manipulation. With the introduction of crypto wallets and NFT major advances have been achieved in the Analytics ecosystem. When users connect their crypto wallets to the website store their wallet addresses in the database. Additionally, NFT owned in a specific wallet can be tracked for analytics.'
+metaTitle: "Web3 Analytics: Deciphering the Data of the Decentralized Era  "
+metaDescription: "Discover how Web3 Analytics empowers you to measure, analyze, and optimize your decentralized applications and blockchain projects. Gain insights into the data-driven possibilities of the decentralized era."
 keywords: ''
 mainButtonLink: 'https://plugins.miniorange.com/wordpress-web3-suite#trial-form'
 mainButtonText: 'Contact us'
@@ -14,7 +16,7 @@ ogTitle: "Web3 Analytics: Deciphering the Data of the Decentralized Era "
 ogDescription: "Discover how Web3 Analytics empowers you to measure, analyze, and optimize your decentralized applications and blockchain projects. Gain insights into the data-driven possibilities of the decentralized era."
 ogImage:
     url: ''
-category: ['Solutions']
+category: ['Solutions',]
 tags:
     [
 	'Web3 Analytics',

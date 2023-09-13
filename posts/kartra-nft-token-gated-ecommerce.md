@@ -3,6 +3,8 @@ id: '5fd40e20-fbf1-47c9-be7c-dc0be59da3ba'
 title: 'Kartra NFT Token Gating and Crypto Wallet login for Token gated ecommerce'
 description: 'NFT Token gating for Kartra platforms allows users to log in with crypto wallets to provide exclusive access to NFT asset holders for token-gated e-commerce. Kartra is a multi-featured marketing platform where all the redundant user tasks are easily automated for simple flow and improving team productivity. It has an arsenal of powerful tools to incorporate the needs of all types of businesses and organizations to help them complete their tasks quickly and effectively.
 '
+metaTitle: "Kartra NFT Token Gating and Crypto Wallet login"
+metaDescription: "NFT Token gating for Kartra platforms allows users to log in with crypto wallets to provide exclusive access to NFT asset holders for token-gated ecommerce."
 keywords: ''
 mainButtonLink: 'https://plugins.miniorange.com/wordpress-web3-suite#trial-form'
 mainButtonText: 'Contact us'

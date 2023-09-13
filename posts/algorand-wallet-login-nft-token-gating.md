@@ -2,6 +2,8 @@
 id: '9e6b9a31-b359-4070-93bf-8c340541fcce'
 title: 'Crypto wallet login support for Algorand blockchain '
 description: 'Users can do crypto wallet login to websites, pages, and user profiles through popular Algorand blockchain wallets like Pera Wallet, Trust Wallet, Atomic Wallet, and MyALGO Wallet. Cold wallet Ledger Nano X and Nano S also support Algorands native token ALGO and can be used for the process of crypto wallet login. With support for multiple Algorand wallets for crypto wallet login, other use cases around NFTs can be implemented.'
+metaTitle: "Web3 solutions for Algorand blockchain "
+metaDescription: "Our Web3 solutions provide seamless integration with the Algorand blockchain, enabling you to take advantage of its high-speed transactions, low fees, and strong security."
 keywords: ''
 mainButtonLink: 'https://plugins.miniorange.com/wordpress-web3-suite#trial-form'
 mainButtonText: 'Contact us'
