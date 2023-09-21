@@ -8,7 +8,7 @@ keywords: ''
 mainButtonLink: 'https://apps.shopify.com/build-courses-and-sell-courses-on-store'
 mainButtonText: 'Download Shopify app'
 excerpt: 'A Learning Management System (LMS) platform is a software application that allows you to create, distribute, and manage online courses and educational content.'
-thumbnail: '/blog/assets/2023/09/course_builder_blog_banner.webp'
+thumbnail: '/blog/assets/2023/course_builder_blog_banner.webp'
 createdOn: '2023-08-09'
 updatedOn: '2023-08-09'
 ogTitle: 'What is a LMS platform? Why should we integrate any LMS with Shopify'
@@ -28,7 +28,7 @@ A Learning Management System (LMS) platform is a software application that allow
 
 ### Challenges faced by merchants as well as the end users without the LMS-Shopify integration {#challenges-faced-by-merchants}
 
-![What is a LMS platform? Why should we integrate any LMS with Shopify](/blog/assets/2023/09/question_mark_art.webp)
+![What is a LMS platform? Why should we integrate any LMS with Shopify](/blog/assets/2023/question_mark_art.webp)
 
 **Manual Data Transfer**  
 Without the LMS integration, merchants may be required to manually transfer data between the LMS and Shopify, increasing the risk of errors and increasing the time required for the task.
@@ -50,7 +50,7 @@ Personalization is limited due to a lack of integration, which may limit persona
 
 ### How converting Shopify Store into an LMS platform helps merchants as well as the end users to overcome the faced challenges? {#how-to-convert}
 
-![How converting Shopify Store into an LMS platform helps merchants as well as the end users to overcome the faced challenges](/blog/assets/2023/09/challenges_overcome_art.webp)
+![How converting Shopify Store into an LMS platform helps merchants as well as the end users to overcome the faced challenges](/blog/assets/2023/challenges_overcome_art.webp)
 
 The LMS provides a single platform for merchants to produce and sell online courses, facilitating course management and analytics. It works smoothly within the Shopify ecosystem, utilizing current marketing and customer base resources. End users benefit from an easy-to-use interface, a wide range of learning options, and the ability to access and purchase courses directly from the Shopify platform.
 
@@ -72,7 +72,7 @@ With the miniOrange Course Builder, you can easily create and oversee courses on
 
 ## Key features and benefits of the miniOrange Course Builder for managing courses on Shopify
 
-![Key features and benefits of the miniOrange Course Builder for managing courses on Shopify](/blog/assets/2023/09/benefits_art.webp)
+![Key features and benefits of the miniOrange Course Builder for managing courses on Shopify](/blog/assets/2023/benefits_art.webp)
 
 **Insights and Analytics**  
 Learning professionals gain valuable insights into learners' journeys, course performance, and programme effectiveness through insights and analytics. Comprehensive analytics provide a full picture of target customers, from sales to usage, allowing for data-driven improvements
