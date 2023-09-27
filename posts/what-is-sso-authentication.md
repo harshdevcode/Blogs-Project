@@ -9,8 +9,8 @@ mainButtonLink: 'https://www.miniorange.com/products/single-sign-on-sso#request-
 mainButtonText: 'Book a Demo'
 excerpt: 'Enable seamless access to your web applications and services by implementing Single Sign-On (SSO), empowering users to effortlessly navigate multiple apps and websites with a single set of credentials.'
 thumbnail: '/blog/assets/2023/sso-authentication.webp'
-createdOn: '2023-08-18'
-updatedOn: '2023-08-18'
+createdOn: '2023-09-27'
+updatedOn: '2023-09-27'
 ogTitle: 'What is Single Sign On Authentication | How does it work?'
 ogDescription: 'Single Sign-On (SSO) authentication enables users to securely log in with a single ID across multiple independent software systems.'
 ogImage:
