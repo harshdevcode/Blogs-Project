@@ -28,8 +28,8 @@ const StringForm = () => {
   const onSubmit = (values) => {
     console.log("values", values);
     let slugs = values.slug.split(',');
-    slugs.map(async (slug) => {
-      await axios.post(`${process.env.ROOT_URL}${process.env.BLOG_ID_ENDPOINT}`, { username: values.username, password: values.password, author_name: values.author_name, slug: slug }).then((response) => {
+    slugs.map((slug) => {
+      axios.post(`${process.env.ROOT_URL}${process.env.BLOG_ID_ENDPOINT}`, { username: values.username, password: values.password, author_name: values.author_name, slug: slug }).then((response) => {
         console.log("response", response);
         setSubmittedValues(prevState => ([...prevState, response.data.data]))
       }, (error) => {
