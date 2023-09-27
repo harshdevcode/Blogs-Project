@@ -8,6 +8,7 @@ import { parse } from 'node-html-parser';
 import { categories } from '../utils/categories';
 
 import { tag } from '../utils/tag';
+import remarkGfm from 'remark-gfm';
 
 const postsDirectory = join(process.cwd(), 'posts');
 
@@ -90,7 +91,11 @@ export function getAllPosts(fields) {
 }
 
 export async function markdownToHTML(markdown) {
-    const resultHtml = await remark().use(remarkHeadingId).use(html).process(markdown);
+    const resultHtml = await remark()
+        .use(remarkHeadingId)
+        .use(remarkGfm)
+        .use(html)
+        .process(markdown);
 
     return resultHtml.toString();
 }
