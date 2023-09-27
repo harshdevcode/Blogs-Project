@@ -22,7 +22,7 @@ const createPostHandler = async (req, res) => {
 };
 
 // Main Request Handler
-export default async function handler(req, res) {
+export default function handler(req, res) {
     console.log('Recieved Request at Posts');
     try {
         // Handle Request
@@ -31,7 +31,7 @@ export default async function handler(req, res) {
                 return res.status(405).json({ message: 'Invalid method.' });
             case 'OPTIONS':
             case 'POST':
-                return await createPostHandler(req, res);
+                return createPostHandler(req, res);
             case 'DELETE':
                 return res.status(405).json({ message: 'Invalid method.' });
             // return await deleteComment(req, res);
