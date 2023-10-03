@@ -1,8 +1,8 @@
-import StringForm from "components/FormComponent/StringForm";
+import GetBlogId from "components/FormComponent/GetBlogId";
 
 const GetBlogIds = () => {
     return(
-        <StringForm />
+        <GetBlogId />
     )
 }
 
