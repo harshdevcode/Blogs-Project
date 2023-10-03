@@ -50,7 +50,19 @@ const GetBlogId = () => {
 
   useEffect(() => {
     if(process.env.BLOG_ID_ENDPOINT === undefined){
-      toast.error("ENV Missing. Please contact admin", {
+      toast.error("BLOG_ID_ENDPOINT ENV Missing. Please contact admin", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
+    }
+    if(process.env.ROOT_URL === undefined){
+      toast.error("ROOT_URL ENV Missing. Please contact admin", {
         position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
