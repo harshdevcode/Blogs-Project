@@ -13,7 +13,7 @@ const validationSchema = Yup.object().shape({
   slug: Yup.string().required('Slugs is required'),
 });
 
-const StringForm = () => {
+const GetBlogId = () => {
 
   const initialValues = {
     username: '',
@@ -47,6 +47,21 @@ const StringForm = () => {
       })
     });
   };
+
+  useEffect(() => {
+    if(process.env.BLOG_ID_ENDPOINT === undefined){
+      toast.error("ENV Missing. Please contact admin", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
+    }
+  }, [])
 
   useEffect(() => {
     console.log("submittedValues", submittedValues);
@@ -132,4 +147,4 @@ const StringForm = () => {
   );
 };
 
-export default StringForm;
+export default GetBlogId;
