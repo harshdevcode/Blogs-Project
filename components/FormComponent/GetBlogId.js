@@ -23,7 +23,6 @@ const GetBlogId = () => {
   };
 
   const [submittedValues, setSubmittedValues] = useState([]);
-  // const [submittedValues, setSubmittedValues] = useState([]);
 
   const onSubmit = (values) => {
     console.log("values", values);
