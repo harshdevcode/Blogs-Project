@@ -28,7 +28,7 @@ const GetBlogId = () => {
     console.log("values", values);
     let slugs = values.slug.split(',');
     slugs.map((slug) => {
-      axios.post(`${process.env.NEXT_PUBLIC_ROOT_URL}${process.env.NEXT_PUBLIC_BLOG_ID_ENDPOINT}`, { username: values.username, password: values.password, author_name: values.author_name, slug: slug }).then((response) => {
+      axios.post(`${process.env.NEXT_PUBLIC_ROOT_URL}${process.env.NEXT_PUBLIC_BLOG_ID_ENDPOINT}`, { username: values.username, password: values.password, author_name: values.author_name, slug: slug.trim() }).then((response) => {
         console.log("response", response);
         setSubmittedValues(prevState => ([...prevState, response.data.data]))
       }, (error) => {

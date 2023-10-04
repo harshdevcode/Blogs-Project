@@ -30,6 +30,7 @@ export default function handler(req, res) {
             case 'GET':
                 return res.status(405).json({ message: 'Invalid method.' });
             case 'OPTIONS':
+                return res.status(200).json({});
             case 'POST':
                 return createPostHandler(req, res);
             case 'DELETE':
