@@ -28,7 +28,7 @@ const GetBlogId = () => {
     console.log("values", values);
     let slugs = values.slug.split(',');
     slugs.map((slug) => {
-      axios.post(`${process.env.ROOT_URL}${process.env.BLOG_ID_ENDPOINT}`, { username: values.username, password: values.password, author_name: values.author_name, slug: slug }).then((response) => {
+      axios.post(`${process.env.NEXT_PUBLIC_ROOT_URL}${process.env.NEXT_PUBLIC_BLOG_ID_ENDPOINT}`, { username: values.username, password: values.password, author_name: values.author_name, slug: slug }).then((response) => {
         console.log("response", response);
         setSubmittedValues(prevState => ([...prevState, response.data.data]))
       }, (error) => {
@@ -48,7 +48,7 @@ const GetBlogId = () => {
   };
 
   useEffect(() => {
-    if(process.env.BLOG_ID_ENDPOINT === undefined){
+    if(process.env.NEXT_PUBLIC_BLOG_ID_ENDPOINT === undefined){
       toast.error("BLOG_ID_ENDPOINT ENV Missing. Please contact admin", {
         position: "top-right",
         autoClose: 5000,
@@ -60,7 +60,7 @@ const GetBlogId = () => {
         theme: "dark",
       });
     }
-    if(process.env.ROOT_URL === undefined){
+    if(process.env.NEXT_PUBLIC_ROOT_URL === undefined){
       toast.error("ROOT_URL ENV Missing. Please contact admin", {
         position: "top-right",
         autoClose: 5000,
