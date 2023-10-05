@@ -2,8 +2,8 @@
 id: '12e0cd14-0709-422b-9bc3-9c3d2a9d48d9'
 title: 'What is OAuth (Open Authorization) ?'
 description: 'OAuth (Open Authentication) pronounced “oh-auth” is a technological standard that allows you to share information between services without exposing your password. It’s a widely-adopted standard that’s used by developers of websites and apps, and you probably use services every day that utilize OAuth.'
-metaTitle: ""
-metaDescription: ""
+metaTitle: "What is OAuth and how does it work?"
+metaDescription: "OAuth 2.0 is an authorization protocol and NOT an authentication protocol. As such, it is designed primarily as a means of granting access to a set of resources, for example, remote APIs or user data."
 keywords: ''
 mainButtonLink: 'https://www.miniorange.com/contact'
 mainButtonText: 'Contact us'
