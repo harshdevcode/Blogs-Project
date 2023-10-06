@@ -13,7 +13,7 @@ const validationSchema = Yup.object().shape({
   slug: Yup.string().required('Slugs is required'),
 });
 
-const StringForm = () => {
+const GetBlogId = () => {
 
   const initialValues = {
     username: '',
@@ -23,13 +23,12 @@ const StringForm = () => {
   };
 
   const [submittedValues, setSubmittedValues] = useState([]);
-  // const [submittedValues, setSubmittedValues] = useState([]);
 
   const onSubmit = (values) => {
     console.log("values", values);
     let slugs = values.slug.split(',');
     slugs.map((slug) => {
-      axios.post(`${process.env.ROOT_URL}${process.env.BLOG_ID_ENDPOINT}`, { username: values.username, password: values.password, author_name: values.author_name, slug: slug }).then((response) => {
+      axios.post(`${process.env.NEXT_PUBLIC_ROOT_URL}${process.env.NEXT_PUBLIC_BLOG_ID_ENDPOINT}`, { username: values.username, password: values.password, author_name: values.author_name, slug: slug.trim() }).then((response) => {
         console.log("response", response);
         setSubmittedValues(prevState => ([...prevState, response.data.data]))
       }, (error) => {
@@ -47,6 +46,33 @@ const StringForm = () => {
       })
     });
   };
+
+  useEffect(() => {
+    if(process.env.NEXT_PUBLIC_BLOG_ID_ENDPOINT === undefined){
+      toast.error("BLOG_ID_ENDPOINT ENV Missing. Please contact admin", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
+    }
+    if(process.env.NEXT_PUBLIC_ROOT_URL === undefined){
+      toast.error("ROOT_URL ENV Missing. Please contact admin", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
+    }
+  }, [])
 
   useEffect(() => {
     console.log("submittedValues", submittedValues);
@@ -132,4 +158,4 @@ const StringForm = () => {
   );
 };
 
-export default StringForm;
+export default GetBlogId;
