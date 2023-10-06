@@ -65,9 +65,9 @@ The integration of wallet-less onboarding and hybrid custody into content manage
 
 ### Reference links  {#reference-links}
 
-1. [1. WordPress Web3 Authentication](https://plugins.miniorange.com/hubspot-page-restriction/)
-2. [2. Crypto wallet login & NFT token gating for Joomla](https://plugins.miniorange.com/hubspot)
-3. [3. Crypto wallet login & NFT token gating for Drupal](https://plugins.miniorange.com/hubspot-single-sign-on/)
+1. [1. WordPress Web3 Authentication](https://plugins.miniorange.com/web3-wordpress-login)
+2. [2. Crypto wallet login & NFT token gating for Joomla](https://blockchain.miniorange.com/crypto-wallet-login-and-nft-token-gating/joomla/)
+3. [3. Crypto wallet login & NFT token gating for Drupal](https://blockchain.miniorange.com/crypto-wallet-login-and-nft-token-gating/drupal/)
 
 
 
