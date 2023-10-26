@@ -6,7 +6,7 @@ keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
 excerpt: 'Amidst cyber security threats that organizations face, context-based authentication can minimize unauthorized access and safeguard your sensitive information.'
-thumbnail: '/blog/assets/2023/09/headless-wordpress-sso-banner-image.webp'
+thumbnail: '/blog/assets/2023/headless-wordpress-sso-banner-image.webp'
 createdOn: '2023-09-27'
 updatedOn: '2023-09-27'
 ogTitle: 'Headless WordPress A to Z | Single Sign-On (SSO) for Headless WordPress'
@@ -121,7 +121,7 @@ miniOrange offers a seamless Single Sign-On solution for headless WordPress webs
   Configure multiple IDPs to perform Single Sign-On (SSO) into WordPress
 
 ### Headless CMS Architecture {#headless-cms-architecture}
-![Headless CMS Architecture](/blog/assets/2023/09/headless-cms-architecture.webp)  
+![Headless CMS Architecture](/blog/assets/2023/headless-cms-architecture.webp)  
 A headless CMS exists as a separate system that separates data creation and storage from the delivery process. Unlike other designs, this architecture is considered “**headless**” because there is no single front-end designated for displaying content. Information is passed through the API through multiple channels, rather than being tied to a single external interface.  
 Of course, in order for data to appear somewhere (e.g. website, mobile application, etc.), it is responsible for analyzing and organizing the information and ultimately  the head part (i.e. interaction). Developers can create multiple interfaces, each of which can consume API calls.  
 Essentially, the API for headless CMS is much more flexible in providing information because the front-end part exists as a tool  to get data from the back-end.  
@@ -130,7 +130,7 @@ Essentially, the API for headless CMS is much more flexible in providing informa
 - Our **Headless WordPress SSO** Plugin connects to any Identity provider which supports OAUTH or SAML. It allows users to authenticate and Single Sign-On into any Progressive Web Application (PWA) which can be based on any Frontend technology like React JS, Angular JS, Flutter, Gatsby, Vue.  
 - The Plugin gets the OAUTH Response or SAML Response from the Identity provider and passes the JWT token back to the frontend applications for further use.
 - The plugin processes the Identity Provider’s SAML/OAUTH response, creates a user in WordPress (if it doesn’t exist), creates a  WordPress session, converts the SAML response to a JWT, and publishes to the Angular app.  
-![Headless Solution work](/blog/assets/2023/09/headless-soltion-work.webp)  
+![Headless Solution work](/blog/assets/2023/headless-soltion-work.webp)  
 If you are on the lookout for an SSO solution for your Headless WordPress website miniOrange could offer a perfect solution for you! You can find more details for our plugin Here, or contact us at [samlsupport@xecurify.com](mailto:samlsupport@xecurify.com)  
 
 ### Additional Resources {#additional-resources}

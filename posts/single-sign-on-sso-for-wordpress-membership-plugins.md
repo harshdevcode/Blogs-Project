@@ -6,7 +6,7 @@ keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
 excerpt: 'Amidst cyber security threats that organizations face, context-based authentication can minimize unauthorized access and safeguard your sensitive information.'
-thumbnail: '/blog/assets/2023/09/membership-plugins-banner-img.webp'
+thumbnail: '/blog/assets/2023/membership-plugins-banner-img.webp'
 createdOn: '2023-09-27'
 updatedOn: '2023-09-27'
 ogTitle: 'Single Sign-On in WordPress Membership Plugins'
@@ -30,7 +30,7 @@ The main reason why there are so many plugins is that each plugin is related to 
 ### Why are membership plugins used ? {#benefits-of-membership-plugins}
 Benefits of Membership Plugins
 
-![This is miniOrange logo](/blog/assets/2023/09/benefits-of-membership-plugins.webp)
+![This is miniOrange logo](/blog/assets/2023/benefits-of-membership-plugins.webp)
 
 ### How to choose a membership plugin ? {#choose-membership-plugin}
 
@@ -93,7 +93,7 @@ With the help of minOrange solutions, membership plugins enable the owner to Sin
 **Membership Assignment with Single Sign-On in a Membership Site**
 
 When a user performs SSO in a membership site, miniOrange membership integrator assigns users to groups on the basis of membership packs subscribed by them. Each level of membership gives access to content along with the other features offered by the pack.
-![This is miniOrange logo](/blog/assets/2023/09/workflow-membership-plugin-sso.webp)
+![This is miniOrange logo](/blog/assets/2023/workflow-membership-plugin-sso.webp)
 
 With the help of the integrators, each member of the group is assigned a role/membership level that allows the user access to a specific part or course of the site.
 

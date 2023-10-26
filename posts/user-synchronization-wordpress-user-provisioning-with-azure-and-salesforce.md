@@ -6,7 +6,7 @@ keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
 excerpt: 'Amidst cyber security threats that organizations face, context-based authentication can minimize unauthorized access and safeguard your sensitive information.'
-thumbnail: '/blog/assets/2023/09/user-synchronization-wordpress.webp'
+thumbnail: '/blog/assets/2023/user-synchronization-wordpress.webp'
 createdOn: '2023-09-27'
 updatedOn: '2023-09-27'
 ogTitle: 'User Provisioning and Data Synchronization – User Synchronization for WordPress'
@@ -37,7 +37,7 @@ As the availability of personal information for apps, websites, and emails incre
 Data conflicts can result in errors and low data quality, which consequently leads to a lack of trusted data down the line. With data synchronization properly implemented throughout a system, a business will see performance improvement in many areas.
 
 ### Benefits of User Synchronization {#benefits-of-sync}
-![Benefits of User Synchronization](/blog/assets/2023/09/benefits-of-user-sync.webp)
+![Benefits of User Synchronization](/blog/assets/2023/benefits-of-user-sync.webp)
 
 ### Types of Synchronization
 When it comes to the categorization of synchronization techniques, one can segregate syncing into two categories i.e. **Unidirectional** and **Bi-directional**. Both of these can be further classified on the basis of **when** you want to sync your user data.   
