@@ -47,7 +47,7 @@ Assign specific roles to your staff members. You can assign user roles in such a
 5. Get a sense of your store’s order volume and flow, as well as overall fulfillment performance, with orders reports.
 6. Track Total Sales so that you know exactly what you need to do to reach your goals, So Keep track of everyday sales in your store.
 
-![Shopify-Login-Page](/blog/assets/2023/shopify-sso-blog-banner-image.webp)
+![Operations supported by Shopify SSO](/blog/assets/2023/shopify-sso-blog-banner-image.webp)
 
 ### Use cases solved using SSO into Shopify Admin
 1. Looking to enable Single Sign On (SSO) into Shopify’s Admin Dashboard. One-click Login for all users using only a single set of login credentials.
