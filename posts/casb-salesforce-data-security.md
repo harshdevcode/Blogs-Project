@@ -1,21 +1,38 @@
 ---
+<<<<<<< HEAD
 id: '9561516f-8bee-4709-be3f-f88dd88c184b'
 title: 'Salesforce Data Security over Cloud App User Access and Permissions'
 description: 'Salesforce is one of the top CRM platforms to manage all your customer data from the very first sales pitch, the transactions, and the delivery/deployment of the product. Salesforce has been helping businesses gather insights on their customers, whether they operate on B2B or B2C platforms.
 
-Salesforce was the first SaaS CRM platform, which helped businesses streamline the customer acquisition process and make the entire workflow more flexible by allowing employees to access the Salesforce cloud apps from anywhere on the internet. Along with boosting office productivity, they also provided a complete 360-degree view of the individual customer life cycle to help you find trends on what attracted customers and when did they decide to purchase your products.'
+Salesforce was the first SaaS CRM platform, which helped businesses streamline the customer acquisition process and make the entire workflow more flexible by allowing employees to access the Salesforce cloud apps from anywhere on the internet. '
 metaTitle: "CASB Salesforce for Data Security, Compliance, and User Visibility"
 metaDescription: "CASB Salesforce ensures data security and user access permissions for Salesforce Cloud apps. Salesforce data security also provides Compliance and Visibility."
 keywords: ''
 mainButtonLink: 'https://www.miniorange.com/contact'
 mainButtonText: 'Contact us'
-excerpt: 'Users can do crypto wallet login to websites, pages, and user profiles through popular Algorand blockchain wallets like Pera Wallet, Trust Wallet, Atomic Wallet, and MyALGO Wallet. Cold wallet Ledger Nano X and Nano S also support Algorands native token ALGO and can be used for the process of crypto wallet login. With support for multiple Algorand wallets for crypto wallet login, other use cases around NFTs can be implemented.'
+excerpt: ''
 
-thumbnail: '/blog/assets/2023/algorand-thumbnail.webp'
+thumbnail: '/blog/assets/2023/salesforce-data-security.webp'
 createdOn: '2023-09-04'
 updatedOn: '2023-09-04'
 ogTitle: "CASB Salesforce for Data Security, Compliance, and User Visibility"
 ogDescription: "CASB Salesforce ensures data security and user access permissions for Salesforce Cloud apps. Salesforce data security also provides Compliance and Visibility."
+=======
+id: '2d2191bb-90db-4a70-98a2-47d5a0320d65'
+title: 'CASB Salesforce for Data Security, Compliance, and User Visibility'
+description: 'CASB Salesforce ensures data security and user access permissions for Salesforce Cloud apps. Salesforce data security also provides Compliance and Visibility.'
+metaTitle: 'CASB Salesforce for Data Security, Compliance, and User Visibility'
+metaDescription: 'CASB Salesforce ensures data security and user access permissions for Salesforce Cloud apps. Salesforce data security also provides Compliance and Visibility.'
+keywords: ''
+mainButtonLink: ''
+mainButtonText: ''
+excerpt: 'CASB Salesforce ensures data security and user access permissions for Salesforce Cloud apps. Salesforce data security also provides Compliance and Visibility.'
+thumbnail: 'https://blog.miniorange.com/wp-content/uploads/sites/19/2023/05/casb-salesforce-users-blog.webp'
+createdOn: '2022-05-12'
+updatedOn: '2022-05-12'
+ogTitle: ''
+ogDescription: ''
+>>>>>>> 51a7b331536dd0bdd94ab284cb289960727c60ef
 ogImage:
     url: ''
 category: ['Solutions']
@@ -33,19 +50,19 @@ tags:
 
 Salesforce Data Security is a security method of controlling data access and data flow between different users and apps that are currently using Salesforce Cloud data in any form. If this user or app defaults and breaches the data policy of handling the Salesforce information, it could be of great risk and a matter of concern for the company. This is where Salesforce Data Security kicks in to secure all the data stored on Salesforce Cloud and force enable Salesforce user access and data permissions for all apps and users. This data protection feature is possible by using the Salesforce CASB cloud security solution.
 
-### What are the threats to Salesforce Cloud Data?
+### What are the threats to Salesforce Cloud Data? {#salesforce-cloud-data-threat}
 
 On a regular basis, data is fetched from the centralized database storage of Salesforce within a company. Critical business deals and sensitive customer information are potential targets with a high value for a business’s competitors. Since the Salesforce data is distributed throughout the entire ecosystem, they have an open surface area for attacks, and a rogue employee with privileged access could extract your Salesforce customer data and expose it to your competitors or worse, make it public.
 
 This looming threat cannot be predicted. Your company needs to be more safe in ensuring Salesforce Data Security. To mitigate this disaster, you need to use a CASB security solution to provide transparency in customer data management, define user group access over different, be compliance inclusive to meet the industry-standard security requirements, and ultimately provide complete data protection on the Salesforce cloud.
 
-### What is a CASB?
+### What is a CASB? {#what-is-a-casb}
 
 A CASB, or Cloud Access Security Broker, is a cloud security solution used by businesses to secure their cloud apps from unauthorized user access and cyber threats. A CASB security solution works for the SOC team to find areas of potential data security issues that could cause a data leakage by providing complete transparency into user behavior and monitoring their actions to classify if they are posing a threat to the cloud application’s data.
 
 miniOrange Salesforce CASB Cloud security solution works to secure your customer data stored on the Salesforce cloud and prevents cyber threats and unauthorized users who are aiming to steal the business’ crucial company data. It also supports and provides data protection rules essential for mitigating information flow between users and apps with the Salesforce Cloud.
 
-### How does a CASB security solution work to satisfy Salesforce Data Security?
+### How does a CASB security solution work to satisfy Salesforce Data Security? {#casb-for-salesforce-security}
 
 Now how does a CASB work to protect the different Salesforce Cloud apps? Let’s understand Salesforce Cloud security, by taking an example of a company using Salesforce for leads generation and customer analysis, and has implemented the miniOrange Salesforce CASB cloud security solution, to set user access restrictions for each of their departments to allow employees to access only that information that is relevant to them.
 
@@ -57,13 +74,15 @@ Dwight being an assistant analyst will only have access to individual product gr
 
 This way, the Salesforce CASB cloud security solution by miniOrange ensures data protection and user access control management for the company data to ensure complete compliance and mitigates any threats directed toward the customer data stored in Salesforce Cloud.
 
-### Salesforce Shield vs CASB Salesforce
+![CASB solution working](/blog/assets/2023/casb-salesforce-users.webp)
+
+### Salesforce Shield vs CASB Salesforce {#salesforce-shield-vs-casb-salesforce}
 
 Here’s a quick comparison between using Salesforce Shield and Salesforce CASB for ensuring complete Salesforce Data Security and compliance. Salesforce Shield is an in-built solution by Salesforce for data protection. It also works to ensure data security and monitoring unauthorized user access. The major drawback of using Salesforce Shield is that it is not priced by the typical per-user per-month pricing, but instead upon how much you spend on other Salesforce products. This is concerning because as the number of users increases, your investments in other Salesforce products will also increase, leading to a very hefty bill you have to pay for using Salesforce Shield.
 
 On the other hand, a Salesforce CASB security solution provides a vast number of data security, user monitoring, unauthorized user action control, granular access control, deep visibility, compliance and a lot more, all available at a standard per-user per-month pricing.
 
-### What are the benefits of using a CASB security solution for Salesforce Data Security?
+### What are the benefits of using a CASB security solution for Salesforce Data Security? {#benefits-of-casb}
 
 Here are the top benefits of using the miniOrange CASB cloud security solution for Salesforce Cloud Data Security.
 
@@ -75,7 +94,9 @@ Here are the top benefits of using the miniOrange CASB cloud security solution f
 - **Generate Security Reports:** With Salesforce CASB, you can generate and display security reports to show threats it protected the Salesforce Cloud apps from over a time period. These reports help the SOC teams gain insights and make necessary developments in improving security, updating user permissions, and boosting company productivity.
 - **Salesforce Zero Trust:** Zero Trust security is a new and highly effective way for Salesforce Data Security and ensuring Salesforce Cloud Security. With Salesforce Zero Trust, the users will be constantly authenticated, authorized, and validated for a secure user access and permissions grant flow while using Salesforce Cloud.
 
-### In Summary
+![CASB solution benefits](/blog/assets/2023/salesforce-casb-solution.webp)
+
+### In Summary {#summary}
 
 In this blog, we saw how you can secure all your Salesforce cloud apps and their data. We also saw how the Salesforce CASB cloud security solution by miniOrange works to provide specific data access to individual customer data for the company to stay in compliance with industry standards and ensure Salesforce Data Security. The CASB solution also controls data access permissions depending on the employees’ level in the organization.
 

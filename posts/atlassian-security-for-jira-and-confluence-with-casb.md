@@ -1,19 +1,18 @@
 ---
 id: '9ccefc24-6d39-46a4-9ac1-6b08be7a80f1'
-title: 'Atlassian CASB for Jira and Confluence Compliance, Granular Access Security, and Visibility'
-description: 'Unlock unparalleled collaboration with Atlassian! Elevate project management, enhance productivity, and fortify security with miniOrange Atlassian CASB. Ensure compliance, transparency, and granular control for Jira and Confluence. Empower your teams to thrive!'
-metaTitle: "Atlassian CASB security for Jira and Confluence Compliance"
-metaDescription: "Atlassian cloud security provides compliance for all Jira and Confluence app security requirements protecting cloud data with Atlassian security and trust."
+title: 'Atlassian CASB security for Jira and Confluence Compliance'
+description: 'Atlassian cloud security provides compliance for all Jira and Confluence app security requirements protecting cloud data with Atlassian security and trust.'
+metaTitle: 'Atlassian CASB security for Jira and Confluence Compliance'
+metaDescription: 'Atlassian cloud security provides compliance for all Jira and Confluence app security requirements protecting cloud data with Atlassian security and trust.'
 keywords: ''
-mainButtonLink: 'https://www.miniorange.com/contact'
-mainButtonText: 'Contact us'
-excerpt: ''
-
-thumbnail: '/blog/assets/2023/atlassian-casb-for-coud-security.webp'
-createdOn: '2023-09-04'
-updatedOn: '2023-09-04'
-ogTitle: "Atlassian CASB security for Jira and Confluence Compliance"
-ogDescription: "Atlassian cloud security provides compliance for all Jira and Confluence app security requirements protecting cloud data with Atlassian security and trust."
+mainButtonLink: ''
+mainButtonText: ''
+excerpt: 'Atlassian cloud security provides compliance for all Jira and Confluence app security requirements protecting cloud data with Atlassian security and trust.'
+thumbnail: 'https://blog.miniorange.com/wp-content/uploads/sites/19/2023/05/atlassian-export-data-casb.webp'
+createdOn: '2022-05-12'
+updatedOn: '2022-05-12'
+ogTitle: ''
+ogDescription: ''
 ogImage:
     url: ''
 category: ['Solutions']
