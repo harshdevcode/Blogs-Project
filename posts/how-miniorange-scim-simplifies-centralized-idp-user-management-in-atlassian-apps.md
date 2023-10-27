@@ -8,7 +8,7 @@ keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
 excerpt: "SCIM an acronym for ‘System for Cross-domain Identity Management’ is a protocol that allows for automated provisioning and de-provisioning of user accounts between different systems. Our app allows seamless login into the Jira, Confluence, Bitbucket, Crowd and other Atlassian."
-thumbnail: 'https://blog.miniorange.com/wp-content/uploads/sites/19/2023/05/SCIM.webp'
+thumbnail: '/blog/assets/2023/miniorange-scim-for-atlassian-apps.webp'
 createdOn: '2022-05-12'
 updatedOn: '2022-05-12'
 ogTitle: ''
@@ -58,7 +58,7 @@ For example: if an employee leaves the company, the HR department would disable 
 
 ### Assigning Groups to Users (Group Mapping) {#assigning-groups-to-users}
 
-![SCIM flow diagram](https://blog.miniorange.com/wp-content/uploads/sites/19/2023/05/SCIM.webp)
+![SCIM flow diagram](/blog/assets/2023/miniorange-scim-for-atlassian-apps.webp)
 
 Another essential use case is that it enables admins to manage user access to different resources and applications based on their group, in other words, it refers to the process of associating users with specific groups. With miniOrange User Sync/SCIM, you can map users to groups in Okta and Jira. This ensures that users have the necessary access to resources based on their roles and responsibilities. Group mapping can be done manually or [on the fly](https://developers.miniorange.com/docs/atlassian/scim/user-groups).
 

@@ -8,7 +8,7 @@ keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
 excerpt: "Developed by miniOrange, ‘Secure Share’ enables you to generate secure, unique links to the Confluence pages and share them with external non-confluence users without making it public."
-thumbnail: 'https://blog.miniorange.com/wp-content/uploads/sites/19/2023/05/Secure-share.webp'
+thumbnail: '/blog/assets/2023/miniorange-secure-share.webp'
 createdOn: '2022-05-12'
 updatedOn: '2022-05-12'
 ogTitle: ''
@@ -41,7 +41,7 @@ If you work on projects using Confluence which involves sharing documents, pages
 
 Then again, you may want your external users to have limited or restricted access to the pages. It entirely depends on the role the intended external user would play. Are they just going to view the pages or also contribute to it by making changes? Would they be restricted to the main page or would they have access to the child pages as well? This is where the ‘Secure Share (Confluence with external users)’ plugin comes in, let’s dive in a bit more…
 
-![Secure Share](https://blog.miniorange.com/wp-content/uploads/sites/19/2023/05/Secure-share.webp)
+![Secure Share](/blog/assets/2023/miniorange-secure-share.webp)
 
 ### Beginning with the challenges {#beginning-with-the-challenges}
 
@@ -60,17 +60,11 @@ Developed by miniOrange, **‘Secure Share’** enables you to **generate secure
 ### Features At a Glance {#features-at-a-glance}
 
 -   Unique access links for any Confluence pages/spaces can be created, secured, and shared
-
 -   Set permissions for end-users to View/Add Comments/Attachments in the shared pages
-
 -   Password-protect your shared link with your own password or generate a random one for better security
-
 -   Set validity for the shared link thus adding another layer of security
-
 -   Deactivate/delete the shared link according to your convenience
-
 -   Easily share your access links via SMTP
-
 -   With Subscribe to link feature, external users would be notified about any changes to the page/space
 
 When using Confluence, the challenge is how to share pages with those outside your organization who do not have a Confluence account. Our solution **“Secure Share”** answers that.
