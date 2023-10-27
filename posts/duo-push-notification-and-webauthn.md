@@ -26,7 +26,7 @@ tags:
     ]
 ---
 
-## Duo push notification and webauthn as 2FA for atlassian apps {#duo-push-notification-and-webauthn }
+## Duo push notification and webauthn as 2FA for atlassian apps {#duo-push-notification-and-webauthn}
 
 Your accounts are password protected but they might still not be secure. Hackers out there are lurking to hack into your accounts by taking advantage of weak passwords, vulnerabilities, or leaks in data.
 
@@ -40,7 +40,7 @@ Our miniOrange app provides various 2FA authentication methods like OTP over ema
 
 We have recently introduced the support for Duo Push Notifications. It is one of the popular 2FA methods.
 
-### What makes Duo Push Notification so special and different from other 2FA methods? 
+### What makes Duo Push Notification so special and different from other 2FA methods? {#what-makes-duo-push-notification-so-special-and-different-from-other-2fa-methods}
 
 OTPs, security questions, authenticators, hardware tokens, etc, all require the user to enter a one-time code or some form of text to authenticate the user and let him or her log into their Jira or Confluence. Since this is an extra effort on the user’s end, it increases the resistance and reduces adoption of Two factor authentication by users.
 
@@ -49,7 +49,7 @@ With Duo Push Notification your users don’t need to wait for a code or OTP and
 Duo Push Notification is a feature of the 2FA mobile app, Duo. When any user initiates a request to access an account by entering their username and password, Duo app sends a push notification to the user’s device where they simply need to Accept or Reject the request. This way you are using another device and increasing the security multifold. And the way in which authentication is being done is convenient and hassle-free for the users.
 
 
-### Now that’s easy, hassle free and effective, isn’t it? 
+### Now that’s easy hassle free and effective isn’t it? {#now-that’s-easy-hassle-free-and-effective-isn’t-it?}
 
 It is the fastest and the easiest way to log in securely into your accounts. As there are no codes or OTPs in Duo Push Notification that the hackers can steal and hence Duo Push is very effective against man-in-the-middle attacks.
 

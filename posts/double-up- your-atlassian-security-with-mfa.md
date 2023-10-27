@@ -5,7 +5,7 @@ description: 'Multi-Factor Authentication (MFA) is an authentication method that
 metaTitle: 'Double-Up your Atlassian Security with MFA!'
 metaDescription: 'Multi-Factor Authentication (MFA) is an authentication method that requires the user to authenticate themselves for two or more factors, in order to gain access to company resources, applications, or a VPN.'
 keywords: ''
-mainButtonLink: ''
+mainButtonLink: 'https://miniorange.atlassian.net/servicedesk/customer/portal/2/group/6/create/66'
 mainButtonText: ''
 excerpt: 'Multi-Factor Authentication (MFA) is an authentication method that requires the user to authenticate themselves for two or more factors, in order to gain access to company resources, applications, or a VPN.'
 thumbnail: '/blog/assets/2023/mfa.webp'
@@ -28,7 +28,7 @@ tags:
     ]
 ---
 
-## Double-Up your Atlassian Security with MFA! {#double-up-your-atlassian-seurity-with-mfa }
+## Double-Up your Atlassian Security with MFA! {#double-up-your-atlassian-seurity-with-mfa}
 
 miniOrange stands as a reputed partner and provider of security and SSO solutions for multiple platforms being WordPress, Joomla, Shopify, Drupal & many more, within the industry. Built on a strong foundation of security fundamentals, we provide secure and reliable Identity and Access Management (IAM) solutions that integrate seamlessly with the customer’s existing frameworks. We provide SSO solutions for all the Atlassian applications using protocols like SAML, OAuth 2.0, OIDC, etc. SSO enables users to securely authenticate with multiple applications by logging in only once – with just one set of login credentials. miniOrange has grown from its initial size of 4 to 150+ now. The company was built from the ground up by a group of experienced technology architects, with a background in security themselves.
 
@@ -40,7 +40,7 @@ Unwilling to continue in their day jobs, the team began miniOrange. Having a dee
 The miniOrange’s expertise in Identity And Access Management (IAM), Single Sign-On, Multi-factor Authentication, Network Security, API Security, Cyber Forensics. The central focus of our products and company revolve around these themes. Our solutions are specific, accurate and, most importantly, great at doing what they’re supposed to: Making you more secure!
 
 
-### What is MFA/2FA ? {#what-is-mfa/2fa ?}
+### What is MFA/2FA ? {#what-is-mfa/2fa?}
 
 Multi-Factor Authentication (MFA) is an authentication method that requires the user to authenticate themselves for two or more factors, in order to gain access to company resources, applications, or a VPN. Enabling Multi-Factor Authentication (MFA) means that users need to provide additional verification factors apart from their username and passwords. These second-factor methods can range from OTP over SMS, OTP over Email, Push notification, Google/Microsoft authenticator, and many more. 
 
@@ -48,7 +48,7 @@ Multi-Factor Authentication (MFA) is an authentication method that requires the 
 
 Having this extra layer of security ensures that the information being accessed is well protected from activities such as phishing, malware, hacking, and many more. Having a strong MFA setup ensures a robust Identity and Access Management (IAM) for your organization and secures your resources.
 
- ![2fa](/blog/assets/2023/2fa.webp)
+ ![2fa](/blog/assets/2023/configure-two-factor-authentication.webp)
 
 
 The goal of leveraging MFA is to boost security and make a layered defense so that even if one factor (username-password) is stolen, the cyber attacker still has at least one more barrier to breach before successfully breaking into the actual targeted device. The second barrier is also usually harder to breach as compared to simple username passwords.
@@ -101,7 +101,7 @@ Admin options for User management
 4. Enable 2FA based on groups
 5. Skip 2FA for a specific group
 
-### Security
+### Security {#security}
 
 #### 2FA for Jira Service Desk 
 
@@ -120,7 +120,7 @@ In the case of 2FA,  there are Brute Force 2FA Attacks. Here hackers first get t
 
 Using the Brute force protection feature, you can restrict the number of continuous invalid 2FA attempts, making it impossible for the hacker to guess the OTP.
 
-### Usability
+### Usability {#usability}
 
 #### IP Whitelisting 
 
@@ -136,7 +136,7 @@ This feature helps a user mark some devices as trusted devices.
 
 So from next time 2FA will be skipped on that device for that user. So users don’t have to enter the 2nd factor again and again.
 
-### 2FA For Atlassian Cloud
+### 2FA For Atlassian Cloud {#2fa-for-atlassian-cloud}
 
 To enable MFA on Atlassian cloud, you need Atlassian Access. It is a separate module created by Atlassian to provide functionalities like Single Sign on, 2FA and user management for all the cloud applications.
 
@@ -157,7 +157,7 @@ miniOrange cloud 2FA solution overcomes these limitations. There are a total 3 i
 
 Suppose you are already using 2FA methods like OTP over Email in your organization and you want to enable the same for Atlassian Cloud apps. Then Atlassian Access won’t be sufficient. Here you can use the miniOrange solution where almost all the 2FA methods are supported.
 
-![2fa-methods](/blog/assets/2023/2fa-methods.webp)
+![2fa-methods](/blog/assets/2023/methods-of-2fa.webp)
 
 **Case 2:**
 
