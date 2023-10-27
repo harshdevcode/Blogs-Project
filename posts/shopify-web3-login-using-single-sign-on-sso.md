@@ -1,5 +1,5 @@
 ---
-id: 'a28eb8d2-ff8f-41a4-a49c-8f873f06162f'
+id: '3c4b3932-8538-441e-a18b-dd27cbc48363'
 title: 'Shopify Web3 Login using Single Sign-On (SSO)'
 description: 'Login to Shopify using Crypto Wallets like MetaMask, TrustWallet, Wallet Connect & enable Web3 based Login using Single Sign On-SSO for Shopify Plus & Non-Plus.'
 metaTitle: 'Shopify Web3 Login using Single Sign-On (SSO)'
@@ -26,15 +26,15 @@ Web3 is a concept to develop the decentralized web as internet 3.0 with the help
 
 ![SSO into Shopify using crypto wallets - what is web3](/blog/assets/2023/shpify-store-ecommerce-migration.webp)
 
-### How to login using Crypto wallets in Shopify and use cryptocurrencies for checkout without requiring to remember username and password.
+### How to login using Crypto wallets in Shopify and use cryptocurrencies for checkout without requiring to remember username and password. {#how-to-login-in-crypto-wallets}
 Shopify as a leading eCommerce platform has embraced the latest technologies to make shopping easier and more convenient for customers. With the help of our Shopify Web3 Single Sign On Application, we enable users to login securely to the Shopify Store using Crypto Wallets like MetaMask, Trust Wallet, Wallet Connect QR code or any EVM Compatible Wallet and other Web3 compatible Crypto Authentication methods.
 
-### What is the need of integrating Crypto Login and accepting Crypto payments on your Shopify Store?
+### What is the need of integrating Crypto Login and accepting Crypto payments on your Shopify Store? {#integrating-crypto-login}
 There are many cryptocurrencies, blockchain and decentralized applications that are attempting to get into the eCommerce business by creating new platforms or adding cryptographic payment methods to current ones. With this changing eCommerce world, don’t fall behind and let your business get affected by not accepting cryptocurrencies (soon to become the most common method of accepting payments online). Using our Shopify app integrate crypto possibilities like login and authentication using crypto wallets and enable payments cryptocurrencies via and more. The era of Crypto has just begun but it is always good to get an edge over your competitors and add such features for your store that can help in giving a better experience for your customers.
 
 ![SSO into Shopify using crypto wallets - key features and need of integrating Crypto Login](/blog/assets/2023/features-web3.webp)
 
-### Key features of the Web3 Single Sign-On Application
+### Key features of the Web3 Single Sign-On Application {#key-features}
 
 - **Seamless Single Sign-On Login**
 
@@ -61,7 +61,7 @@ Enjoy benefits like one-click login without requiring reauthentication to all th
 does not require user onboarding hence minimizing the user authentication flow. With our clean UI easily set up the crypto integration with your Shopify Store in few minutes. We support all sorts of complex and custom requirements in our applications. Contact us at info@xecurify.com for any queries, requests or product demos.
 &nbsp; 
 
-### Additional Rssources
+### Additional Rssources {#additional-resources}
 1. [Web3 Single Sign On (SSO) Login Solution for Shopify](https://plugins.miniorange.com/web3-sso-shopify)
 2. [Shopify Single Sign On (SSO) Solution](https://plugins.miniorange.com/shopify-single-sign-on)
 3. [Checkout more security solutions for Shopify](https://plugins.miniorange.com/shopify)
