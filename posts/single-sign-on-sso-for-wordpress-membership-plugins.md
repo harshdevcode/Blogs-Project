@@ -1,5 +1,5 @@
 ---
-id: '1504b06d-6ada-467e-a9ae-e9f795d65354'
+id: 'c2cda992-2da9-4588-abf0-29c67219baa0'
 title: 'Single Sign-On in WordPress Membership Plugins'
 description: 'Restrict access to specific site content areas for members by utilizing Membership Plugins.'
 keywords: ''
