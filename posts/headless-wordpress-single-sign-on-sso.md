@@ -1,5 +1,5 @@
 ---
-id: '1504b06d-6ada-467e-a9ae-e9f795d65354'
+id: '628022b0-aae0-47e0-a486-90abe1938ba2'
 title: 'Headless WordPress A to Z | Single Sign-On (SSO) for Headless WordPress'
 description: 'Allow users to SSO into any Progressive Web App Frameworks (React, Flutter, Angular, Gatsby etc.) using Identity Providers like Azure AD, Okta, Keycloak and others with WordPress Headless Single Sign-On plugin.'
 keywords: ''
