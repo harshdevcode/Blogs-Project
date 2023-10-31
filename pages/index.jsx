@@ -54,14 +54,14 @@ export default function Home({ payload }) {
             </Head>
             <main className={styles.homepage_container}>
                 <Headline text='Featured Posts' />
-                <div className='flex flex-col gap-md md:flex-row'>
+                <div className='flex flex-col gap-md md:flex-row relative'>
                     <PostItem
                         {...data.main_blog}
                         key={data.main_blog.slug}
-                        className='w-full md:w-3/4'
+                        className='w-full md:w-8/12'
                         thumbnailLoading='eager'
                     />
-                    <div className='w-full flex flex-col gap-md md:w-2/6'>
+                    <div className='md:w-4/12 relative md:overflow-y-scroll w-full flex flex-col gap-md self-stretch h-full md:absolute right-0 bottom-0 top-0 pl-5'>
                         {data.featured.map((post) => (
                             <PostSnippet {...post} key={post.slug} />
                         ))}
