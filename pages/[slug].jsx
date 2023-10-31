@@ -94,17 +94,17 @@ const Blog = ({ payload }) => {
                 {/* SEO Meta Tags */}
                 <title>{title}</title>
                 <meta name='title' content={metaTitle} />
-                <meta name='description' content={metaDescription}/>
+                <meta name='description' content={metaDescription} />
 
                 {/* Open Graph Info */}
-                <meta property='og:title' content={metaTitle}/>
-                <meta property='og:description' content={metaDescription}/>
+                <meta property='og:title' content={metaTitle} />
+                <meta property='og:description' content={metaDescription} />
                 <meta property='og:image' content={ogImage} key='ogImage' />
                 <link rel='canonical' href={canonical} />
             </Head>
             <section className={styles.container}>
                 {/* Hero Section */}
-                <div id='main' className={styles.hero_section}>
+                <div id='main' className={`${styles.hero_section} scroll-mt-52`}>
                     <div className='flex-1'>
                         <h1 className='mt-md lg:mt-0 display'>{title}</h1>
                         <p className='caption mt-md'>{description}</p>
