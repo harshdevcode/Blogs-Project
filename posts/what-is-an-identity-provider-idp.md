@@ -34,7 +34,7 @@ In the context of Authentication & Identity Providers, user identity can be the 
 
 Protecting user identity is an important aspect of digital security, as it helps prevent identity theft, fraud, and other types of cyber attacks. Methods like Single Sign-On and Multi-Factor Authentication ensure that User Identity is secure and prevents threats like unauthorized access & privacy breach. 
 
-### Why do we need IDP? How do IDPs work with SSO Authentication? {#why-do-we-need-idp?}
+### Why do we need IDP? How do IDPs work with SSO Authentication? {#why-do-we-need-idp}
 
 An Identity Provider (IDP) plays a crucial role in [Single Sign-On (SSO)](https://www.miniorange.com/products/single-sign-on-sso) authentication. SSO enables users to log into multiple applications with just a single set of credentials, hence increasing security and productivity simultaneously. To make this process happen, an IDP is required.
 
@@ -46,7 +46,7 @@ Other forms of IDPs include [Identity-as-a-Service (IDaaS)](https://blog.miniora
 
 Overall, IDPs play a critical role in enabling SSO and ensuring secure and streamlined access to applications and resources. With the growing adoption of cloud computing, IDPs and IDaaS providers are becoming increasingly important for managing identities and access in complex, distributed environments.
 
-### What steps are involved in the IDP Workflow? {#what-steps-are-involved-in-the-idp-workflow?}
+### What steps are involved in the IDP Workflow? {#what-steps-are-involved-in-the-idp-workflow}
 
 Identity providers operate on a simple mechanism. Getting a digital ID requires you to provide unique information. It may be your username, password, security question, or captcha. With this unique information, you’ll receive a digital ID proving your identity. Users can gain access to all their required resources, including email and file management systems, by using an IDP.
 

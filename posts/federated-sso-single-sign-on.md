@@ -21,7 +21,7 @@ tags:
     ]
 ---
 
-### What is Federated SSO? {#what-is-federated-sso?}
+### What is Federated SSO? {#what-is-federated-sso}
 
 **Federated Single Sign-on or Federated SSO** (also known as **Federated Identity Management**) is a combination of two terms, Federated, which means across an organization and, SSO, which means Single Sign-On. As it implies, Federated SSO is a service that allows users to login into different Applications/Websites situated across different domains using a single set of login credentials. 
 
@@ -38,7 +38,7 @@ Let us understand this with the help of an example –
 
 John is an employee at company XYZ and wants to access all the applications he needs to complete his work in the company with a single login credential. As these applications are from different vendors, each is on a different domain and hence traditional SSO implementation cannot fulfill his requirements. Federated SSO overcomes this limitation of SSO, allowing users to SSO into Applications across Different domains using a single set of login credentials.
 
-### How does the Federated SSO work? {#how-does-the-federated-sso-work?}
+### How does the Federated SSO work? {#how-does-the-federated-sso-work}
 
 Like SSO, Federated SSO supports all the authentication protocols like SAML, OAuth, OIDC to authenticate users into applications. Here, trust is established between the identity provider (a system that stores and verifies user identity) and the Service provider (the system the user wants to utilize) using Metadata and Certificate Configurations. Once trust is established users can login into Service providers using their Identity provider credentials. 
 

@@ -25,7 +25,7 @@ The Lightweight Directory Access Protocol (LDAP) is a vendor-neutral application
 
 LDAP stores this data by way of records that contain a set of attributes. Think of the attributes like fields in a database. The record itself has a unique identifier, a ‘Distinguished Name’ in LDAP parlance, most often seen as ‘DN.’ This is the unique bit of each entry, kind of like the path to a file on your file system.
 
-### How does LDAP authentication, authorization & access control work? {#how-does-ldap-authentication-authorization-&-access-control-work?}
+### How does LDAP authentication, authorization & access control work? {#how-does-ldap-authentication-authorization-&-access-control-work}
 
 LDAP authentication is a process that validates the username and password against the directories such as Active Directory, Open LDAP. Which groups are a user in? Only users in the detective group should have access to the clues application, so when someone attempts to log in, ensure they are in the proper group before granting access, etc.
 

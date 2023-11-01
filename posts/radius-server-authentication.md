@@ -21,7 +21,7 @@ tags:
     ]
 ---
 
-### What is RADIUS (Remote Authentication Dial-In User Service)?  {#what-is-radius-remote-authentication-dial-in-user-Service?}
+### What is RADIUS (Remote Authentication Dial-In User Service)?  {#what-is-radius-remote-authentication-dial-in-user-Service}
 
 **RADIUS (Remote Authentication Dial-In User Service)** is a networking protocol used to manage **Authentication, Authorization, and Accounting (AAA**) for remote users who access a network service. It provides a centralized means of managing network access control and can be used to authenticate users connecting to a network through a variety of devices, including routers, firewalls, and VPNs.
 
@@ -33,7 +33,7 @@ A **RADIUS client**, on the other hand, is a device that sends authentication re
 
 In summary, a RADIUS server provides AAA services, while a RADIUS client acts as a requestor of these services for remote users.
 
-### How does RADIUS Server Authentication work? {#how-does-radius-server-authentication-work?}
+### How does RADIUS Server Authentication work? {#how-does-radius-server-authentication-work}
 
 ![RADIUS Server Authentication Flow](/blog/assets/2023/radius-server.webp)
 
@@ -51,7 +51,7 @@ The RADIUS server authenticates a user by verifying their credentials against a 
 - If the shared secret matches, the Client reads the value of the Filter ID attribute. The RADIUS Client then connects the user to a particular RADIUS Group using this Filter ID.
 - The user is now able to connect to the network.
 
-### What is AAA? {#what-is-aaa?}
+### What is AAA? {#what-is-aaa}
 AAA – Authentication, Authorization, and Accounting
 
 **Authentication** - 

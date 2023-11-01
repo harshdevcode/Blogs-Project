@@ -19,13 +19,13 @@ category: ['latest', 'concepts', 'iam', 'solutions']
 tags: [ 'ADFS', 'ADFS LOGIN', 'ADFS SSO', 'AZURE AD Authentication']
 ---
 
-### What is ADFS?
+### What is ADFS? {#what-is-adfs}
 
 **Active Directory Federation Service (ADFS)** is a software component developed by Microsoft to provide Single Sign-On (SSO) authorization service to users on Windows Server Operating Systems. ADFS allows users across organizational boundaries to access applications on Windows Server Operating Systems using a single set of login credentials.
 
 ADFS makes use of the claims-based Access Control Authorization model to ensure security across applications using the federated identity. Claims-based authentication is a process in which a user is identified by a set of claims related to their identity. The claims are packaged into a secure token by the identity provider.
 
-### How does ADFS work? {#how-does-adfs-work?}
+### How does ADFS work? {#how-does-adfs-work}
 
 The authentication process using the Active Directory Federation Service (ADFS), takes place in the following steps:
 
@@ -36,14 +36,14 @@ The authentication process using the Active Directory Federation Service (ADFS),
 - User forwards token to the partner-company website.
 - The website grants authorization access to the user.
 
-### What are the components of ADFS? {#what-are-the-components-of-adfs?}
+### What are the components of ADFS? {#what-are-the-components-of-adfs}
 
 - **Active Directory**: The Identity Information which is to be used by ADFS is stored on the Active Directory.
 - **Federation Server**: It contains the tools needed to manage federated trusts between business partners. It processes authentication requests coming in from external users and hosts a security token service that issues tokens for claims based on verification of credentials from AD.
 - **Federation Server Proxy**: The Proxy is deployed on the extranet of the organization, to which external clients connect when requesting a security token. It forwards these requests to the Federation Server. The Federation server is not exposed directly to the internet to prevent security risks.
 - **ADFS Web Server**: It hosts the ADFS Web Agent which manages the security tokens and authentication cookies sent to it for authentication purposes.
 
-### Why ADFS is used by organizations? {#Why-adfs-is-used-by-organizations?}
+### Why ADFS is used by organizations? {#Why-adfs-is-used-by-organizations}
 
 Using Active Directory (AD) in the connected online world creates authentication challenges. AD cannot authenticate users who try to access integrated applications externally. In the modern workplace, users often need to access applications that are not owned or managed by their organization’s AD. ADFS is able to resolve and simplify these third-party authentication challenges.
 
@@ -62,7 +62,7 @@ Over 90% of organizations use Active Directory, which means many use ADFS as wel
 - ADFS is used here by setting up directory synchronization (DirSyc tool) that creates accounts in Microsoft’s domain matching the accounts within the user’s domain.
 - A user can select accounts that should be synchronized in the AD.
 
-### What are the limitations of ADFS? {#what-are-the-limitations-of-adfs?}
+### What are the limitations of ADFS? {#what-are-the-limitations-of-adfs}
 
 - **Maintenance Costs**: ADFS generates a high cost of maintenance which consists of infrastructure maintenance, management of multiple federations, SSL certificate costs.
 - **ADFS Complexity**: Adding an application or system to an ADFS service is complex and time-consuming. It doesn’t have a user-friendly management dashboard for managing users, groups, and authentication policies.
