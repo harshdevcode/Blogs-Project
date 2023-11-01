@@ -34,7 +34,7 @@ In the context of Authentication & Identity Providers, user identity can be the 
 
 Protecting user identity is an important aspect of digital security, as it helps prevent identity theft, fraud, and other types of cyber attacks. Methods like Single Sign-On and Multi-Factor Authentication ensure that User Identity is secure and prevents threats like unauthorized access & privacy breach. 
 
-### Why do we need IDP? How do IDPs work with SSO Authentication?
+### Why do we need IDP? How do IDPs work with SSO Authentication? {#why-do-we-need-idp?}
 
 An Identity Provider (IDP) plays a crucial role in [Single Sign-On (SSO)](https://www.miniorange.com/products/single-sign-on-sso) authentication. SSO enables users to log into multiple applications with just a single set of credentials, hence increasing security and productivity simultaneously. To make this process happen, an IDP is required.
 
@@ -46,7 +46,7 @@ Other forms of IDPs include [Identity-as-a-Service (IDaaS)](https://blog.miniora
 
 Overall, IDPs play a critical role in enabling SSO and ensuring secure and streamlined access to applications and resources. With the growing adoption of cloud computing, IDPs and IDaaS providers are becoming increasingly important for managing identities and access in complex, distributed environments.
 
-### What steps are involved in the IDP Workflow?
+### What steps are involved in the IDP Workflow? {#what-steps-are-involved-in-the-idp-workflow?}
 
 Identity providers operate on a simple mechanism. Getting a digital ID requires you to provide unique information. It may be your username, password, security question, or captcha. With this unique information, you’ll receive a digital ID proving your identity. Users can gain access to all their required resources, including email and file management systems, by using an IDP.
 
@@ -58,7 +58,7 @@ IDP workflow includes three main steps:
 
 ![IDP Workflow](/blog/assets/2023/idp-workflow.webp)
 
-### Security Benefits of Using an Identity Provider
+### Security Benefits of Using an Identity Provider {#security-benefits-of-using-an-identity-provider}
 
 Typically, users logins into multiple platforms, and managing separate credentials for each platform or application can cause password fatigue. Credential re-used across multiple security platforms can present a considerable security risk to the system. Let us have a look at some of the benefits of using an Identity Provider to eliminate these risks:
 
@@ -75,7 +75,7 @@ In the event of a set of credentials getting compromised, it can lead to unautho
 
 Using an identity provider **reduces the risk of a data breach** caused due to password fatigue or compromised identity, adds additional security measures, and makes the task of user identity access management and privileges management easy.
 
-### 5 Ways in Which Identity providers help users better manage their accounts?
+### 5 Ways in Which Identity providers help users better manage their accounts? {#5-ways-in-which-identity-providers-help-users-better-manage-their-accounts}
 
 **1. Single Sign-On (SSO)** : Users can access multiple applications and services with a single set of login credentials, saving time and reducing the hassle to remember multiple usernames and passwords.
 
@@ -89,11 +89,11 @@ Using an identity provider **reduces the risk of a data breach** caused due to p
 
 Overall, identity providers simplify the account management process, improve security, and enhance the user experience.
 
-### Conclusion 
+### Conclusion {#conclusion}
 
 In conclusion, an Identity Provider (IDP) plays a crucial role in digital identity management, allowing users to bring their existing identities to access multiple web services and applications. IDPs operate on a simple mechanism of authentication, verification, and authorization, offering users a secure login experience and reducing the risk of compromised identities. Identity providers offer many security benefits, such as 2FA, access privileges management, and audit reports. IDPs also help users manage their accounts better with SSO, centralized account management, enhanced security, seamless user experience, and reduced IT overhead. 
 
-### Further Reading
+### Further Reading {#further-reading}
 
 - [IdP Vs SP Initiated SSO](https://blog.miniorange.com/idp-initiated-sp-initiated-login/)
 - [What is Single Sign-On SSO?](https://blog.miniorange.com/what-is-single-sign-on-sso/)

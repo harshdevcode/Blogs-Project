@@ -21,14 +21,14 @@ tags:
     ]
 ---
 
-### What is Federated SSO? 
+### What is Federated SSO? {#what-is-federated-sso?}
 
 **Federated Single Sign-on or Federated SSO** (also known as **Federated Identity Management**) is a combination of two terms, Federated, which means across an organization and, SSO, which means Single Sign-On. As it implies, Federated SSO is a service that allows users to login into different Applications/Websites situated across different domains using a single set of login credentials. 
 
 This means that suppose a user in the organization who has to use different services like Zoom, Office 365, Google Workspaces, HR Portal, etc. can access all the services using a single set of login credentials rather than remembering and using a separate login credential for each as is the case in the traditional scenario. i.e., with one Federated Identity, a user can access all configured services across multiple domains.
 
 
-### SSO vs FEDERATED SSO
+### SSO vs FEDERATED SSO {#sso-vs-federated-sso}
 
 A common misconception about Federated SSO is that SSO and federated SSO are one and the same thing. SSO is a Service that allows users to login into multiple applications (on the same domain) using a single set of login credentials, while Federated SSO is Service that allows users to SSO in applications across multiple-Domain. 
 
@@ -38,7 +38,7 @@ Let us understand this with the help of an example –
 
 John is an employee at company XYZ and wants to access all the applications he needs to complete his work in the company with a single login credential. As these applications are from different vendors, each is on a different domain and hence traditional SSO implementation cannot fulfill his requirements. Federated SSO overcomes this limitation of SSO, allowing users to SSO into Applications across Different domains using a single set of login credentials.
 
-### How does the Federated SSO work?
+### How does the Federated SSO work? {#how-does-the-federated-sso-work?}
 
 Like SSO, Federated SSO supports all the authentication protocols like SAML, OAuth, OIDC to authenticate users into applications. Here, trust is established between the identity provider (a system that stores and verifies user identity) and the Service provider (the system the user wants to utilize) using Metadata and Certificate Configurations. Once trust is established users can login into Service providers using their Identity provider credentials. 
 
@@ -51,7 +51,7 @@ In either case once users use their login credentials and are authenticated by t
 
 ![Federated SSO Workflow](/blog/assets/2023/federated-sso-workflow.webp)
 
-###  Benefits of Federated SSO
+###  Benefits of Federated SSO {#benefits-of-federated-sso}
 
 - **Increase Efficiency** – saves a lot of time and increases efficiency. 
 - **Customer Experience** – For the third-party integrated apps, it makes it easy to login and hence improves customer experience. 
@@ -59,7 +59,7 @@ In either case once users use their login credentials and are authenticated by t
 - **Reduced Expenses** – Single Sign-On solution reduces cost along with an increase in productivity.
 
 
-### miniOrange Solution for Federated SSO
+### miniOrange Solution for Federated SSO {#miniorange-solution-for-federated-sso}
 
 miniOrange provides a ready-to-use solution for Federated SSO with [integrations across 5000+ apps](https://www.miniorange.com/iam/integrations/).  We provide you with lots of additional features such as: 
 

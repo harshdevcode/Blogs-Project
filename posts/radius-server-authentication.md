@@ -21,7 +21,7 @@ tags:
     ]
 ---
 
-### What is RADIUS (Remote Authentication Dial-In User Service)? 
+### What is RADIUS (Remote Authentication Dial-In User Service)?  {#what-is-radius-remote-authentication-dial-in-user-Service?}
 
 **RADIUS (Remote Authentication Dial-In User Service)** is a networking protocol used to manage **Authentication, Authorization, and Accounting (AAA**) for remote users who access a network service. It provides a centralized means of managing network access control and can be used to authenticate users connecting to a network through a variety of devices, including routers, firewalls, and VPNs.
 
@@ -33,7 +33,7 @@ A **RADIUS client**, on the other hand, is a device that sends authentication re
 
 In summary, a RADIUS server provides AAA services, while a RADIUS client acts as a requestor of these services for remote users.
 
-### How does RADIUS Server Authentication work?
+### How does RADIUS Server Authentication work? {#how-does-radius-server-authentication-work?}
 
 ![RADIUS Server Authentication Flow](/blog/assets/2023/radius-server.webp)
 
@@ -51,7 +51,7 @@ The RADIUS server authenticates a user by verifying their credentials against a 
 - If the shared secret matches, the Client reads the value of the Filter ID attribute. The RADIUS Client then connects the user to a particular RADIUS Group using this Filter ID.
 - The user is now able to connect to the network.
 
-### What is AAA?
+### What is AAA? {#what-is-aaa?}
 AAA – Authentication, Authorization, and Accounting
 
 **Authentication** - 
@@ -63,7 +63,7 @@ This refers to the granting of specific types of services or resources based on 
 **Accounting** - 
 This refers to the tracking of consumption of resources by the users. This feature can be used independently of RADIUS authentication or authorization. This may be used for management, planning, billing, etc.
 
-### RADIUS Server Authentication methods
+### RADIUS Server Authentication methods {#radius-server-authentication-methods}
 
 The RADIUS server supports various methods to authenticate users. When it is provided with the username and original password given by the user, it can support PAP, CHAP, MS-CHAP, EAP, EAP_TLS, UNIX login, and other authentication mechanisms.
 
@@ -75,11 +75,11 @@ The RADIUS server supports various methods to authenticate users. When it is pro
 
 **EAP** – Extensible Authentication Protocol (EAP) is an authentication framework, used in wireless networks and point-to-point connections.
 
-### Conclusion
+### Conclusion {#conclusion}
 
 A RADIUS Server eliminates the possibility of leaks of your private information to snooping outsiders and enables you to easily control members’ access levels. It can be implemented with minimal impact on the rest of your system.
 
-### Further Reading 
+### Further Reading {#further-reading}
 
 - [miniOrange RADIUS MFA Integrations](https://www.miniorange.com/iam/integrations/?id=vpn)
 - [What is Multi-Factor Authentication?](https://blog.miniorange.com/what-is-multi-factor-authentication-mfa/)
