@@ -18,7 +18,7 @@
 }
 
 .markdown h3 {
-    @apply text-xl mt-10 mb-2.5 font-semibold;
+    @apply text-xl mt-10 mb-2.5 font-semibold scroll-mt-28;
 }
 
 .markdown h4 {
