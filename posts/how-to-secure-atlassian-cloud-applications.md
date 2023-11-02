@@ -5,7 +5,7 @@ description: 'Secure Atlassian cloud Apps like Jira & Confluence cloud using min
 metaTitle: 'Secure Atlassian Cloud with Single Sign-On (SSO) & 2FA/MFA'
 metaDescription: 'Secure Atlassian cloud Apps like Jira & Confluence cloud using miniOrange SSO solution with additional security of Two-Factor Authentication(2FA /MFA)'
 keywords: ''
-mainButtonLink: ''
+mainButtonLink: 'https://miniorange.atlassian.net/servicedesk/customer/portal/2/group/6/create/66'
 mainButtonText: ''
 excerpt: 'Secure Atlassian cloud Apps like Jira & Confluence cloud using miniOrange SSO solution with additional security of Two-Factor Authentication(2FA /MFA)'
 thumbnail: 'https://www.miniorange.com/images/landing-page/jira-dc.webp'

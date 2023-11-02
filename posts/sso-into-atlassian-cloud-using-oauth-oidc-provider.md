@@ -5,7 +5,7 @@ description: 'Atlassian Cloud offers competitive pricing, especially for small u
 metaTitle: 'Log into Atlassian Cloud using External OAuth/OIDC Provider'
 metaDescription: 'Atlassian Cloud offers competitive pricing, especially for small user-tiers. Here comes Atlassian Access an enterprise-grade subscription for your SSO needs.'
 keywords: ''
-mainButtonLink: ''
+mainButtonLink: 'https://miniorange.atlassian.net/servicedesk/customer/portal/2/group/6/create/66'
 mainButtonText: ''
 excerpt: 'Atlassian Cloud offers competitive pricing, especially for small user-tiers. Here comes Atlassian Access an enterprise-grade subscription for your SSO needs.'
 thumbnail: '/blog/assets/2023/atlassian-access.webp'

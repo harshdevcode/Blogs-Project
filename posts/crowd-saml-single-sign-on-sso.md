@@ -5,7 +5,7 @@ description: 'Jira Service Management (JSM) is a powerful service management sol
 metaTitle: 'SSO for Atlassian Applications connected to Crowd'
 metaDescription: 'Crowd makes access to Atlassian applications without logging into each individually a lot simpler with a single set of IAM credentials.'
 keywords: ''
-mainButtonLink: ''
+mainButtonLink: 'https://miniorange.atlassian.net/servicedesk/customer/portal/2/group/6/create/66'
 mainButtonText: ''
 excerpt: 'Crowd makes access to Atlassian applications without logging into each individually a lot simpler with a single set of IAM credentials.'
 thumbnail: '/blog/assets/2023/crowd-saml-sso-and-connectors.webp'

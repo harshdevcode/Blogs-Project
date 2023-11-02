@@ -5,7 +5,7 @@ description: "Developed by miniOrange, ‘Secure Share’ enables you to generat
 metaTitle: 'Ensuring Secure Sharing of Confluence Pages with External Users: The miniOrange Approach'
 metaDescription: "Securely Share Confluence Pages with 'Secure Share' by miniOrange - Create Unique Links for External Access."
 keywords: ''
-mainButtonLink: ''
+mainButtonLink: 'https://miniorange.atlassian.net/servicedesk/customer/portal/2/group/6/create/66'
 mainButtonText: ''
 excerpt: "Developed by miniOrange, ‘Secure Share’ enables you to generate secure, unique links to the Confluence pages and share them with external non-confluence users without making it public."
 thumbnail: '/blog/assets/2023/miniorange-secure-share.webp'
@@ -32,8 +32,6 @@ tags:
 ## Ensuring Secure Sharing of Confluence Pages with External Users: The miniOrange Approach
 
 [Share Confluence with External Users (Secure Share)](https://miniorange.com/atlassian/confluence-secure-share-external-share#:~:text=Confluence%20Secure%20Share%20Page%20allows%20you%20to%20share,via%20an%20access%20link.%20Try%20It%20Free%20Documentation) came into being with the thought that today’s businesses would not only benefit from using an app that would save their **licensing cost** but also provide a safe and secure way to share Confluence with external users.
-
-### Introduction {#introduction}
 
 Outsourcing, collaboration internal or external to get a project completed on time is what keeps a business relevant and afloat in today’s world. In this era of Information Technology, the marketplace is abuzz with collaboration tools, among the leading ones is ‘Confluence.’
 
@@ -69,7 +67,7 @@ Developed by miniOrange, **‘Secure Share’** enables you to **generate secure
 
 When using Confluence, the challenge is how to share pages with those outside your organization who do not have a Confluence account. Our solution **“Secure Share”** answers that.
 
-### Last But Not the Least {#why-should-you-choose-miniorange-secure-share}
+### Last But Not the Least {#why-choose-miniorange-secure-share}
 
 miniOrange’s suite of apps are dynamic in nature, our developers are constantly at work finding the next best app feature that would enhance the existing app’s performance. With **“Secure Share”** you can look forward to certain features that would be added soon, a glimpse of what’s upcoming:
 

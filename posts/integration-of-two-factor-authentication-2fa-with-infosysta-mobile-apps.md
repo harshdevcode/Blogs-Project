@@ -5,7 +5,7 @@ description: 'miniOrange provides improved security with 2FA for mobile apps suc
 metaTitle: '2FA for mobile Apps - Integration of 2FA with INFOSYSTA Mobile Apps'
 metaDescription: 'Provides improved security with 2FA for mobile apps such as Mobile for Jira and JSMobile in collaboration with Infosysta.'
 keywords: ''
-mainButtonLink: ''
+mainButtonLink: 'https://miniorange.atlassian.net/servicedesk/customer/portal/2/group/6/create/66'
 mainButtonText: ''
 excerpt: 'INFOSYSTA, the developers of Mobile for Jira and JSmobile are now integrating with miniOrange’s Two factor Authentication (2FA) for JIRA in their solutions for smartphones.'
 thumbnail: '/blog/assets/2023/two-factor-authentication-integration-with-infosysta.webp'
