@@ -35,11 +35,11 @@ So before proceeding with an [MFA](https://blog.miniorange.com/what-is-multi-fac
 - Set Up Multi-Factor Authentication in Microsoft Office 365
 - **Why miniOrange MFA over Microsoft Azure MFA**?
 
-### What is Microsoft Office 365 MFA ?
+### What is Microsoft Office 365 MFA ? {#what-is-microsoft-office-365-mfa}
 
 **Multi-factor authentication (MFA) for office 365** is an authentication method during which users/employees are required to enter two or more sets of credentials to safely login into their accounts. Contrary to using just the username and password, MFA demands additional verification within the sort of (OTP, Phone call, Push Notifications, Authenticator code, Yubikey, etc). Users/ Employees will get access to their Office 365 account and its related data only after passing multi-factor authentication methods prompted during the authentication process. Here you need to convince the Office 365 account and respective system that you are the legitimate user of the Microsoft Office 365 account and have the right to get the info-data services that you’re privileged to. minOrange supports 15+ Multi-Factor Authentication methods to provide security to safely login to Office 365 such as **OTP over SMS, Email, Push notification, Google authenticator, Microsoft authenticator, Yubikey, Authentication Phone, etc**.
 
-### Why do we need Multi-factor Authentication in a Microsoft Office 365 account?
+### Why do we need Multi-factor Authentication in a Microsoft Office 365 account? {#why-do-we-need-multi-factor-authentication-in-a-microsoft-office-365-account}
 
 Office 365 allows many organizations to make their first venture into the cloud, and it’s here that they have to place in addition to the routine username and password for authentication purposes. Because in today’s fast-paced modern world, relying solely on the username-password authentication system puts them at risk considering the intensity of cyber attackers to breach and obtain sensitive data of a private account. No matter how complex your password is, it just takes one simple phishing email or database breach and your password is out in the World.
 
@@ -49,11 +49,11 @@ Other than that while moving to Office 365, your sensitive documents like budget
 
 Office 365 MFA helps you to add another needed level of authentication to a routine account login. With this, the users will need to meet at least two or three types of credential checks before they can gain access to the required company data. These all factors sum up the queries on why you need to have an **MFA** as your daily asset to your **Office 365 account**.
 
-### How does MFA for Microsoft Office 365 Work?
+### How does MFA for Microsoft Office 365 Work? {#how-does-mfa-for-microsoft-office-365-work}
 
 Microsoft Office 365 MFA – Multi-Factor Authentication works in a way like,  firstly the user attempts to gain access to his Microsoft 365 account, the System asks the user to enter his username-password. On successful authentication of the first factor, the user is prompted for another factor of authentication. This second factor depends on the choices provided by the miniOrange and the option that the user feels is the best for him. This could be an OTP over Email, OTP over SMS, Microsoft Authenticator, or a Hardware Token. Once authenticated with the 2nd factor, the user gains access to his Microsoft 365 account.
 
-![](/blog/assets/2023/multifactor-authentication-methods.webp)
+![Multifactor Authentication Methods](/blog/assets/2023/multifactor-authentication-methods.webp)
 
 The Office 365 Multi-Factor Authentication (MFA) process is as follows:
 
@@ -66,7 +66,7 @@ The Office 365 Multi-Factor Authentication (MFA) process is as follows:
 
 When it involves **MFA methods**, miniOrange provides organizations with a wealth of choices. But organizations should realize that there’s no “one-fits-all” approach. Instead, they ought to select the best alternative aligned with their use cases and represent a rock bottom friction experience for users to assure broad adoption.
 
-### Set up Multi-Factor Authentication to your Office 365 account
+### Set up Multi-Factor Authentication to your Office 365 account {#set-up-multi-factor-authentication-to-your-office-365-account}
 
 - Create an account and set up branding
 - Add your OnPremise AD as a User Store. Enable sync and send attribute ObjectGUID
@@ -76,7 +76,7 @@ When it involves **MFA methods**, miniOrange provides organizations with a wealt
 
 To get a detailed Office 365 MFA setup guide **[Click Here](https://www.miniorange.com/two-factor-authentication-(2fa)-for-office-365)** and if you have any doubts regarding setup drop mail idpsupport@xecurify.com
 
-### Why miniOrange MFA over Microsoft Office 365 Azure MFA?
+### Why miniOrange MFA over Microsoft Office 365 Azure MFA? {#why-miniOrange-mfa-over-microsoft-office-365-azure-mfa}
 
 When talk is around Office 365 MFA, then Azure MFA directly comes into the frame being an inbound MFA solution. Given below is a comparison between Microsoft Azure MFA and miniOrange MFA services.
 
@@ -96,12 +96,11 @@ When talk is around Office 365 MFA, then Azure MFA directly comes into the frame
 | Advanced Blocking                         | Block users through parameters like IP, Country etc                     | With miniOrange you can register IP’s, devices and countries and directly block or deny access to the resources based on users and user groups. |
 | Active Support                            | The Microsoft MFA support team mostly operates on weekdays only.     | miniOrange Provide 24*7 dedicated support for every query with quick response.           |
 
-
-### Conclusion
+### Conclusion {#conclusion}
 
 Being in a vast high-tech digital world, it’s an important need for organizations to adopt top-notch security for their daily-used official application suite like Microsoft Office 365. Though it becomes difficult for organizations to spend time on advanced security aspects with the regular work module, it’s necessary to adopt the MFA solution considering cyber-attacks and phishing activities going over the Digital world. So opting for a better security-as-a-service provider which gives top-notch security services in a confidential manner, with the simplest technical support at a budgeted price becomes one of the main tasks for the Organizations. Accordingly,  miniOrange MFA services here fit in best considering features, experience in the domain, service, and cost. You can schedule a free demo and trial to ascertain how Office 365 MFA works and how you can implement it in your organization in the best way possible.
 
-### Further Reading
+### Further Reading {#further-reading}
 
 - [What is Multi-Factor Authentication (MFA)?](https://blog.miniorange.com/what-is-multi-factor-authentication-mfa/)
 - [What are different Multi-Factor Authentication methods supported?](https://www.miniorange.com/iam/content-library/admin-docs/configure-mfa-methods-for-admins)

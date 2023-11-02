@@ -19,13 +19,13 @@ category: ['latest', 'concepts', 'iam', 'solutions']
 tags: [AZURE AD, AZURE AD Authentication, AZURE AD LOGIN, AZURE AD SSO]
 ---
 
-### What is Azure Active Directory? 
+### What is Azure Active Directory? {#what-is-azure-active-directory}
 
 Azure Active Directory (Azure AD) is Microsoft’s cloud service that provides identity and access management (IAM). It is part of the Office 365 system, it is compatible with an on-premise active directory, and is useful to provide authentication to multiple cloud-based services via various cloud protocols such as SAML, OAuth2, and WS Security. It provides the ability to manage user identities and access rights. Azure AD combines core directory services, access management, and identity protection into a single solution.
 
 Azure AD allows your users to sign in and access the resources which are in external resources such as Office 365 and thousands of other Software as a service (SaaS) applications. It also allows your users to gain access to internal resources such as applications on your company network and intranet. Azure AD uses Representational State Transfer (REST) APIs to connect with other web-based applications. In this directory, the admin has the capability to create groups and add accounts to those groups. Group access to resources can then be assigned to them. Mobile devices and Windows desktops can connect to Azure AD using Microsoft Intune.
 
-### How does Azure Active Directory work?
+### How does Azure Active Directory work? {#how-does-azure-active-directory-work}
 
 The Azure Active Directory Authentication takes place in the following steps:
 
@@ -38,7 +38,7 @@ miniOrange Broker identifies the Azure AD and sends authentication requests to A
 
 ![Azure Active Directory Authentication Flow](/blog/assets/2023/azure-active-directory-authentication-flow.webp)
 
-### Windows Active Directory vs Azure Active Directory
+### Windows Active Directory vs Azure Active Directory {#windows-active-directory-vs-azure-active-directory}
 
 Windows Active Directory, launched by Microsoft in 2000, is the predecessor to the Azure Active Directory, which has become the standard for enterprise identity management since its launch. Unlike Azure Active Directory, the Windows Active Directory uses Lightweight Directory Access Protocol (LDAP) to connect with other web-based applications. It also does not manage mobile devices. Group Policies (GPOs) are usually used to govern desktops and servers connected to Windows Active Directory. Finally, Kerberos and NTLM protocols are used to validate user credentials.
 
@@ -46,7 +46,7 @@ Because of the limitations of Windows Active Directory in cloud contexts, Micros
 
 The key distinction between the two platforms is that Azure AD uses Representational State Transfer (REST) API interfaces to provide web-based applications. As previously indicated, it accomplishes this through the use of unique protocols and code bases. You will instantly become an Azure AD Tenant after you register with one of Microsoft’s cloud apps. This means you can manage all users, permissions, passwords, and more from a single location.
 
-### Benefits of azure active directory
+### Benefits of azure active directory {#benefits-of-azure-active-directory}
 
 **Simple Integration:**
 Because Azure AD supports a wide range of identity providers, users may log in using their Microsoft, Google, Facebook, or GitHub accounts. Azure AD may also be integrated with a variety of apps, including Salesforce, Office 365, and others.
@@ -66,7 +66,7 @@ This allows onboarding new workers, terminating access for outgoing employees, a
 **Multi-Factor Authentication:**
 This adds an extra degree of protection to accounts by requiring another form of verification. Microsoft Authenticator app, OATH Hardware token, OATH Software token, SMS, Voice call, and other MFA verification methods are available in Azure AD.
 
-### Limitations of Azure Active Directory Authentication
+### Limitations of Azure Active Directory Authentication {#limitations-of-azure-active-directory-authentication}
 
 - **Limited MFA methods**: Azure Active Directory Authentication supports limited Multi-Factor Authentication (MFA) methods.
 - **No Group policy**:  It has few policy tools like conditional access, but it is more focused on granting access.
@@ -75,14 +75,14 @@ This adds an extra degree of protection to accounts by requiring another form of
 - No support to extend or customize existing protocols with custom apps.
 - Limited support for Device, location, and time-based access policies.
 
-###  Azure Active Directory Authentication Components
+###  Azure Active Directory Authentication Components {#azure-active-directory-authentication-components}
 
 - **Service Provider** - Service providers are responsible for communications between the user, an identity provider that maintains a user directory. In this case, Azure Active Directory is an identity provider and the application could be a Service provider.
 - **Identity Provider** - Here Azure AD is an identity provider. So  As an Identity Provider, it authenticates the user and provides an authentication token (that is, information that verifies the authenticity of the user) to the service provider.
 
 Click [here](https://www.microsoft.com/en-in/security/business/identity-access/microsoft-entra-id) to learn more about Azure Active Directory.
 
-### Azure Active Directory VS miniOrange IdP
+### Azure Active Directory VS miniOrange IdP {#azure-active-directory-vs-miniorange-idp}
 
 | Features                  | Azure Active Directory                                    | miniOrange IdP                                      |
 |---------------------------|---------------------------------------------------------|-----------------------------------------------------|
@@ -93,9 +93,8 @@ Click [here](https://www.microsoft.com/en-in/security/business/identity-access/m
 | Adaptive Authentication   | Doesn’t support.                                       | It supports Adaptive Multi-Factor Authentication.    |
 
 
-### Further Reading
+### Further Reading {#further-reading}
 
-- [Directory Services]()
-- [ADFS Windows Single Sign-On]()
-- [Single Sign-On SSO]()
-- [Login Using Azure AD]()
+- [Directory Services](https://www.miniorange.com/products/directory-services)
+- [Single Sign-On SSO](https://blog.miniorange.com/what-is-single-sign-on-sso/)
+- [Login Using Azure AD](https://www.miniorange.com/iam/login-with-external-idp/configure-azure-ad-sso)
