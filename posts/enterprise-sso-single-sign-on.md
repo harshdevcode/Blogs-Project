@@ -26,7 +26,7 @@ Enterprise SSO Solution allows enterprises to set up one-click access to all of 
 
 ![Enterprise SSO Solution](/blog/assets/2023/enterprise-sso-solutions.webp)
 
-### Need for Enterprise SSO?
+### Need for Enterprise SSO? {#need-for-enterprise-sso}
 
 Typically, a user needs to access multiple applications simultaneously for their daily tasks. Re-entering Login credentials to every application for signing in can be a time-consuming task and reduce productivity. Also, Managing separate login credentials for multiple tasks can be tedious and overwhelming at times.
 
@@ -34,7 +34,7 @@ This often leads to users using the same login credentials for multiple applicat
 
 Employee management can be made easy using Enterprise SSO.  User restriction with SSO can also be enabled by the administrator.
 
-### Benefits of Enterprise SSO
+### Benefits of Enterprise SSO {#benefits-of-enterprise-sso}
 
 **SSO** Solutions ensures improved user Experience and productivity without compromising security.
 
@@ -49,7 +49,7 @@ Enabling 2FA or Adaptive MFA further will further add to the security, reducing 
 - **Eliminating help desks** - 
   Username, Password, and access management can be easily ensured with help of enterprise SSO eliminating the need for help desks in the organization and ensuring a smooth user experience.
 
-### How Enterprise SSO works?
+### How Enterprise SSO works? {#how-enterprise-sso-works}
 
 An SSO system can be divided into the following 2 components.
 
@@ -83,7 +83,7 @@ With the SSO solution, Sam can easily create a user Id for Jane in the organizat
 
 If at a later stage Jane leaves the company, Sam is responsible for revoking her access from all of the applications. Sam can easily do so by deleting here User ID from the SSO user list. This way Sam can easily manage application access for users from granting access to any application to revoking access to all applications from a single stop.
 
-### Setting up SSO for your enterprise
+### Setting up SSO for your enterprise {#setting-up-sso-for-your-enterprise}
 
 The process of Setting up SSO varies based on user requirements and associated applications, but with a vast library of [5000+ pre-integrated apps](https://www.miniorange.com/iam/integrations/), customization, and support for all SSO protocols, the miniOrange IDP solution is a beneficial choice. Few of the reason that makes it an optimal choice for Enterprises are:
 
