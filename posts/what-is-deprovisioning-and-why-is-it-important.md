@@ -11,8 +11,8 @@ excerpt: 'Deprovisioning ensures that the former employees do not have access to
 thumbnail: '/blog/assets/2023/provisioning.webp'
 createdOn: '2022-08-19'
 updatedOn: '2022-08-19'
-ogTitle: ''
-ogDescription: ''
+ogTitle: 'What is Deprovisioning & why is it important?'
+ogDescription: 'Deprovisioning ensures that the former employees do not have access to the organization’s resources right at the moment that they leave.'
 ogImage:
     url: ''
 category: ['latest', 'concepts', 'iam']
@@ -26,7 +26,7 @@ It is an [Identity and Access Management (IAM)](https://blog.miniorange.com/what
 
 Consequently, whenever a person is “deprovisioned,” their identity, assets, and all associated accounts within the organization’s network of apps and services are all automatically erased. As a result, all the granted permissions and authorizations are securely revoked.
 
-### Why is Deprovisioning important?
+### Why is Deprovisioning important? {#why-is-deprovisioning-important}
 
 Employees, independent contractors, suppliers, and partners constantly enter and exit businesses, acquiring access to countless tools and programs in the process. However, they must be appropriately offboarded and deprovisioned each time they are transferred to a different area of the organization or depart the business. Deprovisioning has several advantages, some of which are listed below:
 
@@ -42,7 +42,7 @@ Maintain, update and delete employees’ user attributes, such as usernames, rol
 **4. Eliminate human error**
 Because automated provisioning eliminates manual processes, it also greatly reduces the margin of error. When removing a user from the system and revoking access, there’s less of a possibility of making a mistake with the help of deprovisioning.
 
-### How does it work?
+### How does it work? {#how-does-it-work}
 
 Deprovisioning deletes the accounts connected to the user and eliminates their access permissions when they are offboarded or change roles. Moreover, this procedure may now simply be automated, as opposed to the traditional one that included HR staff relaying information to the IT department and then system administrators to restrict access. Through the use of Identity and Access Management (IAM) technology, automated deprovisioning is possible.
 
@@ -50,14 +50,14 @@ Deprovisioning deletes the accounts connected to the user and eliminates their a
 
 The user will be deleted (if terminated) and all accounts linked with them will be immediately modified or revoked when employees move to another department or leave the business with the help of IAM and integrated directories.
 
-### Automated Provisioning and deprovisioning
+### Automated Provisioning and deprovisioning {#automated-provisioning-and-deprovisioning}
 
 Manual Deprovisioning carries significant security risks. There may be times when the person in charge of deprovisioning delays the task or, on rare occasions, forgets to do so. Old accounts with plenty of rights continue to build up in the directory as a result, and many former employees still have active accounts in your company’s domain. Data leaks by former employees shouldn’t be unexpected in this circumstance.
 
 [Automated deprovisioning](https://blog.miniorange.com/automated-user-provisioning/) can assist in avoiding these risky mishaps and removing human error, which can be expensive for your company. A user account is automatically deprovisioned, removing it from Active Directory and revoking all user rights. The process of adding, updating, and controlling their access must also be automated as part of automated provisioning. In comparison to the time-consuming manual method, the activity just takes a few minutes, and it significantly improves network security.
 
 
-### Provisioning and Deprovisioning with miniOrange
+### Provisioning and Deprovisioning with miniOrange {#provisioning-and-deprovisioning-with-miniOrange}
 
 With miniOrange and our wide range of [User Provisioning & Deprovisioning solutions](https://www.miniorange.com/products/user-provisioning), you can create, manage, & delete your external and internal users’ access to on-premises, cloud, and hybrid apps.
 
@@ -74,7 +74,7 @@ Linked is an overview of our Provisioning solutions as well as in-depth steps to
 
 Check out all of our pre-existing Provisioning & Deprovisioning integrated apps [here](https://www.miniorange.com/iam/integrations/?id=provisioning).
 
-### Additional Resources
+### Additional Resources {#additional-resources}
 - [What is Provisioning?](https://blog.miniorange.com/what-is-provisioning/)
 - [JIT Provisioning](https://blog.miniorange.com/what-is-just-in-time-jit-provisioning/)
 - [Watch a Video to understand more about User Provisioning & Deprovisioning](https://www.youtube.com/watch?v=No8cg_qMrR4)

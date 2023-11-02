@@ -9,19 +9,19 @@ excerpt: 'MFA for Banks and Financial Institutions adds an extra layer of securi
 thumbnail: '/blog/assets/2023/multifactor-authentication.webp'
 createdOn: '2023-07-22'
 updatedOn: '2023-07-22'
-ogTitle: ''
-ogDescription: ''
+ogTitle: 'Why is Multi-factor Authentication (MFA) necessary for Banks and Financial Institutions?'
+ogDescription: 'MFA for Banks and Financial Institutions adds an extra layer of security which ensures that only the right people have access to the valuable assets and information.'
 ogImage:
 url: ''
 category: ['featured', 'iam']
 tags: ['PAM', 'IAM']
 ---
 
-### Rise of Cybersecurity Threats to Banks and Financial Institutions
+### Rise of Cybersecurity Threats to Banks and Financial Institutions {#rise-of-cybersecurity-threats-to-banks-and-financial-institutions}
 
 It is estimated that the cost of cyber attacks in the banking sector has increased dramatically, reaching 15.4 million euros per firm yearly. Protecting the assets of the consumer is the main goal of cybersecurity in digital banking. More and more activities or transactions are being done online as more and more businesses are going cashless. Cyber crimes in digital banking have an impact on both the customer and the banks. Banks have to invest a substantial sum of money and resources in order to be able to recover data. Along with that banks also lose their customer’s trust when such issues arise. 
 
-![](/blog/assets/2023/cyber-security-threats.webp)
+![Cyber Security Threats](/blog/assets/2023/cyber-security-threats.webp)
 
 Banking security experts today need to be familiar with a dizzying array of terminologies and methods, including Trojans, Rock Phish, phishing, pharming, spear phishing, session hijacking, man-in-the-middle, and man-in-the-browser attacks. Obtaining private user data like usernames, passwords, credit card numbers, and social security numbers is the common goal of most attack tactics, despite the diversity of the attacks. The issue stems from the fact that these credentials are all static but never change. Once obtained, the attacker can use them to pose as the customer and commit fraud.
 
@@ -29,7 +29,7 @@ Even though the end-consumer suffers losses, card issuers and banks will face th
 
 Thus, banks and financial institutions must have strong cybersecurity technology know-how because data breaches may make it difficult for people to trust financial institutions.  If banks don’t take appropriate steps to safeguard users’ data, then it can be readily compromised resulting in many issues, such as fraud.
 
-### Why is MFA required for Banks and Financial Institutions?
+### Why is MFA required for Banks and Financial Institutions? {#why-is-mfa-required-for-banks-and-financial-institutions}
 
 The biggest drawback of using the traditional user ID and password logins is that the passwords can be easily stolen by hackers which can cause millions of dollars in damages. Brute-force cyber attacks are a serious concern since cyber criminals can use automated password cracking tools to try different login and password combinations until they discover the proper combination. Although locking an account after a specific number of unsuccessful login attempts might aid with organisation security, hackers have access to a variety of different ways to get access to systems. This is why implementing Multi-factor Authentication is crucial for an organization as it can greatly reduce cybersecurity-related risks.
 
@@ -39,8 +39,8 @@ By requiring multiple forms of authentication, banks and financial institutions 
 
 There are a few different ways that banks and financial institutions can implement multifactor authentication. Banks and financial institutions should carefully consider which authentication factors to use and how to best implement multifactor authentication in order to protect their data and assets. Let’s have a look at the different types of MFA methods.
 
-
-### Types of MFA methods 
+ 
+### Types of MFA methods {#types-of-mfa-methods}
 
 The three most fundamental categories or authentication factors are Something you know, also known as the knowledge factor; something you have, sometimes known as the possession element; and something you are, also known as the inherence factor.
 
@@ -59,7 +59,7 @@ The following biometric verification techniques are included in inheritance fact
 - facial recognition
 - voice recognition   
 
-### Multi-Factor Authentication (MFA) for SWIFT Banking Application
+### Multi-Factor Authentication (MFA) for SWIFT Banking Application {#multi-factor-authentication-mfa-for-swift-banking-application}
 
 The Society for Worldwide Interbank Financial Telecommunication, or SWIFT, is the world’s top provider of secure financial messaging services. SWIFT is a global banking application that is used by thousands of banks and financial institutions around the world on a daily basis.
 
@@ -67,13 +67,13 @@ The SWIFT infrastructure is used to securely transmit more than 40 million finan
 
 SWIFT has been the target of attacks in recent years, with criminals attempting to send fraudulent messages through the system. MFA can help protect against these types of attacks by requiring the user to provide more than just a password to log in and greatly reduce the risk of an unauthorized individual trying to access a critical banking application like SWIFT.
 
-### miniOrange’s MFA Solution 
+### miniOrange’s MFA Solution {#miniOrange-mfa-solution}
 
 miniOrange provides an advanced [MFA solution](https://www.miniorange.com/products/multi-factor-authentication-mfa) that ensures the correct identity has access to your sensitive information.
 
-![](/blog/assets/2023/mfa-workflow.webp)
+![MFA Workflow](/blog/assets/2023/mfa-workflow.webp)
 
-### MFA methods supported by miniOrange
+### MFA methods supported by miniOrange {#mfa-methods-supported-by-miniorange}
 
 miniOrange supports [15+ authentication methods](https://www.miniorange.com/products/multi-factor-authentication-mfa-methods) that include:
 
@@ -89,7 +89,7 @@ miniOrange supports [15+ authentication methods](https://www.miniorange.com/prod
 
 - **Security Questions**: Answer a few knowledge-based security questions which are only known to you to authenticate yourself.
 
-### Adaptive Authentication/Risk-based Authentication 
+### Adaptive Authentication/Risk-based Authentication {#adaptive-authentication-risk-based-authentication}
 
 miniOrange provides an advanced form of Multi-factor Authentication (MFA) known as Adaptive Authentication.
 
@@ -101,7 +101,7 @@ Every login attempt does not have to go through 2FA with risk-based authenticati
 
 For example, when an employee of the bank tries to access a critical application such as SWIFT, adaptive authentication determines the risk levels based on the user’s role, resource significance, location, time of day, and also the day of the week. Based on their behaviour over time, the system may maintain track of users’ normal activities. Automatic rules will be defined based on behaviour, and authentication will be prompted accordingly. This helps to strongly verify and give access only to the required users.
 
-### Benefits of miniOrange MFA Solution 
+### Benefits of miniOrange MFA Solution {#benefits-of-miniOrange-mfa-solution}
 
 - Enhanced Security
 - Fraud Prevention
@@ -115,7 +115,7 @@ For example, when an employee of the bank tries to access a critical application
 - Increased Productivity and Flexibility
 - Adaptability for Different Use-Cases
 
-### Reserve Bank of India (RBI) Guidelines 
+### Reserve Bank of India (RBI) Guidelines {#reserve-bank-of-india-rbi-guidelines}
 
 Since October 1, 2021, India’s Reserve Bank of India (RBI) has made MFA essential for transactions involving automatic recurring payments such as phone top-up, DTH, OTT, and utility bills.
 
@@ -127,7 +127,7 @@ The rules were put in place to make digital payments for customers safe and secu
 
 RBI has provided guidelines for implementing multi-factor authentication. You can find more information on these rules here.
 
-### How miniOrange implemented MFA for Punjab National Bank (PNB) 
+### How miniOrange implemented MFA for Punjab National Bank (PNB) {#how-miniOrange-implemented-mfa-for-punjab-national-bank-pnb}
 
 As a multinational bank that is government-run, privacy is a crucial factor in every transaction. PNB ran into an issue with the Swift Application’s design inside its department that handled global transactions. International transactions necessitate the use of foreign currencies. Several SAML-compliant apps were used to manage these currencies. Even though PNB had a private network for these apps, they only had their Active Directory-based username and password authentication to verify the user identities of the workers.
 
@@ -137,7 +137,7 @@ miniOrange provided PNB with an On-Premise solution for Two-Factor Authenticatio
 
 You can read more on how miniOrange provided a custom MFA solution based on PNB’s requirements here.
 
-### Conclusion 
+### Conclusion {#further-reading}
 
 Multi-factor authentication (MFA) can be an important security measure for banks and financial institutions. MFA adds an extra layer of security by requiring users to provide more than one form of authentication. It ensures that only the right people have access to the valuable assets and information of a bank or financial institution.
 

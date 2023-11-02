@@ -9,8 +9,8 @@ excerpt: 'Mobile authentication process is more than just password validation in
 thumbnail: '/blog/assets/2023/mobile-authentication.webp'
 createdOn: '2023-07-19'
 updatedOn: '2023-07-19'
-ogTitle: ''
-ogDescription: ''
+ogTitle: 'How to enable secure Mobile App authentication - SSO for Mobile apps'
+ogDescription: 'Mobile authentication process is more than just password validation in today’s world. miniOrange offers a broad range of authentication methods for mobile applications.'
 ogImage:
 url: ''
 category: ['featured', 'iam']
@@ -31,7 +31,7 @@ Having a centralized system allows users to not lean into bad password practices
 
 Based on interactions with customers over the past couple of years, it was noticed that there is a lot of confusion around the options available for implementing an SSO solution for mobile applications.
 
-### miniOrange SSO and Authentication SDKs for businesses
+### miniOrange SSO and Authentication SDKs for businesses {#miniOrange-sso-and-authentication-sdks-for-businesses}
 
 ![miniOrange SSO and Authentication](/blog/assets/2023/miniorange-sso-and-authentication.webp)
 
@@ -52,7 +52,7 @@ Enhanced security: miniOrange provides performance-optimized codes for all libra
 Anti-spamming measures: miniOrange supports the additional token – SOTT (Secure One Time Token), along with an API key, to avoid automated spam registrations in your mobile application.
  
 
-### Mobile Authentication using JWT 
+### Mobile Authentication using JWT {#mobile-authentication-using-jwt}
 
 The following workflow explains the authentication flow between miniOrange and mobile apps:
 
@@ -69,7 +69,7 @@ This security mechanism allows applications to trust the sign-in requests it get
 
 ![Mobile Authentication Workflow with JWT](/blog/assets/2023/mobile-authentication-using-jwt.webp)
 
-### A Final Word 
+### A Final Word {#a-final-word}
 
 miniOrange Mobile authentication benefits both businesses and their consumers. It helps in developing and deploying seamless authentication and SSO features for businesses while securing, and enhancing consumer experiences.
 
