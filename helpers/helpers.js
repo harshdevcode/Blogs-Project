@@ -45,8 +45,13 @@ export function getPostByTitle() {}
 
 export function getHeadlines(htmlContent) {
     const root = parse(htmlContent);
-    const headlines = root.querySelectorAll('h3');
-    return headlines.toString();
+    const headings = root.querySelectorAll('h1, h2, h3, h4, h5, h6'); // Select all heading elements
+
+    const matchingHeadings = Array.from(headings).filter((heading) => {
+        return heading.hasAttribute('id');
+    });
+
+    return matchingHeadings;
 }
 
 export function getPostsForCategory(fields, category) {
