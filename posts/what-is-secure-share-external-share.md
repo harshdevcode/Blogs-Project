@@ -5,7 +5,7 @@ description: 'Jira Secure Share lets you share your Jira issues with any user (e
 metaTitle: 'Jira External Share for external partners/users of Atlassian Jira'
 metaDescription: 'Jira External Share/Secure Share helps in secure sharing of Jira issues externally with users saving extra license cost for additional/external users'
 keywords: ''
-mainButtonLink: ''
+mainButtonLink: 'https://miniorange.atlassian.net/servicedesk/customer/portal/2/group/6/create/66'
 mainButtonText: ''
 excerpt: 'miniOrange Jira External Share/Secure Share helps in sharing of Jira issues externally saving extra license cost for additional/external users with advance security. Your end-users will be able to access shared Jira issues with these links. Secure Share allows conveniece, cost savings with advanced access security to keep your details safe.'
 thumbnail: '/blog/assets/2023/secure-share.webp'
