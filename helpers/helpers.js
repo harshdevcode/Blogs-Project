@@ -45,7 +45,7 @@ export function getPostByTitle() {}
 
 export function getHeadlines(htmlContent) {
     const root = parse(htmlContent);
-    const headings = root.querySelectorAll('h1, h2, h3, h4, h5, h6'); // Select all heading elements
+    const headings = root.querySelectorAll('h2, h3, h4, h5, h6'); // Select all heading elements
 
     const matchingHeadings = Array.from(headings).filter((heading) => {
         return heading.hasAttribute('id');
