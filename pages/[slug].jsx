@@ -7,7 +7,7 @@ import TagsList from 'components/tags-list';
 import useStatus from 'hooks/useStatus';
 import markdownStyles from 'styles/markdown-styles.module.css';
 import { parse } from 'node-html-parser';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import Button from 'components/button';
 import Image from 'next/image';
@@ -54,6 +54,7 @@ const Blog = ({ payload }) => {
     });
 
     const [{ loading, success, error }, setStatus] = useStatus();
+    const [activeSection, setActiveSection] = useState('');
 
     const handleCommentChange = (e) => {
         const { name, value } = e.target;
@@ -88,6 +89,27 @@ const Blog = ({ payload }) => {
         }
     };
 
+    const getCurrentSectionId = () => {
+        const currentSectionId = window.location.hash.replace('#', '');
+        return currentSectionId;
+    };
+
+    useEffect(() => {
+        const onHashChanged = () => {
+            setActiveSection(getCurrentSectionId);
+        };
+
+        window.addEventListener('hashchange', onHashChanged);
+
+        if (!getCurrentSectionId()) {
+            setActiveSection('main');
+        }
+
+        return () => {
+            window.removeEventListener('hashchange', onHashChanged);
+        };
+    }, []);
+
     return (
         <>
             <Head>
@@ -113,7 +135,7 @@ const Blog = ({ payload }) => {
                         </Link>
                     </div>
 
-                    <picture className='relative w-[50%] h-0 pb-[25%]'>
+                    <picture className='aspect-video relative sm:w-[50%] h-0 sm:pb-[25%]'>
                         <Image
                             className='absolute inset-0 object-cover w-full h-full'
                             src={thumbnail}
@@ -126,14 +148,23 @@ const Blog = ({ payload }) => {
                     {/* Side Nav Links */}
                     <aside className={styles.side_nav_container}>
                         <div className={styles.side_nav_wrapper}>
-                            <a href={`#main`} className={`title ${styles.side_nav_link} mt-sm`}>
+                            <a
+                                href={`#main`}
+                                className={`title ${styles.side_nav_link} mt-sm ${
+                                    activeSection === 'main' ? 'font-semibold' : 'font-normal'
+                                }`}
+                            >
                                 Introduction
                             </a>
                             {tocs.map((headline) => (
                                 <a
                                     key={headline.id}
                                     href={`#${headline.id}`}
-                                    className={`title ${styles.side_nav_link}`}
+                                    className={`title ${styles.side_nav_link} ${
+                                        activeSection === headline.id
+                                            ? 'font-semibold'
+                                            : 'font-normal'
+                                    }`}
                                 >
                                     {headline.text}
                                 </a>
