@@ -13,6 +13,12 @@
     @apply leading-[2.295];
 }
 
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+    font-family: Sora, sans-serif !important;
+}
+
 .markdown h2 {
     @apply text-2xl font-semibold mt-xxl mb-rg scroll-mt-28;
 }
