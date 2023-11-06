@@ -8,7 +8,7 @@ keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
 excerpt: 'Atlassian cloud security provides compliance for all Jira and Confluence app security requirements protecting cloud data with Atlassian security and trust.'
-thumbnail: 'https://blog.miniorange.com/wp-content/uploads/sites/19/2023/05/atlassian-export-data-casb.webp'
+thumbnail: '/blog/assets/2023/atlassian-export-data-casb.webp'
 createdOn: '2022-05-12'
 updatedOn: '2022-05-12'
 ogTitle: ''
@@ -35,17 +35,24 @@ Jira is a complete suite of productivity apps used for submitting issues, tracki
 Confluence is a solution for creating a shared workspace and for teams to collectively come together and collaborate on a project. It provides an environment with complete user transparency, workflow management, collaboration done by each user, and an understanding of the project’s growth over time.
 
 There are a bunch of apps in the Atlassian suite. Here’s a list of all the Jira and Confluence apps with a short description for each.
+- Jira Service Desk: Jira Service Desk is a platform to receive issues from customers and track customer lifecycles from querying to deploying the solution with all the paperwork and request queuing.
+- Jira Core: Jira Core is a highly organized workflow project, where all teams can create a step-by-step process to complete tasks on time. They are highly versatile and can be used by all departments within an organization.
 
-- **Jira Service Desk:** Jira Service Desk is a platform to receive issues from customers and track customer lifecycles from querying to deploying the solution with all the paperwork and request queuing.
-- **Jira Core:** Jira Core is a highly organized workflow project, where all teams can create a step-by-step process to complete tasks on time. They are highly versatile and can be used by all departments within an organization.
-- **Jira Software:** Jira software utilizes the power of Kanban and Agile methodologies, to build project sprints, list issues, create backlog items, task completion and velocity, and visually depict the team’s progress.
-- **Bitbucket:** Bitbucket is an on-premise Git repository management software for all team members to collaborate on projects and is the top competitor for the Microsoft-owned GitHub.
-- **Confluence:** Confluence is a document collaboration tool for teams to keep records of a research topic or share steps to configure a standard software tool to promote transparency within the team.
-- **Statuspage:** Statuspage lets the customers know about scheduled downtime for maintenance of the application to prevent sudden crashes. It stands as an “Incident Management Messenger” between you and your end users.
-- **Opsgenie:** Opsgenie helps your developer teams and operations teams stay on top of threat alerts and incidents and control the situation in real-time.
-- **Jira Align:** Jira Align enables project planning and strategy alignment with support for hundreds of users at different levels in the organization.
+- Jira Software: Jira software utilizes the power of Kanban and Agile methodologies, to build project sprints, list issues, create backlog items, task completion and velocity, and visually depict the team’s progress.
 
-### Why do I need to secure my Atlassian Apps with Cloud Access Security Broker (CASB)? {#secure-atlassian-apps-casb}
+- Bitbucket: Bitbucket is an on-premise Git repository management software for all team members to collaborate on projects and is the top competitor for the Microsoft-owned GitHub.
+
+- Confluence: Confluence is a document collaboration tool for teams to keep records of a research topic or share steps to configure a standard software tool to promote transparency within the team.
+
+- Statuspage: Statuspage lets the customers know about scheduled downtime for maintenance of the application to prevent sudden crashes.
+
+It stands as an **“Incident Management Messenger”** between you and your end users.
+
+-   Opsgenie: Opsgenie helps your developer teams and operations teams stay on top of threat alerts and incidents and control the situation in real-time.
+
+-   Jira Align: Jira Align enables project planning and strategy alignment with support for hundreds of users at different levels in the organization.
+
+### Why do I need to secure my Atlassian apps with Cloud Access Security Broker (CASB)? {#why-to-secure-my-atlassian-apps-with-casb}
 
 The Atlassian App Suite is widely adopted for documentation and team collaboration to create project lifecycle management. All users can enter their activities and task progress, manage customer issues, and get a transparent view of the end-to-end deployment of a project. So all Atlassian apps in use stand as a haven for storing organized data related to every project and how an organization will boost productivity and streamline processes to meet deadlines.
 
@@ -57,7 +64,7 @@ Without Atlassian CASB for Jira and Confluence, there is a clear threat of data 
 
 Let’s see how a Cloud Access Security Broker works for compliance on your Atlassian SaaS apps to prevent data infringement and provide Jira Cloud and Confluence Compliance security.
 
-![CASB for atlassian security](/blog/assets/2023/casb-atlassian-solution-blog.webp)
+![Cloud Access Security Broker](/blog/assets/2023/casb-atlassian-solution-blog.webp)
 
 ### How does a CASB secure Atlassian Apps for Teams? {#casb-secure-atlassian-apps}
 
@@ -75,7 +82,7 @@ When Noah, from the analytics team, tries to export the same Jira Tickets dashbo
 
 This way, the miniOrange Atlassian CASB solution will provide role-based access to the different solutions on the Atlassian App suite for Jira and Confluence security. Additionally, you also get deep visibility into the traffic on your Atlassian app usage for the Security Operations Center to gain deeper insights into potential security threats targeted towards their Atlassian apps.
 
-![CASB for teams](/blog/assets/2023/atlassian-export-data-casb.webp)
+![Atlassian Export Data with CASB](/blog/assets/2023/atlassian-export-data-casb.webp)
 
 ### What are the Benefits of Using a Cloud Access Security Broker for Atlassian? {#casb-benefits-for-atlassian}
 

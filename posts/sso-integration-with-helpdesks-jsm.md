@@ -35,7 +35,7 @@ Introducing our most awaited add-on: [SAML/OAuth SSO for JSM Customers.](https:/
 
 Could you imagine what it would be like if I told you that external customers can now log in via SSO to your Jira Service Management portals? We’ve got your back with our exclusive solution, SAML/OAuth SSO for JSM Customers.
 
-### What does JSM SSO solve?
+### What does JSM SSO solve? {#what-does-jsm-sso-solve}
 
 &nbsp;
 
@@ -54,9 +54,8 @@ No prerequisites required:
 
 So in a nutshell, miniOrange solution, SAML/OAuth SSO for JSM Customers, is the best of both worlds. It helps in the prevention of spam ticket creation by allowing SSO for external customers and eliminating the need to add your customers as users in Jira and then grant them Atlassian access.
  
-### Let’s see how? {#let's see how?}
+### Let’s see how? {#lets-see-how?}
 
-&nbsp;
 
 With the help of our plugin your customers who are stored in any IDP (miniOrange, Okta, Azure AD, etc) will be able to login into your JSM or JSD via a link provided by our solution to the admin.
 As soon as the customer clicks on the link they will be redirected to their IDP for authentication. Once authenticated the customers can raise and view the issues with ease.
@@ -67,7 +66,7 @@ A step by step user flow is explained below.
 
 ![JSM](/blog/assets/2023/jsm.webp)
 
-$nbsp;
+&nbsp;
 
 The whole flow of our plugin is explained below in layman terms :
 

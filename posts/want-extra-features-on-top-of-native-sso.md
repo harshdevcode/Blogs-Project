@@ -79,7 +79,7 @@ You can set multiple rules and decide their order of priority.
 
 2. **SSO Authentication Template :**
 
-$nbsp;
+&nbsp;
 
 We understand the importance of visual aesthetic and ease of understanding! This is exactly what this feature does, it gives the flexibility to the user to design their login and logout template as per their requirement. They can make it visually appealing or     customize it as they like to.
 

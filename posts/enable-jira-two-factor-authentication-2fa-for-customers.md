@@ -5,7 +5,7 @@ description: 'Enable Jira Two Factor Authentication (2FA) for customers & skip f
 metaTitle: 'Enable Jira 2FA for Customers and skip for Employees'
 metaDescription: 'Enable Jira Two Factor Authentication (2FA) for customers & skip for Employees. Secure internal & external users by configuring 2FA for Jira'
 keywords: ''
-mainButtonLink: ''
+mainButtonLink: 'https://miniorange.atlassian.net/servicedesk/customer/portal/2/group/6/create/66'
 mainButtonText: ''
 excerpt: 'Enable Jira Two Factor Authentication (2FA) for customers & skip for Employees. Secure internal & external users by configuring 2FA for Jira. Our add-on is highly flexible and can be configured to fit your requirements perfectly. It provides custom configuration options to manage 2FA for all sets of users like 2FA for customers, Two Factor Authentication for employees, admins, remote users, service desk agents, and more.'
 thumbnail: '/blog/assets/2023/jira-2fa-for-customers.webp'

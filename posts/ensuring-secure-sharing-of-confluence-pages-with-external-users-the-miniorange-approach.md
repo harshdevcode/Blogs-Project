@@ -5,10 +5,10 @@ description: "Developed by miniOrange, ‘Secure Share’ enables you to generat
 metaTitle: 'Ensuring Secure Sharing of Confluence Pages with External Users: The miniOrange Approach'
 metaDescription: "Securely Share Confluence Pages with 'Secure Share' by miniOrange - Create Unique Links for External Access."
 keywords: ''
-mainButtonLink: ''
+mainButtonLink: 'https://miniorange.atlassian.net/servicedesk/customer/portal/2/group/6/create/66'
 mainButtonText: ''
 excerpt: "Developed by miniOrange, ‘Secure Share’ enables you to generate secure, unique links to the Confluence pages and share them with external non-confluence users without making it public."
-thumbnail: 'https://blog.miniorange.com/wp-content/uploads/sites/19/2023/05/Secure-share.webp'
+thumbnail: '/blog/assets/2023/miniorange-secure-share.webp'
 createdOn: '2022-05-12'
 updatedOn: '2022-05-12'
 ogTitle: ''
@@ -33,15 +33,13 @@ tags:
 
 [Share Confluence with External Users (Secure Share)](https://miniorange.com/atlassian/confluence-secure-share-external-share#:~:text=Confluence%20Secure%20Share%20Page%20allows%20you%20to%20share,via%20an%20access%20link.%20Try%20It%20Free%20Documentation) came into being with the thought that today’s businesses would not only benefit from using an app that would save their **licensing cost** but also provide a safe and secure way to share Confluence with external users.
 
-### Introduction {#introduction}
-
 Outsourcing, collaboration internal or external to get a project completed on time is what keeps a business relevant and afloat in today’s world. In this era of Information Technology, the marketplace is abuzz with collaboration tools, among the leading ones is ‘Confluence.’
 
 If you work on projects using Confluence which involves sharing documents, pages or collaborating directly with vendors, clients, and customers, then it becomes necessary to share that page/space with external users or non-Confluence users. In other words, any unlicensed user with your organization and does not have access to your confluence page becomes an external user.
 
 Then again, you may want your external users to have limited or restricted access to the pages. It entirely depends on the role the intended external user would play. Are they just going to view the pages or also contribute to it by making changes? Would they be restricted to the main page or would they have access to the child pages as well? This is where the ‘Secure Share (Confluence with external users)’ plugin comes in, let’s dive in a bit more…
 
-![Secure Share](https://blog.miniorange.com/wp-content/uploads/sites/19/2023/05/Secure-share.webp)
+![Secure Share](/blog/assets/2023/miniorange-secure-share.webp)
 
 ### Beginning with the challenges {#beginning-with-the-challenges}
 
@@ -60,22 +58,16 @@ Developed by miniOrange, **‘Secure Share’** enables you to **generate secure
 ### Features At a Glance {#features-at-a-glance}
 
 -   Unique access links for any Confluence pages/spaces can be created, secured, and shared
-
 -   Set permissions for end-users to View/Add Comments/Attachments in the shared pages
-
 -   Password-protect your shared link with your own password or generate a random one for better security
-
 -   Set validity for the shared link thus adding another layer of security
-
 -   Deactivate/delete the shared link according to your convenience
-
 -   Easily share your access links via SMTP
-
 -   With Subscribe to link feature, external users would be notified about any changes to the page/space
 
 When using Confluence, the challenge is how to share pages with those outside your organization who do not have a Confluence account. Our solution **“Secure Share”** answers that.
 
-### Last But Not the Least {#why-should-you-choose-miniorange-secure-share}
+### Last But Not the Least {#why-choose-miniorange-secure-share}
 
 miniOrange’s suite of apps are dynamic in nature, our developers are constantly at work finding the next best app feature that would enhance the existing app’s performance. With **“Secure Share”** you can look forward to certain features that would be added soon, a glimpse of what’s upcoming:
 
