@@ -5,7 +5,7 @@ description: "SCIM an acronym for ‘System for Cross-domain Identity Management
 metaTitle: 'How miniOrange SCIM Simplifies Centralized IDP User Management in Atlassian Apps'
 metaDescription: 'Automate User Account Management with SCIM Protocol - Seamlessly Access Jira, Confluence, Bitbucket, and More Atlassian Tools.'
 keywords: ''
-mainButtonLink: ''
+mainButtonLink: 'https://miniorange.atlassian.net/servicedesk/customer/portal/2/group/6/create/66'
 mainButtonText: ''
 excerpt: "SCIM an acronym for ‘System for Cross-domain Identity Management’ is a protocol that allows for automated provisioning and de-provisioning of user accounts between different systems. Our app allows seamless login into the Jira, Confluence, Bitbucket, Crowd and other Atlassian."
 thumbnail: '/blog/assets/2023/miniorange-scim-for-atlassian-apps.webp'
@@ -84,7 +84,7 @@ The addon ensures that resources are allocated more efficiently as new users are
 
 Companies can expect an **increase in productivity** as our app eliminates the need for manual user provisioning and de-provisioning so that your IT staff can focus on more critical tasks. The automated process **reduces the risk of manual errors** as well. With these benefits, your business can look to **improve the overall user experience** eventually leading to higher user satisfaction.
 
-### Summery {#summary}
+### Summary {#summary}
 
 If you are here, that means you took the time to go through the use cases and the overview of our app. No more time-consuming manual onboarding and offboarding users, employees get easy and quick access to the apps they need to work. You get automated access management that not just saves you time but also money.
 

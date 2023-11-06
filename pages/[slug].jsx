@@ -7,7 +7,7 @@ import TagsList from 'components/tags-list';
 import useStatus from 'hooks/useStatus';
 import markdownStyles from 'styles/markdown-styles.module.css';
 import { parse } from 'node-html-parser';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import Button from 'components/button';
 import Image from 'next/image';
@@ -54,6 +54,7 @@ const Blog = ({ payload }) => {
     });
 
     const [{ loading, success, error }, setStatus] = useStatus();
+    const [activeSection, setActiveSection] = useState('main');
 
     const handleCommentChange = (e) => {
         const { name, value } = e.target;
@@ -88,32 +89,78 @@ const Blog = ({ payload }) => {
         }
     };
 
+    const getCurrentSectionId = () => {
+        const currentSectionId = window.location.hash.replace('#', '');
+        return currentSectionId;
+    };
+
+    function getVisibleHeading(headings) {
+        if (!headings) return;
+        let closestHeading = null;
+        let closestDistance = 500;
+
+        for (const heading of headings) {
+            const rect = heading.getBoundingClientRect();
+            const distanceToTop = Math.abs(rect.top);
+
+            if (distanceToTop < closestDistance) {
+                closestHeading = heading;
+                closestDistance = distanceToTop;
+            }
+        }
+
+        return closestHeading;
+    }
+
+    function onScroll(event, headings) {
+        if (!headings) return;
+
+        const visibleHeading = getVisibleHeading(headings);
+
+        if (visibleHeading) {
+            const id = visibleHeading.id;
+            setActiveSection(id);
+        }
+    }
+
+    useEffect(() => {
+        const headings = document.querySelectorAll('h1, h2, h3');
+
+        window.addEventListener('scroll', (event) => onScroll(event, headings));
+
+        return () => {
+            window.removeEventListener('scroll', onScroll(headings));
+        };
+    }, []);
+
     return (
         <>
             <Head>
                 {/* SEO Meta Tags */}
                 <title>{title}</title>
                 <meta name='title' content={metaTitle} />
-                <meta name='description' content={metaDescription}/>
+                <meta name='description' content={metaDescription} />
 
                 {/* Open Graph Info */}
-                <meta property='og:title' content={metaTitle}/>
-                <meta property='og:description' content={metaDescription}/>
+                <meta property='og:title' content={metaTitle} />
+                <meta property='og:description' content={metaDescription} />
                 <meta property='og:image' content={ogImage} key='ogImage' />
                 <link rel='canonical' href={canonical} />
             </Head>
             <section className={styles.container}>
                 {/* Hero Section */}
-                <div id='main' className={styles.hero_section}>
+                <div id='main' className={`${styles.hero_section} scroll-mt-52`}>
                     <div className='flex-1'>
-                        <h1 className='mt-md lg:mt-0 display'>{title}</h1>
+                        <h1 id='main' className='mt-md lg:mt-0 display'>
+                            {title}
+                        </h1>
                         <p className='caption mt-md'>{description}</p>
                         <Link href={mainButtonLink || 'https://www.miniorange.com/contact'}>
                             <Button text={mainButtonText || 'Get Demo'} className='mt-xl' />
                         </Link>
                     </div>
 
-                    <picture className='relative w-[50%] h-0 pb-[25%]'>
+                    <picture className='aspect-video relative sm:w-[50%] h-0 sm:pb-[25%]'>
                         <Image
                             className='absolute inset-0 object-cover w-full h-full'
                             src={thumbnail}
@@ -126,14 +173,23 @@ const Blog = ({ payload }) => {
                     {/* Side Nav Links */}
                     <aside className={styles.side_nav_container}>
                         <div className={styles.side_nav_wrapper}>
-                            <a href={`#main`} className={`title ${styles.side_nav_link} mt-sm`}>
+                            <a
+                                href={`#main`}
+                                className={`title ${styles.side_nav_link} mt-sm ${
+                                    activeSection === 'main' ? 'font-semibold bg-accent/10' : ''
+                                }`}
+                            >
                                 Introduction
                             </a>
                             {tocs.map((headline) => (
                                 <a
                                     key={headline.id}
                                     href={`#${headline.id}`}
-                                    className={`title ${styles.side_nav_link}`}
+                                    className={`title ${styles.side_nav_link} ${
+                                        activeSection === headline.id
+                                            ? 'font-semibold bg-accent/10'
+                                            : ''
+                                    }`}
                                 >
                                     {headline.text}
                                 </a>

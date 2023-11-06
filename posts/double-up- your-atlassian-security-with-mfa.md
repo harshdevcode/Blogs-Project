@@ -28,7 +28,7 @@ tags:
     ]
 ---
 
-## Double-Up your Atlassian Security with MFA! {#double-up-your-atlassian-seurity-with-mfa}
+### Double-Up your Atlassian Security with MFA! {#double-up-your-atlassian-security-with-mfa}
 
 miniOrange stands as a reputed partner and provider of security and SSO solutions for multiple platforms being WordPress, Joomla, Shopify, Drupal & many more, within the industry. Built on a strong foundation of security fundamentals, we provide secure and reliable Identity and Access Management (IAM) solutions that integrate seamlessly with the customer’s existing frameworks. We provide SSO solutions for all the Atlassian applications using protocols like SAML, OAuth 2.0, OIDC, etc. SSO enables users to securely authenticate with multiple applications by logging in only once – with just one set of login credentials. miniOrange has grown from its initial size of 4 to 150+ now. The company was built from the ground up by a group of experienced technology architects, with a background in security themselves.
 
@@ -40,7 +40,7 @@ Unwilling to continue in their day jobs, the team began miniOrange. Having a dee
 The miniOrange’s expertise in Identity And Access Management (IAM), Single Sign-On, Multi-factor Authentication, Network Security, API Security, Cyber Forensics. The central focus of our products and company revolve around these themes. Our solutions are specific, accurate and, most importantly, great at doing what they’re supposed to: Making you more secure!
 
 
-### What is MFA/2FA ? {#what-is-mfa/2fa?}
+### What is MFA/2FA ? {#what-is-mfa/2fa}
 
 Multi-Factor Authentication (MFA) is an authentication method that requires the user to authenticate themselves for two or more factors, in order to gain access to company resources, applications, or a VPN. Enabling Multi-Factor Authentication (MFA) means that users need to provide additional verification factors apart from their username and passwords. These second-factor methods can range from OTP over SMS, OTP over Email, Push notification, Google/Microsoft authenticator, and many more. 
 
@@ -48,12 +48,12 @@ Multi-Factor Authentication (MFA) is an authentication method that requires the 
 
 Having this extra layer of security ensures that the information being accessed is well protected from activities such as phishing, malware, hacking, and many more. Having a strong MFA setup ensures a robust Identity and Access Management (IAM) for your organization and secures your resources.
 
- ![2fa](/blog/assets/2023/configure-two-factor-authentication.webp)
+![2fa](/blog/assets/2023/configure-two-factor-authentication.webp)
 
 
 The goal of leveraging MFA is to boost security and make a layered defense so that even if one factor (username-password) is stolen, the cyber attacker still has at least one more barrier to breach before successfully breaking into the actual targeted device. The second barrier is also usually harder to breach as compared to simple username passwords.
 
-### How does it work? {#how-does-it-work?}
+### How does it work? {#how-does-it-work}
 
 One of the first steps of access control is the identification and authentication of users. There are three common factors used for authentication:
 

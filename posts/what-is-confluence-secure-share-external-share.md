@@ -5,7 +5,7 @@ description: 'Confluence External Share/Secure Share allows in secure sharing of
 metaTitle: 'Confluence External Share for external partners/users of Confluence'
 metaDescription: 'Confluence External Share/Secure Share helps in secure sharing of Confluence pages externally with users saving extra license cost for additional/external users.'
 keywords: ''
-mainButtonLink: ''
+mainButtonLink: 'https://miniorange.atlassian.net/servicedesk/customer/portal/2/group/6/create/66'
 mainButtonText: ''
 excerpt: 'Confluence External Share/Secure Share allows in secure sharing of Confluence pages externally with users saving extra license cost for additional/external users. With Confluence External Share/Confluence Secure Share you can share your Confluence pages to any external user without making it public. Furthermore, the shared Confluence pages can be protected by password, and you can also set their expiry time.'
 thumbnail: '/blog/assets/2023/confluene-secure-share.webp'
@@ -58,13 +58,13 @@ Well now you don’t have to worry about it anymore. miniOrange has come up with
 
 Our Secure share for confluence is the way to protect your projects and data even while sharing it with external users. 
 
-### What is an External User?
+### What is an External User? {#what-is-an-external-user}
 
 Any other user which does not have access to your confluence page becomes an external user. You might want those users to not have full access to your confluence pages. You might want them to just view your pages or just comment on it or add attachments.
 
 Our plugin helps you do what you require.
 
-### Worried about licensing ?
+### Worried about licensing ? {#worried-about-licensing}
 
 You might be thinking about the license. As those users might not have an Atlassian account or confluence license.
 
@@ -72,19 +72,19 @@ Our plugin solves the problem of creating new licenses for external users. You c
 
 Give it a thought.
 
-### Need of Secure Share/ External Share for Confluence
+### Need of Secure Share/ External Share for Confluence {#why-you-need-secure-share}
 
 Confluence Secure Share/External share supports sharing the pages with every anonymous/external user with no restriction on the basis of **who to share with**, **when to share**, and **how to protect the shared page** even if it’s available for anonymous users.
 
 Confluence also has in-built features to share **Confluence pages with limitations** where you could **either share your pages with licensed users**, or you’ll have to **make your whole space public on the internet** to externally share your Confluence pages with non-licensed users which makes it more **vulnerable** to security threats.
 
-### Confluence – Secure Share: The Ultimate Solution!
+### Confluence – Secure Share: The Ultimate Solution! {#introducing-secure-share}
 
 This application tackles perhaps the greatest challenge for the organizations utilizing Confluence. **Licensed users can share Confluence pages** through **password protected links to the external users** who do not have a Confluence account.
 
 ![Confluence Secure Share](/blog/assets/2023/confluene-secure-share.webp)
 
-### Features of Secure Share/External Share for Confluence (Data Center/Server):
+### Features of Secure Share/External Share for Confluence (Data Center/Server): {#confluence-secure-share-features}
 
 - **Create and share access links** for any Confluence page which does not require login
 - **Set permissions for end-users** to View/Add Comments/Attachments in the shared pages
@@ -94,7 +94,7 @@ This application tackles perhaps the greatest challenge for the organizations ut
 - **Hassle-free deletion** for expired secure links
 - **Free support** app setup. [Contact us](https://miniorange.atlassian.net/servicedesk/customer/portal/2) for a Secure Share demo!
 
-### Upcoming Features & Customer Support
+### Upcoming Features & Customer Support {#upcoming-features-and-support}
 
 - Share your Confluence spaces with external users in a single click.
 - Admins can choose to restrict sharing of Confluence pages from certain spaces.
