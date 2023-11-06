@@ -54,7 +54,7 @@ const Blog = ({ payload }) => {
     });
 
     const [{ loading, success, error }, setStatus] = useStatus();
-    const [activeSection, setActiveSection] = useState('');
+    const [activeSection, setActiveSection] = useState('main');
 
     const handleCommentChange = (e) => {
         const { name, value } = e.target;
@@ -94,19 +94,42 @@ const Blog = ({ payload }) => {
         return currentSectionId;
     };
 
-    useEffect(() => {
-        const onHashChanged = () => {
-            setActiveSection(getCurrentSectionId);
-        };
+    function getVisibleHeading(headings) {
+        if (!headings) return;
+        let closestHeading = null;
+        let closestDistance = 500;
 
-        window.addEventListener('hashchange', onHashChanged);
+        for (const heading of headings) {
+            const rect = heading.getBoundingClientRect();
+            const distanceToTop = Math.abs(rect.top);
 
-        if (!getCurrentSectionId()) {
-            setActiveSection('main');
+            if (distanceToTop < closestDistance) {
+                closestHeading = heading;
+                closestDistance = distanceToTop;
+            }
         }
 
+        return closestHeading;
+    }
+
+    function onScroll(event, headings) {
+        if (!headings) return;
+
+        const visibleHeading = getVisibleHeading(headings);
+
+        if (visibleHeading) {
+            const id = visibleHeading.id;
+            setActiveSection(id);
+        }
+    }
+
+    useEffect(() => {
+        const headings = document.querySelectorAll('h1, h2, h3');
+
+        window.addEventListener('scroll', (event) => onScroll(event, headings));
+
         return () => {
-            window.removeEventListener('hashchange', onHashChanged);
+            window.removeEventListener('scroll', onScroll(headings));
         };
     }, []);
 
@@ -128,7 +151,9 @@ const Blog = ({ payload }) => {
                 {/* Hero Section */}
                 <div id='main' className={`${styles.hero_section} scroll-mt-52`}>
                     <div className='flex-1'>
-                        <h1 className='mt-md lg:mt-0 display'>{title}</h1>
+                        <h1 id='main' className='mt-md lg:mt-0 display'>
+                            {title}
+                        </h1>
                         <p className='caption mt-md'>{description}</p>
                         <Link href={mainButtonLink || 'https://www.miniorange.com/contact'}>
                             <Button text={mainButtonText || 'Get Demo'} className='mt-xl' />
@@ -151,7 +176,7 @@ const Blog = ({ payload }) => {
                             <a
                                 href={`#main`}
                                 className={`title ${styles.side_nav_link} mt-sm ${
-                                    activeSection === 'main' ? 'font-semibold' : 'font-normal'
+                                    activeSection === 'main' ? 'font-semibold bg-accent/10' : ''
                                 }`}
                             >
                                 Introduction
@@ -162,8 +187,8 @@ const Blog = ({ payload }) => {
                                     href={`#${headline.id}`}
                                     className={`title ${styles.side_nav_link} ${
                                         activeSection === headline.id
-                                            ? 'font-semibold'
-                                            : 'font-normal'
+                                            ? 'font-semibold bg-accent/10'
+                                            : ''
                                     }`}
                                 >
                                     {headline.text}
