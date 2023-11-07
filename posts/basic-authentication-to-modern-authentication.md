@@ -30,7 +30,7 @@ tags:
 ---
 **Microsoft’s plan to replace Basic Authentication, with Modern Authentication, from Exchange Online** is being postponed until the second half of 2021 due to the current situation created by the COVID-19 pandemic. You might think: What is replacing basic authentication? Wait, what is Basic authentication in the first place that is being replaced? Continue reading this article to learn more about basic authentication and modern authentication, and why it is happening.
 
-### What is Basic Authentication and its drawbacks? {# What is Basic Authentication and its drawbacks?}
+### What is Basic Authentication and its drawbacks? {#what-is-basic-authentication-and-its-drawbacks?}
 Basic Authentication is an authentication commonly used for internet resources. Basic Authentication or Basic Auth has the advantage of being relatively simple, **Username and password** are stored in plain text with base64 encoding in a single header field.  
 
 As a result, Basic Auth had to be used in conjunction with SSL in order to encrypt the headers and protect the user’s credentials. Even when HTTPS is utilized, there are still a number of Basic Auth vulnerabilities. A few major being:
@@ -44,7 +44,7 @@ In today’s world, the ideal security and privacy practice are to grant access 
 
  
 
-### What is Modern Authentication? {# What is Modern Authentication?}
+### What is Modern Authentication? {#what-is-modern-authentication?}
 Modern Authentication is a term used to refer to authentication and authorization protocols that are better designed for today’s world, for Internet-scale and management. These Protocols allows administrators to define rules for 
 
 - Authentication (the process by which anything or someone logs into a system),
@@ -57,7 +57,7 @@ Authentication is based on Token rather than caching or sending username and pas
 
  
 
-### How Modern Authentication works? {# How Modern Authentication works?}
+### How Modern Authentication works? {#how-modern-authentication-works?}
 Username and password will no longer be the primary source of authentication, but will still be required to produce an access token (at least for now) by authenticating with an identity Source/provider. This token contains more specific information about the requestor’s rights and privileges (in the form of a claim) and is validated by application. These Tokens can also be revoked and set to expire on a specific date, giving additional control over who has access to what information.
 
  
@@ -66,12 +66,12 @@ Username and password will no longer be the primary source of authentication, bu
 
  
 
-### Benefits of Modern Authentication {# Benefits of Modern Authentication}
+### Benefits of Modern Authentication {#benefits-of-modern-authentication}
 Modern authentication leverages protocols like OAuth2.0 to allow admins/users to fine-tune authentication policy to better control access to resources. Other than being more secure, One of the biggest advantages of Modern Authentication is that it allows admins to configure all policies at one central location which is at the identity provider. This relieves the Administrator from the responsibility of configuring policies for individual apps separately, hence mitigating the chances of missed configuration update for an application leaving a loophole in security. 
 
  
 
-### Conclusion {# Conclusion}
+### Conclusion {#conclusion}
 Modern Authentication is unarguably the next stage in the authentication cycle that will replace basic authentication methods. Although the switch is slow and the deadlines(some) for disabling Basic Authentication and less secure app access have been extended, upgrading to Modern Authentication as soon as possible is still recommended.   
 
 Modern Authentication is not only safer than Basic Authentication, but it is also more user-friendly and simplifies the task of the administrator. Multiple of Microsoft’s services like Outlook for Office 365, Outlook 2016 / 2019, Mail for Windows 10 has implemented support for Modern Authentications and the number of applications doing so will keep increasing. You can signup for a demo account for miniOrange IAM solution from here.  

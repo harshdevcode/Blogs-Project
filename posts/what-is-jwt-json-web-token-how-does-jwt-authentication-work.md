@@ -35,14 +35,14 @@ tags:
     ]
 ---
 
-### What is JWT (JSON Web Token)? {# What is JWT (JSON Web Token)?}
+### What is JWT (JSON Web Token)? {#what-is-jwt-json-web-token}
 JWT, or JSON Web Token, is an open standard used to share information between two parties securely — a client and a server. In most cases, it’s an encoded JSON containing a set of claims and a signature. It’s usually used in the context of other authentication mechanisms like OAuth, OpenID to share user-related information. It’s also a popular way to authenticate/authorize users in a microservice architecture.  
 
 JWT authentication is a token-based stateless authentication mechanism. It is popularly used as a client-side-based stateless session, this means the server doesn’t have to completely rely on a data store (or) database to save session information.  
 
 JWTs can be encrypted, but they are typically encoded & signed.  We will be focusing on Signed JWTs. The purpose of Signed JWT is not to hide the data but to ensure the authenticity of the data. And that is why it’s highly recommended to use HTTPS with Signed JWTs.
 
-### Structure of JWT {# Structure of JWT}
+### Structure of JWT {#structure-of-jwt}
 JWT structure is divided into three parts: header, payload, signature & is separated from each other by dot (.), and will follow the below structure:
 
  
@@ -63,7 +63,7 @@ This is typically a hash of the header and payload sections of the JWT. The algo
 The header and Payload section of the JWT is always Base64 encoded.
 
 
-### How does JWT Authentication work? When to use JWT Authentication? {# How does JWT Authentication work? When to use JWT Authentication?}
+### How does JWT Authentication work? When to use JWT Authentication? {#how-does-jwt-authentication-work-when-to-use-jwt-authentication}
 
 When it comes to API authentication and server-to-server authorization, JSON web token (JWT) is particularly a useful technology. In terms of Single Sign-On (SSO), it means that a service provider can receive trustworthy information from the authentication server. 
 
@@ -83,12 +83,12 @@ The Identity Provider generates a JWT certifying user identity, and the resource
 
 Since the tokens are used for authorization and authentication in future requests and API calls great care must be taken to prevent security issues. These tokens shouldn’t be stored in publicly accessible areas like the browser’s local storage or cookies. In case there are no other choices, then the payload should be encrypted.
 
-### How JWT Single Sign-On (SSO) works for multiple web apps {# How JWT Single Sign-On (SSO) works for multiple web apps}
+### How JWT Single Sign-On (SSO) works for multiple web apps {#how-jwt-single-sign-on-sso-works-for-multiple-web-apps}
 Single Sign-On (SSO) allows you to authenticate users in your systems and subsequently informs applications that the user has been authenticated. On successful authentication, a JWT token is generated and returned, which can be consumed by the app to create a user session. The token is automatically verified with the IDP when they sign in. The user is then allowed to access the apps without being prompted to enter separate sign-in credentials.  
 
 This security mechanism allows applications to trust the sign-in requests it gets from the systems. Furthermore, these apps will only grant access to the users who have been authenticated by you/admin & hence Single Sign-On (SSO) relies on JSON Web Token (JWT) for securing the exchange of user authentication data. Great care must be taken in terms of how this token is stored and managed.
 
-### miniOrange JWT Authentication for Apps that don’t Support Standard SSO Protocols {# miniOrange JWT Authentication for Apps that don’t Support Standard SSO Protocols}
+### miniOrange JWT Authentication for Apps that don’t Support Standard SSO Protocols {#miniorange-jwt-authentication-for-apps-that-dont-support-standard-sso-protocols}
 
 **Usecase: Create a custom SSO between 2 existing and independent websites with their own user database**
 

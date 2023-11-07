@@ -35,17 +35,17 @@ When the word “technology” is used, the phrase “authentication and securit
 
  
 
-### What Is Authentication? {# What Is Authentication?}
+### What Is Authentication? {#what-is-authentication}
 Authentication is the process of identifying users that request access to a system, network, server, app, website, or device. The primary goal of authentication is to ensure that a user is who they claim to be. User A, for example, has access to only relevant information and is unable to see User B’s personal information. Unauthorized users are prevented from accessing sensitive data with user authentication. Authentication improves security by allowing any Organizational admin to manage an individual user’s identity and access. The basic authentication used for identity and access control verification is username and password, with **different types of authentication** techniques that we shall cover moving forward.
 
  
 
-### Why Is User Authentication Important? {# Why Is User Authentication Important?}
+### Why Is User Authentication Important? {#why-is-user-authentication-important?}
 There is no organization, system, network, website, or server in today’s modern world that does not require some form of authentication. If they are not, they are putting themselves at risk of attacks that could result in the misappropriation of their resources and sensitive data at the very least. A single blunder may expose your organization’s data to cybercriminals, as they are always prepared with a variety of cyber weaponry, such as (Phishing, Data breaches, spoofing, etc). When your authentication system isn’t up to par, they can quickly get access and steal information. A few of the most recent major attacks will lead you to the conclusion that, whether you are a little business or a large corporation, authentication using the finest security techniques is a must to stay stable in this technological environment.
 
  
 
-### Different types of Authentication {# Different types of Authentication}
+### Different types of Authentication {#different-types-of-authentication}
 When it comes to authentication and security, there is a vast ocean of different authentication options to choose from. Before adopting or choosing any of the authentication methods for your Organization’s employees or end-users, you should be aware of a few key factors that will help you choose the most appropriate authentication technique for you:  
 1. Security capability of that Authentication Method
 2. Usability interface
@@ -93,7 +93,7 @@ Certificate-based authentication identifies people, servers, workstations, and d
 Token-Based Authentication allows users to enter their credentials only once and obtain a one-of-a-kind encrypted string exchange in return. After that, you won’t have to input your credentials every time you want to log in or acquire access. The digital token ensures that you have already been granted access. Most use cases, such as Restful APIs that are accessed by many frameworks and clients, require token-based authentication.  
 
 
-### How will miniOrange advance Authentication technologies will help you out? {# How will miniOrange advance Authentication technologies will help you out?}
+### How will miniOrange advance Authentication technologies will help you out? {#how-will-miniorange-advance-authentication-technologies-will-help-you-out}
 As we get to know more about different types of Authentication, we will move forward with some advanced Authentication Solutions that miniOrange provides with “All in one Approach”. It will help you to Manage Identities and access both with advanced security features.
 
 
@@ -119,7 +119,7 @@ An API key is a unique identifier for web service requests that identifies their
 OAuth is a popular API authentication technique that allows for both authentication and authorization.OAuth allows the API to authenticate and access the system or resource requested by establishing scope.
 
  
-### Conclusion {# Conclusion}
+### Conclusion {#conclusion}
 In today’s fast-paced technology environment, security is the most crucial component in standing out from your competitors and providing a flawless experience to end consumers.  
 
 Putting your security at risk can have a number of negative effects on your company, such as phishing attacks and data breaches. To avoid problems like these, you should choose an authentication system for your company that fits your budget and allows for a smooth user flow.  

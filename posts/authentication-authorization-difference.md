@@ -4,7 +4,7 @@ title: 'What is the difference between Authentication and Authorization?'
 description: 'The key difference between authentication and authorization is that the identity of user & service is confirmed through authentication, and their access privileges are established through authorization.'
 metaTitle: 'Authentication vs. Authorization | What is the difference?'
 metaDescription: 'The key difference between authentication and authorization is that the identity of user & service is confirmed through authentication, and their access privileges are established through authorization.'
-keywords: 'what is jwt'
+keywords: 'authentication authorization'
 mainButtonLink: 'https://www.miniorange.com/contact'
 mainButtonText: 'Contact us'
 excerpt: 'The key difference between authentication and authorization is that the identity of user & service is confirmed through authentication, and their access privileges are established through authorization.'
@@ -18,10 +18,6 @@ ogImage:
 category: ['IAM', 'Concepts']
 tags:
     [
-        'what is jwt',
-        'jwt',
-        'jwt authentication',
-        'json web token',
         'SSO',
         'OAuth/OIDC',
         'Authentication',
@@ -45,21 +41,21 @@ The key difference between authentication and authorization is that the user or 
 
  
 
-### What is Authentication?
+### What is Authentication? {#what-is-authentication}
 [Authentication](https://www.miniorange.com/authentication-services) is a process that identifies the identity of an oncoming user. This is the root step of all Identity Management. Identification of identity is simple – a set of credentials are accepted by a user and he/she is authenticated if those credentials are correct.
 
 Sometimes, there can be another layer to this authentication, and the user might need to pass through a more complex but secure authentication process than just simple credentials passing. A user’s identity is verified by many different factors through this process before the system grants them access to anything. This may include a time-bound OTP, a set of questions, a hardware token, biometrics, etc.
 
  
 
-### What is the Purpose of Authentication?
+### What is the Purpose of Authentication? {#what-is-the-purpose-of-authentication}
 The main purpose of authentication is to verify and validate the identity of an individual or entity trying to access a system, application, or resource. It ensures that the user is who they claim to be and grants them appropriate access privileges based on their authenticated identity. This ensures that unauthorized personnel or impostors cannot illegally get access to critical resources. 
 
 Authentication serves as a fundamental security measure to protect sensitive information, prevent unauthorized access, and maintain the integrity and confidentiality of data. It plays a crucial role in establishing trust, mitigating security risks, and safeguarding user accounts and resources from unauthorized use or malicious activities. Authentication is a very pivotal part of Identity and Access Management for modern organizations.
 
  
 
-### What are the Popular Authentication Methods?
+### What are the Popular Authentication Methods? {#what-are-the-popular-authentication-methods}
 Over the years, a wide range of [authentication methods](https://www.miniorange.com/blog/different-types-of-authentication-methods-for-security/) have been developed. Now, we’ll go through the most popular forms of authentication and demonstrate how each method works in modern systems.
 
 ![Types of Authentication Methods](/blog/assets/2023/different-types-of-authentication.webp)
@@ -99,14 +95,14 @@ The process of confirming a user’s identity while requesting to access server-
 Digital certificates are used in certificate-based authentication solutions to identify individuals, computers, and devices. A digital certificate is a type of electronic document similar to a driver’s license or passport. Only a certification authority may issue digital certificates to show ownership of a public key.
 
 
-### What is Authorization?
+### What is Authorization? {#what-is-authorization}
 Authorization is the process that determines what level of access a user will get to critical resources of the organization. Authorization deals with the role of an individual within an organization or a group. Considering an example, the employee who belongs to the Accounts and Finance team will be authorized to only Account-related tools and applications, and not the Sales and Business-related tools. 
 
 Authorization of a user is very important, as most web resources today are to be selectively shared among user bases, and most online business models also run this way. That is the reason why it is one of the most crucial steps when talking about access management.
 
  
 
-### What are the Popular Types of Authorization?
+### What are the Popular Types of Authorization?  {#what-are-the-popular-types-of-authorization}
 Below are some of the techniques used for the authorization process. Each of these techniques works differently and is important in its own way to secure data.  
 
 **API Keys:**  
@@ -132,7 +128,7 @@ Authentication and authorization both employ this mechanism. To establish their 
 ![Authentication & Authorization Process : Flow Diagram](/blog/assets/2023/authentication-authorization.webp)
  
 
-### Authentication VS Authorization
+### Authentication VS Authorization {authentication-vs-authorization}
 
 | Authentication | Authorization |
 | -------------- | ------------- |
@@ -144,7 +140,7 @@ Authentication and authorization both employ this mechanism. To establish their 
 | e.g. When a college student walks into their campus, they have to showcase their identity card at the gate to get authenticated as a student of the institution. | e.g. Once the student is authenticated they walk towards their pre-allocated building, towards their floor, and their classroom. This is where Authorization is in play, the student does not have access to the professor’s cabin or the principal’s office. |
  
 
-### Authentication and Authorization in Cloud Computing
+### Authentication and Authorization in Cloud Computing {#authentication-and-authorization-in-cloud-computing}
 
 Authentication and authorization are essential components required for securing cloud computing environments. They help ensure that only authorized individuals or entities can access resources and perform actions within the cloud infrastructure.  
 
@@ -153,7 +149,7 @@ Different Authentication methods discussed in this article can be implemented to
 In cloud computing, Authorization or [access control](https://www.miniorange.com/reverse-proxy/access-control) is used for granting or denying permissions to authenticated users based on their roles, responsibilities, or other attributes within the cloud environment. Authorization mechanisms help enforce the principle of least privilege, ensuring that users only have access to the resources they need. 
 
 
-### How miniOrange can help you Implement Authentication & Authorization in your Organization?
+### How miniOrange can help you Implement Authentication & Authorization in your Organization? {#how-miniorange-can-help-you-implement-authentication-and-authorization-in-your-organization}
 
 Being in a high-paced cyber world, it’s an important need for enterprises to adopt Authentication and Authorization mechanisms to fortify their security posture. To successfully implement these robust security measures in your organization, you need a customized [Identity and Access Management (IAM)](https://www.miniorange.com/what-is-iam-identity-and-access-management) solution from a trusted IAM vendor.  
 
@@ -161,7 +157,7 @@ miniOrange provides a wide array of solutions that efficiently and securely enab
 
  
 
-### FAQ
+### FAQ {#faq}
 **Which comes First, Authentication or Authorization?**  
 In the Identity and Access Management process, authentication typically comes before authorization. Authentication is the process of verifying digital identities. Once authenticated, the next step is authorization. Authorization determines what actions and resources a user is allowed to access.
 
