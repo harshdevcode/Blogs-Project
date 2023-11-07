@@ -22,12 +22,12 @@ tags: ['WordPress Salesforce', 'Salesforce', 'Sync', 'Salesforce Connect', 'SSO'
 ## Integrating WordPress with Salesforce
 Before, you would have to enlist an expert engineer to assemble a custom framework for you, associating your site to Salesforce through their exclusive API. Nonetheless, [the Object Sync for Salesforce module](https://wordpress.org/plugins/object-data-sync-for-salesforce/) improves on a ton of this by making an adaptable framework that permits you to construct associations between WordPress metadata and Salesforce directly in your WordPress dashboard. With this plugin, you can allow field mapping between WordPress Objects, with fields of the Salesforce Object and sync (create, update and delete) data from WordPress to Salesforce based on the mapping. The Salesforce to WordPress sync can also be scheduled at a specific time interval. Hence providing a bi-directional synchronization i.e Salesforce object can be mapped to a WordPress object thus creating a complete Object Lifecycle Management system.
 
-### Enable Object Data Synchronization for WordPress (WP) to Salesforce {#Enable Object Data Synchronization for WordPress (WP) to Salesforce}
+### Enable Object Data Synchronization for WordPress (WP) to Salesforce {#enable-object-data-synchronization-for-wordpress-(wp)-to-salesforce}
 Our [Object Sync for Salesforce](https://plugins.miniorange.com/sync-salesforce-objects-to-wordpress) allows you to synchronize your WordPress objects (like users, pages, posts, blogs etc.) with Salesforce. It will keep your WordPress objects in sync with Salesforce for marketing automation. When an object (user, page, posts, blog etc.) is [created/updated/deleted](https://plugins.miniorange.com/sync-salesforce-objects-to-wordpress) in WordPress, it will be created/updated/deleted in the Salesforce also.
 
 The plugin also allows you to sync your WooCommerce orders, checkout details, membership levels, and enables user data synchronization from WordPress to Salesforce, and vice-versa.
 
-### What do we offer ? {#What do we offer ?}
+### What do we offer ? {#what-do-we-offer?}
 ## Automatic synchronization
 Salesforce objects will be created/updated/deleted in sync as the data in WordPress is saved. Administrators can specify triggers when data should be synced to Salesforce.
 Eg. you specify that WordPress data will be synced to Salesforce after a new Post is saved.
