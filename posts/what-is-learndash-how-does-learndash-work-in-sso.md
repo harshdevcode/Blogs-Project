@@ -21,7 +21,7 @@ tags: ['WordPress', 'SSO', 'Single Sign-On', 'LearnDash', 'LearnDash WP SSO', 'L
 
 ## What is LearnDash? How does learnDash work in SSO?
 
-### What is LearnDash? {#what-is-learndash?}
+### What is LearnDash? {#what-is-learndash}
 LMS or Learning Management System is an e-learning technology that enables institutions or organizations to spread their courses virtually across the globe without the physical effort required in classrooms. It also allows the user to configure their content suited for their clients.
 
 **LearnDash** is trusted to control the learning programs for significant colleges, little to average size organizations, new companies, business people, and bloggers around the world.
@@ -44,7 +44,7 @@ Single Sign-On (SSO) is a Federated Identity Management (FIM) arrangement that a
 
 ## Why Single Sign-On (SSO) in LearnDash?
 
-### How does SSO work with LearnDash? {#how-does-sso-work-with-learndash?}
+### How does SSO work with LearnDash? {#how-does-sso-work-with-learndash}
 Single Sign-On (SSO) in  LearnDash can be best understood by the Use Cases that we have solved for customers. Let’s see some of them below.
 
 Selling courses online: A content provider has a LearnDash site for courses along with a WooCommerce site that sells the courses. The content provider has onboarded an organization whose employees can purchase and take the courses on his site. The organization’s users are stored in the organization’s Identity Provider, AzureAD. In such a case, when an organization employee tries to purchase a course on WooCommerce, SSO would allow the user to validate his identity by logging into Woocommerce using the organization’s AzureAD.Once the employee SSOs into the WordPress site using AzureAD, the employee attributes (like first name, last name, email, phone, address, city, etc.) from AzureAD would be mapped to his user attributes in WordPress. Hence, when the employee proceeds to checkout, details required for checkout are pre-filled in the checkout page fields by the attributes fetched from AzureAD, which allows him to complete the purchase and then access the course on LearnDash.
@@ -70,7 +70,7 @@ When a student tries to buy a course from a WooCommerce site, he/she is redirect
 
 When the student logs into the Identity Provider, WordPress SAML SSO Plugin fetches his or her identity information and attributes from the IdP. After successful authentication, the student is redirected back to the checkout page with the checkout fields pre-filled by the information fetched from the Identity Provider. Once a student purchases a course, the student is assigned a role that allows the student to access the content of the course he purchased. 
 
-### Why is miniOrange a great choice for LearnDash SSO? {#why-is-miniorange-a-great-choice-for-learndash-sso?}
+### Why is miniOrange a great choice for LearnDash SSO? {#why-is-miniorange-a-great-choice-for-learndash-sso}
 miniOrange solutions provide varied features along with Single Sign-On (SSO) which makes plenty of LearnDash use cases possible.
 
 ![LearnDash Single Sign-On (SSO)](/blog/assets/2023/learndash-sso-features-set.webp)
