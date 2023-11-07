@@ -1,22 +1,22 @@
 ---
 id: 'c3c1d82f-f8bf-44be-adf4-4c701b279d2e'
 title: 'What is LearnDash? How does learnDash work in SSO?'
-description: "What is LearnDash? LMS or Learning Management System is an e-learning technology that enables institutions or organizations to spread their courses virtually across the globe without the physical effort required in classrooms. It also allows the user to configure their content suited for their clients. LearnDash is trusted to control the learning programs for significant"
+description: "What is LearnDash? LMS or Learning Management System is an e-learning technology that enables institutions or organizations to spread their courses virtually across the globe without the physical effort required in classrooms. It also allows the user to configure their content suited for their clients."
 metaTitle: 'What is LearnDash? How does learnDash work in SSO?'
-metaDescription: 'What is LearnDash? LMS or Learning Management System is an e-learning technology that enables institutions or organizations to spread their courses virtually across the globe without the physical effort required in classrooms. It also allows the user to configure their content suited for their clients. LearnDash is trusted to control the learning programs for significant'
-keywords: ''
-mainButtonLink: ''
-mainButtonText: ''
-excerpt: "What is LearnDash? LMS or Learning Management System is an e-learning technology that enables institutions or organizations to spread their courses virtually across the globe without the physical effort required in classrooms. It also allows the user to configure their content suited for their clients. LearnDash is trusted to control the learning programs for significant"
-thumbnail: '/blog/assets/2023/Leandash-wordpress-SSO.webp'
+metaDescription: 'What is LearnDash? LMS or Learning Management System is an e-learning technology that enables institutions or organizations to spread their courses virtually across the globe without the physical effort required in classrooms. It also allows the user to configure their content suited for their clients.'
+keywords: ' wp sso for learndash, learndash single sign on'
+mainButtonLink: 'https://plugins.miniorange.com/wordpress-learndash-integrator'
+mainButtonText: 'Learn More'
+excerpt: "What is LearnDash? LMS or Learning Management System is an e-learning technology that enables institutions or organizations to spread their courses virtually across the globe without the physical effort required in classrooms. It also allows the user to configure their content suited for their clients."
+thumbnail: '/blog/assets/2023/learndash-wordpress-sso-banner.webp'
 createdOn: '2022-05-12'
 updatedOn: '2022-05-12'
-ogTitle: ''
-ogDescription: ''
+ogTitle: 'What is LearnDash? How does learnDash work in SSO?'
+ogDescription: 'What is LearnDash? LMS or Learning Management System is an e-learning technology that enables institutions or organizations to spread their courses virtually across the globe without the physical effort required in classrooms. It also allows the user to configure their content suited for their clients.'
 ogImage:
-    url: '/blog/assets/2023/Leandash-wordpress-SSO.webp'
-category: ['featured', 'iam']
-tags: ['WordPress', 'SSO', 'MFA', 'Single Sign-On', '2FA', 'IAM', 'Security', 'Provisioning', 'Multi-factor Authentication']
+    url: '/blog/assets/2023/learndash-wordpress-sso-banner.webp'
+category: [' Single Sign-On', 'SSO', 'WordPress']
+tags: ['WordPress', 'SSO', 'Single Sign-On', 'LearnDash', 'LearnDash WP SSO', 'LMS']
 ---
 
 ## What is LearnDash? How does learnDash work in SSO?
@@ -30,7 +30,7 @@ In comparison with other LMS such as LearnPress or LifterLMS, LearnDash provides
 
 1. **One Price for everything:** Unlike other LMS, LearnDash does not have different plans which divide pricing in accordance with the features. All the features of LearnDash are included for a single price which becomes more feasible compared to other LMS in terms of long-run functionality.
 2. **Professional nature:** LearnDash is set up to cater to big business and large global corporations, as their impressive list of current customers infers. It also provides a range of professional features, which include branding of the LearnDash eLearning platform, integration with a wide assortment of tools and services, and much more.
-![LearnDash WordPress SSO Key features](/blog/assets/2023/Learn-dash-sso-img1.webp)
+![LearnDash WordPress SSO Key features](/blog/assets/2023/learndash-sso-usecase.webp)
 
 ## Benefits of SSO in LearnDash 
 Single Sign-On (SSO) is a Federated Identity Management (FIM) arrangement that allows users to access multiple applications using one set of credentials. It works on a trust relationship between a Service Provider (SP) (LearnDash in this case) and an Identity Provider (IDP). This trust relationship is often based upon a certificate that is exchanged between the Identity Provider and the Service Provider.
@@ -60,7 +60,7 @@ LearnDash+Zoom: A LearnDash site with multiple courses can provide access to Zoo
 [LearnDash Single Sign-On (SSO)| LearnDash WordPress SSO](https://plugins.miniorange.com/learndash-wordpress-single-sign-on-sso)
 
 Let’s consider an example where we have a WordPress site in which LearnDash is installed to make/build courses and Woocommerce is installed to sell courses.
-![LearnDash-WordPress-SSO-Integration](/blog/assets/2023/Learn-dash-sso-img2.webp)
+![LearnDash-WordPress-SSO-Integration](/blog/assets/2023/learndash-sso-key-features.webp)
 
 We can see how SSO helps in limiting access to students and steering clear of outside intrusion, as well as introduces an easy and seamless way of accessing resources
 
@@ -73,7 +73,7 @@ When the student logs into the Identity Provider, WordPress SAML SSO Plugin fetc
 ### Why is miniOrange a great choice for LearnDash SSO? {#Why is miniOrange a great choice for LearnDash SSO?}
 miniOrange solutions provide varied features along with Single Sign-On (SSO) which makes plenty of LearnDash use cases possible.
 
-![LearnDash Single Sign-On (SSO)](/blog/assets/2023/Learndash-sso-img3.webp)
+![LearnDash Single Sign-On (SSO)](/blog/assets/2023/learndash-sso-features-set.webp)
 
 ### Additional Resources  {#additional-resources}
 1. [What is Single Sign-On (SSO)](https://www.miniorange.com/single-sign-on-sso)

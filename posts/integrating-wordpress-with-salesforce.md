@@ -1,22 +1,22 @@
 ---
 id: '8d1ed2de-cb3a-46e2-a27b-c6148ae84427'
 title: 'Integrating WordPress with Salesforce'
-description: "Before, you would have to enlist an expert engineer to assemble a custom framework for you, associating your site to Salesforce through their exclusive API. Nonetheless, the Object Sync for Salesforce module improves on a ton of this by making an adaptable framework that permits you to construct associations between WordPress metadata and Salesforce directly"
+description: "Before, you would have to enlist an expert engineer to assemble a custom framework for you, associating your site to Salesforce through their exclusive API. Nonetheless, the Object Sync for Salesforce module improves on a ton of this by making an adaptable framework that permits you to construct associations between WordPress metadata and Salesforce directly."
 metaTitle: 'Integrating WordPress with Salesforce'
-metaDescription: 'Before, you would have to enlist an expert engineer to assemble a custom framework for you, associating your site to Salesforce through their exclusive API. Nonetheless, the Object Sync for Salesforce module improves on a ton of this by making an adaptable framework that permits you to construct associations between WordPress metadata and Salesforce directly'
-keywords: ''
-mainButtonLink: ''
-mainButtonText: ''
-excerpt: "Before, you would have to enlist an expert engineer to assemble a custom framework for you, associating your site to Salesforce through their exclusive API. Nonetheless, the Object Sync for Salesforce module improves on a ton of this by making an adaptable framework that permits you to construct associations between WordPress metadata and Salesforce directly"
-thumbnail: '/blog/assets/2023/WP-object-data-sync-for-salesforce.webp'
+metaDescription: 'Before, you would have to enlist an expert engineer to assemble a custom framework for you, associating your site to Salesforce through their exclusive API. Nonetheless, the Object Sync for Salesforce module improves on a ton of this by making an adaptable framework that permits you to construct associations between WordPress metadata and Salesforce directly.'
+keywords: 'wordpress salesforce, salesforce sync'
+mainButtonLink: 'https://plugins.miniorange.com/wordpress-object-sync-for-salesforce'
+mainButtonText: 'Learn More'
+excerpt: "Before, you would have to enlist an expert engineer to assemble a custom framework for you, associating your site to Salesforce through their exclusive API. Nonetheless, the Object Sync for Salesforce module improves on a ton of this by making an adaptable framework that permits you to construct associations between WordPress metadata and Salesforce directly."
+thumbnail: '/blog/assets/2023/wp-object-data-sync-for-salesforce-banner.webp'
 createdOn: '2022-05-12'
 updatedOn: '2022-05-12'
-ogTitle: ''
-ogDescription: ''
+ogTitle: 'Integrating WordPress with Salesforce'
+ogDescription: 'Before, you would have to enlist an expert engineer to assemble a custom framework for you, associating your site to Salesforce through their exclusive API. Nonetheless, the Object Sync for Salesforce module improves on a ton of this by making an adaptable framework that permits you to construct associations between WordPress metadata and Salesforce directly.'
 ogImage:
-    url: '/blog/assets/2023/WP-object-data-sync-for-salesforce.webp'
-category: ['featured', 'iam']
-tags: ['wordpress salesforce', 'salesforce', 'sync', 'Salesforce Connect', 'SSO', 'Single Sign-On', 'MFA', '2FA', 'Security', 'Multi-factor', 'Authentication']
+    url: '/blog/assets/2023/wp-object-data-sync-for-salesforce-banner.webp'
+category: ['wordpress salesforce', 'Salesforce Connect', 'salesforce sync']
+tags: ['WordPress Salesforce', 'Salesforce', 'Sync', 'Salesforce Connect', 'SSO', 'Single Sign-On']
 ---
 
 ## Integrating WordPress with Salesforce
@@ -46,7 +46,7 @@ Sync Complex Salesforce objects from WordPress to Salesforce. Complex Salesforce
 
 - **CMS Form WP:** We provide the flexibility of submitting data not just to Leads but to other standard or custom objects in Salesforce. Our plugin provides a combination of point-and-click and drag-and-drop user experiences for simple and fast form building. This enables you to map form fields to Salesforce fields, using the simple graphical user interface (GUI).
 
-![WP Object Data Sync for Salesforce Features](/blog/assets/2023/wp-object-data-sync-for-salesforce-img1.webp)
+![WP Object Data Sync for Salesforce Features](/blog/assets/2023/wp-object-data-sync-for-salesforce-features.webp)
 
 ## Connect / Integrate Features with WordPress using Salesforce
 - **MemberPress Integration:** Map Membership levels, User credentials, payment information, billing address from Membership Sign up page with a Salesforce object field. Once a user submits and checks out, the data will be saved in the Salesforce object.
@@ -57,7 +57,7 @@ Sync Complex Salesforce objects from WordPress to Salesforce. Complex Salesforce
 
 - **Buddypress Integration:** Map Buddypress extended profiles with the Salesforce objects. Save user in Salesforce object when a user is created/deleted.
 
-![WP Object Data Sync for Salesforce](/blog/assets/2023/wp-object-data-sync-for-salesforce-img2.webp)
+![WP Object Data Sync for Salesforce](/blog/assets/2023/wp-object-data-sync-for-salesforce-integrations.webp)
 
 ### Conclusion {#conculsion}
 All in all, we would agree that corporating WordPress with Salesforce is extremely advantageous for us in numerous ways. There are likewise many motivations behind why the combination of these 2 stages becomes significant for the business, of which a portion of the significant ones we have referenced in the post too. Thus, taking a gander at these reasons, we can doubtlessly say that the reconciliation is very advantageous for the business. In this way, you should likewise think about integration of WordPress with Salesforce.
@@ -67,6 +67,6 @@ All in all, we would agree that corporating WordPress with Salesforce is extreme
 1. [Object Data Sync For Salesforce Plugin](https://wordpress.org/plugins/object-data-sync-for-salesforce/)
 2. [WordPress Data Sync for Salesforce-Info](https://plugins.miniorange.com/wordpress-object-sync-for-salesforce)
 3. [Configure WordPress – Salesforce Bi-directional Object Data Sync](https://plugins.miniorange.com/salesforce-wordpress-object-sync)
-4. [Sync Salesforce Objects to WordPress]()
-5. [User Data Synchronization]()
-6. [Salesforce SAML Single Sign-On (SSO) for WordPress | Salesforce SSO Login]()
+4. [Sync Salesforce Objects to WordPress](https://plugins.miniorange.com/salesforce-integration-with-woocommerce-for-wordpress)
+5. [User Data Synchronization](https://plugins.miniorange.com/salesforce-integration-with-woocommerce-for-wordpress)
+6. [Salesforce SAML Single Sign-On (SSO) for WordPress | Salesforce SSO Login](https://plugins.miniorange.com/saml-single-sign-on-sso-wordpress-using-salesforce)
