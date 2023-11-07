@@ -16,7 +16,7 @@ export default function PostItem({
             href={`/${slug}`}
             className={`
                 ${className}
-                card flex flex-col duration-150 cursor-pointer overflow-hidden                                      
+                 card flex flex-col duration-150 cursor-pointer overflow-hidden                                    
             `}
         >
             <div className='aspect-video relative'>

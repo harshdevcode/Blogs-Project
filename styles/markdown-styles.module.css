@@ -10,15 +10,21 @@
 .markdown ul,
 .markdown ol,
 .markdown blockquote {
-    @apply leading-[38px];
+    @apply leading-[2.295];
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+    font-family: Sora, sans-serif !important;
 }
 
 .markdown h2 {
-    @apply text-heading mt-xxl mb-rg;
+    @apply text-2xl font-semibold mt-xxl mb-rg scroll-mt-28;
 }
 
 .markdown h3 {
-    @apply text-heading mt-xl mb-rg;
+    @apply text-xl mt-10 mb-2.5 font-semibold scroll-mt-28;
 }
 
 .markdown h4 {
@@ -34,7 +40,7 @@
 }
 
 .markdown img {
-    @apply w-full bg-slate-100 aspect-video object-cover;
+    @apply w-full bg-slate-100 aspect-video object-cover my-5;
 }
 
 .markdown a {
@@ -43,7 +49,15 @@
 }
 
 .markdown ul {
-    @apply list-disc pl-rg;
+    @apply list-disc pl-rg list-inside;
+}
+
+.markdown ol {
+    @apply list-decimal pl-rg list-inside;
+}
+
+.markdown br {
+    @apply !leading-3;
 }
 
 .blogs-grid {

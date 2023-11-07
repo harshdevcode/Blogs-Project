@@ -5,7 +5,7 @@ description: 'miniOrange Jenkins Crowd SSO Connector is capable of creating user
 metaTitle: 'SSO for Atlassian Applications connected to Crowd'
 metaDescription: 'miniOrange Jenkins Crowd SSO Connector is capable of creating user sessions by reading the Crowd session.'
 keywords: ''
-mainButtonLink: ''
+mainButtonLink: 'https://miniorange.atlassian.net/servicedesk/customer/portal/2/group/6/create/66'
 mainButtonText: ''
 excerpt: 'miniOrange provides a Jenkins Crowd SSO Connector capable of creating user sessions by reading the Crowd session.'
 thumbnail: '/blog/assets/2023/jenkins-crowd-connector.webp'

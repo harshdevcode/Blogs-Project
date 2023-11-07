@@ -8,7 +8,7 @@ keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
 excerpt: 'Amidst cyber security threats that organizations face, context-based authentication can minimize unauthorized access and safeguard your sensitive information.'
-thumbnail: 'https://blog.miniorange.com/wp-content/uploads/sites/19/2023/05/context-based-authentication-process-768x357.webp'
+thumbnail: '/blog/assets/2023/context-based-authentication-process.webp'
 createdOn: '2022-05-12'
 updatedOn: '2022-05-12'
 ogTitle: ''
@@ -51,7 +51,7 @@ For example, if a user is trying to access an application from a new location, t
 
 Context-based authentication can also take into account other factors such as the user’s behavior and past activity. By analyzing patterns and trends in user behavior, context-based authentication can detect and prevent fraudulent activity in real time, providing an added layer of security.
 
-![Context Based Authentication](https://blog.miniorange.com/wp-content/uploads/sites/19/2023/05/context-based-authentication-process-768x357.webp)
+![Context Based Authentication](/blog/assets/2023/context-based-authentication-process.webp)
 
 ### What are the Different Types of Context-Based Authentication? {#types-of-context-based-authentication}
 
@@ -81,20 +81,23 @@ A risk-based approach is used in this type of context-based authentication, whic
 
 It is evident that Context-based authentication is a highly advanced security mechanism because it evaluates various contextual factors to determine whether or not to grant access to a system or application. Here are five reasons why organizations should deploy context-based authentication to secure both workforce identity and customer identity:
 
-1. **Enhanced Security:**
+**1. Enhanced Security:**
    Contextual access provides an additional layer of security beyond traditional authentication methods such as passwords, pins, or tokens. It evaluates contextual factors such as user location, the time factor, device type, and network connectivity to determine whether or not access should be granted. This helps to prevent unauthorized access and reduce the risk of data breaches. Even if the user credentials are compromised, a hacker cannot access the user’s account because the deviation in context will trigger multi-factor authentication like OTP sent to the user’s mobile.
-
-2. **Improved User Experience:**
+   &nbsp; 
+   
+**2. Improved User Experience:**
    The user experience of both the employees and customers of an organization or business can be significantly improved by reducing the need for users to remember multiple passwords or credentials. Users can simply log in from their devices and access the system or application based on their contextual factors. Contextual access can help to reduce frustration and increase productivity. Also, a more secure environment helps to build a strong trust factor and reputation among the customers, employees, and stakeholders. This is extremely crucial for the success of any organization.
+   &nbsp; 
 
-3. **Compliance:**
+**3. Compliance:**
    Many regulatory compliance frameworks require companies to implement advanced security measures to protect sensitive data. Many of these compliances are enforced by the local governing bodies and for any business which may be locally based or multi-national, following these compliances are very crucial in order to function in that particular region or country. For multi-national companies, thing gets more complication as they have to follow multiple compliances set by governments of different countries. Context-based authentication can help organizations to meet these compliance requirements by providing an additional layer of security beyond traditional authentication methods.
+   &nbsp; 
 
-4. **Cost-Effective:**
-
+**4. Cost-Effective:**
     Every organization should focus on cost-effective solutions without compromising on quality. Being cost-effective doesn’t mean spending less, it means every penny you invest is for the righteous cause which brings positive results for the betterment of your business. Cost-effective solutions can help in scalability and bring growth to your organization. When it comes to secure authentication, Context-based authentication can be a cost-effective security measure because it reduces the need for expensive hardware or software-based authentication methods. It can also reduce the unnecessary costs associated with password resets and help desk support.
+    &nbsp; 
 
-5. **Scalability:**
+**5. Scalability:**
    When any organization decides to spend on security then it is very important to focus on the scalability factor. The security solution must be able to meet the growing demand of the organization. If 100 people organization when grows to 1000+, then the security solution also must simultaneously scale in order to cater to the increasing headcount. Similarly, this might be the case with a growing customer base. Context-based authentication can be easily scaled to meet the needs of a growing organization.
 
 ### Use Cases of Context-Based Authentication {#use-cases-of-context-based-authentication}
@@ -106,7 +109,7 @@ Context-based authentication is particularly useful for remote access scenarios 
 
 To solve this problem, the company has implemented contextual access. Once the remote employee enters their login credentials, the system matches their credentials in the database, and if a match is found, then the user will be faced with a context-based authentication challenge. In this challenge, the user’s location and time of login will be analyzed and if any deviation is found then the challenge will require the remote employee to provide additional authentication factors to confirm their identity. Only upon successful completion of the challenge they will be granted access to the internal network.
 
-![Enable MFA for VPN logins](https://blog.miniorange.com/wp-content/uploads/sites/19/2023/05/enable-mfa-for-vpn-logins-768x530.webp)
+![Enable MFA for VPN logins](/blog/assets/2023/enable-mfa-for-vpn-logins.webp)
 
 **Case 2: Contextual Access in eCommerce Websites**
 

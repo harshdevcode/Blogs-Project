@@ -112,7 +112,7 @@ WebAuthn upholds two fundamental classifications of validation: **biometrics and
 
 &nbsp;&nbsp;
 
-### What’s the secret behind WebAuthn, how does it work?
+### What’s the secret behind WebAuthn how does it work? {#whats-the-secret-behind-webauth?}
 
 An important aspect of understanding WebAuthn is public keys. Public keys can be shared with everyone in the system and anyone can use it. Once the sender has the public key, he uses it to encrypt his message.
 

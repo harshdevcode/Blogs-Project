@@ -32,14 +32,14 @@ By now, everyone is aware of Atlassian’s announcement on Server license discon
 
 [https://www.atlassian.com/blog/announcements/journey-to-cloud](https://www.atlassian.com/blog/announcements/journey-to-cloud)
 
-$nbsp;$nbsp;
+&nbsp;&nbsp;
 
 
 ![atlassian-server](/blog/assets/2023/atlassian-server-license-discontinuationtimeline.webp)
 
 &nbsp;&nbsp;
 
-### To whom end of life applies to?
+### To whom end of life applies to? {#to-whom-end-of-life-applies-to}
 - Jira Software Server
 - Jira Core Server
 - Jira Service Management Server 
@@ -63,12 +63,12 @@ If you do have security compliance needs, you can check Atlassian cloud’s secu
 
 **Our Recommendation: Atlassian Cloud**
 
-### 100 Users
+### 100 Users {#100-users}
 If your users fall into this category and you foresee a rise in their numbers and have strict compliance criteria, there is no better alternative than Atlassian Data Center. However, if you do not need compliances, you might want to consider cloud migration as it would be a cheaper option.
 
 **Our Recommendation: Atlassian Data Center**
 
-### 250 Users and more
+### 250 Users and more {#200-users-and-more}
 The Data Center will be the best choice for the tier with more users. As the number of users in the cloud increases, it will become expensive. You could also be using a lot of marketplace applications, which are more likely to be available on Atlassian Data Center rather than cloud, so keep that in mind.
 
 &nbsp;&nbsp;
