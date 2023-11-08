@@ -36,7 +36,7 @@ When the word “technology” is used, the phrase “authentication and securit
  
 
 ### What Is Authentication? {#what-is-authentication}
-Authentication is the process of identifying users that request access to a system, network, server, app, website, or device. The primary goal of authentication is to ensure that a user is who they claim to be. User A, for example, has access to only relevant information and is unable to see User B’s personal information. Unauthorized users are prevented from accessing sensitive data with user authentication. Authentication improves security by allowing any Organizational admin to manage an individual user’s identity and access. The basic authentication used for identity and access control verification is username and password, with **different types of authentication** techniques that we shall cover moving forward.
+Authentication is the process of identifying users that request access to a system, network, server, app, website, or device. The primary goal of [authentication](https://www.miniorange.com/products/authentication) is to ensure that a user is who they claim to be. User A, for example, has access to only relevant information and is unable to see User B’s personal information. Unauthorized users are prevented from accessing sensitive data with user authentication. Authentication improves security by allowing any Organizational admin to manage an individual user’s identity and access. The basic authentication used for identity and access control verification is username and password, with **different types of authentication** techniques that we shall cover moving forward.
 
  
 

@@ -8,7 +8,7 @@ keywords: 'NYDFS Cybersecurity Regulation'
 mainButtonLink: 'https://www.miniorange.com/contact'
 mainButtonText: 'Contact us'
 excerpt: 'Learn about the latest NYDS Cybersecurity Regulation, how it is achieved within an organization with principles around data security, security policies, and much more.'
-thumbnail: '/blog/assets/2023/.webp'
+thumbnail: '/blog/assets/2023/nydfs-cyber-security-guidelines.webp'
 createdOn: '2022-12-20'
 updatedOn: '2023-10-31'
 ogTitle: 'Comply with NYDFS Cybersecurity Regulations (NYCRR)'
@@ -19,13 +19,13 @@ category: ['IAM', 'Concepts']
 tags:
     [
 		'NYDFS', 
-        'IAM', 
-        'Compliance', 
-        'SSO', 
-        'MFA', 
-        '2FA', 
-        'Single Sign-On', 
-        'Security Provisioning'
+		'IAM', 
+		'Compliance', 
+		'SSO', 
+		'MFA', 
+		'2FA', 
+		'Single Sign-On', 
+		'Security Provisioning'
     ]
 ---
 
