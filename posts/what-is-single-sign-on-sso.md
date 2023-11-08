@@ -1,5 +1,5 @@
 ---
-id: ''
+id: 'de6c33cd-da77-4ba9-8e33-1bf5c2367f56'
 title: 'What is Single Sign-On (SSO) and How does SSO Work?'
 description: 'What is single sign-on (sso) and how it works? also learn types of sso,its benefits, and challenges for securing your apps with it.'
 metaTitle: 'What is Single Sign-On (SSO) and How does SSO Work?'

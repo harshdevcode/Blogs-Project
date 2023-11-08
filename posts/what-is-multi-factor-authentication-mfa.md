@@ -1,5 +1,5 @@
 ---
-id: ''
+id: 'ae13fb61-d066-4489-90e7-9a1724418cb1'
 title: 'What is Multi-Factor Authentication (MFA) and how does it work?'
 description: 'Multi Factor Authentication (MFA) adds an extra layer of authentication in order to gain access to the resources & overcome security threats.'
 metaTitle: 'What is Multi Factor Authentication (MFA) | How does MFA works?'

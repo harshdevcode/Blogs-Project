@@ -1,5 +1,5 @@
 ---
-id: ''
+id: 'c4ede1b9-598a-4d12-b6b8-596efae2993e'
 title: 'Secure VPN with Multi-Factor Authentication'
 description: 'A secure VPN offers several advantages for those who want online privacy and wish to limit their digital exposure. miniOrange can provide MFA on top of VPN for more security.'
 metaTitle: 'Secure VPN with Multi-Factor Authentication'
