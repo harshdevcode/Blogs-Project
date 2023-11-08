@@ -15,7 +15,7 @@ ogTitle: 'USB Blocking and Endpoint Protection with DLP'
 ogDescription: 'Here, we will explore the one of the most sought out Data Loss Prevention Solutions i.e. DLP USB blocking. It provides protection for sensitive organizational data against theft, malicious virus attack, data leak to external parties and many other risks.'
 ogImage:
     url: ''
-category: ['concepts']
+category: ['Solutions']
 tags:
     ['DLP', 'Data Loss Prevention', 'data loss prevention solutions', 'USB Blocking']
 ---
