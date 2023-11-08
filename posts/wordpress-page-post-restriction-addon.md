@@ -1,7 +1,7 @@
 ---
 id: 'aff51b9a-f45d-4e1e-8b60-681dd8d49912'
-title: 'WordPress Page and Post Restriction'
-description: 'Page restriction allows you to add restrictions for individual pages or for WordPress groups while multiple roles could be assigned to users simultaneously.'
+title: 'What is Page and Post Restriction ?'
+description: 'Page and Post Restriction plugin for WordPress is a perpetual, and stable plugin that helps you limit and secure admittance to your WordPress site in various manners.  Page restrictions allow you to control who can view and/or edit individual pages. You can add restrictions for individual pages or for WordPress groups.'
 keywords: 'Post Restriction, Page Restriction, Content Restriction, SSO, Single Sign-On, Security'
 mainButtonLink: 'https://plugins.miniorange.com/wordpress-page-restriction'
 mainButtonText: 'Learn More'
@@ -9,8 +9,8 @@ excerpt: 'Restrict content to logged in/out users or specific user roles. Restri
 thumbnail: '/blog/assets/2023/page-post-banner-image.webp'
 createdOn: '2023-10-07'
 updatedOn: '2023-10-07'
-ogTitle: 'WordPress Page and Post Restriction'
-ogDescription: 'Page restriction allows you to add restrictions for individual pages or for WordPress groups while multiple roles could be assigned to users simultaneously.'
+ogTitle: 'What is Page and Post Restriction ?'
+ogDescription: 'Page and Post Restriction plugin for WordPress is a perpetual, and stable plugin that helps you limit and secure admittance to your WordPress site in various manners.  Page restrictions allow you to control who can view and/or edit individual pages. You can add restrictions for individual pages or for WordPress groups.'
 ogImage:
     url: '/blog/assets/2023/page-post-banner-image.webp'
 category: ['concepts']
