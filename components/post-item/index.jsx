@@ -30,7 +30,7 @@ export default function PostItem({
             </div>
 
             <div className='p-md'>
-                <h4 className='title-semibold'>{title}</h4>
+                <h4 className='title-semibold line-clamp-2'>{title}</h4>
                 <p className={`mt-xs caption truncate`}>{description}</p>
             </div>
         </Link>
