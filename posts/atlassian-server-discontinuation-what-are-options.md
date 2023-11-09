@@ -5,7 +5,7 @@ description: 'By now, everyone is aware of Atlassian’s announcement on Server 
 metaTitle: 'Want extra features on top of Native SSO?'
 metaDescription: 'y now, everyone is aware of Atlassian’s announcement on Server license discontinuation and selling new server license instances from Feb 2, 2021. If you have been living under a rock and missed the announcement.'
 keywords: ''
-mainButtonLink: ''
+mainButtonLink: 'https://miniorange.atlassian.net/servicedesk/customer/portal/2/group/6/create/66'
 mainButtonText: ''
 excerpt: 'y now, everyone is aware of Atlassian’s announcement on Server license discontinuation and selling new server license instances from Feb 2, 2021. If you have been living under a rock and missed the announcement.'
 thumbnail: '/blog/assets/2023/atlassian-server-license-discontinuationtimeline.webp'
@@ -15,7 +15,7 @@ ogTitle: ''
 ogDescription: ''
 ogImage:
     url: ''
-category: ['latest', 'atlassian']
+category: ['atlassian']
 tags:
     [
         'Atlassian cloud', 
