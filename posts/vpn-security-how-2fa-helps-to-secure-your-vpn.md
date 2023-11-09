@@ -80,7 +80,7 @@ miniOrange accomplishes this by appearing as a **RADIUS server** that accepts th
 ### What are different 2FA/MFA methods for Fortinet FortiGate supported by miniOrange? {#what-are-different-2fa/mfa-methods for-fortinet-fortigate-supported-by-miniOrange}
 In addition to Push Notification, Soft Token, Microsoft/Google Authenticator, we support different methods of [2FA/MFA for Fortinet FortiGate](https://www.miniorange.com/iam/integrations/fortinet-multi-factor-authentication-mfa) secure access.
 
-![MFA Methods]("blog/assets/2023/mfa methods.webp")
+![MFA Methods]("blog/assets/2023/mfa-method.webp")
 
 Fortinet FortiGate can be secured using any of the 2FA methods listed above. You can integrate VPN 2FA with Fortinet FortiGate and miniOrange by configuring RADIUS authentication settings and policies.
 
