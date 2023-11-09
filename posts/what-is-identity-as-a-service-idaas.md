@@ -8,7 +8,7 @@ keywords: 'Identity as a Service (IDaaS)'
 mainButtonLink: 'https://www.miniorange.com/contact'
 mainButtonText: 'Contact us'
 excerpt: 'Take Your Identity Management to the Next Level with IDaaS. Learn Its Features, Benefits, How It Works and many more in this Comprehensive Guide.'
-thumbnail: '/blog/assets/2023/idaas-working.webp'
+thumbnail: '/blog/assets/2023/identity-as-a-service-working.webp'
 createdOn: '2022-03-30'
 updatedOn: '2022-11-06'
 ogTitle: 'What is Identity as a Service (IDaaS)?'
@@ -50,7 +50,7 @@ Authentication and User Provisioning services provide the means for users to sec
 
 IDaaS works by providing a standardized way for applications and services to interact with the user directory, authentication, and provisioning services. This is typically achieved through the use of industry-standard protocols and APIs, such as SAML, OpenID Connect, and OAuth.
 
-![IDaaS Working](/blog/assets/2023/idaas-working.webp)
+![IDaaS Working](/blog/assets/2023/identity-as-a-service-working.webp)
 
 When a user tries to access an application, the application sends a request to the IDaaS platform to authenticate the user and determine the level of access permissions they have been granted. The IDaaS platform then checks the user’s credentials against the user directory, and if the user is authenticated, returns a token that the application can use to authorize the user’s access.
 

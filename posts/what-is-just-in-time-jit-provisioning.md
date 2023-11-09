@@ -8,7 +8,7 @@ keywords: 'JIT Provisioning'
 mainButtonLink: 'https://www.miniorange.com/contact'
 mainButtonText: 'Contact us'
 excerpt: 'Just in Time Provisioning (JIT) automates the creation of user accounts in web applications. It delivers user information from the identity provider to web apps via the SAML protocol.'
-thumbnail: '/blog/assets/2023/jit-provisioning-working.webp'
+thumbnail: '/blog/assets/2023/just-in-time-provisioning-working.webp'
 createdOn: '2023-10-26'
 updatedOn: '2023-10-31'
 ogTitle: 'What is Just in Time (JIT) Provisioning | How does JIT work?'
@@ -44,7 +44,7 @@ Also, when user attributes are updated in the identity provider, these attribute
 
 The most efficient way to deploy Just in Time Provisioning is to use an identity provider like miniOrange since admins can then configure application privileges by role or group and remove application access from a single location.
 
-![JIT Provisioning](/blog/assets/2023/jit-provisioning-working.webp)
+![JIT Provisioning](/blog/assets/2023/just-in-time-provisioning-working.webp) 
 
 ### How is SAML SSO related to Just in Time (JIT) Provisioning? {#how-is-saml-sso-related-to-just-in-time-jit-provisioning}
 **SAML SSO** can be identity provider (IDP) initiated or service provider (SP) initiated. In the IDP initiated SSO, users first login to their SSO portal where they can access all the applications in which they have configured SSO. In SP initiated SSO, the user first visits the application and is redirected to their SSO portal where they are logged in automatically by their identity provider.
