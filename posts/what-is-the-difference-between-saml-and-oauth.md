@@ -88,19 +88,22 @@ When we compare SAML vs OAuth, both are mutually beneficial. By using SAML to of
 
 ### FAQ {#faq} 
 
-Is SAML based on OAuth?
+**Is SAML based on OAuth?**
 
 In contrast to JWT, SAML is not dependent on OAuth and instead relies on an exchange of messages to validate in XML format. It’s more typically used to allow business users to log in to various apps with a single password. Security Assertion Markup Language is used for the authorization while OAuth is used for the authentication process.
 
-Is OAuth more secure than SAML?
+
+**Is OAuth more secure than SAML?**
 
 Open Authentication, or OAuth, is another AuthN/AuthZ mechanism for safe authentication. In comparison to SAML, it is more focused on access scoping. Once an identity has been validated, access scoping is the practice of granting just the bare minimum of access to the resource/app that the identity requires.
 
 SAML is meant to focus on corporate security, but OAuth is often not a viable solution for securing a company of hundreds or thousands of employees since it lacks encryption and relies on secure sockets layer/transport layer security (SSL/TLS) protocols for security.
 
-Where is SSO used? SAML or OAuth?
+
+**Where is SSO used? SAML or OAuth?**
 
 Single Sign-On is possible with both SAML and OAuth, although their applications are vastly different.  However, SAML is more user-specific, whereas OAuth is more application-specific. Both protocols approach it from different angles. The goal of SAML is to federate identities and eliminate the complexity of authentication. OAuth, on the other hand, allows a user who has previously been authenticated to delegate authority to another user. Each technique can be used as part of a larger authentication and authorization process, either in combination or in collaboration with other technologies.
+
 
 ### Further Reading {#further-reading} 
 
