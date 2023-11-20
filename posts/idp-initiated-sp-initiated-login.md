@@ -21,7 +21,8 @@ tags:
     ]
 ---
 
-With an increasing number of cloud applications being adopted by customers, the need for providing a seamless user experience to employees and other end users is high. In this blog, our objective is to delve into the basics of SAML and discuss SSO through SAML, which can be initiated in two ways: IDP-initiated SSO and SP-initiated SSO.
+With an increasing number of cloud applications being adopted by customers, the need for providing a seamless user experience to employees and other end users is high. In this blog, our objective is to delve into the basics of SAML and discuss [SSO through SAML,](https://www.miniorange.com/iam/solutions/saml-single-sign-on-sso 
+) which can be initiated in two ways: IDP-initiated SSO and SP-initiated SSO.
 
 ### SAML {#saml}
 
@@ -31,7 +32,7 @@ In simplest terms, [SAML (Security Assertion Markup Language)](https://www.minio
 
 The user credentials and other identifying information are stored and managed by an Identity Provider (IdP) centralized system. IdP is a trusted system that provides access to other websites and applications. Additionally, it also authenticates a user XYZ as a user XYZ after credentials are entered.
 
-An IdP offers authentication services to relying applications, through this, it is possible to use [Single Sign-On (SSO)](https://www.miniorange.com/products/single-sign-on-sso) and access other websites. [miniOrange Identity Server(IdP)](https://www.miniorange.com/iam/) provides centralized, simple management and synchronization of identities for users, devices, and things. As a result, it can be tailored to almost any use case and workflow.
+An IdP offers [authentication services](https://www.miniorange.com/products/authentication) to relying applications, through this, it is possible to use [Single Sign-On (SSO)](https://www.miniorange.com/products/single-sign-on-sso) and access other websites. [miniOrange Identity Server(IdP)](https://www.miniorange.com/iam/) provides centralized, simple management and synchronization of identities for users, devices, and things. As a result, it can be tailored to almost any use case and workflow.
 
 ### How does IdP-initiated authentication work? {#how-does-idp-initiated-authentication-work}
 

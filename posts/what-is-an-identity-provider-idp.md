@@ -40,7 +40,8 @@ An Identity Provider (IDP) plays a crucial role in [Single Sign-On (SSO)](https:
 
 SSO involves a Service Provider (SP) & Identity Provider (IDP). A Service Provider is an application or service that requests authentication and authorization from an Identity Provider. It relies on the IDP to verify the identity of users and grant them access to protected resources. Once the user has been authenticated by the IDP, the SP can use the token provided by the IDP to grant the user access to its resources.
 
-In SSO, when a user tries to access a protected resource, the SP requests authentication from the IDP. The IDP then authenticates the user and provides a token to the SP, which is used to grant the user access to the resource. One common protocol used by IDPs in SSO is the Security Assertion Markup Language (SAML). SAML IDP, or SAML Identity Provider, is an IDP that uses SAML to provide SSO services. Other than SAML, IDPs like miniOrange also support other protocols like OAuth, JWT, OpenID, and special connectors for unique use cases.
+In SSO, when a user tries to access a protected resource, the SP requests authentication from the IDP. The IDP then authenticates the user and provides a token to the SP, which is used to grant the user access to the resource. One common protocol used by IDPs in SSO is the Security Assertion Markup Language (SAML). SAML IDP, or [SAML Identity Provider](https://www.miniorange.com/iam/solutions/saml-single-sign-on-sso 
+), is an IDP that uses SAML to provide SSO services. Other than SAML, IDPs like miniOrange also support other protocols like OAuth, JWT, OpenID, and special connectors for unique use cases.
 
 Other forms of IDPs include [Identity-as-a-Service (IDaaS)](https://blog.miniorange.com/what-is-identity-as-a-service-idaas/) providers such as miniOrange, Okta, Ping Identity, etc., which offer cloud-based identity management services and integrations with various applications. Basically, they provide all the infrastructure required to manage the identities on behalf of your organization via a cloud setup. Identity-as-a-service in cloud computing can be a game changer by optimizing the costs, resources, and manpower of your organization.
 
@@ -98,3 +99,4 @@ In conclusion, an Identity Provider (IDP) plays a crucial role in digital identi
 - [IdP Vs SP Initiated SSO](https://blog.miniorange.com/idp-initiated-sp-initiated-login/)
 - [What is Single Sign-On SSO?](https://blog.miniorange.com/what-is-single-sign-on-sso/)
 - [Identity Broker Services](https://www.miniorange.com/identity-broker-service)
+- [What is CIAM?](https://www.miniorange.com/iam/customer-identity-access-management-ciam)
