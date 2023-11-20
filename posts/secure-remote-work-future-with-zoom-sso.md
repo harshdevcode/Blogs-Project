@@ -45,17 +45,17 @@ Zoom Single sign-on (SSO) allows you to log in to your Zoom account using your e
 ### Benefits of Zoom Single Sign On (SSO) {#benefits-of-zoom-single-sign-on-(sso)}
 miniOrange Zoom SSO solution provides a secure means to validate users and prevent security breaches, as well as a variety of other advantages, including:
 
-- **Improved security**: By adding an extra layer of security to Zoom SSO, enterprises may lower the risk of identity theft and security breaches by preventing cyber criminals from guessing passwords or obtaining access to employees’ devices.
+**Improved security**: By adding an extra layer of security to Zoom SSO, enterprises may lower the risk of identity theft and security breaches by preventing cyber criminals from guessing passwords or obtaining access to employees’ devices.
 
-- **Enhanced compliance**: SSO will assist your company in meeting compliance requirements for sensitive data and customer information. 
+**Enhanced compliance**: SSO will assist your company in meeting compliance requirements for sensitive data and customer information. 
 
-- **Reduced costs**: Paying for an SSO service might be costly for small organizations. Zoom SSO by miniOrange is an affordable & easy way to validate users and safeguard against security threats.
+**Reduced costs**: Paying for an SSO service might be costly for small organizations. Zoom SSO by miniOrange is an affordable & easy way to validate users and safeguard against security threats.
 
-- **Easier credential management**: Using Zoom 2FA on top of SSO adds an extra layer of protection, removing the need for users to constantly manage passwords.
+**Easier credential management**: Using Zoom 2FA on top of SSO adds an extra layer of protection, removing the need for users to constantly manage passwords.
 
 ### But what do customers has to say about miniOrange Support? {#but-what-do-customers-has-to-say-about-miniOrange-support}
 
-![miniOrange Zoom SSO Customer Support](/blog/assets/2023/customer-care.webp")
+![miniOrange Zoom SSO Customer Support](/blog/assets/2023/customer-care.webp)
 
 **“Working with miniOrange has been one of the best decisions,”** says Jenna Smathers
 

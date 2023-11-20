@@ -35,7 +35,7 @@ During an attacker’s web scan for vulnerable devices, they got hold of the sto
 
 Due to FortiOS SSL VPN’s popularity with enterprise users, this can also be used to compromise network security.
 
-![Fortinet Attack]("/blog/assets/2023/fortinet-attack.webp")
+![Fortinet Attack](/blog/assets/2023/fortinet-attack.webp)
 
 ### Benefits of VPN {#benefits-of-vpn}
 When you activate VPN on your device, it mainly provides the following benefits:
@@ -43,7 +43,7 @@ When you activate VPN on your device, it mainly provides the following benefits:
 - **Privacy** — shields IP addresses, locations, search histories, and other details from being tracked by websites, browsers, cable companies, internet service providers, and others.
 - **Security** — ensuring the safety of your personal information while it’s in transit or being received from and sent from your device.
 
-![VPN MFA]("/blog/assets/2023/vpn.webp") 
+![VPN MFA](/blog/assets/2023/vpn.webp) 
 
 ### Are VPNs really so secure? {#are-vpns-really-so-secure}
 Although VPNs are good tools, they aren’t perfect. Malware and online attacks can infect them just like any computer program. VPN security is negated if infected. An attacker can use arbitrary data such as authentication files to retrieve data from many SSL VPN products. Additionally, **unauthorized attachment to a VPN** provides the attacker with a secondary exploit entry to a root shell.
@@ -55,7 +55,7 @@ As we have seen in the above scenario, using specially crafted HTTP resource req
 ### How Two-Factor Authentication can be helpful? {#how-two-factor-authentication-can-be-helpful}
 [Two-factor authentication (2FA)](https://www.miniorange.com/products/two-factor-authentication-(2fa)) prevents hackers from having access to your network using compromised credentials. 2FA calls for customers to validate their identification by supplying a 2nd safety component in addition to their password. When connecting to a company network, users have to first input their Active Directory credentials, followed by a time-factor based one-time password (OTP) or HMAC. This OTP is displayed on something that a user “owns”, including a specialized cell phone application known as an authenticator or a programmable hardware token. Ultimately, this provides an additional layer of security for your systems against unauthorized access.
 
-![Mobile 2fa]("/blog/assets/2023/2fa-mobile.webp")
+![Mobile 2fa](/blog/assets/2023/2fa-mobile.webp)
 
 ### How VPN security is achieved with 2FA? {#how-vpn-security-is-achieved-with-2fa}
 VPNs are a vital part of many businesses’ security infrastructures, providing employees with secure remote access to company resources. However, VPNs can also be vulnerable to attack if they are not properly secured.One way to help secure a VPN is to use Two-Factor Authentication (2FA) for all users. 2FA requires users to provide more than one form of authentication to access a system or resource. For example, a user might need to enter a password and also use a fingerprint reader or mobile device for two-factor authentication.2FA can be used to help secure both the client-side and server-side of a VPN connection. On the client side, 2FA can be used to authenticate the user before the VPN client software is even launched. This helps prevent attackers from launching the VPN client software with stolen credentials.On the server side, 2FA can be used to authenticate VPN users when they attempt to connect to the server. This helps ensure that only authorized users are able to access the server and helps prevent man-in-the-middle attacks. 2FA is not a perfect solution, but it can be an effective way for your **VPN security**.
@@ -66,7 +66,7 @@ We can help you set up Two-factor authentication without problems and resolve th
 Enabling Two-factor authentication for your Fortinet FortiGate managed active directory increases security and ensures customers only have access to the systems and resources they need access to.
 ### miniOrange 2FA for Fortinet FortiGate Login {#miniorange-2fa-for-fortinet-fortigate-login}
 miniOrange accomplishes this by appearing as a **RADIUS server** that accepts the username/password of the consumer entered as a RADIUS request and validates the customer towards the user store as **Active Directory (AD)**. After the primary stage of verification, miniOrange activates the customer with 2FA and grants or denies access depending on the input through the customer.
-![VPN Security]("/blog/assets/2023/miniO-2fa-radius.webp")
+![VPN Security](/blog/assets/2023/miniO-2fa-radius.webp)
 
 - Primary authentication starts off with the customer entering his Username and Password for Fortinet FortiGate.
 - This request portrays as an authentication request to the RADIUS Server.
@@ -80,7 +80,7 @@ miniOrange accomplishes this by appearing as a **RADIUS server** that accepts th
 ### What are different 2FA/MFA methods for Fortinet FortiGate supported by miniOrange? {#what-are-different-2fa/mfa-methods for-fortinet-fortigate-supported-by-miniOrange}
 In addition to Push Notification, Soft Token, Microsoft/Google Authenticator, we support different methods of [2FA/MFA for Fortinet FortiGate](https://www.miniorange.com/iam/integrations/fortinet-multi-factor-authentication-mfa) secure access.
 
-![MFA Methods]("blog/assets/2023/mfa-method.webp")
+![MFA Methods](blog/assets/2023/mfa-method.webp)
 
 Fortinet FortiGate can be secured using any of the 2FA methods listed above. You can integrate VPN 2FA with Fortinet FortiGate and miniOrange by configuring RADIUS authentication settings and policies.
 
