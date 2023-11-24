@@ -1,5 +1,5 @@
 ---
-id: '6eb0bcb1-5f13-4b1a-9851-397d1ab80a46'
+id: '5d09fa11-876f-4008-a35a-ca63f24a6d9d'
 title: 'WooCommerce vs Shopify: Which E-Commerce Platform is Best for You?'
 description: 'We will check out an in-depth comparison between WooCommerce and Shopify and closely examine their features, user experiences, customer support, pricing, and other critical factors.'
 metaTitle: 'WooCommerce vs Shopify: Which E-Commerce Platform is Best for You?'
