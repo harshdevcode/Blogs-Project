@@ -15,7 +15,7 @@ ogTitle: 'CIAM - What is Customer Identity and Access Management (CIAM)?'
 ogDescription: 'CIAM solutions enable organizations to securely capture and manage user identities and control customer access to apps and services.'
 ogImage:
     url: ''
-category: ['IAM', 'Concepts', 'Solutions']
+category: ['featured','IAM', 'Solutions']
 tags:
     [
         'IAM',

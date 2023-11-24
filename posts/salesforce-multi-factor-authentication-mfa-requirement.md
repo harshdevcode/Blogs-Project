@@ -15,7 +15,7 @@ ogTitle: ''
 ogDescription: ''
 ogImage:
     url: ''
-category: ['main', 'announcements', 'iam', 'solutions']
+category: ['announcements', 'iam', 'solutions']
 tags:
     [
         '2FA',

@@ -53,8 +53,8 @@ export default function Home({ payload }) {
                 <link rel='canonical' href='https://www.miniorange.com/blog/' />
             </Head>
             <main className={styles.homepage_container}>
-                <Headline text='Featured Posts' />
-                <div className='flex flex-col gap-md md:flex-row relative'>
+                {/* <Headline text='Featured Posts' /> */}
+                <div className='mt-8 flex flex-col gap-md md:flex-row relative'>
                     <PostItem
                         {...data.main_blog}
                         key={data.main_blog.slug}
