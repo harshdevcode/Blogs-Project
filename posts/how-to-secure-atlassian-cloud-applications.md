@@ -15,7 +15,7 @@ ogTitle: ''
 ogDescription: ''
 ogImage:
     url: ''
-category: ['featured', 'atlassian']
+category: ['atlassian']
 tags:
     [
         '2FA',

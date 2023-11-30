@@ -13,7 +13,7 @@ ogTitle: 'Identity Federation Services | Secure Applications with SAML & OpenID 
 ogDescription: 'Identity Federation Services makes use of industry standards such as SAML and OpenID Connect to create solutions that enable secure, frictionless mobile access to your cloud services.'
 ogImage:
 url: ''
-category: ['featured', 'iam']
+category: ['iam']
 tags: [ 'identity federation services', 'Identity Provider', 'Multi-factor Authentication', 'Single Sign-On']
 ---
 Identity services are a collection of tools for managing users and their accounts. They help to create, manage, and use digital identities.

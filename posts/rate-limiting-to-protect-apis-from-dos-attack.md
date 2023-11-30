@@ -19,7 +19,7 @@ category: ['Solutions']
 tags: ['API Analytics', 'API Authentication', 'API Authorization', 'API Gateway', 'API Management', 'API Monitoring', 'API Routing', 'API Security', 'Rate Limiting', 'Reverse Proxy']
 ---
 
-### What is API Rate Limiting and How Does It Work?
+**What is API Rate Limiting and How Does It Work?**
 
 An API rate limit is a restriction that some APIs impose on the number of requests that can be made within a certain time period. It is put in place to prevent excessive usage of the API and to ensure that it is used fairly by all users.
 
@@ -27,7 +27,7 @@ The rate limit specifies the maximum number of requests that can be made per uni
 
 Rate limiting is an important mechanism to prevent abuse of APIs, to manage server resources, and to ensure that all users have a fair and equal opportunity to use the API. It is common for APIs to provide information on the rate limits in their documentation to help developers understand how to use the API responsibly.
 
-### What is the purpose of rate limiting?
+### What is the purpose of rate limiting? {#purpose-of-rate-limiting}
 
 The purpose of rate limiting is to restrict the amount of traffic that is allowed to pass through a system, service, or API within a certain period of time. Rate limiting is a common technique used in computer networking, web applications, and other online services to prevent abuse, reduce the risk of system overload, and improve overall performance and security.
 
@@ -37,7 +37,7 @@ Rate limiting can also be used to optimize system performance by preventing unne
 
 Overall, rate limiting is an important tool for maintaining the reliability, availability, and security of online systems and services.
 
-### Some common attack prevent by Rate Limiting
+### Some common attacks prevented by Rate Limiting {#attacks-prevented-by-rate-limiting}
 
 - DDoS : A DDoS (Distributed Denial of Service) attack is a type of cyber attack where a large number of devices or computers are used to flood a server, network, or API with a huge amount of traffic, making it unavailable to legitimat users. In the context of APIs, a DDoS attack can be launched against an API to overwhelm its servers with requests, which can result in the API becoming unavailable, unresponsive, or unusable. This can be a serious problem, especially for businesses and organizations that rely on their APIs to provide critical services to their customers.
 DDoS attacks can take various forms, including UDP floods, SYN floods, HTTP floods, and more. These attacks are often carried out using botnets, which are networks of compromised devices that can be controlled by a single attacker to launch an attack on a target.
