@@ -13,7 +13,7 @@ function CookieMessage({selectedTab}){
               This privacy statement applies to miniorange websites describing how we handle the personal information. When you visit any website, it may store or retrieve the
               information on your browser, mostly in the form of the cookies. This information might be about you, your preferences or your device and is mostly used to make the
               site work as you expect it to. The information does not directly identify you, but it can give you a more personalized web experience. Click on the category headings to check how we handle the cookies. For the
-              privacy statement of our solutions you can refer to the <a href="https://www.miniorange.com/terms-and-policies/privacy-policy" target="_blank" className="text-blue-500">privacy policy.</a>
+              privacy statement of our solutions you can refer to the <a href="https://www.miniorange.com/terms-and-policies/privacy-policy" className="text-blue-500">privacy policy.</a>
             </p>
             </div>
           </>
@@ -36,7 +36,7 @@ function CookieMessage({selectedTab}){
             <h3 className="text-3xl font-medium	leading-6 text-gray-900 mb-5" id="modal-title">Performance Cookies</h3>
             <div className="mt-2">
             <p className="text-sm text-gray-500">
-              These cookies only collect aggregated information about the traffic of the website including - visitors, sources, page clicks and views, etc. This allows us to know more about our most and least popular pages along with users' interaction on the actionable elements and hence letting us improve the performance of our website as well as our services.
+              These cookies only collect aggregated information about the traffic of the website including - visitors, sources, page clicks and views, etc. This allows us to know more about our most and least popular pages along with user interaction on the actionable elements and hence letting us improve the performance of our website as well as our services.
             </p>
             </div>
           </>
@@ -50,7 +50,7 @@ function CookieMessage({selectedTab}){
               This privacy statement applies to miniorange websites describing how we handle the personal information. When you visit any website, it may store or retrieve the
               information on your browser, mostly in the form of the cookies. This information might be about you, your preferences or your device and is mostly used to make the
               site work as you expect it to. The information does not directly identify you, but it can give you a more personalized web experience. Click on the category headings to check how we handle the cookies. For the
-              privacy statement of our solutions you can refer to the <a href="https://www.miniorange.com/terms-and-policies/privacy-policy" target="_blank" className="text-blue-500">privacy policy.</a>
+              privacy statement of our solutions you can refer to the <a href="https://www.miniorange.com/terms-and-policies/privacy-policy" className="text-blue-500">privacy policy.</a>
             </p>;
             </div>
           </>
