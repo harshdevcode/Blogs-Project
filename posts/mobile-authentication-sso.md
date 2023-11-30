@@ -13,7 +13,7 @@ ogTitle: 'How to enable secure Mobile App authentication - SSO for Mobile apps'
 ogDescription: 'Mobile authentication process is more than just password validation in today’s world. miniOrange offers a broad range of authentication methods for mobile applications.'
 ogImage:
 url: ''
-category: ['featured', 'iam']
+category: ['iam']
 tags: [' mobile app sso', 'Mobile authentication', 'mobile sso', 'native sso']
 ---
 

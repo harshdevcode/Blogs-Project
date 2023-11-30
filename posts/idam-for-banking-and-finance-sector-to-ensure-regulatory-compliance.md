@@ -13,7 +13,7 @@ ogTitle: 'IDAM for Banking and Finance Sector to ensure regulatory compliance'
 ogDescription: 'Secure financial data with IDAM for Banking & Finance. Get Single Sign-On & Multi-Factor Authentication  for cloud/on-premises apps. Ensure regulatory compliance & data protection.'
 ogImage:
 url: ''
-category: ['Solutions', 'iam']
+category: ['main','Solutions', 'iam']
 tags: ['cybersecurity in the banking industry', 'IAM', 'IDAM', 'idam for banking & finance sector', 'Identity & Access management']
 ---
 

@@ -15,7 +15,7 @@ ogTitle: ''
 ogDescription: ''
 ogImage:
     url: ''
-category: ['featured', 'solutions']
+category: ['solutions']
 tags:
     [
         'Hubspot SSO',
