@@ -15,6 +15,8 @@ import Image from 'next/image';
 import axios from 'axios';
 import { getAllPosts, getHeadlines, getPostBySlug, markdownToHTML } from 'helpers/helpers';
 import Link from 'next/link';
+import Comment from 'database/models/Comment';
+import User from 'database/models/User';
 
 const INITIAL_COMMENT_TEXT = {
     content: '',
@@ -87,11 +89,6 @@ const Blog = ({ payload }) => {
             // Show Error Message
             window.alert('Please write your comment in comment box');
         }
-    };
-
-    const getCurrentSectionId = () => {
-        const currentSectionId = window.location.hash.replace('#', '');
-        return currentSectionId;
     };
 
     function getVisibleHeading(headings) {
@@ -245,7 +242,9 @@ const Blog = ({ payload }) => {
                             value={comment}
                             status={{ loading, success, error }}
                         />
-                        <h3 className='heading mt-9'>{[].length === 0 ? '' : 'Comments'}</h3>
+                        <h3 className='heading mt-9'>
+                            {comments.length === 0 ? '' : `${comments.length} Comments`}
+                        </h3>
                         <CommentsList comments={comments} />
                     </section>
 
@@ -306,27 +305,26 @@ export async function getStaticProps({ params }) {
         tocs.push({ id: id, text: h.textContent });
     }
 
-    let comments = { data: [] };
+    let comments = [];
 
     // Fetch Comments in Production only
     if (process.env.NODE_ENV === 'production') {
         try {
-            const fecthedComments = await Comment.findAll({
+            comments = await Comment.findAll({
                 where: { post_id: post.id, is_approved: true },
                 include: { model: User, as: 'user' },
                 raw: true,
                 nest: true,
             });
-            comments = { data: JSON.stringify(fecthedComments) };
         } catch (e) {
-            comments.data = [];
+            comments = [];
         }
     }
 
     const canonical = `https://www.miniorange.com/blog/${slug}/`;
 
     const payload = {
-        comments: comments.data,
+        comments,
         post,
         html,
         tocs,
