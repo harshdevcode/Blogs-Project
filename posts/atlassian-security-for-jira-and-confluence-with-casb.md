@@ -47,23 +47,39 @@ Jira is a complete suite of productivity apps used for submitting issues, tracki
 Confluence is a solution for creating a shared workspace and for teams to collectively come together and collaborate on a project. It provides an environment with complete user transparency, workflow management, collaboration done by each user, and an understanding of the project’s growth over time.
 
 There are a bunch of apps in the Atlassian suite. Here’s a list of all the Jira and Confluence apps with a short description for each.
-- **Jira Service Desk:** Jira Service Desk is a platform to receive issues from customers and track customer lifecycles from querying to deploying the solution with all the paperwork and request queuing.
 
-- **Jira Core:** Jira Core is a highly organized workflow project, where all teams can create a step-by-step process to complete tasks on time. They are highly versatile and can be used by all departments within an organization.
+&nbsp;
 
-- **Jira Software:** Jira software utilizes the power of Kanban and Agile methodologies, to build project sprints, list issues, create backlog items, task completion and velocity, and visually depict the team’s progress.
+ - **Jira Service Desk:** Jira Service Desk is a platform to receive issues from customers and track customer lifecycles from querying to deploying the solution with all the paperwork and request queuing. 
 
-- **Bitbucket:** Bitbucket is an on-premise Git repository management software for all team members to collaborate on projects and is the top competitor for the Microsoft-owned GitHub.
+ &nbsp; 
 
-- **Confluence:** Confluence is a document collaboration tool for teams to keep records of a research topic or share steps to configure a standard software tool to promote transparency within the team.
+ - **Jira Core:** Jira Core is a highly organized workflow project, where all teams can create a step-by-step process to complete tasks on time. They are highly versatile and can be used by all departments within an organization.
+ 
+ &nbsp; 
+ 
+ - **Jira Software:** Jira software utilizes the power of Kanban and Agile methodologies, to build project sprints, list issues, create backlog items, task completion and velocity, and visually depict the team’s progress.
 
-- **Statuspage:** Statuspage lets the customers know about scheduled downtime for maintenance of the application to prevent sudden crashes.
+ &nbsp;
 
-   It stands as an **“Incident Management Messenger”** between you and your end users.
+ - **Bitbucket:** Bitbucket is an on-premise Git repository management software for all team members to collaborate on projects and is the top competitor for the Microsoft-owned GitHub.
 
-- **Opsgenie:** Opsgenie helps your developer teams and operations teams stay on top of threat alerts and incidents and control the situation in real-time.
+ &nbsp;
 
-- **Jira Align:** Jira Align enables project planning and strategy alignment with support for hundreds of users at different levels in the organization.
+ - **Confluence:** Confluence is a document collaboration tool for teams to keep records of a research topic or share steps to configure a standard software tool to promote transparency within the team.
+
+ &nbsp;
+
+ - **Statuspage:** Statuspage lets the customers know about scheduled downtime for maintenance of the application to prevent sudden crashes.
+ It stands as an **“Incident Management Messenger”** between you and your end users.
+
+ &nbsp;
+
+ - **Opsgenie:** Opsgenie helps your developer teams and operations teams stay on top of threat alerts and incidents and control the situation in real-time.
+
+ &nbsp;
+
+ - **Jira Align:** Jira Align enables project planning and strategy alignment with support for hundreds of users at different levels in the organization.
 
 ### Why do I need to secure my Atlassian suite with Cloud Access Security Broker (CASB)? {#why-to-secure-my-atlassian-apps-with-casb}
 
@@ -102,17 +118,29 @@ This way, the miniOrange Atlassian CASB solution will provide role-based access 
 
 Here are the key benefits of using CASB security for your Atlassian apps for Jira Cloud and Confluence security.
 
-- **Granular visibility and control:** Get insights into the smallest security detail for each of your Atlassian suite apps, and configure custom access restriction rules to protect company data from reaching unknown third-party entities.
+&nbsp;
 
-- **Compliance Inclusion:** Compliance Inclusion: With a lack of Compliance over Atlassian Cloud, there is a lack of necessary security requirements for businesses of any domain. To configure data protection, get detailed insight gathering, prevent users from going against the company data protection policies, and comply with their respective industry’s requirements using our Atlassian CASB solution, we provide support for all Atlassian Cloud security over Jira Cloud and Confluence security, which includes popular compliances such as ITAR compliance, FERPA compliance, HIPAA compliance and more.
+ - **Granular visibility and control:** Get insights into the smallest security detail for each of your Atlassian suite apps, and configure custom access restriction rules to protect company data from reaching unknown third-party entities.
 
-- **DLP Integration:** Data Loss Prevention (DLP), is a versatile and custom solution to prevent data breaches, even against the most advanced methods for website security, next-gen firewalls, spam, and phishing attack filters, and many more that work **with cloud applications,** making this a must-have requirement for Jira Cloud and Confluence security
+&nbsp;
 
-- **Analytics and Reports:** Monitoring Cloud activity and generating threat reports helps your teams to discover new observations. This way you can visualize data to see increased unusual activity with any Atlassian app and peak downtimes. This benefits the architecture teams by boosting their infrastructure for improved productivity with backing from strong analytics.
+ - **Compliance Inclusion:** Compliance Inclusion: With a lack of Compliance over Atlassian Cloud, there is a lack of necessary security requirements for businesses of any domain. To configure data protection, get detailed insight gathering, prevent users from going against the company data protection policies, and comply with their respective industry’s requirements using our Atlassian CASB solution, we provide support for all Atlassian Cloud security over Jira Cloud and Confluence security, which includes popular compliances such as ITAR compliance, FERPA compliance, HIPAA compliance and more.
 
--  **User Risk Score Assessment:** Depending on the user activity, a risk score is assigned to each user to flag them based on their activity with the Atlassian apps. Once the score exceeds the safe score limit, necessary security restrictions configured will kick in to revoke all access permissions and isolate the user from further interacting with any of the Atlassian apps with the help of our Atlassian CASB solution.
+ &nbsp;
 
--  **Additional Solutions Incorporation:** Alongside miniOrange CASB security, you can also check out our other Atlassian app enterprise security products as well. All our solutions can be integrated individually or alongside the miniOrange Atlassian CASB for all-around Jira Cloud and Confluence security features.
+ - **DLP Integration:** Data Loss Prevention (DLP), is a versatile and custom solution to prevent data breaches, even against the most advanced methods for website security, next-gen firewalls, spam, and phishing attack filters, and many more that work **with cloud applications,** making this a must-have requirement for Jira Cloud and Confluence security.
+
+ &nbsp;
+
+ - **Analytics and Reports:** Monitoring Cloud activity and generating threat reports helps your teams to discover new observations. This way you can visualize data to see increased unusual activity with any Atlassian app and peak downtimes. This benefits the architecture teams by boosting their infrastructure for improved productivity with backing from strong analytics.
+
+ &nbsp;
+
+ -  **User Risk Score Assessment:** Depending on the user activity, a risk score is assigned to each user to flag them based on their activity with the Atlassian apps. Once the score exceeds the safe score limit, necessary security restrictions configured will kick in to revoke all access permissions and isolate the user from further interacting with any of the Atlassian apps with the help of our Atlassian CASB solution.
+
+ &nbsp;
+
+ -  **Additional Solutions Incorporation:** Alongside miniOrange CASB security, you can also check out our other Atlassian app enterprise security products as well. All our solutions can be integrated individually or alongside the miniOrange Atlassian CASB for all-around Jira Cloud and Confluence security features.
 
 ### In Summary {#summary}
 
