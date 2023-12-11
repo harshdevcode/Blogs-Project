@@ -2,7 +2,7 @@ import { INTERNAL_SERVER_ERROR, OK } from '../../../utils/http-status-codes';
 import Comment from '../../../database/models/Comment';
 import User from '../../../database/models/User';
 import axios from 'axios';
-import { MO_ENDPOINTS, MO_ENDPOINTS_TESTING } from 'utils/endpoints';
+import { MO_ENDPOINTS } from 'utils/endpoints';
 
 // Handler Functions
 // GET comments Handler
@@ -52,10 +52,10 @@ const postCommentHandler = async (req, res) => {
         if (process.env.NODE_ENV === 'production') {
             await axios({
                 method: 'POST',
-                url: MO_ENDPOINTS_TESTING.CONTACT_US,
+                url: MO_ENDPOINTS.CONTACT_US,
                 data: {
                     email,
-                    ccEmail: 'marketing@xecurify.com',
+                    ccEmail: 'doc-team@xecurify.com',
                     phone: '',
                     query: `New comment is posted on blog<br>${post_slug}<br>Comment Content<br>${content}<br>`,
                 },
