@@ -1,13 +1,13 @@
 ---
 id: '6c80e5b8-7f1c-40e5-bd2d-c80391776bb8'
 title: 'The Power of Two-Factor Authentication (2FA): Protecting Your Digital Assets'
-description: 'Gone are, if not yet, then will be, the days when a single password was all that you needed to access your accounts. With our lives becoming more reliant on digitalization by the day, be it shopping and consuming media to working and banking, everything being done via a smartphone, tablet, or laptop it’s no wonder that our online accounts become a magnet for crooks.'
+description: "In this first part of the article on 'Two-Factor Authentication' (2FA), we focus on introducing the concept and exploring various methods employed to enhance digital security. 2FA is a crucial layer of defense against unauthorized access, requiring users to provide two different authentication factors before granting access to an account or system. Let's begin!"
 metaTitle: 'The Power of Two-Factor Authentication (2FA): Protecting Your Digital Assets'
-metaDescription: 'Gone are, if not yet, then will be, the days when a single password was all that you needed to access your accounts. With our lives becoming more reliant on digitalization by the day, be it shopping and consuming media to working and banking, everything being done via a smartphone, tablet, or laptop it’s no wonder that our online accounts become a magnet for crooks.'
+metaDescription: "In this first part of the article on 'Two-Factor Authentication' (2FA), we focus on introducing the concept and exploring various methods employed to enhance digital security. 2FA is a crucial layer of defense against unauthorized access, requiring users to provide two different authentication factors before granting access to an account or system. Let's begin!"
 keywords: ''
 mainButtonLink: 'https://miniorange.atlassian.net/servicedesk/customer/portal/2/group/6/create/66'
 mainButtonText: ''
-excerpt: 'Gone are, if not yet, then will be, the days when a single password was all that you needed to access your accounts. With our lives becoming more reliant on digitalization by the day, be it shopping and consuming media to working and banking, everything being done via a smartphone, tablet, or laptop it’s no wonder that our online accounts become a magnet for crooks.'
+excerpt: "In this first part of the article on 'Two-Factor Authentication' (2FA), we focus on introducing the concept and exploring various methods employed to enhance digital security. 2FA is a crucial layer of defense against unauthorized access, requiring users to provide two different authentication factors before granting access to an account or system. Let's begin!"
 thumbnail: '/blog/assets/2023/protecting-your-digital-assets.webp'
 createdOn: '2023-11-16'
 updatedOn: '2023-11-16'
