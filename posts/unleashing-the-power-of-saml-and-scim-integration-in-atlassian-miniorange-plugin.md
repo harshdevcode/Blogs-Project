@@ -29,7 +29,7 @@ tags:
     ]
 ---
 
-## Seamless SSO and Identity Management: Unleashing the Power of SAML and SCIM Integration in miniOrange Plugin 🚀 {#seamless-sso-and-identity-management}
+## Seamless SSO and Identity Management {#seamless-sso-and-identity-management}
 
 In the ever-evolving landscape of digital identity, achieving simplicity and efficiency is paramount. With the latest upgrade to the miniOrange SAML plugins, we're excited to announce the seamless integration of SCIM (System for Cross-domain Identity Management). This transformative addition, bundled for free with the miniOrange SAML plugins, brings a new dimension to your identity management strategy. 
 
