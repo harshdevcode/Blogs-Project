@@ -68,7 +68,7 @@ export default function CookiePreferences({ closeCookieDialog }) {
       <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
         <div className="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
           <div className="flex flex-col relative rounded-lg bg-white shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-4xl" style={{minHeight: "70vh"}}>
-            <div className="modal-heading p-5 bg-slate-950">
+            <div className="modal-heading p-5 bg-inverted">
               <h3 className="text-slate-50 font-normal text-center text-2xl">Cookie Preferences</h3>
             </div>
             <div className="modal-body sm:flex grow bg-white border-b-2">
