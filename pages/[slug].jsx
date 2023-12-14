@@ -17,6 +17,7 @@ import { getAllPosts, getHeadlines, getPostBySlug, markdownToHTML } from 'helper
 import Link from 'next/link';
 import Comment from 'database/models/Comment';
 import User from 'database/models/User';
+import ListItemAuthor from "components/list-item-author";
 
 const INITIAL_COMMENT_TEXT = {
     content: '',
@@ -195,14 +196,17 @@ const Blog = ({ payload }) => {
                     </aside>
 
                     {/* Blog Content */}
-                    <main
-                        id='markdown-container'
-                        dangerouslySetInnerHTML={{ __html: html }}
-                        className={`
-                            [ ${markdownStyles['markdown']} w-full [ lg:w-8/12 ] order-2 p-md ]
-                            [ lg:order-2 ]
-                        `}
-                    ></main>
+                    <div className='w-full [ lg:w-8/12 ]'>
+                        <main
+                            id='markdown-container'
+                            dangerouslySetInnerHTML={{ __html: html }}
+                            className={`
+                                [ ${markdownStyles['markdown']} order-2 p-md ]
+                                [ lg:order-2 ]
+                            `}
+                        ></main>
+                        <ListItemAuthor name="miniOrange"/>
+                    </div>
 
                     {/* Tags Section */}
                     <aside className={styles.tags_container}>
