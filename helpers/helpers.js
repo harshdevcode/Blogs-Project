@@ -60,7 +60,7 @@ export function getPostsForCategory(fields, category) {
     const posts = slugs
         .map((slug) => getPostBySlug(slug, fields))
         .filter((post) => {
-            if (post.category.includes(category)) {
+            if (post.category.includes(category.toLowerCase())) {
                 return post;
             }
         })
