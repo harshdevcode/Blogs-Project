@@ -1,7 +1,7 @@
 ---
 id: '84f48dab-0b83-4e5e-8c05-6cbe307d1e9f'
 title: "From Authentication to Empowerment: Harnessing OAuth and OpenID Connect for Atlassian App Advancements"
-description: "So, you're in the midst of migrating your company's applications to a Data Center, huh? Well, you're definitely not alone. As the end of Server support looms, many companies are jumping on the migration bandwagon. And one thing they're considering is implementing Single sign-on (SSO) for their applications."
+description: "Are you currently in the process of migrating your company's applications to a Data Center? If so, you're not alone. With the looming end of Server support, many companies are now opting to join the migration trend. Among the considerations gaining significant attention is the implementation of Single Sign-On (SSO) for their applications. Let's delve into the details of this crucial aspect and understand why SSO is becoming a central focus for improved user experiences in the Data Center era."
 metaTitle: "From Authentication to Empowerment: Harnessing OAuth and OpenID Connect for Atlassian App Advancements"
 metaDescription: "So, you're in the midst of migrating your company's applications to a Data Center, huh? Well, you're definitely not alone. As the end of Server support looms, many companies are jumping on the migration bandwagon. And one thing they're considering is implementing Single sign-on (SSO) for their applications."
 keywords: ''

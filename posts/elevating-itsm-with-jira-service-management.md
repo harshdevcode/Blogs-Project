@@ -26,7 +26,7 @@ tags:
     ]
 ---
 
-## Elevating ITSM with Jira Service Management : A Spotlight on Security and Customer Service {#fortify-your-defenses}
+## Elevating ITSM with Jira Service Management {#fortify-your-defenses}
 
 IT service management platforms (ITSM) facilitate workflow management and data collection so businesses can plan, automate, control, and deliver seamless digital experiences. [According to the Gartner report Magic Quadrant for IT Service Management Platforms](https://www.atlassian.com/gartner/magic-quadrant-it-service-management-tools#:~:text=31%20October%202022.-,Atlassian%20is%20a%20Leader%20in%20the%202022%20Gartner%C2%AE%20Magic,service%20marks%20of%20Gartner%2C%20Inc.), Atlassian, with its Jira Service Management, is a leader in this area. In the ever-evolving landscape of IT service management (ITSM), seamless service delivery isn't just a goal; it's a necessity. 
 
@@ -40,7 +40,7 @@ What was once a challenging endeavor has now been simplified with a groundbreaki
 In this article, we delve deep into the realm of security enhancements, shedding light on the transformative capabilities of SSO for portal-only customers within the JSM Cloud environment and a couple of other extensions that would add value to your ITSM.
 
 
-### Enhancing Security for Portal-Only Customers in Jira Service Management Cloud: Let's Discuss {#enhancing-security-for-portal-only-customers}
+### Enhancing Security for Portal-Only Customers in JSM {#enhancing-security-for-portal-only-customers}
 
 Single Sign-On (SSO) capabilities have been a significant challenge for Jira Service Management (JSM) Cloud users, particularly those with portal-only customers. Managing thousands of customer accounts can become cumbersome. However, imagine the convenience of allowing external customers to log in via SSO to your JSM portals. **miniOrange presents an exclusive solution** – [SAML/OAuth SSO for JSM Customers](https://www.miniorange.com/atlassian/sso-for-jsm-customers).
 Our app extends SAML SSO capabilities to portal-only customers effortlessly. You only need to connect to your identity provider (e.g.miniOrange,Okta, AzureAD) through the app, enabling a secure and streamlined authentication process for external customers. 
@@ -57,7 +57,7 @@ Once authenticated through their identity provider, users establish a session on
 
 Let's explore how these improvements can empower your IT service management.
 
-### Unlocking the Benefits: Empowering ITSM with Enhanced Security for Portal-Only Customers {#unlocking-the-benefits-empowring-itsm-enhanced-security}
+### Unlocking the Benefits {#unlocking-the-benefits-empowring-itsm-enhanced-security}
 
 Enhanced security measures for portal-only customers within Jira Service Management Cloud offer not just protection, but a gateway to a world of advantages that elevates your IT Service Management (ITSM) strategy.
 
@@ -92,7 +92,7 @@ In addition to these benefits, our integration offers some notable features:
 While [SAML/OAuth SSO for JSM Customers](https://marketplace.atlassian.com/apps/1229212/saml-oauth-sso-for-jsm-customers?hosting=cloud&tab=overview) addresses the pressing issue of security and user management in ITSM, a well-rounded ITSM solution demands more. As organizations of all sizes embrace Jira Service Management, we delve deeper into its core functionalities and explore how it fosters collaboration among development, infrastructure, and business teams.
 
 
-### How to boost Jira Service Management and Customer Context Processes with Appsvio Extensions {#how-to-boost-jira-service-management}
+### How to boost Jira Service Management {#how-to-boost-jira-service-management}
 
 To truly enhance the customer-agent relationship and improve workflow efficiency, additional functionalities are often necessary in Jira Service management. Agents frequently encounter challenges such as insufficient information or delays in ticket resolution due to waiting for customer responses. This is where solutions like **'Customer and Organization Management' or ‘Feature Bundle for Jira Service Management' by Appsvio come into play**. Let’s check these extensions out…
 
