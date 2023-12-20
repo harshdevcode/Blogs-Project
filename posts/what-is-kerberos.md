@@ -2,13 +2,15 @@
 id: '2d2191bb-90db-4a70-98a2-47d5a0320d77'
 title: 'Kerberos NTLM Windows SSO'
 description: 'Kerberos is a cryptography-based authentication protocol that guards access to applications. This protocol is designed to provide secure authentication over an insecure network.'
+metaTitle: 'Kerberos NTLM Windows SSO'
+metaDescription: 'Kerberos is cryptography-based authentication protocol that guards application access. This protocol provides secure authentication on an insecure network.'
 keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-thumbnail: 'https://blog.miniorange.com/wp-content/uploads/sites/19/2022/08/Kerberos-SSO-authentication-steps.webp'
-createdOn: '2022-5-12'
-updatedOn: '2022-5-12'
+excerpt: 'Kerberos is a cryptography-based authentication protocol that guards access to applications. This protocol is designed to provide secure authentication over an insecure network.'
+thumbnail: '/blog/assets/2023/kerberos-sso-authentication-steps.webp'
+createdOn: '2022-05-12'
+updatedOn: '2022-05-12'
 ogTitle: ''
 ogDescription: ''
 ogImage:
@@ -61,10 +63,9 @@ Users, workstations, and services that use Kerberos rely solely on the KDC, whic
 There are 2 servers that enable Kerberos to work. An authentication server, and a ticket-granting server.
 
 1. **Authentication Server :** Confirms that a known user is making an access request and gives a ticket-granting ticket.
-
 2. **Ticket granting Server :** Confirms that a user is making an access request to a known service and gives service tickets.
 
-![Key Destribution Center](https://blog.miniorange.com/wp-content/uploads/sites/19/2022/08/Kerberos-SSO-authentication-steps.webp)
+![Key Destribution Center](/blog/assets/2023/kerberos-sso-authentication-steps.webp)
 
 **Step 1 :** User sends a request to the authentication server mentioning they want to access a service. The Authentication service is validated if the service is coming from a known and grants a TGT: ticket-granting ticket.
 

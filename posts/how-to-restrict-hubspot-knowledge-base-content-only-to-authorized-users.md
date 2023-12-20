@@ -2,18 +2,20 @@
 id: '2d2191bb-90db-4a70-98a2-47d5a0320d70'
 title: 'How to restrict HubSpot knowledge base content only to authorized users?'
 description: 'Learn how to restrict your HubSpot KnowledgeBase content to only authorized users with our comprehensive guide. Ensure confidential information is secure and accessible only to authorized personnel.'
+metaTitle: 'How to restrict HubSpot knowledge base content only to authorized users?'
+metaDescription: 'Secure HubSpot KnowledgeBase: Restrict Access to Authorized Users - Comprehensive Guide for Confidentiality.'
 keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-thumbnail: 'https://blog.miniorange.com/wp-content/uploads/sites/19/2023/02/supported-multiple-apps.webp'
-createdOn: '2022-5-12'
-updatedOn: '2022-5-12'
+excerpt: 'Learn how to restrict your HubSpot KnowledgeBase content to only authorized users with our comprehensive guide. Ensure confidential information is secure and accessible only to authorized personnel.'
+thumbnail: '/blog/assets/2023/supported-multiple-apps.webp'
+createdOn: '2022-05-12'
+updatedOn: '2022-05-12'
 ogTitle: ''
 ogDescription: ''
 ogImage:
     url: ''
-category: ['featured', 'solutions']
+category: ['solutions']
 tags:
     [
         'Hubspot SSO',
@@ -28,7 +30,7 @@ tags:
 
 Single Sign-On (SSO) applications are becoming increasingly popular for businesses looking to manage their user access and security. **miniOrange HubSpot SSO application** integrates with a **number of SSO Identity providers** like **Google, Facebook, Okta, WordPress, Azure, AWS Cognito, JumpCloud, OneLogin,** and many more, allowing you to manage your **user access and restrict HubSpot KnowledgeBase content** to authorized users. In this blog, we’ll explain how to **restrict HubSpot knowledge base content** using the miniOrange HubSpot SSO application.
 
-![miniOrange Hubspot SSO application](https://blog.miniorange.com/wp-content/uploads/sites/19/2023/02/supported-multiple-apps.webp)
+![miniOrange Hubspot SSO application](/blog/assets/2023/supported-multiple-apps.webp)
 
 With miniOrange HubSpot SSO, protecting your valuable HubSpot Knowledge Base content is easy. **Restricting access to only logged-in users ensures** that your content is secure, while still allowing you to share and collaborate with colleagues. miniOrange makes it simple and straightforward to set up access restrictions and keep your content safe.
 
@@ -46,7 +48,7 @@ In addition to restricting access, miniOrange HubSpot SSO also allows you to **c
 
 Another benefit of using miniOrange HubSpot SSO is that it integrates seamlessly with your existing HubSpot Knowledge Base. This means that there’s **no need to make any major changes to your existing setup**. With miniOrange HubSpot SSO, you can keep your existing content and simply add an extra layer of security to keep your information safe.
 
-![Hubspot Workflow](https://blog.miniorange.com/wp-content/uploads/sites/19/2023/02/hubspot-workflow-gif-blog.gif)
+![Hubspot Workflow](/blog/assets/2023/hubspot-workflow-gif-blog.gif)
 
 ### Features provided by miniOrange HubSpot SSO : {#miniorange-hubspot-sso-features}
 

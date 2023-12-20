@@ -2,13 +2,15 @@
 id: '2d2191bb-90db-4a70-98a2-47d5a0320d76'
 title: 'What is a Directory service and Why do you need one?'
 description: 'A directory service is a database that stores and maintains information about users and resources.'
+metaTitle: 'What is a Directory service and Why do you need one?'
+metaDescription: 'A directory service is a database that stores and maintains information about users and resources.'
 keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-thumbnail: 'https://blog.miniorange.com/wp-content/uploads/sites/19/2022/09/directory-service-banner.webp'
-createdOn: '2022-5-12'
-updatedOn: '2022-5-12'
+excerpt: 'A directory service is a database that stores and maintains information about users and resources.'
+thumbnail: '/blog/assets/2023/directory-service-banner.webp'
+createdOn: '2022-05-12'
+updatedOn: '2022-05-12'
 ogTitle: ''
 ogDescription: ''
 ogImage:
@@ -38,7 +40,7 @@ A database stores all its information in one flat file or table—it doesn’t h
 
 ### What are the different types of directory services ? {types-of-directory-services}
 
-![Types of Directory Services](https://blog.miniorange.com/wp-content/uploads/sites/19/2022/09/Blog-1.webp)
+![Types of Directory Services](/blog/assets/2023/types-of-directory-services.webp)
 
 **LDAP :** Lightweight Directory Access Protocol is a protocol that enables directory services authentication for servers and clients on multiple platforms.
 
@@ -50,7 +52,7 @@ A database stores all its information in one flat file or table—it doesn’t h
 
 Yes, We can use a single directory that connects with all sorts of directories—including on-premise Active Directory, user stores, and LDAP (Lightweight Directory Access Protocol) directories— [Universal Directory](https://www.miniorange.com/products/directory-services). With the miniOrange solution you can access all directories at a single place.
 
-![Directory Services](https://blog.miniorange.com/wp-content/uploads/sites/19/2022/09/directory-service-banner.webp)
+![Directory Services](/blog/assets/2023/directory-service-banner.webp)
 
 ### Conclusion : {#conclusion}
 

@@ -4,84 +4,64 @@ export const footerLinks = [
         links: [
             {
                 href: "https://www.miniorange.com/products/single-sign-on-sso",
-                text: "Single Sign On",
+                text: "Single Sign-On",
             },
             {
                 href: "https://www.miniorange.com/products/identity-broker-service",
                 text: "Identity Brokering",
             },
             {
-                href: "https://www.miniorange.com/products/identity-broker-service",
-                text: "OpenID Connect Server",
+                href: "https://www.miniorange.com/products/two-factor-authentication-(2fa)",
+                text: "Two-factor Authentication",
             },
             {
-                href: "https://www.miniorange.com/products/identity-broker-service",
-                text: "OAuth Connect Server",
+                href: "https://www.miniorange.com/products/privileged-access-management-pam",
+                text: "Privileged Access Management",
             },
             {
-                href: "https://www.miniorange.com/products/adaptive-multi-factor-authentication-mfa",
-                text: "Multi Factor Authentication",
+                href: "https://www.miniorange.com/iam/solutions/risk-based-authentication-rba",
+                text: "Risk Based Authentication",
             },
             {
-                href: "https://www.miniorange.com/products/adaptive-multi-factor-authentication-mfa",
-                text: "User Provisioning",
+                href: "https://www.miniorange.com/products/user-lifecycle-management",
+                text: "User Lifecycle Management",
             },
             {
-                href: "https://www.miniorange.com/products/adaptive-multi-factor-authentication-mfa",
+                href: "https://www.miniorange.com/products/directory-services",
                 text: "Directory Services",
             },
+            {
+                href: "https://www.miniorange.com/products/oauth2-server",
+                text: "OAuth/OpenID Connect Server",
+            }
         ],
     },
     {
         heading: "Solutions",
         links: [
             {
-                href: "https://idp.miniorange.com/apps-integration/?id=saml",
-                text: "SAML Solutions",
+                href: "https://www.miniorange.com/blog/category/iam",
+                text: "Identity & Security",
             },
             {
-                href: "https://idp.miniorange.com/apps-integration/?id=oauth",
-                text: "OAuth Solutions",
+                href: "https://www.miniorange.com/blog/category/atlassian",
+                text: "Atlassian",
             },
             {
-                href: "https://idp.miniorange.com/apps-integration/?id=oauth",
-                text: "2FA Solutions",
+                href: "https://www.miniorange.com/blog/category/concepts",
+                text: "Concepts",
             },
             {
-                href: "https://idp.miniorange.com/apps-integration/?id=mobile-apps",
-                text: "Mobile Solutions",
-            },
-            {
-                href: "https://idp.miniorange.com/directory-integrations",
-                text: "Directory Integration",
-            },
-            {
-                href: "https://idp.miniorange.com/federation-integrations",
-                text: "Federal Integrations",
-            },
-            {
-                href: "https://idp.miniorange.com/apps-integration/?id=windows",
-                text: "Windows Solutions",
-            },
-            {
-                href: "https://idp.miniorange.com/apps-integration/?id=connector",
-                text: "SSO Connectors",
-            },
-            {
-                href: "https://idp.miniorange.com/apps-integration/?id=secure-browser",
-                text: "Secure Browser SSO",
+                href: "https://www.miniorange.com/iam/solutions",
+                text: "Integrations",
             },
         ],
     },
     {
-        heading: "Resources",
+        heading: "Help & Support",
         links: [
             {
-                href: "https://idp.miniorange.com/success-stories",
-                text: "Our Success Stories",
-            },
-            {
-                href: "https://idp.miniorange.com/success-stories",
+                href: "https://www.miniorange.com/iam/content-library",
                 text: "Content Library",
             },
             {
@@ -89,11 +69,11 @@ export const footerLinks = [
                 text: "Videos",
             },
             {
-                href: "https://faq.miniorange.com/",
+                href: "https://faq.miniorange.com",
                 text: "FAQs",
             },
             {
-                href: "https://idp.miniorange.com/success-stories",
+                href: "https://forum.miniorange.com",
                 text: "Forum",
             },
         ],
@@ -102,19 +82,31 @@ export const footerLinks = [
         heading: "Company",
         links: [
             {
+                href: "https://www.miniorange.com/about_us",
+                text: "About Us",
+            },
+            {
                 href: "https://www.miniorange.com/newsandevents",
                 text: "News",
             },
             {
-                href: "https://www.miniorange.com/newsandevents",
+                href: "https://www.miniorange.com/career",
+                text: "Careers",
+            },
+            {
+                href: "https://www.miniorange.com/iam/why-miniorange/",
+                text: "Differentiation",
+            },
+            {
+                href: "https://www.miniorange.com/iam/partners",
                 text: "Partners",
             },
             {
-                href: "https://www.miniorange.com/newsandevents",
+                href: "https://www.miniorange.com/customers",
                 text: "Customers",
             },
             {
-                href: "https://www.miniorange.com/newsandevents",
+                href: "https://www.miniorange.com/contact",
                 text: "Contact us",
             },
         ],

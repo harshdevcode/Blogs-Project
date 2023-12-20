@@ -10,19 +10,37 @@
 .markdown ul,
 .markdown ol,
 .markdown blockquote {
-    @apply leading-[38px];
+    @apply leading-[2.295];
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+    font-family: Sora, sans-serif !important;
 }
 
 .markdown h2 {
-    @apply text-heading mt-xxl mb-rg;
+    @apply text-2xl font-semibold mt-xxl mb-rg scroll-mt-28;
 }
 
 .markdown h3 {
-    @apply text-heading mt-xl mb-rg;
+    @apply text-xl mt-10 mb-2.5 font-semibold scroll-mt-28;
+}
+
+.markdown h4 {
+    @apply text-base mb-rg;
+}
+
+.markdown h5 {
+    @apply text-sm mb-rg;
+}
+
+.markdown h6 {
+    @apply text-xs mb-rg;
 }
 
 .markdown img {
-    @apply w-full bg-slate-100 aspect-video object-cover;
+    @apply w-full bg-slate-100 aspect-video object-cover my-5;
 }
 
 .markdown a {
@@ -31,11 +49,35 @@
 }
 
 .markdown ul {
-    @apply list-disc pl-rg
+    @apply list-disc pl-rg list-inside;
+}
+
+.markdown ol {
+    @apply list-decimal pl-rg list-inside;
+}
+
+.markdown br {
+    @apply !leading-3;
 }
 
 .blogs-grid {
     display: grid;
     grid-area: '1 1 3 3 4 4' '2 2 3 3 4 4' '5 5 5 6 6 6' '7 7 7 8 8 8' '7 7 7 9 9 9'
         '10 10 11 11 12 12' '10 10 11 11 13 13';
+}
+
+.markdown table {
+    @apply border;
+}
+
+.markdown table thead {
+    @apply bg-slate-100;
+}
+
+.markdown table tbody tr td {
+    @apply px-4 py-2;
+}
+
+.markdown table thead tr th {
+    @apply font-medium;
 }

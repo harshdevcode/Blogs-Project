@@ -2,13 +2,15 @@
 id: '2d2191bb-90db-4a70-98a2-47d5a0320d78'
 title: '5 Reasons Why Your Business Needs Multifactor Authentication'
 description: '5 Reasons Why Your Business Needs Multifactor Authentication - Learn what is multifactor authentication and why should your business use MFA?'
+metaTitle: '5 Reasons Why Your Business Needs Multifactor Authentication'
+metaDescription: '5 Reasons Why Your Business Needs Multifactor Authentication - Learn what is multifactor authentication and why should your business use MFA?'
 keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-thumbnail: 'https://blog.miniorange.com/wp-content/uploads/sites/19/2021/10/need-of-mfa.webp'
-createdOn: '2022-5-12'
-updatedOn: '2022-5-12'
+excerpt: '5 Reasons Why Your Business Needs Multifactor Authentication - Learn what is multifactor authentication and why should your business use MFA?'
+thumbnail: '/blog/assets/2023/need-of-mfa.webp'
+createdOn: '2022-05-12'
+updatedOn: '2022-05-12'
 ogTitle: ''
 ogDescription: ''
 ogImage:
@@ -19,7 +21,7 @@ tags: ['2FA', '2FA Security', 'MFA', 'Multi-factor Authentication', 'Two Factor'
 
 ## 5 Reasons Why Your Business Needs Multifactor Authentication
 
-![Need of MFA](https://blog.miniorange.com/wp-content/uploads/sites/19/2021/10/need-of-mfa.webp)
+![Need of MFA](/blog/assets/2023/need-of-mfa.webp)
 
 In today’s technological age, along with keeping up with the latest trends in technology, businesses need to make sure that their cybersecurity and data protection measures are up to par. The COVID-19 pandemic has forced companies to adopt remote working practices and utilize cloud-based platforms, reinforcing the need for better cybersecurity measures.
 

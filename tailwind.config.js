@@ -64,8 +64,8 @@ module.exports = {
 
             // Font Size Line Height Letter Spacing
             fontSize: {
-                display: ['28px', { lineHeight: '45px', fontWeight: '600' }],
-                heading: ['18px', { lineHeight: '28px', fontWeight: '500' }],
+                display: ['28px', { lineHeight: '45px', fontWeight: '500' }],
+                heading: ['18px', { lineHeight: '28px', fontWeight: '600' }],
                 title: ['14px', { lineHeight: '25px', fontWeight: '500' }],
                 'title-semibold': ['14px', { lineHeight: '25px', fontWeight: '500' }],
                 caption: ['14px', { lineHeight: '25px', fontWeight: '400' }],

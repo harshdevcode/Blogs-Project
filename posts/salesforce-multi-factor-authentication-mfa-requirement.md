@@ -1,19 +1,21 @@
 ---
 id: '2d2191bb-90db-4a70-98a2-47d5a0320d73'
 title: 'Salesforce Multi-factor Authentication | Salesforce MFA'
-description: 'Configure Salesforce Multi-factor authentication (MFA). Setup MFA for all your web &amp; SaaS Apps including Salesforce for authorized network users.'
+description: 'Configure Salesforce Multi-factor authentication (MFA). Setup MFA for all your web & SaaS Apps including Salesforce for authorized network users.'
+metaTitle: 'Salesforce Multi-Factor Authentication (MFA): Strengthening Your Security'
+metaDescription: 'Salesforce Multi-Factor Authentication (MFA) Implementation: Secure Your Network Users and Web Apps.'
 keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-thumbnail: 'https://blog.miniorange.com/wp-content/uploads/sites/19/2022/01/salesforce-mfa.webp'
-createdOn: '2022-5-12'
-updatedOn: '2022-5-12'
+excerpt: 'Configure Salesforce Multi-factor authentication (MFA). Setup MFA for all your web & SaaS Apps including Salesforce for authorized network users.'
+thumbnail: '/blog/assets/2023/salesforce-mfa.webp'
+createdOn: '2022-05-12'
+updatedOn: '2022-05-12'
 ogTitle: ''
 ogDescription: ''
 ogImage:
     url: ''
-category: ['main', 'announcements', 'iam', 'solutions']
+category: ['announcements', 'iam', 'solutions']
 tags:
     [
         '2FA',
@@ -26,7 +28,7 @@ tags:
 
 ## Salesforce Multi-Factor Authentication (MFA) Requirement
 
-![Salesforce Multi-Factor Authentication (MFA)](https://blog.miniorange.com/wp-content/uploads/sites/19/2022/01/salesforce-mfa.webp)
+![Salesforce Multi-Factor Authentication (MFA)](/blog/assets/2023/salesforce-mfa.webp)
 
 ### Enable Salesforce MFA/2FA before 1st February 2022 {#enable-salesforce-mfa-or-2fa-before-1st-february-2022}
 
@@ -43,7 +45,6 @@ Thinking of what the Salesforce MFA solution might be, we have you all backed up
 Multi-Factor Authentication (Salesforce MFA) can be bifurcated into two:
 
 1. Users enter their credentials (typically username and password). This can be from an identity source such as AD, database, any Identity provider, local credentials, etc.
-
 2. On successful authentication of the user’s credential, the user is prompted for the configured Salesforce MFA method (Soft token, OTP over SMS/mail, etc.) where the user of a website or an application is asked to provide an additional layer of credentials to gain access to the resources they are visiting for. It helps in guaranteeing that the user is exactly who they say they are, and ensures to stay away from a substantial deal of identity and security hamperings.
 
 Instead of only asking for a username and password, Salesforce MFA (Multi-Factor authentication) adds additional verification factors (OTP, push notifications, fingerprint, etc.) which indirectly halts cyberattack activities like phishing, Malware, etc providing a high level of assurance and security. In simpler terms, you need to convince the system or online service of your identity more than once, so the system can detect if you have the right to obtain the data services that you’re trying to retrieve.
@@ -65,11 +66,9 @@ The step taken by Salesforce towards making the CRM secure for its users is exte
 [miniOrange MFA](<https://www.miniorange.com/two-factor-authentication-(2fa)>) takes security to the next level along with a smooth experience for the users.
 
 -   Reduce login issues and admin overhead.
-
 -   Add any new application easily to your existing setup and enable SSO + MFA quickly for the same.
 
-### Further Reading
+### Further Reading {#further-reading}
 
 -   [Setup Salesforce Two Factor Authentication (2FA/MFA)](https://www.miniorange.com/salesforce-two-factor-authentication-2fa)
-
 -   [Configure Salesforce Single Sign-On (SSO)](<https://www.miniorange.com/salesforce-single-sign-on-(sso)>)

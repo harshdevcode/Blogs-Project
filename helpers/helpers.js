@@ -8,6 +8,7 @@ import { parse } from 'node-html-parser';
 import { categories } from '../utils/categories';
 
 import { tag } from '../utils/tag';
+import remarkGfm from 'remark-gfm';
 
 const postsDirectory = join(process.cwd(), 'posts');
 
@@ -44,8 +45,13 @@ export function getPostByTitle() {}
 
 export function getHeadlines(htmlContent) {
     const root = parse(htmlContent);
-    const headlines = root.querySelectorAll('h3');
-    return headlines.toString();
+    const headings = root.querySelectorAll('h2, h3, h4, h5, h6'); // Select all heading elements
+
+    const matchingHeadings = Array.from(headings).filter((heading) => {
+        return heading.hasAttribute('id');
+    });
+
+    return matchingHeadings;
 }
 
 export function getPostsForCategory(fields, category) {
@@ -54,7 +60,7 @@ export function getPostsForCategory(fields, category) {
     const posts = slugs
         .map((slug) => getPostBySlug(slug, fields))
         .filter((post) => {
-            if (post.category.includes(category)) {
+            if (post.category.includes(category.toLowerCase())) {
                 return post;
             }
         })
@@ -90,7 +96,11 @@ export function getAllPosts(fields) {
 }
 
 export async function markdownToHTML(markdown) {
-    const resultHtml = await remark().use(remarkHeadingId).use(html).process(markdown);
+    const resultHtml = await remark()
+        .use(remarkHeadingId)
+        .use(remarkGfm)
+        .use(html)
+        .process(markdown);
 
     return resultHtml.toString();
 }

@@ -2,18 +2,20 @@
 id: '2d2191bb-90db-4a70-98a2-47d5a0320d79'
 title: 'What is Zero Trust Security & How does it work?'
 description: 'Zero Trust is an approach to perimeter-less security that helps create an effective environment, policies, and infrastructure to minimize data breaches. Although many enterprises were moving towards the Zero-Trust model, Remote working (Work From Home) accelerated it by ten folds.'
+metaTitle: 'What is Zero Trust Security & How does it work?'
+metaDescription: 'Zero Trust: Strengthen Security in a Remote Work Era. Prevent Data Breaches with Perimeter-Less Approach.'
 keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-thumbnail: 'https://www.miniorange.com/images/landing-page/ztna.webp'
-createdOn: '2022-5-12'
-updatedOn: '2022-5-12'
+excerpt: 'Zero Trust is an approach to perimeter-less security that helps create an effective environment, policies, and infrastructure to minimize data breaches. Although many enterprises were moving towards the Zero-Trust model, Remote working (Work From Home) accelerated it by ten folds.'
+thumbnail: '/blog/assets/2023/zero-trust-security-ztna.webp'
+createdOn: '2022-05-12'
+updatedOn: '2022-05-12'
 ogTitle: ''
 ogDescription: ''
 ogImage:
     url: ''
-category: ['latest', 'concepts', 'iam']
+category: ['featured', 'concepts', 'iam']
 tags: ['Security', 'Zero Trust', 'Zero Trust Security']
 ---
 
@@ -31,7 +33,7 @@ Zero Trust is a model that recognizes trust as a vulnerability and aims at elimi
 
 It reduces the risk of successful data breach and contains severity of breach by eliminating trust and preventing lateral movement.
 
-![What is Zero Trust ? How does it work ?](https://blog.miniorange.com/wp-content/uploads/sites/19/2021/07/zero-trust.webp)
+![What is Zero Trust ? How does it work ?](/blog/assets/2023/zero-trust.webp)
 
 ### Why is there a need for Zero Trust ? {#why-zero-trust-is-needed}
 
@@ -49,7 +51,7 @@ Organizations can strengthen security by using granular policies, thus reducing 
 
 In a Zero Trust system all users, within the organization network perimeter and outside the organization network perimeter are treated as untrusted. All the users requesting resources are verified and RBA sessions are used to grant user access to resources.
 
-![Security Policy Enforcement](https://blog.miniorange.com/wp-content/uploads/sites/19/2021/07/zero-trust-working.webp)
+![Security Policy Enforcement](/blog/assets/2023/zero-trust-working.webp)
 
 All the user requests and data pass through the security policy enforcement engine. This Security engine ensures protection by verifying device and identity before granting access to the data or applications, and further by monitoring session activities and implementing policies and threat assessment/intelligence.
 
@@ -77,7 +79,7 @@ As Zero trust is a security methodology, it requires organizations to evaluate t
 
 Zero trust is the Implementation of the zero tesut model that can be classified into various stages on the basis of adoption and protection.
 
-![Security Policy Enforcement](https://blog.miniorange.com/wp-content/uploads/sites/19/2021/07/zero-trust-maturity-curve.webp)
+![Security Policy Enforcement](/blog/assets/2023/zero-trust-maturity-curve.webp)
 
 #### Stage 0: Fragmented Identities
 

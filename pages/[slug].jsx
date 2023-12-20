@@ -7,7 +7,7 @@ import TagsList from 'components/tags-list';
 import useStatus from 'hooks/useStatus';
 import markdownStyles from 'styles/markdown-styles.module.css';
 import { parse } from 'node-html-parser';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import Button from 'components/button';
 import Image from 'next/image';
@@ -15,6 +15,9 @@ import Image from 'next/image';
 import axios from 'axios';
 import { getAllPosts, getHeadlines, getPostBySlug, markdownToHTML } from 'helpers/helpers';
 import Link from 'next/link';
+import Comment from 'database/models/Comment';
+import User from 'database/models/User';
+import ListItemAuthor from "components/list-item-author";
 
 const INITIAL_COMMENT_TEXT = {
     content: '',
@@ -31,6 +34,8 @@ const Blog = ({ payload }) => {
             id,
             title,
             description,
+            metaTitle,
+            metaDescription,
             ogTitle,
             ogDescription,
             ogImage,
@@ -52,6 +57,7 @@ const Blog = ({ payload }) => {
     });
 
     const [{ loading, success, error }, setStatus] = useStatus();
+    const [activeSection, setActiveSection] = useState('main');
 
     const handleCommentChange = (e) => {
         const { name, value } = e.target;
@@ -86,32 +92,73 @@ const Blog = ({ payload }) => {
         }
     };
 
+    function getVisibleHeading(headings) {
+        if (!headings) return;
+        let closestHeading = null;
+        let closestDistance = 500;
+
+        for (const heading of headings) {
+            const rect = heading.getBoundingClientRect();
+            const distanceToTop = Math.abs(rect.top);
+
+            if (distanceToTop < closestDistance) {
+                closestHeading = heading;
+                closestDistance = distanceToTop;
+            }
+        }
+
+        return closestHeading;
+    }
+
+    function onScroll(event, headings) {
+        if (!headings) return;
+
+        const visibleHeading = getVisibleHeading(headings);
+
+        if (visibleHeading) {
+            const id = visibleHeading.id;
+            setActiveSection(id);
+        }
+    }
+
+    useEffect(() => {
+        const headings = document.querySelectorAll('h1, h2, h3');
+
+        window.addEventListener('scroll', (event) => onScroll(event, headings));
+
+        return () => {
+            window.removeEventListener('scroll', onScroll(headings));
+        };
+    }, []);
+
     return (
         <>
             <Head>
                 {/* SEO Meta Tags */}
                 <title>{title}</title>
-                <meta name='title' content={title} />
-                <meta name='description' content={description} key='description' />
+                <meta name='title' content={metaTitle} />
+                <meta name='description' content={metaDescription} />
 
                 {/* Open Graph Info */}
-                <meta property='og:title' content={ogTitle} key='ogTitle' />
-                <meta property='og:description' content={ogDescription} key='ogDescription' />
+                <meta property='og:title' content={metaTitle} />
+                <meta property='og:description' content={metaDescription} />
                 <meta property='og:image' content={ogImage} key='ogImage' />
                 <link rel='canonical' href={canonical} />
             </Head>
             <section className={styles.container}>
                 {/* Hero Section */}
-                <div id='main' className={styles.hero_section}>
+                <div id='main' className={`${styles.hero_section} scroll-mt-52`}>
                     <div className='flex-1'>
-                        <h1 className='mt-md lg:mt-0 display'>{title}</h1>
+                        <h1 id='main' className='mt-md lg:mt-0 display'>
+                            {title}
+                        </h1>
                         <p className='caption mt-md'>{description}</p>
                         <Link href={mainButtonLink || 'https://www.miniorange.com/contact'}>
                             <Button text={mainButtonText || 'Get Demo'} className='mt-xl' />
                         </Link>
                     </div>
 
-                    <picture className='relative w-[50%] h-0 pb-[25%]'>
+                    <picture className='aspect-video relative sm:w-[50%] h-0 sm:pb-[25%]'>
                         <Image
                             className='absolute inset-0 object-cover w-full h-full'
                             src={thumbnail}
@@ -124,14 +171,23 @@ const Blog = ({ payload }) => {
                     {/* Side Nav Links */}
                     <aside className={styles.side_nav_container}>
                         <div className={styles.side_nav_wrapper}>
-                            <a href={`#main`} className={`title ${styles.side_nav_link} mt-sm`}>
+                            <a
+                                href={`#main`}
+                                className={`title ${styles.side_nav_link} mt-sm ${
+                                    activeSection === 'main' ? 'font-semibold bg-accent/10' : ''
+                                }`}
+                            >
                                 Introduction
                             </a>
                             {tocs.map((headline) => (
                                 <a
                                     key={headline.id}
                                     href={`#${headline.id}`}
-                                    className={`title ${styles.side_nav_link}`}
+                                    className={`title ${styles.side_nav_link} ${
+                                        activeSection === headline.id
+                                            ? 'font-semibold bg-accent/10'
+                                            : ''
+                                    }`}
                                 >
                                     {headline.text}
                                 </a>
@@ -140,13 +196,17 @@ const Blog = ({ payload }) => {
                     </aside>
 
                     {/* Blog Content */}
-                    <main
-                        dangerouslySetInnerHTML={{ __html: html }}
-                        className={`
-                            [ ${markdownStyles['markdown']} w-full [ lg:w-8/12 ] order-2 p-md ]
-                            [ lg:order-2 ]
-                        `}
-                    ></main>
+                    <div className='w-full [ lg:w-8/12 ]'>
+                        <main
+                            id='markdown-container'
+                            dangerouslySetInnerHTML={{ __html: html }}
+                            className={`
+                                [ ${markdownStyles['markdown']} order-2 p-md ]
+                                [ lg:order-2 ]
+                            `}
+                        ></main>
+                        <ListItemAuthor name="miniOrange"/>
+                    </div>
 
                     {/* Tags Section */}
                     <aside className={styles.tags_container}>
@@ -186,7 +246,9 @@ const Blog = ({ payload }) => {
                             value={comment}
                             status={{ loading, success, error }}
                         />
-                        <h3 className='heading mt-9'>{[].length === 0 ? '' : 'Comments'}</h3>
+                        <h3 className='heading mt-9'>
+                            {comments.length === 0 ? '' : `${comments.length} Comments`}
+                        </h3>
                         <CommentsList comments={comments} />
                     </section>
 
@@ -217,6 +279,8 @@ export async function getStaticProps({ params }) {
         'id',
         'title',
         'description',
+        'metaTitle',
+        'metaDescription',
         'ogTitle',
         'ogDescription',
         'ogImage',
@@ -245,27 +309,26 @@ export async function getStaticProps({ params }) {
         tocs.push({ id: id, text: h.textContent });
     }
 
-    let comments = { data: [] };
+    let comments = [];
 
     // Fetch Comments in Production only
     if (process.env.NODE_ENV === 'production') {
         try {
-            const fecthedComments = await Comment.findAll({
+            comments = await Comment.findAll({
                 where: { post_id: post.id, is_approved: true },
                 include: { model: User, as: 'user' },
                 raw: true,
                 nest: true,
             });
-            comments = { data: JSON.stringify(fecthedComments) };
         } catch (e) {
-            comments.data = [];
+            comments = [];
         }
     }
 
     const canonical = `https://www.miniorange.com/blog/${slug}/`;
 
     const payload = {
-        comments: comments.data,
+        comments,
         post,
         html,
         tocs,
