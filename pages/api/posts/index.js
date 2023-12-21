@@ -14,7 +14,7 @@ const createPostHandler = async (req, res) => {
                 slug
             }});
 
-            if(existingPost === null)
+            if(existingPost)
                 return res.status(400).json({ success: false, message: "Post already exists with this slug" });
 
             const post = await Post.create({ author_name, slug });
