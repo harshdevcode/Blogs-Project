@@ -19,6 +19,10 @@ const nextConfig = {
         ],
         unoptimized: true,
     },
+    i18n: {
+        locales: ['en'],
+        defaultLocale: 'en', // default lang fr
+    },
 };
 
 module.exports = nextConfig;
