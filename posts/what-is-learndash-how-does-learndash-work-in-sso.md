@@ -15,7 +15,7 @@ ogTitle: 'What is LearnDash? How does learnDash work in SSO?'
 ogDescription: 'What is LearnDash? LMS or Learning Management System is an e-learning technology that enables institutions or organizations to spread their courses virtually across the globe without the physical effort required in classrooms. It also allows the user to configure their content suited for their clients.'
 ogImage:
     url: '/blog/assets/2023/learndash-wordpress-sso-banner.webp'
-category: [' Single Sign-On', 'SSO', 'WordPress']
+category: ["concepts"]
 tags: ['WordPress', 'SSO', 'Single Sign-On', 'LearnDash', 'LearnDash WP SSO', 'LMS']
 ---
 
@@ -68,7 +68,7 @@ We can see how SSO helps in limiting access to students and steering clear of ou
 
 When a student tries to buy a course from a WooCommerce site, he/she is redirected to the Identity Provider login page for login.
 
-When the student logs into the Identity Provider, WordPress SAML SSO Plugin fetches his or her identity information and attributes from the IdP. After successful authentication, the student is redirected back to the checkout page with the checkout fields pre-filled by the information fetched from the Identity Provider. Once a student purchases a course, the student is assigned a role that allows the student to access the content of the course he purchased. 
+When the student logs into the Identity Provider, [WordPress SSO](https://plugins.miniorange.com/wordpress-single-sign-on-sso) Plugin fetches his or her identity information and attributes from the IdP. After successful authentication, the student is redirected back to the checkout page with the checkout fields pre-filled by the information fetched from the Identity Provider. Once a student purchases a course, the student is assigned a role that allows the student to access the content of the course he purchased. 
 
 ### Why is miniOrange a great choice for LearnDash SSO? {#why-is-miniorange-a-great-choice-for-learndash-sso}
 miniOrange solutions provide varied features along with Single Sign-On (SSO) which makes plenty of LearnDash use cases possible.
