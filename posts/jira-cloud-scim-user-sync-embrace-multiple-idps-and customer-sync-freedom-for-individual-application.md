@@ -1,5 +1,5 @@
 ---
-id: 'e3193a26-f56a-4cb5-8b7c-652b342cfceb'
+id: '526e09c8-a1f0-4494-9d2c-37b29979a0d3'
 title: 'Jira Cloud SCIM/User Sync: Embrace Multiple IDPs and Customer Sync Freedom for Individual Applications'
 description: 'Unlock exceptional user experiences while maintaining control over applications and data with Jira Cloud SCIM/User Sync. Seamlessly integrate your Identity Provider, develop custom applications, sync customer data, and enjoy enhanced security measures.'
 metaTitle: 'Jira Cloud SCIM/User Sync: Embrace Multiple IDPs and Customer Sync Freedom for Individual Applications'
