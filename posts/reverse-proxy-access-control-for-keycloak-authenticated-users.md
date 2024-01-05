@@ -1,5 +1,5 @@
 ---
-id: 'c46d26c7-f590-4f5d-bdad-5d61077d847d'
+id: '2ec51947-3f8d-487e-b203-4ab45ff5f94b'
 title: 'Keycloak authentication with Reverse Proxy | Auth Proxy'
 description: 'Authenticate and authorize users with Keycloak when they try to access any apps and restrict access in real time with a Keycloak Auth Proxy security solution. If the reverse proxy server finds a valid Keycloak user session, the user is given access to the proxied cloud application, else the access is denied for non-federated users.'
 metaTitle: 'Keycloak authentication with Reverse Proxy | Keycloak Auth Proxy'
