@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
+import { useRouter } from "next/router";
 import Button from 'components/button';
 import IconButton from 'components/icon-button';
 import NavItem from 'components/nav-item';
@@ -12,6 +13,26 @@ export default function Header() {
     const handleNavToggle = () => {
         setShowNav(!showNav);
     };
+
+    const router = useRouter();
+    const searchInputRef = useRef(null);
+
+    const handleKeyPress = (event) => {
+        if (event.key === 'Enter') {
+            const term = searchInputRef.current.value;
+            if (!term) return;
+            
+            router.push(`/search?term=${term}`);
+        }
+    };
+
+    function search(e) {
+      e.preventDefault();
+      const term = searchInputRef.current.value;
+      if (!term) return;
+  
+      router.push(`/search?term=${term}`);
+    }
 
     const handleOnSignupClick = () => {
         window.location.href = 'https://www.miniorange.com/businessfreetrial';
@@ -56,6 +77,10 @@ export default function Header() {
                 <NavItem path='/category/atlassian'>Atlassian</NavItem>
                 <NavItem path='/category/concepts'>Concepts</NavItem>
                 <NavItem path='https://www.miniorange.com/iam/solutions/'>Integrations</NavItem>
+                <div className='flex gap-sm ml-sm'>
+                    <input type='text' onKeyPress={handleKeyPress} ref={searchInputRef} placeholder='Enter search term' className='input'></input>
+                    <Button text='Search' onClick={search} variant='secondary'/>
+                </div>
                 <div className='flex gap-sm ml-sm'>
                     <Button text='Sign up' onClick={handleOnSignupClick} />
                     <Button
