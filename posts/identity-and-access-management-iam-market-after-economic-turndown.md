@@ -1,5 +1,5 @@
 ---
-id: '2d2191bb-90db-4a70-98a2-47d5a0320d72'
+id: 'bf2f9241-89cd-4250-813d-a48e5d838797'
 title: 'Identity and Access Management (IAM) Market After Economic Turndown'
 description: "Identity and Access Management in today’s economy, organizations are feeling the pinch. They’re looking for ways to cut costs, and one area that’s often targeted is IT. However, even in lean times, it’s important to maintain strong security practices. This is where IAM comes in."
 metaTitle: 'Identity and Access Management (IAM) Market After Economic Turndown'

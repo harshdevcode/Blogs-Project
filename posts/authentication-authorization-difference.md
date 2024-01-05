@@ -1,5 +1,5 @@
 ---
-id: '5497c347-f873-4262-97a2-edc3136da014'
+id: '66168eb4-f579-4e15-a099-c3f60ba50988'
 title: 'What is the difference between Authentication and Authorization?'
 description: 'The key difference between authentication and authorization is that the identity of user & service is confirmed through authentication, and their access privileges are established through authorization.'
 metaTitle: 'Authentication vs. Authorization | What is the difference?'
