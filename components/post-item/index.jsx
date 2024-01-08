@@ -1,3 +1,6 @@
+import Icon from 'components/lucide-icon';
+import { Subtitle, Title } from 'components/typography';
+import { capitalizeFirstLetter } from 'helpers/string';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -9,6 +12,7 @@ export default function PostItem({
     thumbnailLoading = 'lazy',
     createdOn,
     className,
+    category,
     index,
 }) {
     return (
@@ -19,9 +23,9 @@ export default function PostItem({
                  card flex flex-col duration-150 cursor-pointer overflow-hidden                                    
             `}
         >
-            <div className='aspect-video relative'>
+            <div className="aspect-video relative">
                 <Image
-                    className='object-cover'
+                    className="object-cover"
                     src={thumbnail}
                     alt={slug}
                     fill
@@ -29,9 +33,24 @@ export default function PostItem({
                 />
             </div>
 
-            <div className='p-md'>
-                <h4 className='title-semibold line-clamp-2'>{title}</h4>
-                <p className={`mt-xs caption truncate`}>{description}</p>
+            <div className="p-8">
+                <Title weight="semibold" className="line-clamp-2">
+                    {title}
+                </Title>
+                <Subtitle className={`mt-xs caption truncate`}>{description}</Subtitle>
+                <div className="flex items-center gap-2.5 mt-5">
+                    <Icon name="Clock" color="grey" size={18} />
+                    <Subtitle className="grow">{new Date(createdOn).toDateString()}</Subtitle>
+                    <Icon name="FolderClosed" color="grey" size={18} />
+                    <div className="flex flex-wrap items-center">
+                        {category.map((_category, i) => (
+                            <>
+                                <Subtitle>{capitalizeFirstLetter(_category)}</Subtitle>
+                                {i !== category.length - 1 ? <>, &nbsp;</> : null}
+                            </>
+                        ))}
+                    </div>
+                </div>
             </div>
         </Link>
     );
