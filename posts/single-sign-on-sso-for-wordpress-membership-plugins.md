@@ -106,7 +106,7 @@ With the help of the integrators, each member of the group is assigned a role/me
 - If an unmapped user logs in to the site, the user is assigned a default group giving them default membership and only the information available to that group is made available for them.
 
 ### Why is Single Sign-On beneficial in a membership site ? {#benefits-of-SSO-in-membership-site}
-The most basic yet one of the most important reasons why SSO should be used in membership plugins is the ability to log in without additional login credentials. Jumbling up passwords is a problem that even the smartest person faces, so when you have an option of logging in to a site without creating a new account, you immediately like the site a little more.
+The most basic yet one of the most important reasons why [WordPress SSO](https://plugins.miniorange.com/wordpress-single-sign-on-sso) should be used in membership plugins is the ability to log in without additional login credentials. Jumbling up passwords is a problem that even the smartest person faces, so when you have an option of logging in to a site without creating a new account, you immediately like the site a little more.
 
 Using SSO for logging in will allow you to map users into specific groups and set membership levels accordingly. Other than that it will also help to map unmapped users who try to access your site which makes content restriction easier. For example, you have an LMS site for which you want to restrict access only to the authorized students. These students will already have a group with set roles and membership levels and their access will be set accordingly.
 
