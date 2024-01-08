@@ -8,7 +8,7 @@ keywords: ''
 mainButtonLink: 'https://miniorange.atlassian.net/servicedesk/customer/portal/2/group/6/create/66'
 mainButtonText: ''
 excerpt: "In the ever-evolving landscape of digital identity, achieving simplicity and efficiency is paramount. With the latest upgrade to the miniOrange SAML plugins, we're excited to announce the seamless integration of SCIM."
-thumbnail: '/blog/assets/2023/saml-scim-integration.webp'
+thumbnail: '/blog/assets/2023/saml-scim.webp'
 createdOn: '2023-11-27'
 updatedOn: '2023-11-27'
 ogTitle: ''
