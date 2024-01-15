@@ -18,10 +18,9 @@ ogImage:
 category: ['Solutions',]
 tags:
     [
-	'shopify swag store	',
-    'swag store	',
-    'company swag store',
-    'online swag store',
+	'Shopify otp login',
+    'OTP Login',
+    'login otp',
     ]
 ---
 
