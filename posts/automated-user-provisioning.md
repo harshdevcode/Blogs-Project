@@ -15,7 +15,7 @@ ogTitle: ''
 ogDescription: ''
 ogImage:
     url: ''
-category: ['featured', 'iam', 'product']
+category: ['iam', 'product']
 tags: ['Automated Provisioning', 'Deprovisioning', 'Provisioning']
 ---
 

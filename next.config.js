@@ -16,9 +16,12 @@ const nextConfig = {
             'blog.miniorange.com',
             'www.miniorange.com',
             'blogs.miniorange.com',
-            'plugins.miniorange.com',
         ],
         unoptimized: true,
+    },
+    i18n: {
+        locales: ['en'],
+        defaultLocale: 'en', // default lang fr
     },
 };
 

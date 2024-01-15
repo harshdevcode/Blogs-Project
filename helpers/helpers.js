@@ -60,7 +60,7 @@ export function getPostsForCategory(fields, category) {
     const posts = slugs
         .map((slug) => getPostBySlug(slug, fields))
         .filter((post) => {
-            if (post.category.includes(category)) {
+            if (post.category.includes(category.toLowerCase())) {
                 return post;
             }
         })
@@ -83,8 +83,6 @@ export function getPostsForTag(fields, tag) {
 
     return posts;
 }
-
-export function getLatestPosts() {}
 
 export function getAllPosts(fields) {
     const slugs = getPostSlugs();
@@ -111,4 +109,37 @@ export function getCategories() {
 
 export function getTag() {
     return JSON.stringify(tag);
+}
+
+// Helper functions to prepare data for homepage hydration
+const commonRequiredFrontmatterFields = [
+    'title',
+    'description',
+    'date',
+    'slug',
+    'author',
+    'thumbnail',
+    'excerpt',
+    'content',
+    'category',
+    'tags',
+    'createdOn',
+];
+
+export function getLatestPosts() {
+    const latest = getPostsForCategory(commonRequiredFrontmatterFields, 'latest')
+        .sort((a, b) => new Date(b.createdOn) - new Date(a.createdOn))
+        .slice(0, 6);
+
+    return latest;
+}
+
+export function getFeaturedPosts() {
+    const featured = getPostsForCategory(commonRequiredFrontmatterFields, 'featured');
+    return featured;
+}
+
+export function getMainPosts() {
+    const main = getPostsForCategory(commonRequiredFrontmatterFields, 'main');
+    return main;
 }

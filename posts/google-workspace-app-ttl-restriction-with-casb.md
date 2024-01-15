@@ -1,5 +1,5 @@
 ---
-id: '0d851056-632d-4d8b-bb35-ca4d9810f23a'
+id: '4e8867c0-e2b2-47b5-ba43-84a7344c141a'
 title: 'Google app TTL restrictions using Google Workspace CASB security'
 description: 'Control access permissions for your Google Workspace apps by enabling Google TTL restriction and provide limited, time based access to your Google Workspace apps. This way you can grant temporary access to your data stored on any Google app to any employee and revoke the privileged access at runtime with the help of the Google CASB security solution.'
 metaTitle: 'Google app TTL rrections using Google Workspace CASB security'

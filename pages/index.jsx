@@ -9,12 +9,11 @@
 import styles from 'styles/homepage.module.css';
 
 import Head from 'next/head';
-import CategoryCard from '../components/category-card';
 import Footer from '../components/footer';
 import PostItem from '../components/post-item';
 import PostSnippet from '../components/post-snippet';
 
-import { getCategories, getPostsForCategory } from '../helpers/helpers';
+import { getCategories, getFeaturedPosts, getLatestPosts, getMainPosts } from '../helpers/helpers';
 import Headline from 'components/heading';
 import TabItem from 'components/tab-item';
 import { HOMEPAGE_DATA } from 'lib/data/homepage';
@@ -35,33 +34,33 @@ export default function Home({ payload }) {
             <Head>
                 {/* SEO Meta Tags */}
                 <title>Blog • miniOrange</title>
-                <meta name='title' content='Blog • miniOrange' />
+                <meta name="title" content="Blog • miniOrange" />
                 <meta
-                    name='description'
-                    content='Everything you need to know about Identity Access Management, SSO and Authentication. Company updates &amp; Technology Trends.'
-                    key='description'
+                    name="description"
+                    content="Everything you need to know about Identity Access Management, SSO and Authentication. Company updates &amp; Technology Trends."
+                    key="description"
                 />
 
                 {/* Open Graph Tags */}
-                <meta property='og:title' content='Blog • miniOrange' key='ogTitle' />
+                <meta property="og:title" content="Blog • miniOrange" key="ogTitle" />
                 <meta
-                    property='og:description'
-                    content='Everything you need to know about Identity Access Management, SSO and Authentication. Company updates &amp; Technology Trends.'
-                    key='ogDescription'
+                    property="og:description"
+                    content="Everything you need to know about Identity Access Management, SSO and Authentication. Company updates &amp; Technology Trends."
+                    key="ogDescription"
                 />
 
-                <link rel='canonical' href='https://www.miniorange.com/blog/' />
+                <link rel="canonical" href="https://www.miniorange.com/blog/" />
             </Head>
             <main className={styles.homepage_container}>
-                <Headline text='Featured Posts' />
-                <div className='flex flex-col gap-md md:flex-row relative'>
+                {/* <Headline text='Featured Posts' /> */}
+                <div className="mt-8 flex flex-col gap-md md:flex-row relative">
                     <PostItem
                         {...data.main_blog}
                         key={data.main_blog.slug}
-                        className='w-full md:w-8/12'
-                        thumbnailLoading='eager'
+                        className="w-full md:w-8/12"
+                        thumbnailLoading="eager"
                     />
-                    <div className='md:w-4/12 relative md:overflow-y-scroll w-full flex flex-col gap-md self-stretch h-full md:absolute right-0 bottom-0 top-0 pl-5'>
+                    <div className="md:w-4/12 relative md:overflow-y-scroll w-full flex flex-col gap-md self-stretch h-full md:absolute right-0 bottom-0 top-0 pl-5">
                         {data.featured.map((post) => (
                             <PostSnippet {...post} key={post.slug} />
                         ))}
@@ -69,43 +68,43 @@ export default function Home({ payload }) {
                 </div>
 
                 {/* Latest Posts */}
-                <Headline text='Latest Posts' />
+                <Headline text="Latest Posts" />
                 {data.latest.length !== 0 && (
-                    <div className='latest-posts-grid'>
+                    <div className="latest-posts-grid">
                         {data.latest.map((post, index) => (
                             <PostItem {...post} key={post.slug} />
                         ))}
                     </div>
                 )}
 
-                <section className='mt-xxl'>
+                <section className="mt-xxl">
                     {/* Tabs Container */}
-                    <div className='flex gap-rg items-center'>
+                    <div className="flex gap-rg items-center">
                         <TabItem
-                            id='forums'
-                            title='Forums'
+                            id="forums"
+                            title="Forums"
                             active={resourcesActiveTab === 'forums'}
-                            className='flex-1'
+                            className="flex-1"
                             onClick={onTabClicked}
                         />
                         <TabItem
-                            id='videos'
-                            title='Videos'
+                            id="videos"
+                            title="Videos"
                             active={resourcesActiveTab === 'videos'}
-                            className='flex-1'
+                            className="flex-1"
                             onClick={onTabClicked}
                         />
                         <TabItem
-                            id='partnerships'
-                            title='Partnerships'
+                            id="partnerships"
+                            title="Partnerships"
                             active={resourcesActiveTab === 'partnerships'}
-                            className='flex-1'
+                            className="flex-1"
                             onClick={onTabClicked}
                         />
                     </div>
 
                     {/* Tab Content */}
-                    <div className='mt-md'>
+                    <div className="mt-md">
                         <ResourceList data={HOMEPAGE_DATA[resourcesActiveTab]} />
                     </div>
                 </section>
@@ -117,57 +116,9 @@ export default function Home({ payload }) {
 }
 
 export async function getStaticProps() {
-    const latest = getPostsForCategory(
-        [
-            'title',
-            'description',
-            'date',
-            'slug',
-            'author',
-            'thumbnail',
-            'excerpt',
-            'content',
-            'category',
-            'tags',
-            'createdOn',
-        ],
-        'latest'
-    );
-
-    const featured = getPostsForCategory(
-        [
-            'title',
-            'description',
-            'date',
-            'slug',
-            'author',
-            'thumbnail',
-            'excerpt',
-            'content',
-            'category',
-            'tags',
-            'createdOn',
-        ],
-        'featured'
-    );
-
-    const main = getPostsForCategory(
-        [
-            'title',
-            'description',
-            'date',
-            'slug',
-            'author',
-            'thumbnail',
-            'excerpt',
-            'content',
-            'category',
-            'tags',
-            'createdOn',
-        ],
-        'main'
-    );
-
+    const latest = getLatestPosts();
+    const featured = getFeaturedPosts();
+    const main = getMainPosts();
     const categories = getCategories();
 
     const payload = {

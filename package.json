@@ -16,6 +16,7 @@
         "formik": "^2.4.5",
         "gray-matter": "^4.0.3",
         "jsonwebtoken": "^9.0.1",
+        "lucide-react": "^0.303.0",
         "mysql2": "^2.3.3",
         "next": "^13.1.6",
         "node-html-parser": "^6.0.0",

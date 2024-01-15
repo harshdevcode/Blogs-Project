@@ -1,5 +1,4 @@
 import Post from '../../../database/models/Post';
-import { INTERNAL_SERVER_ERROR, OK } from '../../../utils/http-status-codes';
 
 const authenticate = (username, password) => {
     return username === process.env.ADMIN_USERNAME && password === process.env.ADMIN_PASSWORD;
@@ -10,6 +9,14 @@ const createPostHandler = async (req, res) => {
     try {
         const { username, password, author_name, slug } = req.body;
         if (authenticate(username, password)) {
+
+            const existingPost = await Post.findOne({where:{
+                slug
+            }});
+
+            if(existingPost)
+                return res.status(400).json({ success: false, message: "Post already exists with this slug" });
+
             const post = await Post.create({ author_name, slug });
             return res.status(200).json({ success: true, data: post });
         } else {

@@ -118,7 +118,7 @@ miniOrange offers a seamless Single Sign-On solution for headless WordPress webs
   Add a link anywhere on your frontend to allow users to authenticate via their Identity Provider
 
 - **Multiple IDP Support**  
-  Configure multiple IDPs to perform Single Sign-On (SSO) into WordPress
+  Configure multiple IDPs to perform [WordPress Single Sign-On (SSO)](https://plugins.miniorange.com/wordpress-single-sign-on-sso)
 
 ### Headless CMS Architecture {#headless-cms-architecture}
 ![Headless CMS Architecture](/blog/assets/2023/headless-cms-architecture.webp)  

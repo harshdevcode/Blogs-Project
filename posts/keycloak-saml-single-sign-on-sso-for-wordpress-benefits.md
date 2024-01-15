@@ -59,7 +59,7 @@ SAML 2.0 is popular for browser-based applications and is widely used for enterp
 - **Loose coupling of directories:**  
    SAML does not require user information to be maintained and synchronized between directories.  
 
-### SAML Workflow: KEYCLOAK – WORDPRESS SSO {#saml-workflow}
+### SAML Workflow: KEYCLOAK – [WORDPRESS SSO](https://plugins.miniorange.com/wordpress-single-sign-on-sso) {#saml-workflow}
 SAML SSO (Single Sign-On) works by transferring the user’s identity from the Keycloak identity provider (IdP) to the WordPress (WP) service provider (SP). This is done through an exchange of digitally signed XML documents between keycloak and WordPress (WP). If the user wants to log in to a remote application like WordPress, The following is the SSO flow taking place between keycloak and WordPress (SP) :  
 
 - The user requests a resource from WordPress (Service Provider)

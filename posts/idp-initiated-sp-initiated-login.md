@@ -14,7 +14,7 @@ ogTitle: ''
 ogDescription: 'Learn more about SP and IdP initiated SSO, what it is , and specific differences between SP vs IdP initiated Single Sign-On SSO login.'
 ogImage:
     url: ''
-category: ['Concepts', 'IAM']
+category: ['featured','Concepts', 'IAM']
 tags:
     [
        'IDP Initiated SSO', 'Login',' SP Initiated SSO', 'SSO '
