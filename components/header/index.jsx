@@ -1,38 +1,21 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { useRef, useState } from 'react';
-import { useRouter } from "next/router";
+import { useState } from 'react';
 import Button from 'components/button';
 import IconButton from 'components/icon-button';
 import NavItem from 'components/nav-item';
 import NavbarMobile from 'components/navbar-mobile';
+import Search from 'components/search';
+import Icon from 'components/lucide-icon';
 
 export default function Header() {
     const [showNav, setShowNav] = useState(false);
+    const [searchWidget, setSearchWidget] = useState(false);
 
     const handleNavToggle = () => {
         setShowNav(!showNav);
     };
 
-    const router = useRouter();
-    const searchInputRef = useRef(null);
-
-    const handleKeyPress = (event) => {
-        if (event.key === 'Enter') {
-            const term = searchInputRef.current.value;
-            if (!term) return;
-            
-            router.push(`/search?term=${term}`);
-        }
-    };
-
-    function search(e) {
-      e.preventDefault();
-      const term = searchInputRef.current.value;
-      if (!term) return;
-  
-      router.push(`/search?term=${term}`);
-    }
 
     const handleOnSignupClick = () => {
         window.location.href = 'https://www.miniorange.com/businessfreetrial';
@@ -78,10 +61,6 @@ export default function Header() {
                 <NavItem path='/category/concepts'>Concepts</NavItem>
                 <NavItem path='https://www.miniorange.com/iam/solutions/'>Integrations</NavItem>
                 <div className='flex gap-sm ml-sm'>
-                    <input type='text' onKeyPress={handleKeyPress} ref={searchInputRef} placeholder='Enter search term' className='input'></input>
-                    <Button text='Search' onClick={search} variant='secondary'/>
-                </div>
-                <div className='flex gap-sm ml-sm'>
                     <Button text='Sign up' onClick={handleOnSignupClick} />
                     <Button
                         text='Contact us'
@@ -89,6 +68,8 @@ export default function Header() {
                         onClick={handleOnContactUsClick}
                     />
                 </div>
+                <button onClick={() => setSearchWidget(true)} className='outline-none mx-2'><Icon name="Search" color="#EB5424" size={24}/></button>
+                { searchWidget && <Search closeSearchDialog={() => setSearchWidget(false)}/> }
             </nav>
 
             {showNav && <NavbarMobile onClose={handleNavToggle} />}
