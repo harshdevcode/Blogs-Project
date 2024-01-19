@@ -57,13 +57,23 @@ Boost your Content Management Capabilities by installing the miniOrange plugin:
 
 - **Customizable Email Notifications:** Stay informed about document updates and changes through customizable email alerts.
 
+&nbsp;
+
 - **Effortless File Upload:** Upload single or multiple files with ease, enhancing your workflow efficiency.
+
+&nbsp;
 
 - **Data Synchronization:** Seamlessly sync existing WordPress data such as media files, WooCommerce products, users, and Gravity forms.
 
+&nbsp;
+
 - **Multi-Site Support:** The premium plan offers support for multiple SharePoint sites, enabling versatile integration across your ecosystem.
 
+&nbsp;
+
 - **Streamlined Workflows:** Simplify your processes by enabling streamlined workflows, ensuring smoother content management.
+
+&nbsp;
 
 For detailed instructions on how to integrate and maximize the potential of this plugin, visit our [miniOrange Embed SharePoint/OneDrive plugin page](https://wordpress.org/plugins/embed-sharepoint-onedrive-documents/).
 
