@@ -8,7 +8,7 @@ keywords: ''
 mainButtonLink: 'https://plugins.miniorange.com/wordpress-object-sync-for-salesforce#demo'
 mainButtonText: 'Contact Us'
 excerpt: ''
-thumbnail: '\blog\assets\2023\salesforce-data-thumbnail.webp'
+thumbnail: '\blog\assets\2024\salesforce-data-thumbnail.webp' 
 createdOn: '2024-01-16'
 updatedOn: '2024-01-16'
 ogTitle: 'Migrate and Sync Salesforce Objects with our Single-Click Migration Tool'
@@ -42,7 +42,7 @@ You must have our plugin on your WordPress site to migrate from **minnPost’s O
 
 The standout feature, **One-Click Migration**, ensures a smooth and effortless shift from the outdated MinnPost plugin to miniOrange's offering. This functionality not only mitigates the complexities associated with migration but also expedites the process, allowing users to swiftly transition with minimal disruption to their Salesforce sync workflows without any additional authorization from Salesforce, with the help of miniOrange’s support.
 
-![miniOrange Hubspot SSO application](/blog/assets/2023/data-migration-thumbnail.webp)
+![miniOrange Hubspot SSO application](/blog/assets/2024/data-migration-thumbnail.webp)
 
 Moreover, miniOrange's Object Data Sync For Salesforce plugin goes beyond mere data synchronization by providing seamless integration with various third-party plugins. The versatility offered enables users to consolidate their Salesforce integration efforts, ensuring a unified and streamlined experience. For a comprehensive understanding of the diverse integration possibilities, we invite you to explore further details on all supported third-party plugins here.
 
