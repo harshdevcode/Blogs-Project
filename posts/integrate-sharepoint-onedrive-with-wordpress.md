@@ -33,13 +33,23 @@ The [miniOrange Embed SharePoint/OneDrive plugin](https://wordpress.org/plugins/
 
 - **Effortless Document Access:** Access SharePoint and OneDrive files directly from your WordPress site. No more toggling between interfaces – everything you need is at your fingertips.
 
+&nbsp;
+
 - **Real-time Collaboration:** Seamlessly edit, collaborate, and co-author documents within your WordPress environment. Foster teamwork and productivity without leaving your site.
+
+&nbsp;
 
 - **Enhanced Security:** Ensure data security with role-based folder restrictions, data encryption, and compliance standards. Your sensitive information remains protected.
 
+&nbsp;
+
 - **Centralized Content Management:** Embed images, PDFs, and Word documents from SharePoint directly into your WordPress webpages. Manage your content efficiently and ensure consistency.
 
+&nbsp;
+
 - **Multimedia Integration:** Stream videos and multimedia content directly from SharePoint to your WordPress site. Provide engaging, interactive experiences to your audience.
+
+&nbsp;
 
 ## Benefits of the miniOrange Embed SharePoint/OneDrive Plugin {#benefits-of-embed-sharepoint-onedrive-plugin}
 
