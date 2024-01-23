@@ -3,7 +3,7 @@ id: 'f0c1d090-5c42-4d92-98e5-904bb521d9a3'
 title: 'OTP Verification'
 description: 'Learn how OTP Verification can protect your online accounts and transactions from fraud and hacking, Our comprehensive guide explains how it works and why it is essential for your online security!'
 metaTitle: 'OTP Verification'
-metaDescription: 'Protect your WordPress membership site with WordPress Two-factor Authentication plugin. Choose 2FA for membership today!'
+metaDescription: "Boost online security with OTP verification. Explore tips for robust authentication in our blog. Strengthen your digital defence today!"
 keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
