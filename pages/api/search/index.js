@@ -7,10 +7,6 @@ export default async function handler(req, res) {
     );
     const data = await response.json();
     res.status(200).json(data);
-    if (response.error.code === 429) {
-      res.status(429).json({ error: "Quota exceeded. Please try again later." });
-      return;
-    }
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: "Failed to fetch search results" });

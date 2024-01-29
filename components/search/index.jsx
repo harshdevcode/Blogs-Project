@@ -40,12 +40,10 @@ export default function Search({ closeSearchDialog }) {
       const response = await fetch('/blog/api/search?term=' + searchTerm + '&start=' + start);
       const key = await response.json();
       if(key.searchInformation.totalResults === "0"){
-        console.log("inside key.searchInformation.totalResults === 0");
         setNonemptyResult(false);
       }
       else{
         setNonemptyResult(true);
-        console.log("False is key.searchInformation.totalResults === 0");
       }
       setFetchedData(key);
     } catch (error) {
