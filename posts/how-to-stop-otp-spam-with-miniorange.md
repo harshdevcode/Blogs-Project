@@ -8,7 +8,7 @@ keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
 excerpt: ' OTP spamming means sending multiple OTPs to a user’s registered device or Email ID to commit fraud. Learn how to stop OTP spam with miniOrange!'
-thumbnail: '/blog/assets/2023/otp-spamming.webp'
+thumbnail: '/blog/assets/2024/otp-spamming.webp'
 createdOn: '2024-01-22'
 updatedOn: '2024-01-22'
 ogTitle: 'OTP Spamming'
@@ -29,7 +29,7 @@ tags:
 
 In the world of digital money and online shopping, things are changing fast. Now, you can easily buy things or pay your bills online without making a physical transaction. But, with growing technological advances, hackers have found new and tricky ways to fool people through OTP spamming. It’s a new kind of online fraud where hackers send lots of OTPs (One-Time Passwords) to trick people into revealing information like account details. 
 
-![OTP-Verification](/blog/assets/2023/otp-spamming-attack-otp-verification.webp)
+![OTP-Verification](/blog/assets/2024/otp-spamming-attack-otp-verification.webp)
 
 Traditionally, OTPs are like secret codes that make sure your online transactions are safe. But, with cyber threats growing, businesses need to upgrade [OTP authentication](https://plugins.miniorange.com/wordpress-otp-verification) to prevent new kinds of fraud, like OTP spamming. 
 In this blog, we’ll explore what OTP spamming is and how we can deal with it in today’s digital world. But first, let’s catch up on what OTP is exactly.
