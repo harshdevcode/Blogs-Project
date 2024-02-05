@@ -10,23 +10,30 @@ export default function Tag({ posts }) {
     const { tag } = router.query;
 
     return (
-        <div>
-            <div
-                className={`
+        <>
+            <Head>
+                {/* SEO Meta Tags */}
+                <title>{capitalizeFirstLetter(tag)}</title>
+                <meta name="title" content={capitalizeFirstLetter(tag)} />
+            </Head>
+            <div>
+                <div
+                    className={`
                 [ w-full h-full px-4 py-4 pt-[107px] bg-slate-50 ]
                 [ xl:px-[150px] ]
-            `}
-            >
-                <div className='heading'>{capitalizeFirstLetter(tag)}</div>
+				`}
+                >
+                    <div className="heading">{capitalizeFirstLetter(tag)}</div>
 
-                <div className='mt-8 grid grid-cols-primary auto-rows-[328px] gap-4'>
-                    {posts.map((post) => (
-                        <PostItem key={post.slug} {...post} />
-                    ))}
+                    <div className="mt-8 grid grid-cols-primary auto-rows-[328px] gap-4">
+                        {posts.map((post) => (
+                            <PostItem key={post.slug} {...post} />
+                        ))}
+                    </div>
                 </div>
+                <Footer />
             </div>
-            <Footer />
-        </div>
+        </>
     );
 }
 
