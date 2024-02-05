@@ -10,7 +10,7 @@ export default function Document() {
             <body>
                 <Main />
                 <NextScript />
-                <GoogleTagManager gtmId="GTM-P3LVG94" />
+                <GoogleTagManager gtmId={process.env.GOOGLE_TAG_MANAGER_CODE} />
             </body>
         </Html>
     );
