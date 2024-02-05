@@ -10,7 +10,6 @@ export default function Document() {
             <body>
                 <Main />
                 <NextScript />
-                <GoogleAnalytics gaId="GTM-P3LVG94" />
                 <GoogleTagManager gtmId="GTM-P3LVG94" />
             </body>
         </Html>
