@@ -4,6 +4,7 @@ import Footer from '../../components/footer';
 import PostItem from '../../components/post-item';
 import { getTag, getPostsForTag } from '../../helpers/helpers';
 import { capitalizeFirstLetter } from '../../helpers/string';
+import Head from 'next/head';
 
 export default function Tag({ posts }) {
     const router = useRouter();

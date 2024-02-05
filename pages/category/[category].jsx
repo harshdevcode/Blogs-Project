@@ -4,6 +4,7 @@ import Footer from '../../components/footer';
 import PostItem from '../../components/post-item';
 import { getCategories, getPostsForCategory } from '../../helpers/helpers';
 import { capitalizeFirstLetter } from '../../helpers/string';
+import Head from 'next/head';
 
 export default function Category({ posts }) {
     const router = useRouter();
