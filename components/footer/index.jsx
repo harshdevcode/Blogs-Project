@@ -1,6 +1,6 @@
 import CompanyDetails from './CompanyDetails';
 import FooterLinks from './FooterLinks';
-import CookiePreferences from './CookiePreferences'
+import CookiePreferences from './CookiePreferences';
 import SocialIcon from './SocialIcon';
 import { useState } from 'react';
 import { socialLinks } from './componentData';
@@ -12,20 +12,29 @@ export default function Footer() {
     };
 
     return (
-        <footer className='footer-wrapper'>
-            <div className='footer-container'>
+        <footer className="footer-wrapper">
+            <div className="footer-container">
                 <CompanyDetails />
                 <FooterLinks />
             </div>
-            <div className='copyright-container'>
-                <div className='flex gap-rg'>
+            <div className="copyright-container">
+                <div className="flex gap-rg">
                     {socialLinks.map((link, index) => (
                         <SocialIcon href={link.href} icon={link.icon} key={index} />
                     ))}
                 </div>
-                { cookiewidget && <CookiePreferences closeCookieDialog={() => setCookieWidget(false)}/> }
-                <p className='title text-center	grow !text-gray-400'>
-                    © Copyright 2023 miniOrange Security Software Pvt Ltd. All Rights Reserved. <button onClick={toggleCookieWidget} className='cursor-pointer font-normal text-accent'>Cookies Preferences</button>
+                {cookiewidget && (
+                    <CookiePreferences closeCookieDialog={() => setCookieWidget(false)} />
+                )}
+                <p className="title text-center	grow !text-gray-400">
+                    © Copyright 2023 miniOrange Security Software Pvt Ltd. All Rights
+                    Reserved.&nbsp;
+                    <button
+                        onClick={toggleCookieWidget}
+                        className="cursor-pointer font-semibold text-white underline"
+                    >
+                        Cookies Preferences
+                    </button>
                 </p>
             </div>
         </footer>

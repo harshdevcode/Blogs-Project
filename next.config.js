@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    compress: true,
     swcMinify: true,
     trailingSlash: true,
     /*
@@ -18,10 +19,6 @@ const nextConfig = {
             'blogs.miniorange.com',
         ],
         unoptimized: true,
-    },
-    i18n: {
-        locales: ['en'],
-        defaultLocale: 'en', // default lang fr
     },
 };
 
