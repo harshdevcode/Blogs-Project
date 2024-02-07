@@ -1,34 +1,18 @@
-import { React, useState, useEffect } from "react";
+import React from "react";
+import PaginationButtons from 'components/searchpagination';
 
-export default function SearchResults({ returnedData }) {
-  const [filteredResults, setFilteredResults] = useState([]);
-  const [remainingResults, setRemainingResults] = useState([]);
-  const [emptyResult, setEmptyResult] = useState(false);
+export default function SearchResults({ returnedData, activePage, navigationPageChange }) {
   const targetSubdomain = "/blog";
-
-  useEffect(() => {
-    if(returnedData.searchInformation.totalResults === "0"){
-      setEmptyResult(true);
-    }
-    else{
-      setFilteredResults(
-        returnedData.items.filter((result) => {
-          if (result.link.includes(targetSubdomain)) return result;
-        })
-      );
-      setRemainingResults(
-        returnedData.items.filter((result) => !filteredResults.includes(result))
-      );
-    }
-  }, []);
+  const filteredResults = returnedData?.items?.filter((result) => result.link.includes(targetSubdomain))
+  const remainingResults = returnedData?.items?.filter((result) => !filteredResults.includes(result));
 
   return (
-    <>
-      { emptyResult ?
+    <div className='results-div h-full'>
+      { !filteredResults ?
         <div className="w-full h-full flex justify-center items-center">
           <p className="text-lg">Sorry, No Results Found</p>
         </div> :
-        <div>
+        <div className="h-96 w-full overflow-auto p-5 sm:p-8 border-b-2">
           {filteredResults.map((result) => (
             <div className="mb-6" key={result.link}>
               <div className="group">
@@ -61,6 +45,7 @@ export default function SearchResults({ returnedData }) {
           ))}
         </div>
       }
-    </>
+      { filteredResults && <PaginationButtons activePage={activePage} navigationPageChange={navigationPageChange}/> }
+    </div>
   );
 }
