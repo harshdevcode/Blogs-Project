@@ -4,28 +4,36 @@ import Footer from '../../components/footer';
 import PostItem from '../../components/post-item';
 import { getCategories, getPostsForCategory } from '../../helpers/helpers';
 import { capitalizeFirstLetter } from '../../helpers/string';
+import Head from 'next/head';
 
 export default function Category({ posts }) {
     const router = useRouter();
     const { category } = router.query;
 
     return (
-        <div>
-            <div
-                className={`
+        <>
+            <Head>
+                {/* SEO Meta Tags */}
+                <title>{capitalizeFirstLetter(category)}</title>
+                <meta name="title" content={capitalizeFirstLetter(category)} />
+            </Head>
+            <div>
+                <div
+                    className={`
                 [ w-full h-full px-4 py-4 pt-[107px] bg-slate-50 ]
                 [ xl:px-[150px] ]
-            `}
-            >
-                <div className='heading'>{capitalizeFirstLetter(category)}</div>
-                <div className='mt-8 grid grid-cols-primary auto-rows-[328px] gap-4'>
-                    {posts.map((post) => (
-                        <PostItem key={post.slug} {...post} />
-                    ))}
+				`}
+                >
+                    <div className="heading">{capitalizeFirstLetter(category)}</div>
+                    <div className="mt-8 grid grid-cols-primary auto-rows-[328px] gap-4">
+                        {posts.map((post) => (
+                            <PostItem key={post.slug} {...post} />
+                        ))}
+                    </div>
                 </div>
+                <Footer />
             </div>
-            <Footer />
-        </div>
+        </>
     );
 }
 
