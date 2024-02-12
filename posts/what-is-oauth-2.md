@@ -29,7 +29,7 @@ tags:
 
 ### What is OAuth Single Sign-On? {#what-is-oauth-sso}
 
-  OAuth Single Sign-On (SSO) protocol provides the application the capability for secure designated access. It allows users in an organization/application to log in using OAuth/OpenID connect providers like Microsoft Azure AD, AWS Cognito, Google apps, Facebook, etc. & share their information with enterprise applications. It makes use of a token-based authorization mechanism to grant access to users across enterprise applications. In short, users can log in into multiple applications and services using a single set of credentials, minimizing the headache to remember multiple passwords.
+  OAuth Single Sign-On (SSO) protocol provides the application the capability for secure designated access. It allows users in an organization/application to log in using OAuth/OpenID connect providers like Microsoft Azure AD, AWS Cognito, Google apps, Facebook, etc. & share their information with enterprise applications. It makes use of a token-based authorization mechanism to grant access to users across enterprise applications. In short, users can log in into multiple applications and services using a single set of credentials, minimizing the headache to remember multiple passwords. Set up [Single Sign-On (SSO)](https://www.miniorange.com/products/single-sign-on-sso) on your WordPress website via [WordPress SSO plugin](https://wordpress.org/plugins/miniorange-login-with-eve-online-google-facebook/). Implementing [WordPress SSO](https://plugins.miniorange.com/wordpress-sso) allows users to log into your websites with a single set of credentials using the WordPress supported OAuth providers.
 
 
 ### How does OAuth work?  {#how-does-oauth-work}
@@ -44,7 +44,7 @@ tags:
 
 ### Example of OAuth Authentication Workflow {#oauth-authentication-example}
 
-![Real life example](/blog/assets/2023/real-life-example.webp)
+![Open Authorization Real Life Example](/blog/assets/2023/real-life-example.webp)
 
 A car owner hands the car key to the valet. To prevent theft, some cars come with a valet key which has limited access. The valet needs to access only a subset of services that are provided by the user to the valet through a valet key. Therefore, we have provided, “limited yet secure access”.
 
@@ -72,7 +72,7 @@ An OAuth token is like a valet key. As a user, you get to tell the consumers wha
 
  10.) Now, the user is authenticated and logged in. Thus, the application gives access to resources.
 
-![OAuth Protocol](/blog/assets/2023/oauth-protocol.webp)
+![OAuth Single Sign-On Workflow](/blog/assets/2023/oauth-protocol.webp)
 
 ### Why should you use OAuth? {#why-use-oauth}
 
@@ -80,7 +80,7 @@ An OAuth token is like a valet key. As a user, you get to tell the consumers wha
  
  Applications that allow users to log in with third-party services via Single Sign-on typically urge them to authenticate themselves by providing options such as “Login with Facebook” or “Login with Google”.
 
- ![World without OAuth](/blog/assets/2023/world-without-oauth.webp)
+ ![A world without Single sign onh](/blog/assets/2023/world-without-oauth.webp)
 
  If we imagine a world without Open Authorization (OAuth) then each user’s security will be at risk. With the help of Oauth Single Sign-On (SSO), we don’t have to worry about passwords while giving a particular level of access to any 3rd party applications for a definite period of time.
 
@@ -105,11 +105,11 @@ OAuth 2.0 is a protocol that lets you authorize one website (the consumer or app
 
 OAuth Single Sign-On is a method of authentication that lets a user log into numerous applications using a single set of credentials, resulting in a single federated identity for all 3rd party applications. It removes the need for users to remember and manage many sets of credentials for various applications. OAuth has developed as a significant, standard protocol for enabling this pattern of authentication and authorization in native applications. The native application receives an access token as a result of the authentication and authorization. The native application saves this token, which is then used to authenticate any subsequent API calls. The tokens for numerous native applications are controlled by a single application that functions as a token agent when using native applications’ SSO.
 
-&nbsp; 2)**SSO into Customer Relationship Management (CRM)**
+&nbsp; 3)**SSO into Customer Relationship Management (CRM)**
 
 Consider a scenario where an institute or an organization uses CRM to manage accounts and WordPress to offer online programs. SSO can be used with CRM to manage the accounts and WordPress to offer online programs. We can use OAuth Single Sign-On Protocol to connect WordPress accounts to CRM accounts to validate program access & allow users to log in into their site using their CRM credentials.
 
-&nbsp; 3)**SSO into LMS**
+&nbsp; 4)**SSO into LMS**
 
 Different identity and access management (IAM) technologies, such as Okta, Salesforce Identity, OIM, and others, are used to build up an organization’s login portal. The portal would allow users to access the LMS and other related LMSs with a single click. SSO allows employees to log into a variety of business programs, such as an LMS, with a single set of login credentials (ID and password). To access the LMS or any other related program within the enterprise, there is no need to memorize dozens of credentials. Employees will have a more convenient and smooth process because password recollection is no longer required. As a result, employees can move between systems, including the LMS, without having to change their credentials.
 
