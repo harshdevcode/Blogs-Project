@@ -40,11 +40,11 @@ This is why you need Microsoft Sharepoint security and set up a CASB solution fo
 
 &nbsp;
 
-Now let’s understand how the MS 365 CASB ensures Microsoft Sharepoint security in detail.
+Now let’s understand how the [MS 365 CASB](https://www.miniorange.com/blog/ms-365-casb-for-microsoft-teams-security/) ensures Microsoft Sharepoint security in detail.
 
 ### **How can you provide Microsoft Sharepoint security with MS 365 CASB?** {#sharepoint-ms365-casb}
 
-The Microsoft 365 CASB security solution is designed to mitigate any form of corporate espionage, detect **“risky business practices”**, and set security restrictions over your entire Microsoft 365 app suite, including Microsoft Sharepoint, to provide transparency to your SOC team and alert them a malicious activity is detected.
+The Microsoft 365 CASB security solution is designed to mitigate any form of corporate espionage, detect **“risky business practices”**, and set security restrictions over your entire Microsoft 365 app suite, including [Microsoft Sharepoint](https://www.miniorange.com/blog/microsoft-sharepoint-security-with-ms-365-casb/), to provide transparency to your SOC team and alert them a malicious activity is detected.
 
 &nbsp;
 
@@ -64,7 +64,7 @@ The Microsoft 365 CASB then alerts the SOC team members of malicious activity th
 
 ![Microsoft SharePoint CASB Access](/blog/assets/2023/ms-sharepoint-casb-access.webp)
 
-This is how the miniOrange MS 365 CASB security solution works in real-time to secure your Sharepoint data, and monitors user actions to detect all kinds of behavior that may pose a threat to your company image and may leak sensitive business data.
+This is how the miniOrange [MS 365 CASB](https://www.miniorange.com/casb/) security solution works in real-time to secure your Sharepoint data, and monitors user actions to detect all kinds of behavior that may pose a threat to your company image and may leak sensitive business data.
 
 ### Benefits of using the MS 365 CASB for Microsoft Sharepoint security {#ms365-casb-benefits}
 
@@ -96,11 +96,11 @@ Here are the top benefits of using the MS 365 CASB solution for Microsoft ShareP
 
 ### In Summary {#summary}
 
-In this blog, we saw how the miniOrange MS 365 CASB actively works to secure your business data stored on Microsoft Sharepoint and provides you with detailed insights into user activity to mitigate threats and further isolate them from spreading into your infrastructure. Our Microsoft Sharepoint CASB solution is versatile and works at run time to mitigate all types of threats attempting to leak business data and sell them to unknown third-party organizations.
+In this blog, we saw how the miniOrange [MS 365 CASB](https://www.miniorange.com/casb/integrations/microsoft-365) actively works to secure your business data stored on Microsoft Sharepoint and provides you with detailed insights into user activity to mitigate threats and further isolate them from spreading into your infrastructure. Our Microsoft Sharepoint CASB solution is versatile and works at run time to mitigate all types of threats attempting to leak business data and sell them to unknown third-party organizations.
 
 &nbsp;
 
-So if you are looking for a top notch CASB solution to secure your Microsoft Sharepoint, miniOrange is the best solution on the CASB market with a globally recognized support team to help you get started and attend to all your custom security needs to boost office productivity.
+So if you are looking for a top notch [CASB solutions](https://www.miniorange.com/blog/what-are-the-4-pillars-of-casb/) to secure your Microsoft Sharepoint, miniOrange is the best solution on the CASB market with a globally recognized support team to help you get started and attend to all your custom security needs to boost office productivity.
 
 &nbsp;
 

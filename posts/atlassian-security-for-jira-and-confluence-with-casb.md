@@ -30,12 +30,12 @@ tags:
 
 ## Atlassian CASB Security for Compliance, Granular Access, and Visibility
 
-Atlassian CASB Security for Visibility, Granular Access, and Compliance over Jira and Confluence. Atlassian suite is the best and the largest software company making tools for development and collaboration to provide an effective way for teams to collaborate, boost productivity, organize projects, and manage workflows efficiently.
+[Atlassian CASB](https://www.miniorange.com/casb/) Security for Visibility, Granular Access, and Compliance over Jira and Confluence. Atlassian suite is the best and the largest software company making tools for development and collaboration to provide an effective way for teams to collaborate, boost productivity, organize projects, and manage workflows efficiently.
 
 With increased flexibility, automation features, several tools to cover all user requirements, and powerful collaboration tools, Atlassian security tools have become critical to be included in office IT software. The Atlassian suite provides the best agile project management tool used by a huge number of companies every day. Its huge arsenal of productivity tools helps teams follow a comprehensive yet simple method to set up a project lifecycle and monitor the progress of individual components, regardless of the size of the project and the number of resources working on it.
 
 
-With [miniOrange Atlassian CASB](https://www.miniorange.com/casb/integrations/atlassian-apps) for Jira and Confluence, you can achieve all your compliance requirements according to the industry standards for complete user transparency and gain granular access control over user actions. This helps your SOC teams get deeper visibility into user interactions with the Jira and Confluence apps to enable user transaction monitoring. In this blog, we will see how users can achieve all these security features for all Atlassian app security using miniOrange Atlassian CASB.
+With miniOrange [Atlassian CASB](https://www.miniorange.com/casb/integrations/atlassian-apps) for Jira and Confluence, you can achieve all your compliance requirements according to the industry standards for complete user transparency and gain granular access control over user actions. This helps your SOC teams get deeper visibility into user interactions with the Jira and Confluence apps to enable user transaction monitoring. In this blog, we will see how users can achieve all these security features for all Atlassian app security using miniOrange Atlassian CASB.
 
 
 ### What are Atlassian apps? {#what-are-atlassian-apps}
@@ -89,7 +89,7 @@ With the [closing of the Atlassian Server](https://developer.atlassian.com/platf
 
 With Atlassian CASB for Jira and Confluence, you can achieve cloud compliances like ITAR, FERPA and HIPAA, along with security breach prevention protocols and gain insights with threat reports to safeguard your Atlassian suite, data and get Jira Cloud and Confluence security.
 
-Without Atlassian CASB for Jira and Confluence, there is a clear threat of data breaches and security risks, where an employee could copy and leak data outside the company to third-party services. Without a CASB solution, you cannot get deep visibility into the Atlassian app activity and will never find out the source of the data breach. This emerging threat and concern for data security is why you need to use a CASB solution with all your Atlassian Cloud App Suite.
+Without Atlassian CASB for Jira and Confluence, there is a clear threat of data breaches and security risks, where an employee could copy and leak data outside the company to third-party services. Without a CASB solution, you cannot get deep visibility into the Atlassian app activity and will never find out the source of the data breach. This emerging threat and concern for data security is why you need to use a [CASB solutions](https://www.miniorange.com/casb/solutions/) with all your Atlassian Cloud App Suite.
 
 Let’s see how a Cloud Access Security Broker works for Jira and Confluence compliance to prevent data infringement and provide Atlassian suite security.
 
@@ -98,7 +98,7 @@ Let’s see how a Cloud Access Security Broker works for Jira and Confluence com
 
 ### How does a CASB secure Atlassian Apps for teams? {#how-does-casb-secures-atlassian-apps}
 
-Here’s how a Cloud Access Security Broker works to secure your Atlassian SaaS Apps to provide Jira Cloud and Confluence security.
+Here’s how a [Cloud Access Security Broker](https://www.miniorange.com/blog/what-are-the-4-pillars-of-casb/) works to secure your Atlassian SaaS Apps to provide Jira Cloud and Confluence security.
 
 Let’s say a company is using Atlassian Cloud for its project planning and team collaboration.
 
@@ -128,7 +128,7 @@ Here are the key benefits of using CASB security for your Atlassian apps for Jir
 
  &nbsp;
 
- - **DLP Integration:** Data Loss Prevention (DLP), is a versatile and custom solution to prevent data breaches, even against the most advanced methods for website security, next-gen firewalls, spam, and phishing attack filters, and many more that work **with cloud applications,** making this a must-have requirement for Jira Cloud and Confluence security.
+ - **DLP Integration:** [Data Loss Prevention](https://www.miniorange.com/blog/casb-vs-dlp-differences-and-uses/) (DLP), is a versatile and custom solution to prevent data breaches, even against the most advanced methods for website security, next-gen firewalls, spam, and phishing attack filters, and many more that work **with cloud applications,** making this a must-have requirement for Jira Cloud and Confluence security.
 
  &nbsp;
 

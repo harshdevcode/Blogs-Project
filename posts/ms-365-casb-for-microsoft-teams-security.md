@@ -27,7 +27,7 @@ tags:
 
 Microsoft Teams is the most versatile platform and tool on the market for office collaboration, for conducting video calls, file sharing, project planning, task completion tracking and a lot more all available through a single platform that everyone can use from anywhere. Along with that, it even supports integration with other Microsoft applications such as Onedrive, Forms, OneNote, and more for ease of access to data whenever needed. Due to these reasons, Microsoft Teams has taken industries across the globe by storm and is now a necessary software to use every day. From schools and colleges to budding startups and enterprises, Microsoft Teams is the common solution used by all.
 
-But with this flexibility comes the issue of data infringement and oversharing of company files to users who are outside the scope of access and are not authorized to view this data. This is also how a company’s business critical data is leaked and sold on shady websites on the dark web. To mitigate these risks and to provide a complete set of security policies for Microsoft Teams, you need to setup the miniOrange MS 365 CASB. In this blog, we will see how the miniOrange MS 365 CASB provides Microsoft Teams security, the benefits of MS 365 CASB, and a working example of MS 365 CASB for Microsoft Teams security. So let’s get started!
+But with this flexibility comes the issue of data infringement and oversharing of company files to users who are outside the scope of access and are not authorized to view this data. This is also how a company’s business critical data is leaked and sold on shady websites on the dark web. To mitigate these risks and to provide a complete set of security policies for Microsoft Teams, you need to setup the miniOrange [MS 365 CASB](https://www.miniorange.com/casb/). In this blog, we will see how the miniOrange MS 365 CASB provides Microsoft Teams security, the benefits of MS 365 CASB, and a working example of [MS 365 CASB](https://www.miniorange.com/blog/microsoft-office-365-casb-security/) for Microsoft Teams security. So let’s get started!
 
 
 ## What is Microsoft Teams?
@@ -36,7 +36,7 @@ Microsoft Teams is a cloud application used for collaboration, file sharing, mes
 
 ### What threats do Microsoft Teams users face? {#users-face}
 
-With all the features and flexibility, using Microsoft Teams does leave your business to exposure if the correct security policies are not configured.
+With all the [features](https://www.miniorange.com/blog/what-are-the-4-pillars-of-casb/) and flexibility, using Microsoft Teams does leave your business to exposure if the correct security policies are not configured.
 
 **1. Oversharing files across users and groups.** 
 
@@ -65,7 +65,7 @@ Additionally, if Harry or any other user tries to share this Excel sheet with ot
 
 ![Share ms excel sheet team CASB Workflow](/blog/assets/2023/share-ms-excel-sheet-casb.webp)
 
-This is how the MS 365 CASB works in real-time to provide all-round security for Microsoft Teams.
+This is how the [MS 365 CASB](https://www.miniorange.com/casb/integrations/microsoft-365) works in real-time to provide all-round security for Microsoft Teams.
 
 ### Benefits of using the MS 365 CASB for Microsoft Teams security {#benefits}
 
@@ -85,8 +85,8 @@ Here are the top 6 reasons why you need to deploy the MS 365 CASB for Microsoft 
 
 ### In Summary {#conclusion}
 
-In this blog, we show how the MS 365 CASB works in real-time to prevent users from accessing company sensitive data from unauthorized devices, and also prevent over sharing of data within the company to prevent occurrences of data infringement. We also saw the benefits of using the MS 365 CASB for Microsoft Teams security.
-So if you are on the market looking to secure your day-to-day business proceedings on Microsoft Teams, the miniOrange MS 365 CASB cloud security solution is the best solution available on the market.
+In this blog, we show how the [MS 365 CASB](https://www.miniorange.com/casb/solutions/remote-work-security) works in real-time to prevent users from accessing company sensitive data from unauthorized devices, and also prevent over sharing of data within the company to prevent occurrences of data infringement. We also saw the benefits of using the MS 365 CASB for Microsoft Teams security.
+So if you are on the market looking to secure your day-to-day business proceedings on Microsoft Teams, the miniOrange [MS 365 CASB](https://www.miniorange.com/casb/solutions/) cloud security solution is the best solution available on the market.
 Our globally recognized support team and top-notch security solutions have helped us gain a wider customer base and kept us ahead of the competition at all times.
 
 So what are you waiting for? Drop us a query at info@xecurify.com and we will get right back to you to address all your MS 365 CASB security needs.

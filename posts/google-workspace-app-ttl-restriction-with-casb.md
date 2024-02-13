@@ -25,7 +25,7 @@ tags:
     ]
 ---
 
-TTL or Time to Live, is a solution that grants a user access to an app or a website for fixed time period. Within that time period, the users can make changes and complete their tasks with all the necessary access permissions provisioned for them. Once the time limit expires, it resets back to the original user access permissions and destroys the user session from TTLs are a crucial part for CDNs as well and cache data to store user sessions, so that they can resume from where they left when they return to your website. TTLs are especially useful in securing access for cloud applications for businesses of all sizes where employees need to be given privileged access only for a limited time and automatically revoke the privileged access as well. In this blog, we will see how the TTL access restrictions work in real time to control user access permissions over your Google Workspace apps for data security and ensuring compliance. So let’s get started!
+TTL or Time to Live, is a solution that grants a user access to an app or a website for fixed time period. Within that time period, the users can make changes and complete their tasks with all the necessary access permissions provisioned for them. Once the time limit expires, it resets back to the original user access permissions and destroys the user session from TTLs are a crucial part for CDNs as well and cache data to store user sessions, so that they can resume from where they left when they return to your website. TTLs are especially useful in securing access for cloud applications for businesses of all sizes where employees need to be given privileged access only for a limited time and automatically revoke the privileged access as well. In this blog, we will see how the TTL access restrictions work in real time to control user access permissions over your [Google Workspace](https://www.miniorange.com/casb/integrations/google-workspace) apps for data security and ensuring compliance. So let’s get started!
 
 
 ## What exactly is TTL?
@@ -53,7 +53,7 @@ Suppose at a banking company we have an intern, Ryan. Ryan is a data analyst and
 
 ### Benefit of TTL access restrictions with Google Workspace CASB {#benefits}
 
-Here are the top benefits of using the TTL restrictions for Google Workspace. With miniOrange CASB,
+Here are the [top benefits](https://www.miniorange.com/blog/what-are-the-4-pillars-of-casb/) of using the TTL restrictions for Google Workspace. With miniOrange CASB,
 
 **1. Limited Access Restrictions** : You can set limited access permissions for users before they access any information stored on any of your Google Workspace apps.
 
@@ -63,13 +63,13 @@ Here are the top benefits of using the TTL restrictions for Google Workspace. Wi
 
 **4. Compliance** : The miniOrange CASB ensures that security standards are met and actively searches for data breaches to ensure your business stays compliant with the latest industry security regulations.
 
-**5. Data Security** : Data Security covers securing your business data from unauthorized user access at all times to ensure no attack can leak your sensitive data.
+**5. Data Security** : [Data Security](https://www.miniorange.com/blog/casb-vs-dlp-differences-and-uses/) covers securing your business data from unauthorized user access at all times to ensure no attack can leak your sensitive data.
 
 ### In Summary {#conclusion}
 
 In this blog, we learnt what is TTL restrictions, what are TTL values, and saw how TTL restriction for Google Workspace works with help of the miniOrange CASB. We learnt how TTL restrictions can provide a more flexible security for your cloud apps where you can now provide temporary access and revoke it within a time frame.
 
-So if you are on the market looking for Google Workspace TTL Restricton, miniOrange CASB is the best solution for you. Our competitive pricing and globally recognized support team are here to cater to all your security needs to keep your data secure and your business compliant. So what ae you waiting for? Drop us a query at info@xecurify.com and we will get right back to you!
+So if you are on the market looking for Google Workspace TTL Restricton, miniOrange [CASB solutions](https://www.miniorange.com/casb/) is the best solution for you. Our competitive pricing and globally recognized support team are here to cater to all your security needs to keep your data secure and your business compliant. So what ae you waiting for? Drop us a query at info@xecurify.com and we will get right back to you!
 
 ### Reference links  {#reference-links}
 
