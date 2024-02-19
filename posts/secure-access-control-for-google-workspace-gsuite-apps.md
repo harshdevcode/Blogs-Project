@@ -5,7 +5,7 @@ description: 'Google Workspace apps (formerly known as G Suite apps), is a colle
 metaTitle: 'Secure Access Control for Google Workspace G-suite Apps'
 metaDescription: 'Set G Suite IP restriction to prevent unauthorized access control for G Suite apps from devices and users not on the network with G Suite IP restriction. '
 keywords: ''
-mainButtonLink: 'https://proxy.miniorange.com/login?source=https://www.miniorange.com/blog/secure-access-control-for-google-workspace-gsuite-apps/'
+mainButtonLink: 'https://proxy.miniorange.com/getting-started?referer=https://www.miniorange.com/blog/secure-access-control-for-google-workspace-gsuite-apps/'
 mainButtonText: 'Get Trial'
 excerpt: 'Set G Suite IP restriction to prevent unauthorized access control for G Suite apps from devices and users not on the network with G Suite IP restriction.'
 thumbnail: '/blog/assets/2023/g-suite-apps-ip-restriction.webp'
