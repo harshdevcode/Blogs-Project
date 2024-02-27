@@ -29,11 +29,11 @@ tags:
 
 Google Drive is the most popular cloud storage in the market used by businesses of all sizes. With its flexibility and ease of use, users can safely upload their files, set access permissions and access it across devices on the go.
 
-These features have also led them to be another challenger for Microsoft Office 365 suite in the educational domain, and students, professors, teaching assistants, and IT teams all use the entire suite of Google Workspace apps.
+These features have also led them to be another challenger for [Microsoft Office 365](https://www.miniorange.com/casb/integrations/microsoft-365) suite in the educational domain, and students, professors, teaching assistants, and IT teams all use the entire suite of Google Workspace apps.
 
 With this wide acceptance, educational institutes are facing the issue of controlling students from spamming their drive folders by uploading unnecessary images and videos. They also face an issue of students changing their assignments submitted on Google Drive for grading, and before the professors can grade them, they change the answers and re-upload the files. Now these students are smart and tech-savvy, and your staff may not be able to understand what’s happening, but there is a way for you to block students from taking any such actions.
 
-In this blog, we will see how Google Drive security prevents students from uploading or changing documents on your cloud folder, easily with the help of the miniOrange [Google Workspace CASB](https://www.miniorange.com/casb/google-workspace-casb-cloud-access-security) to enable Google Drive security for Google Workspace for education.
+In this blog, we will see how Google Drive security prevents students from uploading or changing documents on your cloud folder, easily with the help of the miniOrange [Google Workspace CASB](https://www.miniorange.com/casb/integrations/google-workspace) to enable Google Drive security for Google Workspace for education.
 
 ## Why should Schools and Colleges secure assignments folders in Google Drive for Google Workspace education security? {#secure-folders}
 
@@ -51,9 +51,9 @@ Here’s how you can restrict access to Google Drive folders by IP addresses to 
 
 ### How to restrict students from uploading files to my Google Drive folder? {#restrict-file-uploading}
 
-Here’s how you can set up Google Drive security and privacy for folders from anyone who tries to access them. You’ll need to enable a reverse proxy for Google Drive security with IP Restriction and achieve security in the domain of Google Workspace for education.
+Here’s how you can set up [Google Drive](https://www.miniorange.com/blog/what-are-the-4-pillars-of-casb/) security and privacy for folders from anyone who tries to access them. You’ll need to enable a reverse proxy for Google Drive security with IP Restriction and achieve security in the domain of Google Workspace for education.
 
-Let’s take a look at the working for Google Drive restriction with IP addresses,
+Let’s take a look at the working for [Google Drive restriction](https://www.miniorange.com/blog/google-workspace-app-ttl-restriction-with-casb/) with IP addresses,
 
 1. A student tries to access the Google Drive folder shared by the teacher to upload a file.
 2. The request first goes to the Reverse Proxy server.
@@ -73,7 +73,7 @@ Here are the top benefits of using Google Drive IP Restrictions for securing Goo
 
 ### Conclusion {#conclusion}
 
-In this blog, we saw how Google Drive security lets you conduct exams for your students easily. Google Drive can be easily secured and prevail against all kinds of modern cyber threats which may lead to data infringement. This way, you can easily secure your Google Business and Google Workspace for Education apps, and set up Google Drive Privacy for students, to provide the most effective security and productive environment for your group.
+In this blog, we saw how Google Drive security lets you conduct exams for your students easily. [Google Drive CASB](https://www.miniorange.com/casb/) can be easily secured and prevail against all kinds of modern cyber threats which may lead to data infringement. This way, you can easily secure your Google Business and Google Workspace for Education apps, and set up Google Drive Privacy for students, to provide the most effective security and productive environment for your group.
 
 So if you are on the market to secure your Google apps and set security rules for your school or college, especially for Google Drive security, miniOrange provides the best solution in the league with the best global support available 24×7 at the most competitive price we can help you achieve the most comfortable solution on the market.
 

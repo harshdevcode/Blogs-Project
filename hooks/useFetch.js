@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 export default function useFetch() {
     const [loading, setLoading] = useState(false);
@@ -12,7 +12,7 @@ export default function useFetch() {
         const options = {
             method,
             headers: {
-                "Content-Type": "application/json",
+                'Content-Type': 'application/json',
             },
         };
 
@@ -23,9 +23,17 @@ export default function useFetch() {
             let mEndpoint = endpoint;
             if (query) mEndpoint = `${endpoint}?${query}`;
             const response = await fetch(mEndpoint, options);
-            if (response.status >= 400) throw "Error";
-            const jsonres = await response.json();
-            setData(jsonres.data);
+            if (response.status >= 400) throw 'Error';
+
+            let data = null;
+            try {
+                const jsonres = await response.json();
+                data = jsonres;
+            } catch (e) {
+                console.log('Invalid JSON');
+                data = response;
+            }
+            setData(data);
         } catch (e) {
             setError(e);
         } finally {
