@@ -3,8 +3,8 @@ import PaginationButtons from 'components/searchpagination';
 
 export default function SearchResults({ returnedData, activePage, navigationPageChange }) {
   const targetSubdomain = "/blog";
-  const filteredResults = returnedData?.items?.filter((result) => result.link.includes(targetSubdomain))
-  const remainingResults = returnedData?.items?.filter((result) => !filteredResults.includes(result));
+  const filteredResults = returnedData.data?.items?.filter((result) => result.link.includes(targetSubdomain))
+  const remainingResults = returnedData.data?.items?.filter((result) => !filteredResults.includes(result));
 
   return (
     <div className='results-div h-full'>

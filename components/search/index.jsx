@@ -1,7 +1,7 @@
-import {React, useState, useRef, useEffect} from 'react';
+import React, {useState, useRef} from 'react';
 import SearchResults from 'components/searchresults';
 import RecommendedSearches from 'components/search/recommendedSearches.jsx';
-import LoadingStatus from 'components/search/loadingStatus.jsx';
+import Spinner from 'components/spinner';
 import Icon from 'components/lucide-icon';
 import Button from 'components/button';
 import useFetch from 'hooks/useFetch';
@@ -55,13 +55,16 @@ export default function Search({ closeSearchDialog }) {
             </div>
             <div className="modal-body sm:flex grow bg-white border-b-2 w-full">
               <div className="modal-content border-t-2 sm:border-t-0 w-full">
-                  {loading ? (<LoadingStatus/>) : (
-                    <>
-                      { fetchedData ? <SearchResults returnedData={fetchedData} activePage={activePage} navigationPageChange={navigationPageChange}/> : (
-                        <RecommendedSearches searchedRecommended={searchedRecommended}/>
-                      ) }
-                    </>
-                  )}
+                {loading ? (
+                  <div className='flex justify-center items-center h-full'>
+                    <Spinner variant='secondary' size="w-12"/>
+                  </div>) : (
+                  <>
+                    { fetchedData ? <SearchResults returnedData={fetchedData} activePage={activePage} navigationPageChange={navigationPageChange}/> : (
+                      <RecommendedSearches searchedRecommended={searchedRecommended}/>
+                    ) }
+                  </>
+                )}
               </div>
             </div>
           </div>
