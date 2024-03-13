@@ -1,5 +1,5 @@
 ---
-id: '2d2191bb-90db-4a70-98a2-47d5a0320d68'
+id: '440b6f54-7cfb-453e-afa0-a11a1c7cbc98'
 title: 'Know Everything About Biometric Authentication'
 description: 'In this blog, you get all the information about Biometric Authentication, which will help you to make a firm security decision.'
 metaTitle: 'Understanding Biometric Authentication: Everything You Need to Know'
