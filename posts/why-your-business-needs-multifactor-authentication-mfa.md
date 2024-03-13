@@ -1,5 +1,5 @@
 ---
-id: '2d2191bb-90db-4a70-98a2-47d5a0320d78'
+id: '47d8bfff-bf91-453b-ac27-0531f98eed14'
 title: '5 Reasons Why Your Business Needs Multifactor Authentication'
 description: '5 Reasons Why Your Business Needs Multifactor Authentication - Learn what is multifactor authentication and why should your business use MFA?'
 metaTitle: '5 Reasons Why Your Business Needs Multifactor Authentication'
