@@ -1,5 +1,5 @@
 ---
-id: '2d2191bb-90db-4a70-98a2-47d5a0320d63'
+id: '9ccefc24-6d39-46a4-9ac1-6b08be7a80f1'
 title: 'Atlassian CASB security for Jira and Confluence Compliance'
 description: 'Atlassian cloud security suite provides compliance for all Jira and Confluence app security requirements protecting cloud data with Atlassian security and trust.'
 metaTitle: 'Atlassian CASB security for Jira and Confluence Compliance'

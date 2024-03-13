@@ -1,5 +1,5 @@
 ---
-id: '2d2191bb-90db-4a70-98a2-47d5a0320d65'
+id: '9561516f-8bee-4709-be3f-f88dd88c184b'
 title: 'CASB Salesforce for Data Security, Compliance, and User Visibility'
 description: 'CASB Salesforce ensures data security and user access permissions for Salesforce Cloud apps. Salesforce data security also provides Compliance and Visibility.'
 metaTitle: 'CASB Salesforce for Data Security, Compliance, and User Visibility'
