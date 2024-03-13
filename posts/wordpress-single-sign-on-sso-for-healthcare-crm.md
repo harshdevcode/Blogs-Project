@@ -30,12 +30,12 @@ The digitalization of Healthcare industries has been revolutionary in the field 
 
 But there does exist the threat of data privacy in healthcare and data leaks of sensitive information of patients and their medical data. Data security in healthcare for individual users becomes a challenge at each step of advancement for healthcare data protection. In this blog, we will talk about,
 
-What is SSO? SSO for Healthcare data protection for all users, advantages of healthcare SSO, and implementing SSO for healthcare systems to learn about its working with an example.
+What is SSO? [Single Sign-On (SSO)](https://plugins.miniorange.com/wordpress-sso) for Healthcare data protection for all users, advantages of healthcare SSO, and implementing SSO for healthcare systems to learn about its working with an example. Check out our [WordPress plugin](https://wordpress.org/plugins/miniorange-login-with-eve-online-google-facebook/) where we have implemented SSO using the OAuth/OpenID protocol.
 
 
 ### What is Single Sign-On(SSO)? {#what-is-sso}
 
-Single Sign-On (or SSO) is an authentication and authorization process that allows a user to access multiple enterprise applications with just a single set of login credentials (such as username and password). SSO provides easy login to multiple applications at once, so you won’t have to individually log in to each application saving time and effort to remember credentials for each application. SSO provides better access control policies, improved productivity, and reduces the risk of security due to lost, weak, or forgotten passwords which also makes password management easier.
+[Single Sign-On (or SSO)](https://www.miniorange.com/products/single-sign-on-sso) is an authentication and authorization process that allows a user to access multiple enterprise applications with just a single set of login credentials (such as username and password). SSO provides easy login to multiple applications at once, so you won’t have to individually log in to each application saving time and effort to remember credentials for each application. SSO provides better access control policies, improved productivity, and reduces the risk of security due to lost, weak, or forgotten passwords which also makes password management easier.
 
 
 ### WordPress Healthcare CRM SSO integration: {#how-does-oauth-work}

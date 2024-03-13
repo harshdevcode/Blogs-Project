@@ -32,7 +32,9 @@ This means students need to remember more passwords for student login WP portals
 
 To add to this, online learning through college and university WordPress website portals has become common. Users need to remember passwords for the online learning portals as well.
 
-The solution for this problem is Single Sign On(SSO) for education portals, where a single password gives access to multiple portals. Students, Teachers, and Admins can log in using the same single username and password.
+The solution to this challenge is implementing Single Sign-On (SSO) for educational portals. SSO enables users to access multiple portals using a single set of credentials. This means that students, teachers, and administrators can log in with a single username and password across various platforms.
+
+To achieve this, our [WordPress SSO plugin](https://wordpress.org/plugins/miniorange-login-with-eve-online-google-facebook/) can be utilized to set up SSO on your website, leveraging providers supporting OAuth/OpenID protocols. Implementing [WordPress SSO](https://plugins.miniorange.com/wordpress-sso) streamlines the login process and enhances user experience by reducing the burden of managing multiple passwords.
 
 
 ### Why integrate SSO for Education into school and college websites? {#integrate-sso-for-education}

@@ -26,12 +26,11 @@ tags:
  ]
 ---
 
-Normal Users usually create a lot of accounts in day-to-day life for various applications and software. That’s quite frustrating for users to create an account on every platform and remember each and every credential for authentication. When a User comes to your E-commerce site to purchase something but instead he has to create a new account, you might risk frustrating him and making them leave your E-commerce store. How can you avoid this? The answer is simple: “Using E-commerce Single Sign-On (SSO) authentication”. Know more about E-commerce Single Sign-On (SSO) authentication and how to implement E-commerce Single Sign-On authentication on various platforms in this blog.
-
+Normal Users usually create a lot of accounts in day-to-day life for various applications and software. That’s quite frustrating for users to create an account on every platform and remember each and every credential for authentication. When a User comes to your E-commerce site to purchase something but instead he has to create a new account, you might risk frustrating him and making them leave your E-commerce store. How can you avoid this? The answer is simple: “Using [WordPress Single Sign-On (SSO)](https://wordpress.org/plugins/miniorange-login-with-eve-online-google-facebook/) Plugin”. Know more about [E-commerce Single Sign-On (SSO)](https://plugins.miniorange.com/wordpress-sso) authentication and how to implement [E-commerce Single Sign-On authentication](https://plugins.miniorange.com/single-sign-on-for-woocommerce) on various platforms in this blog. 
 
 ### What is Single Sign-On(SSO)? {#what-is-sso}
 
-Single Sign-On (SSO) is a feature that enables users to login into an E-commerce store much faster and without creating new credentials for the specific site. Users have to remember just one credential for logging in to the E-commerce platform. For eg., Users can log in to your E-commerce store using any IDPs like Google, Facebook, Yahoo, etc.
+[Single Sign-On (SSO)](https://www.miniorange.com/products/single-sign-on-sso) is a feature that enables users to login into an E-commerce store much faster and without creating new credentials for the specific site. Users have to remember just one credential for logging in to the E-commerce platform. For eg., Users can log in to your E-commerce store using any IDPs like Google, Facebook, Yahoo, etc.
 
 
 ### Freedom from multiple passwords:  {#ecommerce-multiple-passwords}
