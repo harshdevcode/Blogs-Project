@@ -1,5 +1,5 @@
 ---
-id: '2d2191bb-90db-4a70-98a2-47d5a0320d71'
+id: '21e09708-3726-4266-9b61-baf14876601f'
 title: 'Secure Atlassian Cloud with Single Sign-On (SSO) & 2FA/MFA'
 description: 'Secure Atlassian cloud Apps like Jira & Confluence cloud using miniOrange SSO solution with additional security of Two-Factor Authentication(2FA /MFA)'
 metaTitle: 'Secure Atlassian Cloud with Single Sign-On (SSO) & 2FA/MFA'

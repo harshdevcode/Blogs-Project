@@ -1,5 +1,5 @@
 ---
-id: '2d2191bb-90db-4a70-98a2-47d5a0320d74'
+id: '0410a785-d0a7-4bf2-ade9-3bdeccbd9a9a'
 title: 'Sharing Confluence Space & Pages With Unlicensed Users!'
 description: 'Secure Share Pages for Confluence Cloud that helps replicate and share live Confluence spaces and pages with unlicensed or external users'
 metaTitle: 'Sharing Confluence Space & Pages With Unlicensed Users!'
