@@ -1,5 +1,5 @@
 ---
-id: '2d2191bb-90db-4a70-98a2-47d5a0320d64'
+id: 'fd04b07e-0dd4-46dd-9520-90fc1760cdf9'
 title: 'Automated Provisioning | 4 main benefits of Automated User Provisioning'
 description: 'Automated Provisioning streamlines user management across apps/websites, increases security, reduces risk, saves time and money.'
 metaTitle: 'Automated Provisioning | 4 main benefits of Automated User Provisioning'
