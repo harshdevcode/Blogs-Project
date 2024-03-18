@@ -1,5 +1,5 @@
 ---
-id: '2d2191bb-90db-4a70-98a2-47d5a0320d75'
+id: '87948c44-8c4a-413c-8081-7468b562951f'
 title: 'Log into Atlassian Cloud using External OAuth/OIDC Provider'
 description: 'Atlassian Cloud offers competitive pricing, especially for small user-tiers. Here comes Atlassian Access an enterprise-grade subscription for your SSO needs.'
 metaTitle: 'Log into Atlassian Cloud using External OAuth/OIDC Provider'
