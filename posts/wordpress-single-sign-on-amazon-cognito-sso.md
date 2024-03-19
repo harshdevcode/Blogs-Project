@@ -30,7 +30,7 @@ tags:
 
 Amazon Cognito is a service that comes under Amazon Web Services. Amazon Cognito can handle user authentication and access for mobile apps that are linked to the internet. The service stores and synchronizes end-user data, by which developers can focus on creating code rather than building and handling back-end infrastructure. This can aid in the creation of mobile applications.
 
-Amazon Cognito also provides secure access to other AWS services from their app by defining roles and mapping users to different roles and federating identities from different identity providers.
+Amazon Cognito also provides secure access to other AWS services from their app by defining roles and mapping users to different roles and federating identities from different identity providers. Explore our [WordPress plugin](https://wordpress.org/plugins/miniorange-login-with-eve-online-google-facebook/), which integrates [Single Sign-On (SSO)](https://plugins.miniorange.com/wordpress-sso) functionality with AWS Cognito using the OAuth 2.0 protocol. Try [WordPress Cognito integration](https://plugins.miniorange.com/aws-cognito-wordpress-single-sign-on-integration) on our WordPress environment.
 
 ### What is WordPress Amazon Cognito SSO (Single Sign-On)?  {#what-is-wp-aws-sso}
 

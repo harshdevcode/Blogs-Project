@@ -28,9 +28,8 @@ tags:
 
 ### OAuth {#oauth}
 
-Open Authentication, or OAuth, is an authentication framework that is incredibly versatile and robust. That’s one of the many reasons why it’s the preferred choice for some of the Big Tech companies of the world, including Amazon, Facebook (Meta), Google, Microsoft, as well as Twitter. 
-The complete list of reasons why OAuth is so popular, and why you should choose it, is inexhaustive. But, we can point to a few good reasons why it has become the go-to for so many developers who want to implement Single Sign-On onto their websites, making it easy for all users to log into multiple applications and access services with a single click.
-Set up [Single Sign-On (SSO)](https://www.miniorange.com/products/single-sign-on-sso) on your WordPress website via [WordPress SSO plugin](https://wordpress.org/plugins/miniorange-login-with-eve-online-google-facebook/). Implementing [WordPress SSO](https://plugins.miniorange.com/wordpress-sso) allows users to log into your websites with a single set of credentials using the WordPress supported OAuth providers.
+Open Authentication, or OAuth, is an authentication framework that is incredibly versatile and robust. That’s one of the many reasons why it’s the preferred choice for some of the Big Tech companies of the world, including Amazon, Facebook (Meta), Google, Microsoft, as well as Twitter. The complete list of reasons why OAuth is so popular, and why you should choose it, is inexhaustive. But, we can point to a few good reasons why it has become the go-to for so many developers who want to implement Single Sign-On onto their websites, making it easy for all users to log into multiple applications and access services with a single click.
+Enable [Single Sign-On (SSO)](https://www.miniorange.com/products/single-sign-on-sso) functionality on your WordPress website using the [WordPress SSO plugin](https://wordpress.org/plugins/miniorange-login-with-eve-online-google-facebook/). By integrating [WordPress SSO](https://plugins.miniorange.com/wordpress-sso), users gain the ability to access your website with a single set of login credentials, leveraging providers supporting OAuth/OpenID protocols. This streamlined approach simplifies the login process for users, enhancing convenience and security.
 
 ### OIDC:  {#oidc}
 
