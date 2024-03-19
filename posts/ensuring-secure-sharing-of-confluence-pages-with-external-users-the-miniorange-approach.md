@@ -1,5 +1,5 @@
 ---
-id: '2d2191bb-90db-4a70-98a2-47d5a0320d67'
+id: '54176b47-3de5-4b27-a39e-d5f0af32b896'
 title: 'Ensuring Secure Sharing of Confluence Pages with External Users: The miniOrange Approach'
 description: "Developed by miniOrange, ‘Secure Share’ enables you to generate secure, unique links to the Confluence pages and share them with external non-confluence users without making it public."
 metaTitle: 'Ensuring Secure Sharing of Confluence Pages with External Users: The miniOrange Approach'

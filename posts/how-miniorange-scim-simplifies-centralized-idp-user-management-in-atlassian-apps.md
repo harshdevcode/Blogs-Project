@@ -1,5 +1,5 @@
 ---
-id: '2d2191bb-90db-4a70-98a2-47d5a0320d69'
+id: '7cf97308-a266-4f51-8c52-de5b630ef822'
 title: 'How miniOrange SCIM Simplifies Centralized IDP User Management in Atlassian Apps'
 description: "SCIM an acronym for ‘System for Cross-domain Identity Management’ is a protocol that allows for automated provisioning and de-provisioning of user accounts between different systems. Our app allows seamless login into the Jira, Confluence, Bitbucket, Crowd and other Atlassian."
 metaTitle: 'How miniOrange SCIM Simplifies Centralized IDP User Management in Atlassian Apps'
