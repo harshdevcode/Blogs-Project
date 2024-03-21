@@ -5,13 +5,17 @@ import Button from 'components/button';
 import IconButton from 'components/icon-button';
 import NavItem from 'components/nav-item';
 import NavbarMobile from 'components/navbar-mobile';
+import Search from 'components/search';
+import Icon from 'components/lucide-icon';
 
 export default function Header() {
     const [showNav, setShowNav] = useState(false);
+    const [searchWidget, setSearchWidget] = useState(false);
 
     const handleNavToggle = () => {
         setShowNav(!showNav);
     };
+
 
     const handleOnSignupClick = () => {
         window.location.href = 'https://www.miniorange.com/businessfreetrial';
@@ -64,6 +68,8 @@ export default function Header() {
                         onClick={handleOnContactUsClick}
                     />
                 </div>
+                <button onClick={() => setSearchWidget(true)} className='outline-none mx-2'><Icon name="Search" color="#EB5424" size={24}/></button>
+                { searchWidget && <Search closeSearchDialog={() => setSearchWidget(false)}/> }
             </nav>
 
             {showNav && <NavbarMobile onClose={handleNavToggle} />}
