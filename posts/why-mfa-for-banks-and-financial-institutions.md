@@ -6,7 +6,7 @@ keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
 excerpt: 'MFA for Banks and Financial Institutions adds an extra layer of security which ensures that only the right people have access to the valuable assets and information.'
-thumbnail: '/blog/assets/2023/multifactor-authentication.webp'
+thumbnail: '/blog/assets/2024/mfa-for-banks.webp'
 createdOn: '2023-07-22'
 updatedOn: '2023-07-22'
 ogTitle: 'Why is Multi-factor Authentication (MFA) necessary for Banks and Financial Institutions?'
@@ -45,11 +45,8 @@ There are a few different ways that banks and financial institutions can impleme
 The three most fundamental categories or authentication factors are Something you know, also known as the knowledge factor; something you have, sometimes known as the possession element; and something you are, also known as the inherence factor.
 
 - **Knowledge factor**: Answering a personal security question is often required for knowledge-based authentication. Passwords, four-digit personal identification numbers (PINs), and one-time passwords are the most common knowledge factor technologies (OTPs).
-
 - **Possession factor**: Users must have something specific in their possession in order to log in, such as a badge, token, key or phone subscriber identity module (SIM) card. For mobile authentication, a smartphone often provides the possession factor in conjunction with an OTP app.
-
 The most common possession factor user scenarios include mobile authentication, where users receive a code via their smartphone to gain or grant access. These include text messages and phone calls sent to a user as an out-of-band method, and smartphone OTP apps.
-
 - **Inherence factor**: Any biological characteristics that are verified for login by the user. 
 
 The following biometric verification techniques are included in inheritance factor technologies: 
@@ -78,15 +75,10 @@ miniOrange provides an advanced [MFA solution](https://www.miniorange.com/produc
 miniOrange supports [15+ authentication methods](https://www.miniorange.com/products/multi-factor-authentication-mfa-methods) that include:
 
 - **SMS and Phone Callback**: Receive a text on your mobile with the information required to validate yourself for the second factor.
-
 - **MFA Apps**: Receive a Time-based OTP Token (TOTP) by an external authentication app such as Google/Microsoft authenticator for secure login.
-
 - **miniOrange Authenticator App**: Use the miniOrange authenticator to get your login information in the form of a soft token, push notification or a QR code.
-
 - **Email**: Get your login information such as login links and password keys on your registered email address.
-
 - **Hardware Token**: Use a physical USB token on your computer, which generates the required information to gain access.
-
 - **Security Questions**: Answer a few knowledge-based security questions which are only known to you to authenticate yourself.
 
 ### Adaptive Authentication/Risk-based Authentication {#adaptive-authentication-risk-based-authentication}

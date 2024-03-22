@@ -3,10 +3,10 @@ id: '637048c7-b3bf-4b9b-a923-ea112bc9faa6'
 title: 'How to secure G-Suite apps with IP restriction?'
 description: 'Google Workspace apps (formerly known as G Suite apps), is a collection of an entire set of productivity apps, such as Google Drive, Docs, Sheets, Slides, Gmail, Google Meet, Google Classroom, etc, which are used by companies, enterprises, universities, schools, and many more, on a daily basis to collaborate on, share, store and edit data of the organization by setting individual or group user access control for the best G Suite security practice.'
 metaTitle: 'Secure Access Control for Google Workspace G-suite Apps'
-metaDescription: 'Set G Suite IP restriction to prevent unauthorized access control for G Suite apps from devices and users not on the network with G Suite IP restriction.'
+metaDescription: 'Set G Suite IP restriction to prevent unauthorized access control for G Suite apps from devices and users not on the network with G Suite IP restriction. '
 keywords: ''
-mainButtonLink: 'https://proxy.miniorange.com/login?source=https://www.miniorange.com/blog/secure-access-control-for-google-workspace-gsuite-apps/'
-mainButtonText: 'Contact us'
+mainButtonLink: 'https://proxy.miniorange.com/getting-started?referer=https://www.miniorange.com/blog/secure-access-control-for-google-workspace-gsuite-apps/'
+mainButtonText: 'Get Trial'
 excerpt: 'Set G Suite IP restriction to prevent unauthorized access control for G Suite apps from devices and users not on the network with G Suite IP restriction.'
 thumbnail: '/blog/assets/2023/g-suite-apps-ip-restriction.webp'
 createdOn: '2023-08-22'
@@ -70,7 +70,7 @@ Reverse Proxy is the best practice that allows you to set access control over ap
 
 This way you can easily secure your Google Business and Google education apps to provide the most effective security and productive environment for your group.
 
-So what are you waiting for? Drop us a query at [info@xecurify.com](info@xecurify.com) and we will get right back to you to address all your needs.
+So what are you waiting for? Drop us a query at [proxysupport@xecurify.com](proxysupport@xecurify.com) and we will get right back to you to address all your needs.
 
 ### Reference links  {#reference-links}
 
