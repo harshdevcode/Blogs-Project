@@ -152,7 +152,7 @@ OTP verification is one of the ways to ensure the identity of a person during tr
 
 miniOrange OTP Verification Plugin for WordPress provides the OTP Verification and SMS Notifications functionality on various forms such as WooCommerce, Gravity, Ninja, Ultimate Member, Elementor, and Registration Magic etc. on WordPress. It also provides different solutions for OTP functionality on other CRMs and technology stacks.
 
-### Features of the [miniOrange OTP Verification plugin](https://wordpress.org/plugins/miniorange-otp-verification/) are listed below {#Features of the miniOrange OTP Verification plugin are listed below}
+### Features of the [miniOrange OTP Verification plugin](https://wordpress.org/plugins/miniorange-otp-verification/) are listed below
 
 - **OTP over SMS, Email, WhatsApp, Call, etc. :**  
     The OTP Verification secures login into the  WordPress account by authenticating the user's phone number and email address thereby eliminating the chances of fake registration and unauthorised login.
@@ -172,7 +172,7 @@ miniOrange OTP Verification Plugin for WordPress provides the OTP Verification a
 - **Passwordless Login :** 
      This feature of OTP Verification ensures your secure login with convenience. Users can log in with the Username and OTP. Making the login easy and doing away with the need to remember passwords.
 
-### The benefits of the miniOrange OTP Verification plugin [{#The benefits of the miniOrange OTP Verification plugin }](https://wordpress.org/plugins/miniorange-otp-verification/)
+### The benefits of the miniOrange OTP Verification plugin [The benefits of the miniOrange OTP Verification plugin](https://wordpress.org/plugins/miniorange-otp-verification/)
 
 - The OTP verification plugin is super user-friendly and very convenient to use.
 - Regularly updated and is compatible with the latest version of WordPress.
