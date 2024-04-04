@@ -19,7 +19,7 @@ category: ['latest', 'concepts', 'iam', 'solutions']
 tags: [AZURE AD, AZURE AD Integration, AZURE AD LOGIN, AZURE AD SSO]
 ---
 
-## Why Azure AD SSO is Important for Modern Enterprises? {#why-is-azure-ad-important?}
+## Why Azure AD SSO is Important for Modern Enterprises? {#why-is-azure-ad-important}
 
 The workforce of modern enterprises often faces the challenge of managing multiple applications and systems, each requiring separate login credentials. This exposes their employees to more frustration, less productivity, and higher security risks. To address these challenges, [Single Sign-On (SSO)](https://www.miniorange.com/products/single-sign-on-sso) using existing Azure AD emerges as a critical solution for modern-day organizations.
 
@@ -31,7 +31,7 @@ With Azure AD SSO, your employees authenticate themselves once and gain seamless
 
 Azure AD SSO leverages industry-standard protocols such as Security Assertion Markup Language (SAML) or OpenID Connect to establish trust between the identity provider (Azure AD) and the applications. When a user attempts to access an application, Azure handles the authentication process behind the scenes in the backend, validating the user's identity and providing the necessary access tokens to the application.
 
-### 3 Reasons Why Enterprises Should Implement Azure AD SSO {#3-reasons-to-implement-azure-ad-sso?}
+### 3 Reasons Why Enterprises Should Implement Azure AD SSO {#3-reasons-to-implement-azure-ad-sso}
 
 **1.Simply the User Experience:** The seamless login process provided by Azure AD SSO eliminates the need for users to remember and enter multiple login credentials, saving time and increasing productivity.
 
@@ -39,14 +39,14 @@ Azure AD SSO leverages industry-standard protocols such as Security Assertion Ma
 
 **3.Say Bye to Password Management:** Password-related problems are eliminated when users can log in to multiple apps with a single set of credentials via Single Sign-On. Hence, there is no need to manage multiple passwords for different apps.
 
-### How to Enable SSO For Apps Not Supporting SAML Protocol? {#SSO-for-apps-that-don't-support-saml}  
+### How to Enable SSO For Apps Not Supporting SAML Protocol? {#sso-for-apps-that-dont-support-saml}  
 With [Azure AD SSO integration](https://www.miniorange.com/iam/login-with-external-idp/configure-azure-ad-sso#step2), SSO can be enabled for applications that support SAML & Open ID protocols, but many organizations use applications that do not support any SSO Protocol or use something else for delegated authentication. For such unique use cases, miniOrange’s Proprietary Azure AD SSO solution is the perfect solution. 
 
-#### Easy SSO Deployment with miniOrange {#easy-sso-deployment-with-miniorange}
+### Easy SSO Deployment with miniOrange {#easy-sso-deployment-with-miniorange}
 
 [miniOrange solution](https://www.miniorange.com/products/identity-broker-service) works like a third-party provider, where it keeps the Azure AD as IDP and enables SSO for all applications. In case the app does not support SAML, but supports other standard protocols, then to enable SSO, miniOrange can act as a middleman to facilitate communication between Azure AD and your application by converting SAML responses to app-specific protocol responses that the app can easily understand. If the application doesn't support any known protocols, then **miniOrange provides custom solutions** (like Connectors, etc.) to enable SSO. miniOrange also provides APIs that developers can easily integrate with the respective applications for authentication or authorization.
 
-#### User & Group Sync between Azure AD and any Databases/IDPs {#user-and-group-sync}
+### User & Group Sync between Azure AD and any Databases/IDPs {#user-and-group-sync}
 
 With [miniOrange User & Group Sync](https://www.miniorange.com/azure-ad-provisioning) admins can effectively synchronize user and group data stored in Azure AD with any external directories, IDPs, and applications. This eliminates the need for manual user and group creation and enables the syncing of custom attributes across different places. The sync can be scheduled or executed manually, significantly reducing administrative time and minimizing errors. Its seamless integration is invaluable for efficient user management. miniOrange can create, read, and update user accounts for new or existing users, remove accounts for deactivated users, and synchronize attributes across **multiple databases, IDPs, directories, and the applications** that the user needs access to.
 
@@ -64,9 +64,12 @@ If you want to try out the miniOrange solution and see how it works for your org
 
 
 ### FAQ {#faq}
-1. **What is Azure AD SAML SSO?**  
+
+**1. What is Azure AD SAML SSO?**  
 SAML is an XML-based standard for exchanging authentication and authorization data between identity providers (such as Azure AD) and service providers (applications). Azure AD SAML SSO (Security Assertion Markup Language Single Sign-On) is a specific implementation of Azure AD SSO that utilizes the SAML protocol for secure authentication. Azure AD SAML SSO is the best option for businesses that use on-premise applications mostly and want to implement a streamlined authentication method to increase productivity among their employees & strengthen overall data security.
-2. **Is Azure AD SSO different from Azure AD Seamless SSO?**
+
+**2. Is Azure AD SSO different from Azure AD Seamless SSO?**
+
 Azure AD SSO focuses on providing Single Sign-On capabilities with centralized user management and enhanced security, which is best suited for on-premise environments. Protocols like SAML and OpenID Connect are utilized to establish trust between the identity provider (Azure AD) and the applications. Whereas, Azure AD Seamless SSO takes it a step further by offering a more streamlined and transparent authentication experience, especially for organizations with a hybrid environment. Users are automatically signed in to applications when they are on their corporate network and connected to their domain-joined devices.
  
 
