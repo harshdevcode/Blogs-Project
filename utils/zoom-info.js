@@ -1,3 +1,4 @@
+const zoomInfoScript = `
 if (typeof window !== "undefined") {
   // Your code that references window here
   window[
@@ -17,7 +18,7 @@ if (typeof window !== "undefined") {
       return _9MEt7;
     })(atob("LXojRUI9ODZHfDhM"), 49)
   ] = "483c7aa61c1694154822";
-
+  
   var zi = document.createElement("script");
   zi.type = "text/javascript";
   zi.async = true;
@@ -36,7 +37,7 @@ if (typeof window !== "undefined") {
     }
     return _krNd2;
   })(atob("bnp6dnlANTVweTQibzN5aXhvdnp5NGl1czUibzN6Z200cHk="), 6);
-
+  
   if (document.readyState === "complete") {
     document.body.appendChild(zi);
   } else {
@@ -45,3 +46,6 @@ if (typeof window !== "undefined") {
     });
   }
 }
+
+`;
+module.exports = zoomInfoScript;
