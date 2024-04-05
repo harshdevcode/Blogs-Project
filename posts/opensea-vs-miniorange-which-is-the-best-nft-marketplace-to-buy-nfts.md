@@ -31,6 +31,9 @@ tags:
 
 OpenSea is a centralized NFT Marketplace for trading in cryptocurrencies and NFTs Marketplace. You can buy, sell, and also create a vast number of NFTs for items ranging from art, images, videos, music, and physical assets like real estate. They have recently updated their compatibility with several blockchains and now support Ethereum, Polygon, Klaytn, Solana, Optimism, Avalanche, BNB, and Arbitrum. They are currently home to a lot of popular NFT collections such as [CryptoPunks](https://opensea.io/collection/cryptopunks) and the [Bored Ape Yacht Club](https://opensea.io/collection/boredapeyachtclub) (BAYC), each of these collections now trading in at over 50 ETH per NFT.
 
+ If you're interested in integrating web3 capabilities into your WordPress site, you might find plugins like [miniOrange Web3 WordPress Login](https://plugins.miniorange.com/web3-wordpress-login) and [WordPress Web3 Suite](https://plugins.miniorange.com/wordpress-web3-suite) helpful. Additionally, if you're considering incorporating NFT-based gated content on your website, you can explore solutions like [miniOrange's NFT-based Gated Content](https://www.miniorange.com/web3/nft-based-gated-content/).
+
+
 ### Comparison: OpenSea NFT Marketplace vs miniOrange NFT Marketplace {#comparision}
 
 &nbsp; 
