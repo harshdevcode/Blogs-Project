@@ -28,13 +28,9 @@ tags:
 
 ## How does NFT token gated discord work?
 
-- A discord server owner locks/restricts his channel behind a token gated portal. Users log in to the discord web and roles are assigned depending on the NFT or tokens owned in the wallet. Token gated discord works flawlessly with both hot wallets and cold wallets.
+A discord server owner locks/restricts his channel behind a token-gated portal. Users log in to the Discord web client, where Web3 verifies if they hold the required NFT collection or token in their crypto wallet. Depending on the collection or token owned, roles are assigned, granting access to specific Discord channels. If a user lacks the necessary token, they are redirected to popular NFT marketplaces like OpenSea, Rarible, or Mintable to acquire them.
 
-- Once a user is logged in using a crypto wallet, web3 verifies if the user holds the required NFT collection or token in their wallet.
-
-- Depending on the collection or token owned in the wallet, roles are assigned to the user, and accordingly, access to a discord channel is given. Roles and channels are also assigned based on the type of token collection.
-
-- If the user does not hold the token, they are redirected to a popular NFT marketplace like OpenSea, Rarible, and Mintable.
+If you're interested in integrating web3 capabilities into your WordPress site, you might find plugins like [miniOrange Web3 WordPress Login](https://plugins.miniorange.com/web3-wordpress-login) and [WordPress Web3 Suite](https://plugins.miniorange.com/wordpress-web3-suite) helpful. Additionally, if you're considering incorporating NFT-based gated content on your website, you can explore solutions like [miniOrange's NFT-based Gated Content](https://www.miniorange.com/web3/nft-based-gated-content/).
 
 
 ### Popular discord channels that can have NFT token gating {#popular-channels}

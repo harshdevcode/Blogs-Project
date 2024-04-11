@@ -42,7 +42,7 @@ tags:
  
 
 ### Is it safe to do a crypto wallet login to Education courses and tutorials? {#crypto-wallet-login-education}
-Yes, you can securely do a crypto wallet login to the education course and tutorial pages. In the case of hot wallets, only the public key is accessed through the private key stored on the web. When users do crypto wallet connect to Education tutorials using cold wallets like Ledger and Trezor the private key is not accessed and securely stored in the hardware. Crypto Wallet login to Education courses can allow users to make payments using crypto and opens up major use cases related to NFT gated Education courses and tutorials.
+Yes, you can securely do a crypto wallet login to the education course and tutorial pages. In the case of hot wallets, only the public key is accessed through the private key stored on the web. When users do crypto wallet connect to Education tutorials using cold wallets like Ledger and Trezor, the private key is not accessed and securely stored in the hardware. Crypto Wallet login to Education courses can allow users to make payments using crypto and opens up major use cases related to [NFT gated Education courses](https://www.miniorange.com/web3/nft-based-gated-content/) and tutorials. To enable seamless integration, platforms like miniOrange offer solutions such as [Web3 WordPress Login](https://plugins.miniorange.com/web3-wordpress-login). Additionally, the [WordPress Web3 Suite](https://plugins.miniorange.com/wordpress-web3-suite) provides comprehensive features for WordPress websites to incorporate cryptocurrency wallet functionalities.
 
 
 ### Why do NFT gated Education course and tutorial? {#why-do-nft-gated-education}

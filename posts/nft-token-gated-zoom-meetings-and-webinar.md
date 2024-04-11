@@ -43,7 +43,8 @@ tags:
 ### What are NFT Token gated zoom meetings and webinars? {#what-is-token-gating-zoom-meetings}
 
 NFT token gated webinars and meeting is an approach to managing participants in a meeting. Participants can join the meeting only if they have the necessary NFT or token in their cryptocurrency wallet. This is an effective approach where users cannot simply walk into a virtual zoom webinar or meeting. 
-You can also assign membership and roles to users depending on the NFT or tokens owned in the wallet and depending on the assignment user can access different meetings and webinars.NFT token gating can be applied for Zoom, Google Meet, Skype, and Cisco Webex. Also, the data in the virtual meetings are completely secured against any cyber-attack and unauthorized data manipulation. 
+You can also assign membership and roles to users depending on the NFT or tokens owned in the wallet and depending on the assignment user can access different meetings and webinars. [NFT token gating](https://www.miniorange.com/web3/nft-based-gated-content/) can be applied for Zoom, Google Meet, Skype, and Cisco Webex. Also, the data in the virtual meetings are completely secured against any cyber-attack and unauthorized data manipulation. 
+Additionally, tools like [Web3 WordPress Login](https://plugins.miniorange.com/web3-wordpress-login) and [WordPress Web3 Suite](https://plugins.miniorange.com/wordpress-web3-suite) from miniOrange provide functionalities for integrating Web3 technology with WordPress, allowing for seamless management of NFT-based gated content, which can enhance the security and access control mechanisms for virtual meetings and webinars.
 
 ### Why do you need NFT token gated zoom and Google meet?  {#why-do-you-need-zoom-token-gating}
 
