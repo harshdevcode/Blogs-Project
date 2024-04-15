@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
     <Layout>
       <GoogleTagManager gtmId={GA_MANAGER_CODE} />
       <GoogleAnalytics gaId={GA_ID} />
-      <Script>{zoomInfoScript}</Script>
+      <Script id="zoom-info-script">{zoomInfoScript}</Script>
       <Component {...pageProps} />
     </Layout>
   );
