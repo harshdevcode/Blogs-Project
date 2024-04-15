@@ -1,5 +1,5 @@
 ---
-id: '2d2191bb-90db-4a70-98a2-47d5a0320d72'
+id: '305a3242-0a3b-4053-a0a5-ac48837b4b2d'
 title: 'IAM vs. PAM: What’s the difference?'
 description: 'IAM is used to identify and manage user identities digitally across the whole company, while PAM only focuses on privileged access to sensitive systems.'
 keywords: ''

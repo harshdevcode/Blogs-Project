@@ -1,5 +1,5 @@
 ---
-id: '2d2191bb-90db-4a70-98a2-47d5a0320d77'
+id: '69b36874-0c90-4e4c-b2cb-21a05e9f0208'
 title: 'Kerberos NTLM Windows SSO'
 description: 'Kerberos is a cryptography-based authentication protocol that guards access to applications. This protocol is designed to provide secure authentication over an insecure network.'
 metaTitle: 'Kerberos NTLM Windows SSO'

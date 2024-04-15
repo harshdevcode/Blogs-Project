@@ -30,15 +30,17 @@ tags:
 
 ### What is changing from OAuth 2.0 to OAuth 2.1? {#oauth2.0-oauth2.1}
 
- OAuth (Open Authorization) pronounced “oh-auth” is a technological standard that allows you to share information between services without exposing your password.
+ The OAuth (Open Authorization) standard facilitates secure communication between services without having to reveal passwords.
 
- OAuth Single Sign-On (SSO) protocol provides the application the capability for secure designated access and sharing of information with enterprise applications OAuth Single Sign-On is receiving a facelift.
+ OAuth Single Sign-On (SSO) protocol allows applications to securely access and share information with enterprise systems, and its functionality is currently being enhanced.
 
- In October of 2012, the first OAuth 2.0 specification was released and OAuth 2.1 is an in-progress effort to consolidate and simplify the most commonly used features of OAuth 2.0.
+ OAuth 2.0 was introduced in October 2012, marking a significant milestone in its evolution. Now, OAuth 2.1 is being developed to streamline and simplify the most commonly used features of OAuth 2.0 while also addressing security concerns.
 
- Certain portions of OAuth 2.0 will be deprecated in OAuth 2.1, and additional security best practices will be mandated, capturing and consolidating updates and improvements made to OAuth 2.0 over the previous eight years. 
+ In OAuth 2.1, certain elements of OAuth 2.0 will be deprecated, and security best practices will be enforced. This update consolidates the advancements and refinements made to OAuth 2.0 over the past eight years, primarily focusing on enhancing security measures. 
 
- OAuth 2.1 is an update to OAuth 2.0 with minor changes basically towards improving its security.
+ In OAuth 2.1, minor adjustments are made to ensure a stronger security framework than OAuth 2.0.
+
+ Feel free to explore our [WordPress plugin](https://wordpress.org/plugins/miniorange-login-with-eve-online-google-facebook/), which seamlessly implements [Single Sign-On](https://plugins.miniorange.com/wordpress-sso) functionality using the OAuth 2.0 protocol.
 
 
 ### Key Differences between OAuth 2.0 & OAuth 2.1 Protocol  {#key-difference}

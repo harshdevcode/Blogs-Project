@@ -24,7 +24,7 @@ tags:
 ---
 Addressing these challenges requires solutions that verify users, restrict content access, and enhance overall trust and transparency. One promising solution to address these challenges is by using [Inter Blockchain Token Gating (IBTG)](https://plugins.miniorange.com/web3-wordpress-login).
 
-In this blog, we’ll look into how IBTG simplifies user authentication and improves the overall user experience in a multi-blockchain ecosystem.
+In this blog, we’ll look into how IBTG simplifies user authentication and improves the overall user experience in a multi-blockchain ecosystem. Additionally, tools like [Web3 WordPress Login](https://plugins.miniorange.com/web3-wordpress-login) and [WordPress Web3 Suite](https://plugins.miniorange.com/wordpress-web3-suite) from miniOrange provide functionalities for integrating Web3 technology with WordPress, allowing for seamless management of NFT-based gated content, which can enhance the security and access control mechanisms for virtual meetings and webinars.
 
 ## What is Inter Blockchain Token Gating? {#inter-blockchain-token-gating}
 

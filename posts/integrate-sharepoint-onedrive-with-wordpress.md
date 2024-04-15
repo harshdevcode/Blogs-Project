@@ -27,7 +27,7 @@ Unlock the full potential of your content management and collaboration efforts b
 
 In today's rapidly evolving business landscape, effective collaboration and streamlined content management are essential for success. Microsoft's SharePoint and OneDrive platforms have emerged as powerful solutions to address these challenges. SharePoint offers robust document management capabilities, while OneDrive provides secure cloud storage. Imagine combining these capabilities with the versatility of WordPress – the result is a seamless ecosystem that fosters collaboration, information sharing, and content management.
 
-## Why Integrate SharePoint and OneDrive with WordPress? {#why-integrate-sharepoint-and-onedrive-with-wordpress}
+### Why Integrate SharePoint and OneDrive with WordPress? {#why-integrate-sharepoint-and-onedrive-with-wordpress}
 
 The [miniOrange Embed SharePoint/OneDrive plugin](https://wordpress.org/plugins/embed-sharepoint-onedrive-documents/) acts as a bridge between SharePoint, OneDrive, and WordPress. By integrating these platforms, you can enjoy a host of benefits:
 
@@ -51,7 +51,7 @@ The [miniOrange Embed SharePoint/OneDrive plugin](https://wordpress.org/plugins/
 
 &nbsp;
 
-## Benefits of the miniOrange Embed SharePoint/OneDrive Plugin {#benefits-of-embed-sharepoint-onedrive-plugin}
+### Benefits of the miniOrange Embed SharePoint/OneDrive Plugin {#benefits-of-embed-sharepoint-onedrive-plugin}
 
 Boost your Content Management Capabilities by installing the miniOrange plugin:
 

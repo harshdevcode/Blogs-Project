@@ -1,5 +1,5 @@
 ---
-id: '2d2191bb-90db-4a70-98a2-47d5a0320d79'
+id: '4a7844c2-539b-4138-ada5-5b269d35e926'
 title: 'What is Zero Trust Security & How does it work?'
 description: 'Zero Trust is an approach to perimeter-less security that helps create an effective environment, policies, and infrastructure to minimize data breaches. Although many enterprises were moving towards the Zero-Trust model, Remote working (Work From Home) accelerated it by ten folds.'
 metaTitle: 'What is Zero Trust Security & How does it work?'

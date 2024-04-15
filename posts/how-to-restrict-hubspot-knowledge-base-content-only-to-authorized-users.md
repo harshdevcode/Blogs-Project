@@ -1,5 +1,5 @@
 ---
-id: '2d2191bb-90db-4a70-98a2-47d5a0320d70'
+id: '99925662-ea9f-4514-930c-6fd32a18e396'
 title: 'How to restrict HubSpot knowledge base content only to authorized users?'
 description: 'Learn how to restrict your HubSpot KnowledgeBase content to only authorized users with our comprehensive guide. Ensure confidential information is secure and accessible only to authorized personnel.'
 metaTitle: 'How to restrict HubSpot knowledge base content only to authorized users?'
