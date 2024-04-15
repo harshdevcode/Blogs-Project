@@ -172,7 +172,7 @@ Various customization options are available to personalize the following feature
  
    * Customize the email template for OTP over email. This lets you personalize the existing email templates for OTP over email.
 
-   ![Two Factor Authentication](/blog/assets/2024/two-factor-Authentication-Otp-over-email.webp)
+   ![Two Factor Authentication](/blog/assets/2024/two-factor-authentication-otp-over-email.webp)
    * Customize the Email Template for Email Verification: You are also provided with the option to customize the email template for email verification.
 
    ![Two Factor Authentication](/blog/assets/2024/customize-email-template-for-eamil-verification.webp)
