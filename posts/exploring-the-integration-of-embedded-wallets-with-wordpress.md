@@ -1,5 +1,5 @@
 ---
-id: '440b6f54-7cfb-453e-afa0-a11a1c7cbc98'
+id: '679bb2b1-177c-40d0-bfce-eabf4d8b5763'
 title: 'Embedded Wallets for Web3 Authentication'
 description: 'Embedded wallets are powerful digital wallets that fit right into your existing platforms, applications, or websites, providing users with a smooth and frictionless Web3 experience. Unlike traditional crypto wallets, embedded wallets make it easier for you to do transactions, prove who you are using Web3 Authentication, access blockchain services, and manage your digital assets without leaving the platform or going through complex blockchain interfaces.'
 metaTitle: ' Integration of Embedded Wallet with WordPress'
