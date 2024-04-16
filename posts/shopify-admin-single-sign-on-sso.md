@@ -22,7 +22,7 @@ tags:
     ]
 ---
 
-Enable secure Single Sign-On (SSO) access to your Staff Members and add an unlimited number of staff members in Shopify Admin to manage your Shopify Store. You can completely own your Shopify Store by restricting your staff member’s access based on tags assigned to them. Login from multiple IDPs is also supported which will help in authenticating users from different IDPs for your Plus & Non-plus Shopify Store.
+Enable secure [Single Sign-On (SSO)](https://www.miniorange.com/reverse-proxy/secure-shopify-admin-login) access to your Staff Members and add an unlimited number of staff members in Shopify Admin to manage your Shopify Store. You can completely own your Shopify Store by restricting your staff member’s access based on tags assigned to them. Login from multiple IDPs is also supported which will help in authenticating users from different IDPs for your Plus & Non-plus Shopify Store.
 
 ### Have you ever dreamt of completely owning your Shopify Store and being able to manage your Store as per your needs? {#manage-your-store}
 

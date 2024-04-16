@@ -22,7 +22,7 @@ tags:
     ]
 ---
 
-**Store migration** is the process of moving data such as products, orders, customers, collections, images, manufacturers, etc. from one eCommerce platform to another.
+[**Store migration**](https://plugins.miniorange.com/shopify-ecommerce-store-migration) is the process of moving data such as products, orders, customers, collections, images, manufacturers, etc. from one eCommerce platform to another.
 
 Your online store is getting bigger but its eCommerce website just cannot keep pace with the growth. Is it too slow and too expensive or too complex or lacks the features to keep your customers happy and coming back? You don’t have to stick with it and don’t have to start from scratch either. If you’re thinking about migrating your eCommerce store to a new platform, consider **Shopify. Shopify** is a great platform and has a lot of benefits that you will see later. You can use the miniOrange Store migration application to migrate your eCommerce website to Shopify. Using this application you can easily migrate your entire store, all your products, customers, orders, and everything from any eCommerce website over to Shopify within minutes.
 
