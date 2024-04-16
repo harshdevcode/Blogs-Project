@@ -22,7 +22,7 @@ tags:
     ]
 ---
 
-miniOrange provides the best OTP Login & Verification Solution for Shopify Plus & Non-Plus Stores. Easily login & register your users using OTP sent over their phone/email, this will keep away spammers or bots from your store and only allow genuine users to access your store. Also, you can prevent fake orders by verifying OTP before the user checks out.
+miniOrange provides the best [OTP Login & Verification Solution](https://plugins.miniorange.com/login-with-otp-into-shopify) for Shopify Plus & Non-Plus Stores. Easily login & register your users using OTP sent over their phone/email, this will keep away spammers or bots from your store and only allow genuine users to access your store. Also, you can prevent fake orders by verifying OTP before the user checks out.
 
 ### What is OTP and why is it important for your Shopify store? {#what-is-otp-and-why-it-is-important}
 

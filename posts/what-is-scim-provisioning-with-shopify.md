@@ -27,7 +27,7 @@ tags:
 
 ### What is SCIM? {#What-is-SCIM?}
 
-SCIM – The System for Cross-domain Identity Management, is an open standard that involves the process of creating, updating, and deleting user accounts in multiple applications and systems. It is an Identity and Access Management (IAM) solution that includes management and maintenance of an end user’s identity and user attributes in relation to accessing resources available in one or more systems. Real-time user syncing can be easily achieved using SCIM.
+[SCIM – The System for Cross-domain Identity Management](https://plugins.miniorange.com/shopify-scim-user-provisioning), is an open standard that involves the process of creating, updating, and deleting user accounts in multiple applications and systems. It is an Identity and Access Management (IAM) solution that includes management and maintenance of an end user’s identity and user attributes in relation to accessing resources available in one or more systems. Real-time user syncing can be easily achieved using SCIM.
 
 ### How does Shopify SCIM Provisioning / Deprovisioning Works? {#How-does-Shopify-SCIM-Works?}
 

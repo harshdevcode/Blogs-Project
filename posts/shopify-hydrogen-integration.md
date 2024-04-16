@@ -28,7 +28,7 @@ tags:
 
 ### What is Shopify? {#what-is-shopify}
 
-Shopify is one of the world’s most popular eCommerce platforms. It provides merchants with an easy-to-use platform for creating, managing, and customizing their online stores. Shopify recently announced the launch of its new integration with the open-source project Hydrogen. Merchants will be able to easily access and manage their financial data from within their Shopify store’s thanks to this integration.
+Shopify is one of the world’s most popular eCommerce platforms. It provides merchants with an easy-to-use platform for creating, managing, and customizing their online stores. Shopify recently announced the launch of its new integration with the open-source project [Hydrogen](https://plugins.miniorange.com/shopify-single-sign-on-headless-sso-for-hydrogen). Merchants will be able to easily access and manage their financial data from within their Shopify store’s thanks to this integration.
 
 ### What is Hydrogen? {#what-is-hydrogen}
 
