@@ -95,7 +95,7 @@ As more companies use remote devices, IT administrators must manually configure 
 
 miniOrange is one of the leading providers of mobile device management solutions. Its MDM software ensures advanced security, compliance, and efficient remote work device management. Along with the standard advantages, the miniOrange MDM also provides additional features like IP restrictions, file transfer limitations, personal email restrictions, screen recording and sharing restrictions, and time-based access restrictions.
 
-Learn more about miniOrange MDM at: [proxysupport@xecurify.com](proxysupport@xecurify.com)
+Learn more about miniOrange MDM at: [proxysupport@xecurify.com](mailto:proxysupport@xecurify.com)
 
 ### In Summary {#conclusion}
 

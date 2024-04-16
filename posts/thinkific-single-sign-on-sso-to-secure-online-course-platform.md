@@ -115,7 +115,7 @@ The bottom line is Students and Teachers will be relieved from maintaining multi
 
 #### **Further Reading**  
 
-- [Thinkific SSO MFA integration with multiple IDPs](https://www.miniorange.com/thinkific-sso-mfa-integration-with-multiple-idp)
+- [Thinkific SSO MFA integration with multiple IDPs](https://www.miniorange.com/iam/integrations/thinkific-sso-mfa)
 - [Add an extra layer of Security to your Thinkific account](https://www.miniorange.com/two-factor-authentication-for-thinkific)
 - [What is Single Sign-On?](https://www.miniorange.com/single-sign-on-sso)
 - [How to manage Students or Users?](https://www.miniorange.com/user-provisioning)

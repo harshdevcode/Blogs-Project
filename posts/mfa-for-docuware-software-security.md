@@ -81,7 +81,7 @@ Now let’s see how our MFA solution works for DocuWare software security.This s
 
 In this blog we saw how you can set up an MFA for DocuWare Cloud software, to enable security and boost team productivity for daily business use for DocuWare document management. We support several MFA methods for you to pick and choose the method that best suits you and your organization.
 
-So if you are on the market looking to upgrade to a modern MFA for DocuWare Cloud software security, miniOrange is the ideal solution and provides the best global support. Shoot us a query at [info@xecurify.com](info@xecurify.com) and we’ll walk you through the entire process. Sign up now by following this [link](https://proxy.miniorange.com/login).
+So if you are on the market looking to upgrade to a modern MFA for DocuWare Cloud software security, miniOrange is the ideal solution and provides the best global support. Shoot us a query at [info@xecurify.com](mailto:info@xecurify.com) and we’ll walk you through the entire process. Sign up now by following this [link](https://proxy.miniorange.com/login).
 
 ### Reference links  {#reference-links}
 

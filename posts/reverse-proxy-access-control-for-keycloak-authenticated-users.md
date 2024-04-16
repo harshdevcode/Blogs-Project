@@ -61,7 +61,7 @@ You can also add other security integrations such as bot traffic prevention, IP 
 
 Keycloak authentication with Reverse Proxy (Keycloak Auth Proxy) becomes one of the mandates for organizational infrastructure, given the need and efficacy necessary for security within an organization. Aside from providing an extra layer of security, it is extremely scalable for applications, adaptable for future changes, and improves efficiency. So, if you’re looking to configure a Keycloak IAM with a Reverse Proxy (to provide Keycloak Auth Proxy) or any other IAM for your company, miniOrange fits the bill with world-class service and reasonable pricing.
 
-So what are you waiting for? Drop us a query at [info@xecurify.com](info@xecurify.com) and we will get right back to you to address all your needs.
+So what are you waiting for? Drop us a query at [info@xecurify.com](mailto:info@xecurify.com) and we will get right back to you to address all your needs.
 
 ### Reference links  {#reference-links}
 
