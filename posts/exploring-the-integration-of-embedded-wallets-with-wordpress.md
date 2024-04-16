@@ -31,7 +31,7 @@ These wallets are extremely user-friendly, in contrast to standard Web3 wallets,
 &nbsp;
 These wallets eliminate the stress of complicated things like private keys or remembering weird phrases. They are made to be user-friendly, helping more people feel comfortable jumping into blockchain services.
 
-## Here's the main difference between an embedded wallet and a traditional [Web3](https://www.miniorange.com/web3/) wallet:{#main-difference-of-wallets}
+## Here's the main difference between an embedded wallet and a traditional [Web3](https://www.miniorange.com/web3/) wallet:{#main-difference}
 
 &nbsp;
 
