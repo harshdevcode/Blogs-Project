@@ -49,7 +49,7 @@ However, the use of biometric data raises concerns about privacy and security, a
 
 ![Biometric Data](/blog/assets/2023/biometric-data.webp)
 
-### What is a Biometric Authentication Device? {#what-is-biometric-device}
+### What is a Biometric Authentication Device? {#what-is-biometric-authentication-device}
 
 A biometric authentication device is an instrument that records or aids in the recording of biometric data and also facilitates biometric authentication based on the recorded data. This device does both the job of recording and also using that data for biometric verification of the user identity. Biometric authentication devices are becoming increasingly popular in many industries as they offer a more secure and convenient way to authenticate a user’s identity compared to traditional methods like passwords or PINs. Most of these biometric authentication devices are lightweight and easy to use. Without these devices biometric authentication will not be possible, hence, these devices are the essential components that make the magic of biometric authentication possible.
 
