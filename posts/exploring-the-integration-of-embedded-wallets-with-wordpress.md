@@ -1,5 +1,5 @@
 ---
-id: '440b6f54-7cfb-453e-afa0-a11a1c7cbc98'
+id: '679bb2b1-177c-40d0-bfce-eabf4d8b5763'
 title: 'Embedded Wallets for Web3 Authentication'
 description: 'Embedded wallets are powerful digital wallets that fit right into your existing platforms, applications, or websites, providing users with a smooth and frictionless Web3 experience. Unlike traditional crypto wallets, embedded wallets make it easier for you to do transactions, prove who you are using Web3 Authentication, access blockchain services, and manage your digital assets without leaving the platform or going through complex blockchain interfaces.'
 metaTitle: ' Integration of Embedded Wallet with WordPress'
@@ -31,7 +31,7 @@ These wallets are extremely user-friendly, in contrast to standard Web3 wallets,
 &nbsp;
 These wallets eliminate the stress of complicated things like private keys or remembering weird phrases. They are made to be user-friendly, helping more people feel comfortable jumping into blockchain services.
 
-## Here's the main difference between an embedded wallet and a traditional [Web3](https://www.miniorange.com/web3/) wallet: {#main-difference}
+## Here's the main difference between an embedded wallet and a traditional [Web3](https://www.miniorange.com/web3/) wallet:{#main-difference-of-wallets}
 
 &nbsp;
 
@@ -48,7 +48,7 @@ Embedded wallets are extremely user-friendly, in contrast to standard Web3 walle
 These wallets eliminate the stress of complicated things like private keys or remembering weird phrases. They are made to be user-friendly, helping more people feel comfortable jumping into blockchain services.
 
 
-## How do Embedded Wallets work? {#how-do-embed-wallet}
+## How do Embedded Wallets work? {#how-wallets-will-emabedded}
 
 [Authentication in Web3](https://plugins.miniorange.com/web3-wordpress-login) is different from what we are used to on regular websites. Instead of usernames and passwords, Web3 uses special codes and blockchain technology to confirm who you are. This makes it super secure, as these codes are really hard to steal or copy unless someone has direct access to your account.
 
