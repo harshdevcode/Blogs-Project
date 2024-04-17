@@ -41,7 +41,7 @@ Organizations are at greater risk from cyber attacks today. According to the res
 
 **“Are you doing enough to secure your business?”**
 
-In today’s digital landscape, securing sensitive data has become more crucial than ever. With the rise of cyber threats and data breaches, traditional password-based authentication systems are no longer sufficient to protect valuable information and data. As a result, many organizations are implementing context-based authentication as a more effective means of verifying the user or customer identity.
+In today’s digital landscape, securing sensitive data has become more crucial than ever. With the rise of cyber threats and data breaches, traditional password-based authentication systems are no longer sufficient to protect valuable information and data. As a result, many organizations are implementing context-based authentication as a more effective means of verifying the user or [customer identity](https://www.miniorange.com/iam/customer-identity-access-management-ciam).
 
 ### What is Context-Based Authentication? {#what-is-context-based-authentication}
 

@@ -86,7 +86,7 @@ An OAuth token is like a valet key. As a user, you get to tell the consumers wha
 
  OAuth allows apps to authenticate users by establishing their identity through third-party services, It eliminates the need for the application to maintain its own authentication system.
 
- OAuth Single Sign-On (SSO) uses a single set of credentials for authentication and gives access to many apps/websites, which makes data sharing easy.
+ OAuth Single Sign-On (SSO) uses a single set of credentials for [authentication](https://www.miniorange.com/products/authentication) and gives access to many apps/websites, which makes data sharing easy.
 
  The OAuth 2.0 specification does not specify scopes, and there is no central registration of scopes.
 

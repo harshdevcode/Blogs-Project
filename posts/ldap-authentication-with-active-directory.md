@@ -27,7 +27,8 @@ Active Directory, often known as AD, is a Microsoft-developed proprietary direct
 
 The data inside an Active Directory is stored hierarchically as objects, which can refer to users, computers, groups, etc. This hierarchical organization makes it faster and easier to search for user information within the directory. Active Directory provides a robust and efficient way of storing and retrieving user information from a database.
 
-In particular, Active Directory ensures that each person is who they claim to be (authentication) by checking the user ID and password they enter, and it allows them to access only the data they are authorized to use (authorization). Active Directory is mainly based on five elements, which are:
+In particular, Active Directory ensures that each person is who they claim to be ([authentication](https://www.miniorange.com/products/authentication 
+)) by checking the user ID and password they enter, and it allows them to access only the data they are authorized to use (authorization). Active Directory is mainly based on five elements, which are:
 
 ### Elements of Active Directory {#elements-of-active-directory}
 
