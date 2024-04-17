@@ -8,13 +8,13 @@ keywords: 'single sign on, saml single sign on sso, single sign on solutions, si
 mainButtonLink: 'https://www.miniorange.com/products/single-sign-on-sso'
 mainButtonText: 'Know more'
 excerpt: "Single Sign On (SSO) is a simple yet powerful way to make logging into your WordPress site a breeze, all while improving its security. If you've ever felt overwhelmed by keeping track of too many passwords or worried about the safety of your site, WordPress SSO might just be the solution you've been looking for."
-thumbnail: '\blog\assets\2024\sso_banner.webp'
+thumbnail: '\blog\assets\2024\sso-banner.webp'
 createdOn: '2024-04-08'
 updatedOn: '2024-04-08'
 ogTitle: 'How Single Sign-On (SSO) Makes Your WordPress Site Safer and Easier to Use?'
 ogDescription: "Single Sign On (SSO) is a simple yet powerful way to make logging into your WordPress site a breeze, all while improving its security. If you've ever felt overwhelmed by keeping track of too many passwords or worried about the safety of your site, WordPress SSO might just be the solution you've been looking for. Let's dive into how Single Sign On solutions can help secure your WordPress site and make it easier for your users to access it."
 ogImage:
-url: '\blog\assets\2024\sso_banner.webp'
+url: '\blog\assets\2024\sso-banner.webp'
 category: ['concepts']
 tags: ['Single Sign-On', 'WordPress SSO', 'SAML SSO', 'OAuth SSO', 'Multi-Factor Authentication', 'SCIM User Provisioning']
 ---
