@@ -28,7 +28,7 @@ tags:
     ]
 ---
 
-Okta Integration with Shopify with Okta as IDP & easily connect Okta & Shopify with any apps on the web. Securely SSO into Shopify applications inclusive of the Plus S`tores.
+[Okta Integration with Shopify](https://plugins.miniorange.com/shopify-scim-user-provisioning) with Okta as IDP & easily connect Okta & Shopify with any apps on the web. Securely SSO into Shopify applications inclusive of the Plus S`tores.
 
 Okta is a platform in the Identity-as-a-Service (IDaaS) category, which means that it gives you and your colleagues or customers access to all other (company) software with a single set of login credentials. In this case, the SSO integration into Shopify allows your users to login to your store and access the storefront with Okta as their identity provider for authentication.
 

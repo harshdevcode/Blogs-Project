@@ -129,7 +129,7 @@ const Blog = ({ payload }) => {
         return () => {
             window.removeEventListener('scroll', onScroll(headings));
         };
-    }, []);
+    }, [onScroll]);
 
     return (
         <>

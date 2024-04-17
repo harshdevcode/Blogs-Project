@@ -27,7 +27,7 @@ tags:
 ---
 
 eCommerce businesses are running more than one online store these days to broaden their customer reach and tap into emerging markets. This trend will likely continue for years to come. Projections indicate that by 2040, nearly 95% of all purchases will be made online. However, maintaining the security of multiple online stores has become a challenge for e commerce brands. Ensuring prompt user authentication and synchronizing information across multiple Shopify stores can largely impact online businesses.  
-miniOrange Shopify Single Sign-On (SSO) provides an answer to this. The solution centralizes user authentication and enhances security measures across all Shopify stores. This becomes especially crucial for businesses with e-stores across multiple locations and countries worldwide.  
+[miniOrange Shopify Single Sign-On (SSO)](https://plugins.miniorange.com/shopify-single-sign-on) provides an answer to this. The solution centralizes user authentication and enhances security measures across all Shopify stores. This becomes especially crucial for businesses with e-stores across multiple locations and countries worldwide.  
 In this blog, we’ll explore how e-businesses can improve Shopify security and streamline user authentication across their online stores using miniOrange Shopify SSO solutions.  
 So, let’s dive in  
 

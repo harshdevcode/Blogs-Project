@@ -24,9 +24,10 @@ tags:
     'nft rent',
     ]
 ---
-This is where NFT renting steps in! It’s an innovative solution that allows people to access NFTs without the need to pay hefty prices, making the NFT space more accessible and inviting to a wider audience.  
 
 In this blog, we’ll understand NFT renting - what are its types, and why it's a game changer for renters and investors. Plus, we’ll also explore some of the applications of NFT lending that you can benefit from now and in the future.
+
+If you're interested in integrating NFT-based gated content into your platform, you might want to check out solutions like [NFT-based gated content](https://www.miniorange.com/web3/nft-based-gated-content/). Additionally, for WordPress users looking to leverage Web3 capabilities, plugins such as [Web3 Suite](https://plugins.miniorange.com/wordpress-web3-suite) and [Web3 WordPress Login](https://plugins.miniorange.com/web3-wordpress-login) offer convenient solutions for seamless integration. These tools can significantly enhance accessibility and functionality within the NFT space.
 
 
 ## What is NFT Renting? {#what-is-nft-renting}

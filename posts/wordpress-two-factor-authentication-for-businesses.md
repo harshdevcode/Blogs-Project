@@ -172,19 +172,17 @@ Various customization options are available to personalize the following feature
  
    * Customize the email template for OTP over email. This lets you personalize the existing email templates for OTP over email.
 
-   ![Two Factor Authentication](/blog/assets/2024/customize-email-template-OTP-Over-email.webp)
+   ![Two Factor Authentication](/blog/assets/2024/two-factor-authentication-customize-otp-over-email.webp)
    * Customize the Email Template for Email Verification: You are also provided with the option to customize the email template for email verification.
 
    ![Two Factor Authentication](/blog/assets/2024/customize-email-template-for-eamil-verification.webp)
-   * Customize Email Template For 2FA Method Reconfiguration: 2Fa methods reconfiguration email template can also be customized.
+   * Customize Email Template For 2FA Method Reconfiguration: 2Fa methods reconfiguration email template can also be customized. 
 
    ![Two Factor Authentication](/blog/assets/2024/two-factor-authentication-customize-eamil-template.webp)
+   * Customization of the ‘powered by’ logo: you can change the default ‘powered by’ logo and place your logo. 
 
-   * Customization of the ‘powered by’ logo: you can change the default ‘powered by’ logo and place your logo.
-   11. Shortcodes:
-   
-    WordPress Two-factor authentication plugin with all-inclusive provides two shortcodes.
-      
+   11. Shortcodes:  
+   WordPress Two-factor authentication plugin with all-inclusive provides two shortcodes.
        1. miniOrange_enable2fa: This shortcode provides an option to turn on/off 2factor by users.
        2. mo2fa_enable_reconfigure: This shortcode provides the option to configure the two-factor methods by users.
 

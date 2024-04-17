@@ -30,7 +30,7 @@ tags:
 
 SSO is an authentication and authorization process that enables a user to access multiple enterprise applications using a single set of login credentials (username and password). Simply put, SSO combines multiple application login screens into one, allowing you to submit credentials once and gain access to all applications without having to log in to each one individually. End users save time and effort by not having to sign in and out of a variety of web, on-premises, and cloud apps on a regular basis.
 
-The simplicity of the SSO login process on your LMS allows you to onboard students of any age. It saves time and resources that would otherwise be spent on IT helpdesk tickets related to account management.
+The simplicity of the [SSO login process on your LMS](https://plugins.miniorange.com/shopify-lms-integration) allows you to onboard students of any age. It saves time and resources that would otherwise be spent on IT helpdesk tickets related to account management.
 
 Schools, colleges, and universities are the foundation of learning, growth, and development for young generations worldwide. They are vital institutions in civilized and developed societies, whether public or private.
 

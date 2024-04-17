@@ -32,7 +32,7 @@ tags:
 ### Managing Access to Legacy and Cloud Applications {# Managing Access to Legacy and Cloud Applications}
 Enterprises/Organizations’ needs to preserve and grow virtual workforces while protecting digital transformation efforts have constantly fueled the IAM market. As a result, numerous standards and methodologies for ensuring access for businesses have been developed. 
 
-With the advent of web applications in the industry in the early 1990s, companies turned to Web Access Management (WAM) systems to manage authentication and authorization to corporate resources. WAM is more commonly known as **Header Based Authentication**, as the user request is authenticated based on the header values of the request. 
+With the advent of web applications in the industry in the early 1990s, companies turned to Web Access Management (WAM) systems to manage [authentication and authorization](https://www.miniorange.com/blog/authentication-authorization-difference/) to corporate resources. WAM is more commonly known as **Header Based Authentication**, as the user request is authenticated based on the header values of the request. 
 
 The **Federated authentication standards** used today, gained prominence in the early 2000s, and SaaS, PaaS, and IaaS began to gain a foothold in the enterprise, with businesses centralizing their [Identity and Access Management (IAM)](https://blog.miniorange.com/what-is-iam-identity-and-access-management-system/) programs around [IDaaS (Identity-as-a-Service)](https://blog.miniorange.com/what-is-identity-as-a-service-idaas/).
 
@@ -85,7 +85,7 @@ Adopt Standards— Embracing SSO standards such as SAML for application access h
 Remove Redundancy—By fully exploiting the features of IdaaS and network traffic managers, legacy WAM providers may sometimes be completely eliminated from the environment.
 Scale and Performance—Traffic Managers and Reverse Proxies are designed to protect some of the world’s most complex applications.
 Consumer-Grade End User Experience—Extend miniOrange’s best-in-class SSO user experience to apps that IdaaS solutions aren’t built for.
-Support for all new use cases—Integration with miniOrange IdaaS positions your organization to enforce multi-factor authentication and safeguard the mobile experience for all of your company’s web apps.
+Support for all new use cases—Integration with miniOrange IdaaS positions your organization to enforce [Multi-Factor Authentication](https://www.miniorange.com/products/multi-factor-authentication-mfa) and safeguard the mobile experience for all of your company’s web apps.
  
 
 ### Conclusion {# Conclusion}

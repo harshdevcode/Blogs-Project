@@ -4,7 +4,7 @@
     "private": true,
     "scripts": {
         "dev": "next dev",
-        "build": "set NODE_ENV=production && node ./lib/helpers/generate-sitemap.js && next build && next export -o blog",
+        "build": "set APP_ENV=production && node ./lib/helpers/generate-sitemap.js && next build && next export -o blog",
         "generate-sitemap": "set NODE_ENV=development && node ./lib/helpers/generate-sitemap.js",
         "start": "next start",
         "lint": "next lint"

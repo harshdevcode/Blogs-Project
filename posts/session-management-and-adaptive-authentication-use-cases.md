@@ -32,7 +32,7 @@ tags:
 
 ### What is a Session? {#What-is-a-Session}
 
-Let’s first understand how a web application or website like Shopify Store handles user access. Generally, there are three layers of security mechanisms:
+Let’s first understand how a web application or website like [Shopify Store handles user access](https://plugins.miniorange.com/session-management-for-shopify). Generally, there are three layers of security mechanisms:
 
 - Authentication
 - Session management
