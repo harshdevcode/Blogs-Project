@@ -18,7 +18,7 @@ import Link from 'next/link';
 import Comment from 'database/models/Comment';
 import User from 'database/models/User';
 import ListItemAuthor from "components/list-item-author";
-
+import SocialShare from 'components/social-share';
 const INITIAL_COMMENT_TEXT = {
     content: '',
     email: '',
@@ -173,9 +173,8 @@ const Blog = ({ payload }) => {
                         <div className={styles.side_nav_wrapper}>
                             <a
                                 href={`#main`}
-                                className={`title ${styles.side_nav_link} mt-sm ${
-                                    activeSection === 'main' ? 'font-semibold bg-accent/10' : ''
-                                }`}
+                                className={`title ${styles.side_nav_link} mt-sm ${activeSection === 'main' ? 'font-semibold bg-accent/10 text-accent' : ''
+                            }`}
                             >
                                 Introduction
                             </a>
@@ -183,11 +182,10 @@ const Blog = ({ payload }) => {
                                 <a
                                     key={headline.id}
                                     href={`#${headline.id}`}
-                                    className={`title ${styles.side_nav_link} ${
-                                        activeSection === headline.id
-                                            ? 'font-semibold bg-accent/10'
-                                            : ''
-                                    }`}
+                                    className={`title ${styles.side_nav_link} ${activeSection === headline.id
+                                        ? 'font-semibold bg-accent/10 text-accent'
+                                        : ''
+                                        }`}
                                 >
                                     {headline.text}
                                 </a>
@@ -267,6 +265,7 @@ const Blog = ({ payload }) => {
                 </section>
 
                 <Footer />
+                <SocialShare url={canonical} title={title} />
             </section>
         </>
     );
