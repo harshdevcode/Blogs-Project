@@ -173,10 +173,10 @@ const Blog = ({ payload }) => {
                         <div className={styles.side_nav_wrapper}>
                             <a
                                 href={`#main`}
-                                className={`title ${styles.side_nav_link} mt-sm ${activeSection === 'main' ? 'font-semibold bg-accent/10 text-accent' : ''
-                            }`}
+                                className={`title px-rg py-sm mt-sm font-bold
+                            `}
                             >
-                                Introduction
+                                Table of Contents
                             </a>
                             {tocs.map((headline) => (
                                 <a
