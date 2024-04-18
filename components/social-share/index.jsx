@@ -24,8 +24,6 @@ const SocialShare = ({ url, title }) => {
 	const toggleShareOpen = () => {
 		setShareOpen(!shareOpen);
 	};
-
-	console.log(url);
 	return (
 		<div className="fixed cursor-pointer">
 			{shareOpen &&
