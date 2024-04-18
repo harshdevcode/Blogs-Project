@@ -18,7 +18,7 @@
 }
 
 .side_nav_link {
-    @apply rounded-smooth px-rg py-sm;
+    @apply rounded-smooth px-rg py-sm transition-colors delay-[0.03s];
 }
 
 .tags_container {
@@ -29,4 +29,9 @@
 .comments_container {
     @apply w-full flex flex-col justify-center p-md bg-slate-50
 	lg:flex-row;
+}
+
+/* Add hover effect to side nav links */
+.side_nav_link:hover {
+    @apply bg-accent/10 ; /* Change to desired hover background color */
 }
