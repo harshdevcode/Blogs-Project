@@ -12,7 +12,6 @@ const ContactWidget = dynamic(() => import('components/contact-widget'), {
     loading: () => <Spinner variant='secondary' />,
 });
 
-
 export default function Layout({ children }) {
     const [widget, setWidget] = useState(false);
     const toggleWidget = () => {
@@ -26,7 +25,6 @@ export default function Layout({ children }) {
             </Head>
             <Header />
             <main>{children}</main>
-
             {widget && (
                 <div
                     className={`
@@ -37,7 +35,6 @@ export default function Layout({ children }) {
                     <ContactWidget onClose={toggleWidget} />
                 </div>
             )}
-           
             <ContactButton onClick={toggleWidget} />
         </div>
     );
