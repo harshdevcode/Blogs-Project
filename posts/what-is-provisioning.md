@@ -121,6 +121,6 @@ Check out all of our pre-existing Provisioning integrated apps [here](https://ww
 
 #### **Further Reading:**  
 
-- [Passwordless Authentication](https://www.miniorange.com/blog/passwordless-authentication/)
+- [Passwordless Authentication](https://www.miniorange.com/iam/solutions/passwordless-authentication/)
 - [Adaptive Authentication](https://www.miniorange.com/adaptive-multi-factor-authentication-mfa)
-- [What is Customer Identity and Access Management (CIAM)?](https://www.miniorange.com/blog/what-is-ciam-consumer-identity-and-access-management/)
+- [What is Customer Identity and Access Management (CIAM)?](https://www.miniorange.com/blog/what-is-ciam-customer-identity-and-access-management/)

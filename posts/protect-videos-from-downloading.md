@@ -65,7 +65,7 @@ Without a reverse proxy, your videos can be accessed from any unauthorized user 
 
 With a reverse proxy, we have solved the problem and can now protect videos from downloading online from unauthorized users by setting restricted mode (video restriction). Along with video restriction, we can even set custom role-based access control (or rbac) on our other files with the help of a reverse proxy so that we can allow select users to download videos and prevent data leaks.
 
-So what are you waiting for? Drop us a query at [info@xecurify.com](info@xecurify.com) and we will get right back to you to address all your needs.
+So what are you waiting for? Drop us a query at [info@xecurify.com](mailto:info@xecurify.com) and we will get right back to you to address all your needs.
 
 ### Reference links  {#reference-links}
 

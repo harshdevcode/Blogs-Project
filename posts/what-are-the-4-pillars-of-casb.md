@@ -71,7 +71,7 @@ In this blog, we saw how a CASB can help you better protect your cloud data, and
 
 So if you’re on the market looking for a [CASB solutions](https://www.miniorange.com/casb/solutions/) for securing your cloud data, miniOrange is the go-to solution. Over 18,000 users globally chose miniOrange to meet their IT needs for data security and boost office productivity. Our support has been recognized worldwide for our quick resolution and custom solution development to meet all our customers’ needs.
 
-So what are you waiting for? Shoot us a query at [info@xecurify.com](info@xecurify.com) and and we will get right back to you for all your CASB needs.
+So what are you waiting for? Shoot us a query at [info@xecurify.com](mailto:info@xecurify.com) and and we will get right back to you for all your CASB needs.
 
 ### Reference links  {#reference-links}
 

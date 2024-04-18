@@ -65,7 +65,7 @@ Without a reverse proxy server, your mp3 audio files  can be accessed from any u
 
 With a reverse proxy server, we have solved the problem and can now protect all your mp3 audio files, such as your audio recordings, voice recordings, etc. from being downloaded online from unauthorized users by setting restricted mode. Along with audio file restriction (preventing audio copying), we can even set custom role based access control (or rbac) on our other MP3 audio files with the help of a reverse proxy server, so that we can allow select users to download the protected files and prevent data leaks.
 
-So what are you waiting for? Drop us a query at [info@xecurify.com](info@xecurify.com) and we will get right back to you to address all your needs.
+So what are you waiting for? Drop us a query at [info@xecurify.com](mailto:info@xecurify.com) and we will get right back to you to address all your needs.
 
 ### Reference links  {#reference-links}
 

@@ -72,4 +72,4 @@ Since the cloud community is still growing, applications that support 2FA over A
 
 We have a Two Factor Authentication (2FA) solution for Atlassian Server and Data Center as well. Give a quick read to this [Article](https://community.atlassian.com/t5/Marketplace-Apps-Integrations/Best-way-to-Secure-Your-Atlassian-Data-Center-DC/ba-p/1687486#M4645).
 
-For detailed information about our SSO and Two-Factor Authentication add-ons please refer to the [link](https://www.miniorange.com/atlassian). In case of any queries, please feel free to drop us a mail at [info@xecurify.com](info@xecurify.com)
+For detailed information about our SSO and Two-Factor Authentication add-ons please refer to the [link](https://www.miniorange.com/atlassian). In case of any queries, please feel free to drop us a mail at [info@xecurify.com](mailto:info@xecurify.com)
