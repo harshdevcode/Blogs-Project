@@ -52,7 +52,7 @@ Let’s say the company has 2 applications, namely JIRA and Confluence. There ar
 
 Reverse proxy becomes one of the mandates for organizational infrastructure, given the need and efficacy necessary for security within organizations. Aside from securing the cloud applications using access control and managing the users, it is extremely scalable, adaptable, and efficient, which also delivers significant value to your organization’s security by protecting you against cyber attack vulnerabilities. It also provides other features like load balancing, rate limiting, URL rewriting and many more. So, if you’re looking to establish a Reverse proxy for your company, miniOrange fits the bill with world-class service and reasonable pricing.
 
-So what are you waiting for? Drop us a query at [info@xecurify.com](info@xecurify.com) and we will get right back to you to address all your needs.
+So what are you waiting for? Drop us a query at [info@xecurify.com](mailto:info@xecurify.com) and we will get right back to you to address all your needs.
 
 ### Reference links  {#reference-links}
 

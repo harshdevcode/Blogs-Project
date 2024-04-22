@@ -75,7 +75,7 @@ To prevent data breaches, cyber security threats & unauthorized access. These cy
 
 &nbsp;  
 
-miniOrange provides [Identity and Access Management](https://www.miniorange.com/blog/what-is-iam-identity-and-access-management-system/) services quickly for the management of information such as users, organizations, devices, services, etc., and in a very cost-effective manner to its customers.  
+miniOrange provides [Identity and Access Management](https://www.miniorange.com/what-is-iam-identity-and-access-management) services quickly for the management of information such as users, organizations, devices, services, etc., and in a very cost-effective manner to its customers.  
 
 With miniOrange IAM systems, you do not need to worry about administrative overheads. We provide IAM services, which take care of your security, administrative, access management and help you focus on your core business.  
 

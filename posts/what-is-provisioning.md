@@ -34,7 +34,7 @@ Provisioning in its very essence has a very simple meaning – supplying with / 
 
 As we expand and try to understand this word from an Information Technology business perspective, the definition gets more nuanced. It refers to an IT process involving some infrastructure enabling data and asset transfer.  
 
-As we go on even further and look at it from an [Identity and Access Management (IAM)](https://www.miniorange.com/blog/what-is-iam-identity-and-access-management-system/) perspective for business, it takes up the meaning of an identity management process that overlooks the changes in data of identities and assets in **identity stores.**  
+As we go on even further and look at it from an [Identity and Access Management (IAM)](https://www.miniorange.com/what-is-iam-identity-and-access-management) perspective for business, it takes up the meaning of an identity management process that overlooks the changes in data of identities and assets in **identity stores.**  
 
 User provisioning **creates, updates, deletes, handles** all identities (user accounts) across all connected IT Infrastructure, applications, data and assets for business.  
 
