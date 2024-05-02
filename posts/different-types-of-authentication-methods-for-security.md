@@ -51,10 +51,6 @@ When it comes to authentication and security, there is a vast ocean of different
 2. Usability interface
 Let’s take a closer look at the many sorts of authentication techniques available:
  
-
-![Different Types of Authentication](/blog/assets/2023/different-types-of-authentication.webp)
-
-
 **1. Password Based Login:**  
 The most commonly utilized regular login authentication system that you will employ on a daily basis while utilizing an online service is password-based login. You need to input a combination of your username/mobile number and a password when using the Password-Based Authentication technique. The individual is authorized only when both of these elements have been verified. However, because today’s customers use multiple online services (apps and websites), it’s tough to keep track of all of their usernames and passwords. As a result of this, end-users engage in unethical behaviors such as forgetting passwords, using the same password for several services, and so on. Cybercriminals enter at this point and begin actions such as phishing, data breaches, and so on. That is the fundamental reason why standard password-based authentication is losing favor and more organizations are turning to advanced additional security authentication factors.  
 

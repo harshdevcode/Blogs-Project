@@ -26,7 +26,7 @@ tags:
     ]
 ---
 
-People these days prefer to buy their medications online through eHealth Shopify stores. This shift largely boils down to the benefits these stores offer. One of the key benefits includes convenient access to a diverse range of health and wellness items. This includes over-the-counter medications, medical supplies, vitamins, personal care essentials, fitness equipment, and various other products. Not to forget, these stores also offer unique ailment-specific drugs, as well as attractive discounts, free shipping, and other perks to customers.
+People these days prefer to buy their medications online through [eHealth Shopify stores](https://plugins.miniorange.com/shopify-single-sign-on). This shift largely boils down to the benefits these stores offer. One of the key benefits includes convenient access to a diverse range of health and wellness items. This includes over-the-counter medications, medical supplies, vitamins, personal care essentials, fitness equipment, and various other products. Not to forget, these stores also offer unique ailment-specific drugs, as well as attractive discounts, free shipping, and other perks to customers.
 
 However, on the flip side, eHealth shop owners face a range of challenges when it comes to managing online Shopify stores. Restricting some sensitive data or some medicines/drugs from specific patients, allowing users to perform passwordless logins, and staying updated with the inventory prove to be cumbersome tasks for store owners. Keeping track of eHealth stores is crucial because they must be adequately stocked to meet the wide range of needs of consumers.
 

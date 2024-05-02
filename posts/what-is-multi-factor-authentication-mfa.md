@@ -1,17 +1,17 @@
 ---
 id: 'ae13fb61-d066-4489-90e7-9a1724418cb1'
-title: 'What is Multi-Factor Authentication (MFA) and how does it work?'
+title: 'What is Multi-Factor Authentication (MFA) in Cybersecurity?'
 description: 'Multi Factor Authentication (MFA) adds an extra layer of authentication in order to gain access to the resources & overcome security threats.'
-metaTitle: 'What is Multi Factor Authentication (MFA) | How does MFA works?'
+metaTitle: 'What is Multi Factor Authentication (MFA) in Cybersecurity?'
 metaDescription: 'Multi Factor Authentication (MFA) adds an extra layer of authentication in order to gain access to the resources & overcome security threats.'
 keywords: ''
-mainButtonLink: ''
-mainButtonText: ''
+mainButtonLink: 'https://www.miniorange.com/products/multi-factor-authentication-mfa'
+mainButtonText: 'Start Free Trial'
 excerpt: 'Multi Factor Authentication (MFA) adds an extra layer of authentication in order to gain access to the resources & overcome security threats.'
 thumbnail: '/blog/assets/2023/multifactor-authentication.webp'
 createdOn: '2023-02-26'
-updatedOn: '2023-11-06'
-ogTitle: 'What is Multi Factor Authentication (MFA) | How does MFA works?'
+updatedOn: '2024-04-10'
+ogTitle: 'What is Multi-Factor Authentication (MFA) in Cybersecurity?'
 ogDescription: 'Multi Factor Authentication (MFA) adds an extra layer of authentication in order to gain access to the resources & overcome security threats.'
 ogImage:
     url: ''
@@ -21,7 +21,7 @@ tags: ['2FA', 'MFA', 'Security', 'TFA', 'Two-factor Authentication']
 
 **Multi-Factor Authentication (MFA)** is an authentication method that requires the user to authenticate themselves for two or more factors, in order to gain access to company resources, applications, or a VPN. Enabling Multi-Factor Authentication (MFA) means that users need to provide additional verification factors apart from their username and passwords. These second-factor methods can range from OTP over SMS, OTP over Email, Push notification, Google/Microsoft authenticator, and many more. 
 
-Having this extra layer of security ensures that the information being accessed is well protected from activities such as phishing, malware, hacking, and many more. Having a strong MFA setup ensures a robust Identity and Access Management (IAM) for your organization and secures your resources.
+Having this extra layer of security ensures that the information being accessed is well protected from activities such as phishing, malware, hacking, and many more. Having a strong MFA setup ensures a robust [Identity and Access Management (IAM)](https://www.miniorange.com/iam/) for your organization and secures your resources.
 
 The goal of leveraging MFA is to boost security and make a layered defense so that even if one factor (username-password) is stolen or a targeted cyber attacker still has at least one more barrier to breach before successfully breaking into the actual targeted device. The second barrier is also usually harder to breach as compared to simple username passwords.
 
@@ -51,7 +51,7 @@ The most common MFA systems use a unique one-time passcode commonly known as OTP
 
 ### Multi-Factor Authentication Methods {#multi-factor-authentication-methods} 
 
-MFA Authentication is based on various authentication factors. Multi-Factor Authentication takes the help of these factors to authenticate a particular individual.
+[MFA Authentication] (https://www.miniorange.com/products/multi-factor-authentication-mfa-methods) is based on various authentication factors. Multi-Factor Authentication takes the help of these factors to authenticate a particular individual.
 
 - **Knowledge Factor** is something that a user remembers like “First Password”, “First School Name”, “A Pin” etc.
 - **Possession Factor** is something the user has, such as a mobile device, smartphone app, or security token to approve authentication requests.
@@ -61,7 +61,7 @@ MFA Authentication is based on various authentication factors. Multi-Factor Auth
 
 ### Multi-Factor Authentication Vs Two Factor Authentication {#multi-factor-authentication-vs-two-factor-authentication} 
 
-The major difference between 2FA and MFA is: In 2FA there are only two authentication methods: one traditional username-password and another one like (OTP, Push notifications). While in MFA there are no such restrictions, you can opt for multiple authentication methods according to your way.
+The major difference between 2FA and MFA is: In [https://www.miniorange.com/two-factor-authentication-(2fa)](2FA) there are only two authentication methods: one traditional username-password and another one like (OTP, Push notifications). While in MFA there are no such restrictions, you can opt for multiple authentication methods according to your way.
 
 ### Challenges of Multi-Factor Authentication {#challenges-of-multi-factor-authentication} 
 
@@ -97,7 +97,7 @@ miniOrange MFA integration for [Microsoft Applications](https://www.miniorange.c
 
 Virtual Desktop Infrastructure offers a complete solution for managing and providing access to virtualized desktop environments hosted in the data centre. 
 
-MFA for [Virtual Desktop Infrastructure](https://www.miniorange.com/remote-desktop-services-rds-mfa-2fa-setup) enables organizations to securely simplify administration, reduce operating costs, increase the utilization of existing IT assets, and boost security by moving on from a vulnerable traditional desktop environment to MFA enabled VDI.
+[MFA for Virtual Desktop Infrastructure](https://www.miniorange.com/remote-desktop-services-rds-mfa-2fa-setup) enables organizations to securely simplify administration, reduce operating costs, increase the utilization of existing IT assets, and boost security by moving on from a vulnerable traditional desktop environment to MFA enabled VDI.
 
 **MFA for Web Apps**
 
@@ -107,7 +107,7 @@ Our MFA can be enabled for any of your web apps anywhere on the internet, to ens
 
 **Enhanced Security**
 
-Multi-Factor Authentication (MFA) decreases the probability that an attacker can mimic a user and may gain access to the system. miniOrange Multi-Factor Authentication (MFA) solution allows users to log in using Username and OTP thus, preventing the necessity to enter the Password.
+Multi-Factor Authentication (MFA) decreases the probability that an attacker can mimic a user and may gain access to the system. miniOrange [Multi-Factor Authentication (MFA) solution](https://www.miniorange.com/iam/solutions/multi-factor-authentication-mfa-solutions) allows users to log in using Username and OTP thus, preventing the necessity to enter the Password.
 
 **More Productivity and Flexibility**
 
@@ -127,8 +127,7 @@ Implementing MFA reduces the probability of data breaches, resulting in reduced 
 
 ### Further Reading {#further-reading} 
 
-- [What is MFA? Why and How to use MFA?](https://www.miniorange.com/two-factor-authentication-(2fa))
-- [MultiFactor Authentication for WordPress](https://plugins.miniorange.com/2-factor-authentication-for-wordpress-wp-2fa)
-- [Adaptive multi-factor authentication](https://www.miniorange.com/products/adaptive-multi-factor-authentication-mfa)
+- [What is Adaptive Authentication in IAM?](https://www.miniorange.com/products/adaptive-multi-factor-authentication-mfa)
+- [What are the benefits of Passwordless Authentication?](https://www.miniorange.com/iam/solutions/passwordless-authentication)
 - [Drupal Two-Factor Authentication (2FA)](https://plugins.miniorange.com/drupal-two-factor-authentication-2fa)
-- [Securing VPN with MFA](https://blog.miniorange.com/secure-vpn-with-multi-factor-authentication/)
+- [Securing VPN with Multi-Factor Authentication (MFA)](https://www.miniorange.com/iam/solutions/vpn-mfa-multi-factor-authentication)

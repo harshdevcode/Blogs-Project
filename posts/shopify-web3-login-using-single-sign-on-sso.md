@@ -22,7 +22,7 @@ tags:
     ]
 ---
 
-Web3 is a concept to develop the decentralized web as internet 3.0 with the help of blockchain technology. This blog is written for everyone who wants to know how the Web3 concept will change the eCommerce world forever. Web3 is a completely decentralized network, utilizing peer-to-peer protocols. The network will enable users to interact with each other without having a middleman or central server in their architecture. This will allow people to retain greater control over their own data.
+[Web3](https://plugins.miniorange.com/web3-sso-shopify) is a concept to develop the decentralized web as internet 3.0 with the help of blockchain technology. This blog is written for everyone who wants to know how the Web3 concept will change the eCommerce world forever. Web3 is a completely decentralized network, utilizing peer-to-peer protocols. The network will enable users to interact with each other without having a middleman or central server in their architecture. This will allow people to retain greater control over their own data.
 
 ![SSO into Shopify using crypto wallets - what is web3](/blog/assets/2023/shpify-store-ecommerce-migration.webp)
 

@@ -8,7 +8,7 @@ keywords: ''
 mainButtonLink: ''
 mainButtonText: ''
 excerpt: 'MFA for Active Directory allows you to secure access and log in to your VPN, RDP, windows login, and applications by verifying all Active directory accounts.'
-thumbnail: '/blog/assets/2023/adfs-mfa.webp'
+thumbnail: '/blog/assets/2024/mfa-adfs.webp'
 createdOn: '2022-08-29'
 updatedOn: '2022-08-29'
 ogTitle: 'Multi-Factor Authentication (MFA) for Active Directory (AD)'
@@ -86,7 +86,7 @@ Here are some additional features with miniOrange MFA that makes sure that adopt
 
 ### Can I enable MFA for the Active directory without Azure AD and M365? {#can-i-enable-MFA-for-the-active-directory-without-azure-ad-and-m365}
 
-A big yes! There is absolutely no requirement to have an Azure or Microsoft 365 subscription to enable MFA for the on-premise Active directory. You can [connect the On-premise AD directly to miniOrange via LDAP protocol](https://www.miniorange.com/iam/configure-ad-as-user-store) and use it for authentication purposes. Although you get a basic MFA functionality with some higher plans of Azure, those are not much detail-oriented and flexible to meet any of the organization’s requirements. You can check out the comparison of [miniOrange vs Azure AD](https://www.miniorange.com/iam/why-miniorange/azure-ad-alternatives) for in-depth details regarding the same. So there is no requirement for an additional Azure Connect as well to keep a sync between your on-premise AD and AAD to enable MFA. Thus, saving you a lot of money! However, even if you have a hybrid environment already in place using on-premise Active directory and AAD, then also the process and steps to enable MFA remains the same without hampering the experience of end-users and using the same set of usernames and passwords for all the logins.
+A big yes! There is absolutely no requirement to have an Azure or Microsoft 365 subscription to enable MFA for the on-premise Active directory. You can [connect the On-premise AD directly to miniOrange via LDAP protocol](https://www.miniorange.com/iam/configure-ad-as-user-store) and use it for [authentication purposes](https://www.miniorange.com/products/authentication). Although you get a basic MFA functionality with some higher plans of Azure, those are not much detail-oriented and flexible to meet any of the organization’s requirements. You can check out the comparison of [miniOrange vs Azure AD](https://www.miniorange.com/iam/why-miniorange/azure-ad-alternatives) for in-depth details regarding the same. So there is no requirement for an additional Azure Connect as well to keep a sync between your on-premise AD and AAD to enable MFA. Thus, saving you a lot of money! However, even if you have a hybrid environment already in place using on-premise Active directory and AAD, then also the process and steps to enable MFA remains the same without hampering the experience of end-users and using the same set of usernames and passwords for all the logins.
 
 
 ### Conclusion {#conclusion}

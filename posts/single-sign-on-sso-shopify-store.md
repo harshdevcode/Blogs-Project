@@ -27,7 +27,7 @@ tags:
 
 ### What is Shopify? {#What is Shopify?}
 
-Shopify is an eCommerce platform that will help you start your eCommerce store right away. Anyone can start their online store for selling any product online using Shopify. Shopify is currently the most trending ECommerce platform. Around 1.6 million websites use Shopify CMS for their online stores.
+[Shopify](https://plugins.miniorange.com/shopify-single-sign-on) is an eCommerce platform that will help you start your eCommerce store right away. Anyone can start their online store for selling any product online using Shopify. Shopify is currently the most trending ECommerce platform. Around 1.6 million websites use Shopify CMS for their online stores.
 
 ### What are the challenges faced by Shopify users/merchants? {#challenges-faced-by-Shopify-users}
 
