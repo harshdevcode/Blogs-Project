@@ -164,4 +164,4 @@ Start Your 30 Days [Free Trial](https://www.miniorange.com/iam/free-trial) Now!
 #### **Further Reading** 
 - [Our global Customers around the CIAM Use Case](https://www.miniorange.com/customers)  
 - [Workforce Identity](https://www.miniorange.com/iam/workforce-identity)  
-- [What is IAM?](https://www.miniorange.com/blog/what-is-iam-identity-and-access-management-system/)
+- [What is IAM?](https://www.miniorange.com/what-is-iam-identity-and-access-management)

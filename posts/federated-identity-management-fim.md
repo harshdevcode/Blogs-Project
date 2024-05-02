@@ -125,7 +125,7 @@ This includes the following:
 
 **Multiple IDP support:** As previously stated, the Federated Identity Management system is all about managing [Identity Providers](https://www.miniorange.com/blog/what-is-an-identity-provider-idp/), thus when choosing a service, make sure the FIM service provider you choose has a good stock of IDP support.  
 
-In light of all of these factors, miniOrange is a top-tier security solution that has been offering [IAM](https://www.miniorange.com/blog/what-is-iam-identity-and-access-management-system/) and Federated Identity Management services for many years.  
+In light of all of these factors, miniOrange is a top-tier security solution that has been offering [IAM](https://www.miniorange.com/what-is-iam-identity-and-access-management) and Federated Identity Management services for many years.  
 
 If you have any doubts or questions about FIM, How is it Implemented? What will be the cost to implement for your organization? What will the technical implementation look like? Feel free to reach us at idpsupport@xecurify.com. We will help you out in the best way possible.
 
