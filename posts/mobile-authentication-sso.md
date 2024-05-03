@@ -31,6 +31,9 @@ Having a centralized system allows users to not lean into bad password practices
 
 Based on interactions with customers over the past couple of years, it was noticed that there is a lot of confusion around the options available for implementing an SSO solution for mobile applications.
 
+If no external Identity Provider is configured, users authenticate using their miniOrange credentials. Alternatively, if you have an existing
+Identity Provider like [WordPress OAuth Login](https://plugins.miniorange.com/wordpress-sso) or [WordPress SAML Login](https://plugins.miniorange.com/wordpress-single-sign-on-sso) Connect, miniOrange seamlessly redirects users to the supported protocol for authentication.
+
 ### miniOrange SSO and Authentication SDKs for businesses {#miniOrange-sso-and-authentication-sdks-for-businesses}
 
 ![miniOrange SSO and Authentication](/blog/assets/2023/miniorange-sso-and-authentication.webp)

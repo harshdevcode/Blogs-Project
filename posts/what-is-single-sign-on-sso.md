@@ -27,9 +27,11 @@ The user credentials and other identifying information are stored and managed by
 
 Single Sign-On (SSO) based authentication systems are commonly used in enterprise environments where employees require access to multiple applications/websites of their organizations. In this scenario, the Single Sign-On service provider uses the organization’s directory, such as Microsoft Active Directory, [Azure Active Directory](https://www.miniorange.com/blog/what-is-azure-active-directory/), or a directory provided by the Single Sign-On solution itself for authenticating users and providing access to the various applications/websites.
 
+Upgrade your WordPress site's security with SSO, featuring support for [WordPress OAuth Single Sign-On](https://plugins.miniorange.com/wordpress-sso) and [WordPress SAML Single Sign-On](https://plugins.miniorange.com/wordpress-single-sign-on-sso) protocols to protect user credentials.
+
 ### How does Single Sign-On (SSO) work? {#how-does-single-sign-on-sso-work}
 
-![Single SIgn on Workflow](/blog/assets/2023/sso-workflow.webp)
+![Single Sign On Workflow](/blog/assets/2023/sso-workflow.webp)
 
 The authentication process using miniOrange Single Sign-On (SSO) takes place as described in the following steps:
 
@@ -147,7 +149,6 @@ The Central Authentication Service (CAS) is a single sign-on protocol for web ap
 
 - [Single Sign-On (SSO) Solution](https://www.miniorange.com/products/single-sign-on-sso)
 - [Cloud Single Sign-On (SSO) Solution](https://www.miniorange.com/iam/cloud-sso)
-- [WordPress Single Sign On (SSO)](https://plugins.miniorange.com/wordpress-single-sign-on-sso)
+- [WordPress Single Sign On (SSO) with SAML](https://plugins.miniorange.com/wordpress-single-sign-on-sso)
+- [WordPress Single Sign On (SSO) with OAuth](https://plugins.miniorange.com/wordpress-sso)
 - [Single Sign-On Integration](https://www.miniorange.com/iam/integrations/)
-
-

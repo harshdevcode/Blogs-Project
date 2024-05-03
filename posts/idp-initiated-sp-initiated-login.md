@@ -21,8 +21,7 @@ tags:
     ]
 ---
 
-With an increasing number of cloud applications being adopted by customers, the need for providing a seamless user experience to employees and other end users is high. In this blog, our objective is to delve into the basics of SAML and discuss [SSO through SAML,](https://www.miniorange.com/iam/solutions/saml-single-sign-on-sso 
-) which can be initiated in two ways: IDP-initiated SSO and SP-initiated SSO.
+With an increasing number of cloud applications being adopted by customers, the need for providing a seamless user experience to employees and other end users is high. In this blog, our objective is to delve into the basics of [WordPress SAML](https://plugins.miniorange.com/wordpress-single-sign-on-sso) and SSO through SAML, which can be initiated in two ways: IDP-initiated SSO and SP-initiated SSO. The [WordPress SAML SSO Plugin](https://wordpress.org/plugins/miniorange-saml-20-single-sign-on/) supports all major IdPs – ADFS, Azure AD, Azure B2C, Okta, Keycloak, Google Workspace, Salesforce, Office365, Shibboleth, etc.
 
 ### SAML {#saml}
 
@@ -106,7 +105,7 @@ On the other hand, IDP-initiated SSO provides greater control and visibility ove
 
 ### miniOrange offerings {#miniorange-offerings}
 
-miniOrange provides a comprehensive SSO solution that simplifies the implementation of both SP-initiated and IDP-initiated SSO. Their solution offers a variety of authentication protocols, including SAML, OAuth, JWT, and OpenID Connect, and allows for seamless integration with various applications. Additionally, miniOrange’s SSO solution provides enhanced security features, such as multi-factor authentication and adaptive risk-based authentication, to ensure secure access to applications. Overall, miniOrange’s solution can help organizations implement SSO in a hassle-free manner while ensuring the highest level of security.
+miniOrange provides a comprehensive SSO solution that simplifies the implementation of both SP-initiated and IDP-initiated SSO. Their solution offers a variety of authentication protocols, including [WordPress SAML SSO](https://plugins.miniorange.com/wordpress-single-sign-on-sso), [WordPress OAuth SSO](https://plugins.miniorange.com/wordpress-sso), JWT, and OpenID Connect, and allows for seamless integration with various applications. Additionally, miniOrange’s SSO solution provides enhanced security features, such as multi-factor authentication and adaptive risk-based authentication, to ensure secure access to applications. Overall, miniOrange’s solution can help organizations implement SSO in a hassle-free manner while ensuring the highest level of security.
 
 ### Further Reading {#further-reading}
 

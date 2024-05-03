@@ -86,6 +86,9 @@ The most prevalent use case for OAuth in the corporate world is in combination w
  
 When we compare SAML vs OAuth, both are mutually beneficial. By using SAML to offer **access to an application** while utilizing OAuth to grant **access to a protected resource**, you may utilize both protocols at the same time. With either protocol or a mix of the two, you may use an identity provider or single sign-on (SSO) service accordingly.
 
+Empower your WordPress site with the ultimate authentication solution – our feature-rich Single Sign-On platform featuring support for 
+[WordPress OAuth SSO](https://plugins.miniorange.com/wordpress-sso) & [WordPress SAML SSO](https://plugins.miniorange.com/wordpress-single-sign-on-sso) designed for seamless authentication, authorization and granular access control.
+
 ### FAQ {#faq} 
 
 **Is SAML based on OAuth?**

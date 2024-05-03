@@ -32,6 +32,8 @@ Single sign-on authentication (SSO authentication) has revolutionized the digita
 
 Whether you run websites, develop apps, or run a business, user authentication is essential for both logistical and security reasons. We at miniOrange, understand the limitations of passwords and have come up with an ultra-secure  SSO authentication that can streamline user access, bolster security, and offer a better digital experience.
 
+The user logs in by providing their credentials linked to the Identity Provider, utilizing protocols like [WordPress SAML](https://plugins.miniorange.com/wordpress-single-sign-on-sso) & [WordPress OAuth](https://plugins.miniorange.com/wordpress-sso). After successful authentication by the IDP, a Single Sign-On response is transmitted to the Service Provider. This allows users to access multiple systems or applications using a single set of login credentials, streamlining authentication across various platforms.
+
 
 ### What is the Single Sign-On (SSO) authentication method? {# What is the Single Sign-On (SSO) authentication method?}
 
@@ -118,8 +120,4 @@ In summary, SSO is the overarching concept of using a single login across multip
 SSO authentication stands for Single Sign-On authentication, which is a method that allows users to log in once with a single set of credentials to access multiple applications or services.  
 
 **3. What is the difference between single sign-on and MFA?**  
-The difference between single sign-on (SSO) and multi-factor authentication (MFA) is that SSO is a method where users can access multiple applications with a single set of login credentials, while MFA is an additional security layer that requires users to provide multiple forms of authentication, such as a password and a verification code.  
-
-
-
-
+The difference between single sign-on (SSO) and multi-factor authentication (MFA) is that SSO is a method where users can access multiple applications with a single set of login credentials, while MFA is an additional security layer that requires users to provide multiple forms of authentication, such as a password and a verification code.
