@@ -1,7 +1,7 @@
 ---
 id: '28e472d1-3c3c-4a39-a933-e3fea7c27853'
 title: 'Securing Your Jenkins Pipeline with miniOrange Two-Factor Authentication (2FA)'
-description: 'Two-Factor Authentication for Jenkins Plugin adds a layer of security to Jenkins authentication by requiring users to provide a second factor of authentication along with their username and password. It enhances the overall security of your Jenkins environment. Additionally, this plugin does not require you to extend the security realm, making it easier to implement and use.'
+description: 'Two Factor Authentication for Jenkins Plugin adds a layer of security to Jenkins authentication by requiring users to provide a second factor of authentication along with their username and password. It enhances the overall security of your Jenkins environment. Additionally, this plugin does not require you to extend the security realm, making it easier to implement and use.'
 metaTitle: 'Securing Your Jenkins Pipeline with miniOrange Two-Factor Authentication (2FA)'
 metaDescription: 'The additional layer of 2FA requires a one-time passcode (OTP) sent via email/mobile, mobile authenticator, or Duo Push.'
 keywords: ''
