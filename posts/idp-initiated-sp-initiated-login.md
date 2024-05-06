@@ -105,7 +105,7 @@ On the other hand, IDP-initiated SSO provides greater control and visibility ove
 
 ### miniOrange offerings {#miniorange-offerings}
 
-miniOrange provides a comprehensive SSO solution that simplifies the implementation of both SP-initiated and IDP-initiated SSO. Their solution offers a variety of authentication protocols, including [WordPress SAML SSO](https://plugins.miniorange.com/wordpress-single-sign-on-sso), [WordPress OAuth SSO](https://plugins.miniorange.com/wordpress-sso), JWT, and OpenID Connect, and allows for seamless integration with various applications. Additionally, miniOrange’s SSO solution provides enhanced security features, such as multi-factor authentication and adaptive risk-based authentication, to ensure secure access to applications. Overall, miniOrange’s solution can help organizations implement SSO in a hassle-free manner while ensuring the highest level of security.
+miniOrange provides a comprehensive SSO solution that simplifies the implementation of both SP-initiated and IDP-initiated SSO. We offer a variety of authentication methods, like [WordPress SAML SSO](https://plugins.miniorange.com/wordpress-single-sign-on-sso) and [WordPress OAuth SSO](https://plugins.miniorange.com/wordpress-sso), that allows seamless integration with various applications.Additionally, miniOrange’s SSO solution provides enhanced security features, such as multi-factor authentication and adaptive risk-based authentication, to ensure secure access to applications. Overall, miniOrange’s solution can help organizations implement SSO in a hassle-free manner while ensuring the highest level of security.
 
 ### Further Reading {#further-reading}
 
