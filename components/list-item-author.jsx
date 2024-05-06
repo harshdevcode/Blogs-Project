@@ -7,6 +7,7 @@ const Author = ({ name }) => {
         <div className='flex items-center gap-5 px-10 py-5 mb-5'>
             <Image
                 src='/blog/avatar-placeholder.png'
+                // src='/avatar-placeholder.png'
                 width='50'
                 height='50'
                 alt=''
