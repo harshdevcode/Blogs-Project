@@ -70,7 +70,7 @@ Reverse Proxy is the best practice that allows you to set access control over ap
 
 This way you can easily secure your Google Business and Google education apps to provide the most effective security and productive environment for your group.
 
-So what are you waiting for? Drop us a query at [proxysupport@xecurify.com](proxysupport@xecurify.com) and we will get right back to you to address all your needs.
+So what are you waiting for? Drop us a query at [proxysupport@xecurify.com](mailto:proxysupport@xecurify.com) and we will get right back to you to address all your needs.
 
 ### Reference links  {#reference-links}
 

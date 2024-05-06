@@ -100,7 +100,7 @@ Suppose a client wants to access a site, first an OAuth request will be sent fro
 
 WordPress file permissions can be configured to secure and prevent unauthorized access by setting role based access control (RBAC) for each user with the help of a reverse proxy server. Based on the roles users’ play in an organization, exclusive access to data and information is granted and secured by properly monitoring the requests sent.
 
-So what are you waiting for? Drop us a query at [info@xecurify.com](info@xecurify.com) and we will get right back to you to address all your needs.
+So what are you waiting for? Drop us a query at [info@xecurify.com](mailto:info@xecurify.com) and we will get right back to you to address all your needs.
 
 ### Reference links  {#reference-links}
 

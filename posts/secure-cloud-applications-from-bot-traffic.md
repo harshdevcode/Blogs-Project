@@ -74,7 +74,7 @@ The network’s incoming and outgoing traffic is monitored by the traffic monito
 
 Reverse proxy becomes one of the mandates for organizational infrastructure, given the need and efficacy necessary for security within organizations. It can be useful for Cloud workload protection to block bot traffic or stop bot traffic, removing irrelevant or unnecessary incoming traffic and safeguarding against cyber-attack vulnerabilities. Aside from protecting against bot traffic attacks, reverse proxy is extremely scalable, adaptable, and efficient and also provides other features like load balancing, rate limiting, URL rewriting, and many more. So, if you’re looking to establish a Reverse proxy for your company, miniOrange fits the bill with world-class service and reasonable pricing.
 
-So what are you waiting for? Drop us a query at [info@xecurify.com](info@xecurify.com) and we will get right back to you to address all your needs.
+So what are you waiting for? Drop us a query at [info@xecurify.com](mailto:info@xecurify.com) and we will get right back to you to address all your needs.
 
 ### Reference links  {#reference-links}
 

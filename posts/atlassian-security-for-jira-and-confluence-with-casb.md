@@ -149,7 +149,7 @@ In this blog, we saw how miniOrange CASB provides all-round security for the Atl
 
 So if you are on the market looking for a CASB solution (Cloud Access Security Broker) for Atlassian Suite security with complete access control permissions, miniOrange is the best solution to help you select the best features your company requires to mitigate risks. miniOrange provides the best global support on the market at the most cost-effective pricing to accommodate all your security needs.
 
-So what are you waiting for? Shoot us a query at [info@xecurify.com](info@xecurify.com) and we will get right back to you!
+So what are you waiting for? Shoot us a query at [info@xecurify.com](mailto:info@xecurify.com) and we will get right back to you!
 
 ### Additional Resources
 

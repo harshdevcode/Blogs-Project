@@ -94,4 +94,4 @@ With miniOrange SSO functionality, end users are redirected to Yourmembership lo
 
 [YourMembership’s Single Sign-On (SSO)](https://wordpress.org/plugins/login-with-yourmembership/) provides a seamless Web experience across YourMembership and other third-party systems. It allows users to log on to your Web site once and gain secure, ready access to all related Websites.
 
-Contact us at [samlsupport@xecurify.com](samlsupport@xecurify.com) and we’ll help you set up SSO with YourMembership in no time.
+Contact us at [samlsupport@xecurify.com](mailto:samlsupport@xecurify.com) and we’ll help you set up SSO with YourMembership in no time.

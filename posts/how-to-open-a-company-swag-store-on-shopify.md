@@ -109,7 +109,7 @@ miniOrange is one of the leading providers of Shopify security solutions that am
 Shopify Swag Store acts as a fantastic way for businesses to sell branded merchandise. Yet, even with its convenience and accessibility, security remains a top priority. To ensure a safe shopping experience, it’s crucial to implement strong security features like Single Sign-On (SSO), content restrictions, firewalls with IP limitations, secure gift card systems, OTP login, and handling order notifications cautiously on swag stores. By prioritizing these security measures, online swag store owners can protect customer data, prevent unauthorized access, build trust among customers, and elevate their brand's reputation.
 
 
-Contact us at [shopifysupport@xecurify.com](shopifysupport@xecurify.com) and secure your Shopify swag store today!   
+Contact us at [shopifysupport@xecurify.com](mailto:shopifysupport@xecurify.com) and secure your Shopify swag store today!   
 
 
 
