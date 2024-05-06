@@ -15,7 +15,7 @@ ogTitle: ''
 ogDescription: ''
 ogImage:
     url: ''
-category: ['isolution']
+category: ['solution']
 tags:
     [
         'initial coin offering',
