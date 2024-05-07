@@ -43,7 +43,8 @@ const Blog = ({ payload }) => {
             mainButtonText,
             mainButtonLink,
             thumbnail,
-            author
+            author,
+            profilePic
         },
         tocs,
         comments,
@@ -204,7 +205,7 @@ const Blog = ({ payload }) => {
                                 [ lg:order-2 ]
                             `}
                         ></main>
-                        <ListItemAuthor name={author}/>
+                        <ListItemAuthor name={author} profilePic={profilePic} />
                     </div>
 
                     {/* Tags Section */}
@@ -290,7 +291,8 @@ export async function getStaticProps({ params }) {
         'mainButtonLink',
         'tags',
         'thumbnail',
-        'author'
+        'author',
+        'profilePic'
     ]);
 
     const html = await markdownToHTML(post.content || '');
