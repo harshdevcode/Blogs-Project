@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import styles from 'styles/blog-details.module.css';
 import Head from 'next/head';
 import CommentBox from 'components/comment-box';
@@ -19,6 +20,7 @@ import Comment from 'database/models/Comment';
 import User from 'database/models/User';
 import ListItemAuthor from "components/list-item-author";
 import SocialShare from 'components/social-share';
+import ProgressBar from 'components/progress-bar';
 const INITIAL_COMMENT_TEXT = {
     content: '',
     email: '',
@@ -133,8 +135,11 @@ const Blog = ({ payload }) => {
         };
     }, [onScroll]);
 
+    const contentRef = useRef(null);
+    
     return (
         <>
+            <ProgressBar contentRef={contentRef} />
             <Head>
                 {/* SEO Meta Tags */}
                 <title>{title}</title>
@@ -196,7 +201,7 @@ const Blog = ({ payload }) => {
                     </aside>
 
                     {/* Blog Content */}
-                    <div className='w-full [ lg:w-8/12 ]'>
+                    <div ref={contentRef} className='w-full [ lg:w-8/12 ]'>
                         <main
                             id='markdown-container'
                             dangerouslySetInnerHTML={{ __html: html }}
