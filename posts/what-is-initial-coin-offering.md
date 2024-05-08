@@ -153,11 +153,3 @@ For beginners interested in initial coin offerings, staying informed about both 
 &nbsp;
 
 To know more about ICOs and related solutions, contact us at: [info@xecurify.com ](mailto:info@xecurify.com)
-
-### Reference link:
-- [https://www.techopedia.com/definition/33148/initial-coin-offering-ico](https://www.techopedia.com/definition/33148/initial-coin-offering-ico)
-- [https://corporatefinanceinstitute.com/resources/cryptocurrency/initial-coin-offering-ico/](https://corporatefinanceinstitute.com/resources/cryptocurrency/initial-coin-offering-ico/)
-- [https://www.solulab.com/initial-coin-offering-ico-everything-you-need-to-know/#:~:text=It%20serves%20as%20the%20measure,%2C%20and%20Ox%20(ZRX)](https://www.solulab.com/initial-coin-offering-ico-everything-you-need-to-know/#:~:text=It%20serves%20as%20the%20measure,%2C%20and%20Ox%20(ZRX)).
-- [https://techpoint.africa/2024/04/12/dogeverses-1-million-ico-success-signals-growing-interest-in-multichain-meme-coins/](https://techpoint.africa/2024/04/12/dogeverses-1-million-ico-success-signals-growing-interest-in-multichain-meme-coins/)
-- [https://en.cryptonomist.ch/2024/04/14/the-initial-coin-offering-in-the-crypto-world/](https://en.cryptonomist.ch/2024/04/14/the-initial-coin-offering-in-the-crypto-world/)
-
