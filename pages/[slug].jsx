@@ -18,6 +18,8 @@ import Link from 'next/link';
 import Comment from 'database/models/Comment';
 import User from 'database/models/User';
 import ListItemAuthor from "components/list-item-author";
+import PostItem from 'components/post-item';
+import Headline from 'components/heading';
 
 const INITIAL_COMMENT_TEXT = {
     content: '',
@@ -43,6 +45,7 @@ const Blog = ({ payload }) => {
             mainButtonText,
             mainButtonLink,
             thumbnail,
+            updatedOn,
         },
         tocs,
         comments,
@@ -129,7 +132,20 @@ const Blog = ({ payload }) => {
         return () => {
             window.removeEventListener('scroll', onScroll(headings));
         };
-    }, [onScroll]);
+    }, []);
+
+    function convertDateFormat(updatedOn) {
+        var originalDate = new Date(updatedOn);
+        var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+        var month = monthNames[originalDate.getMonth()];
+        var day = originalDate.getDate();
+        var year = originalDate.getFullYear();
+
+        var formattedDate = month + " " + day + ", " + year;
+
+        return formattedDate;
+    }
 
     return (
         <>
@@ -147,7 +163,7 @@ const Blog = ({ payload }) => {
             </Head>
             <section className={styles.container}>
                 {/* Hero Section */}
-                <div id='main' className={`${styles.hero_section} scroll-mt-52`}>
+                <div id='main' className={`${styles.hero_section} scroll-mt-52 relative`} >
                     <div className='flex-1'>
                         <h1 id='main' className='mt-md lg:mt-0 display'>
                             {title}
@@ -166,6 +182,8 @@ const Blog = ({ payload }) => {
                             fill
                         />
                     </picture>
+
+                    <p className='caption sm:absolute bottom-0 left-0 mb-4 ml-2 sm:mb-2 sm:ml-5 lg:mb-4 lg:ml-28'>{convertDateFormat(updatedOn)}</p>
                 </div>
                 <article className='flex flex-col justify-center lg:flex-row border-b'>
                     {/* Side Nav Links */}
@@ -290,6 +308,7 @@ export async function getStaticProps({ params }) {
         'mainButtonLink',
         'tags',
         'thumbnail',
+        'updatedOn',
     ]);
 
     const html = await markdownToHTML(post.content || '');
