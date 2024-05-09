@@ -66,7 +66,7 @@ Without a reverse proxy server, your images can be accessed from any unauthorize
 
 In this blog, we have answered the question of “How to protect your images from being downloaded?”. With a reverse proxy server, you can protect images from downloading by unauthorized access and protect from image copying. This solution of reverse proxy server, can be implemented for varying use cases for images of types and formats. You can modify user roles and access controls for specific data (like images) and avoid any image piracy.
 
-So what are you waiting for? Drop us a query at [info@xecurify.com](info@xecurify.com) and we will get right back to you to address all your needs.
+So what are you waiting for? Drop us a query at [info@xecurify.com](mailto:info@xecurify.com) and we will get right back to you to address all your needs.
 
 ### Reference links  {#reference-links}
 

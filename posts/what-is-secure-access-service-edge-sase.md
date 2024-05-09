@@ -1,5 +1,5 @@
 ---
-id: 'aa4d47b9-405c-49e4-a234-03a4b742ed22'
+id: '03e8a5ca-b1b4-4959-b5c8-2096249a5209'
 title: 'What is Secure Access Service Edge (SASE)?'
 description: "Secure Access Service Edge (SASE) is a game-changer for businesses that struggle to keep pace with adopting both remote and cloud technologies. It offers a modern approach to network security."
 metaTitle: 'What is Secure Access Service Edge (SASE)?'

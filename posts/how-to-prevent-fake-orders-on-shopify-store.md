@@ -98,7 +98,7 @@ Integrating OTP solutions into your Shopify store is vital for strengthening sec
 
 **Remember, a secure store is a thriving store. Choose miniOrange and unlock full potential of your Shopify store!**
 
-Contact us at [shopifysupport@xecurify.com](shopifysupport@xecurify.com) and secure your Shopify swag store today!   
+Contact us at [shopifysupport@xecurify.com](mailto:shopifysupport@xecurify.com) and secure your Shopify swag store today!   
 
 
 

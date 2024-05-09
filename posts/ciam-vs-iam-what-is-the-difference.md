@@ -68,7 +68,7 @@ Understanding the differences between IAM vs CIAM is crucial for navigating toda
 
 ### Conclusion {#conclusion}
 
-While there are many differences between IAM and CIAM we have tried to cover all the major points which to some extent may impact your choice. Despite the vast differences, there are still common core benefits like secure system access, and robust user authentication mechanisms, such as [Multi-Factor Authentication (MFA)](https://www.miniorange.com/products/multi-factor-authentication-mfa) and [Single Sign-On (SSO)](https://www.miniorange.com/products/single-sign-on-sso.), to enhance user identity verification and streamline access to various services.
+While there are many differences between IAM and CIAM we have tried to cover all the major points which to some extent may impact your choice. Despite the vast differences, there are still common core benefits like secure system access, and robust user authentication mechanisms, such as [Multi-Factor Authentication (MFA)](https://www.miniorange.com/products/multi-factor-authentication-mfa) and [Single Sign-On (SSO)](https://www.miniorange.com/products/single-sign-on-sso), to enhance user identity verification and streamline access to various services.
 
 There are two different identity services that miniOrange offers
 1. IAM (Identity and Access Management) that supports organizational workforces.

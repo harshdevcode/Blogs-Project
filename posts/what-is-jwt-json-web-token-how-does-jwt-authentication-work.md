@@ -119,7 +119,7 @@ That’s it!! You can choose to either manage users in miniOrange or choose an e
 - [Thinkific SSO](https://www.miniorange.com/thinkific-jwt-single-signon(sso)-solution?utm_source=miniorange+Blog&utm_medium=Blog&utm_campaign=JWT+blog&utm_id=JWT+Blog-sso)
 - [Webflow SSO](https://www.miniorange.com/webflow-single-sign-on-sso?utm_source=miniorange+Blog&utm_medium=Blog&utm_campaign=JWT+blog&utm_id=JWT+Blog-sso)
 - [Squarespace SSO](https://www.miniorange.com/squarespace-single-sign-on-sso?utm_source=miniorange+Blog&utm_medium=Blog&utm_campaign=JWT+blog&utm_id=JWT+Blog-sso)
-- [BigCommerce SSO](https://www.miniorange.com/bigcommerce_single_signOn_solution?utm_source=miniorange+Blog&utm_medium=Blog&utm_campaign=JWT+blog&utm_id=JWT+Blog-sso)  
+- [BigCommerce SSO](https://www.miniorange.com/bigcommerce-single-sign-on-sso?utm_source=miniorange+Blog&utm_medium=Blog&utm_campaign=JWT+blog&utm_id=JWT+Blog-sso)  
 
 &nbsp;  
 

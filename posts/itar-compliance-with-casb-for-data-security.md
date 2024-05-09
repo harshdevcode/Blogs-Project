@@ -80,7 +80,7 @@ CASBs come with a lot of features and benefits once deployed. Here are the top a
 
 In this blog, we saw how the miniOrange CASB helps turn your business ITAR Compliant with the necessary security regulations, provide complete data protection, actively monitors for potential threat vectors and provides deep visibility into user actions with all the popular cloud services for Atlassian Cloud ITAR, AWS ITAR, GCP ITAR, and Azure ITAR Compliance. So if you are on the market looking to turn your business ITAR Compliant for cloud services and cloud storage, miniOrange CASB is the go to solution to meet all your security needs. Our competitive pricing and globally recognized support team is what keep us ahead of our competition to provide you with the best cloud security experience.
 
-So what are you waiting for? Drop us a query at [info@xecurify.com](info@xecurify.com) and we will get right back to you to address all your CASB needs.
+So what are you waiting for? Drop us a query at [info@xecurify.com](mailto:info@xecurify.com) and we will get right back to you to address all your CASB needs.
 
 ### Reference links  {#reference-links}
 

@@ -90,7 +90,7 @@ In this blog, we saw how you can secure all your Salesforce cloud apps and their
 
 So if you are on the market looking to secure your Salesforce Cloud data, miniOrange CASB is the best solution available on the market. With our incredible products, globally recognized support team, and the most pocket-friendly pricing on the market, miniOrange is the go-to solution provider for all things CASB cloud security.
 
-So what are you waiting for? Shoot us a query at [info@xecurify.com](info@xecurify.com) and we will get right back to you!
+So what are you waiting for? Shoot us a query at [info@xecurify.com](mailto:info@xecurify.com) and we will get right back to you!
 
 **Additional Resources**
 

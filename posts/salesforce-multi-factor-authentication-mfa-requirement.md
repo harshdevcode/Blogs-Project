@@ -70,5 +70,5 @@ The step taken by Salesforce towards making the CRM secure for its users is exte
 
 ### Further Reading {#further-reading}
 
--   [Setup Salesforce Two Factor Authentication (2FA/MFA)](https://www.miniorange.com/salesforce-two-factor-authentication-2fa)
+-   [Setup Salesforce Two Factor Authentication (2FA/MFA)](https://www.miniorange.com/salesforce-2fa-mfa-two-factor-authentication-setup)
 -   [Configure Salesforce Single Sign-On (SSO)](<https://www.miniorange.com/salesforce-single-sign-on-(sso)>)

@@ -75,7 +75,7 @@ Without a reverse proxy, your PDFs can be copied or the PDFs can be downloaded f
 
 With a reverse proxy, we have solved the problem of protecting PDFs online and now you can prevent PDF copying online, without using PDF password protection, from unauthorized users. We can even set custom role-based access control (or RBAC) on our files with the help of a reverse proxy so that we can allow select users to download PDFs.
 
-So what are you waiting for? Drop us a query at [info@xecurify.com](info@xecurify.com) and we will get right back to you to address all your needs.
+So what are you waiting for? Drop us a query at [info@xecurify.com](mailto:info@xecurify.com) and we will get right back to you to address all your needs.
 
 ### Reference links  {#reference-links}
 

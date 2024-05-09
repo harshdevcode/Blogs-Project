@@ -66,4 +66,4 @@ Also, with this flow, end-users will experience a seamless login and won’t not
 3. Users will be able to access all the connected applications using their IAM credentials.
 4. This method makes it simple to add an extra security layer, such as MFA, on top of the SSO, which was not available while utilizing Crowd for SSO.
 
-What do you think of this solution? Do you think this would be helpful in centralizing authentication for your users? Drop us a mail at [info@xecurify.com](info@xecurify.com) or [raise a ticket here](https://miniorange.atlassian.net/servicedesk/customer/portal/2) to talk to us.
+What do you think of this solution? Do you think this would be helpful in centralizing authentication for your users? Drop us a mail at [info@xecurify.com](mailto:info@xecurify.com) or [raise a ticket here](https://miniorange.atlassian.net/servicedesk/customer/portal/2) to talk to us.

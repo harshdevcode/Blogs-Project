@@ -77,7 +77,7 @@ In this blog, we saw how a CASB cloud security solution and DLP solution work to
 
 So if you are on the market looking for a cloud data security solution with a CASB and DLP, miniOrange is the top solution to help you stay ahead of the growing data threats, boosting team productivity, all available at the most cost-effective pricing.
 
-So what are you waiting for? Shoot us a query at [info@xecurify.com](info@xecurify.com) and we will get right back to you.
+So what are you waiting for? Shoot us a query at [info@xecurify.com](mailto:info@xecurify.com) and we will get right back to you.
 
 ### Reference links  {#reference-links}
 

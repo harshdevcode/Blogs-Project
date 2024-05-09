@@ -87,7 +87,7 @@ miniOrange provides you with the OAuth Single Sign-On (SSO) plugin which would e
 
 You can simply download our plugin in WordPress, after activation of our plugin you can follow Our Step-By-Step Guide to Configure Single Sign-On (SSO) in WordPress using Azure AD as an OAuth Provider. Our plugin will enable you to add a Single Sign-On (SSO) Login Links/widgets / Button, which redirects you to the Azure AD login page, where you can simply sign in with your Azure AD login credentials.
 
-Contact us at [oauthsupport@xecurify.com](oauthsupport@xecurify.com) and we’ll help you set up SSO with Azure AD in no time.
+Contact us at [oauthsupport@xecurify.com](mailto:oauthsupport@xecurify.com) and we’ll help you set up SSO with Azure AD in no time.
 
 ### Further Reading {#Further Reading}
 
