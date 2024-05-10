@@ -27,6 +27,7 @@ tags:
         'SSO'
         
     ]
+author: 'xyz'
 ---
 
 ## Seamless SSO and Identity Management {#seamless-sso-and-identity-management}
