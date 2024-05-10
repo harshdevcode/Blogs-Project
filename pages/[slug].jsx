@@ -190,7 +190,7 @@ const Blog = ({ payload }) => {
                                     key={headline.id}
                                     href={`#${headline.id}`}
                                     className={`title ${styles.side_nav_link} ${activeSection === headline.id
-                                        ? 'font-semibold bg-accent/10 text-accent'
+                                        ? 'bg-accent/10 text-accent'
                                         : ''
                                         }`}
                                 >
