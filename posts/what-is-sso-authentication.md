@@ -32,9 +32,6 @@ Single sign-on authentication (SSO authentication) has revolutionized the digita
 
 Whether you run websites, develop apps, or run a business, user authentication is essential for both logistical and security reasons. We at miniOrange, understand the limitations of passwords and have come up with an ultra-secure  SSO authentication that can streamline user access, bolster security, and offer a better digital experience.
 
-The user logs in by providing their credentials linked to the Identity Provider, utilizing protocols like [SAML](https://plugins.miniorange.com/wordpress-single-sign-on-sso) & [OAuth](https://plugins.miniorange.com/wordpress-sso). After successful authentication by the IDP, a Single Sign-On response is transmitted to the Service Provider. This allows users to access multiple systems or applications using a single set of login credentials, streamlining authentication across various platforms.
-
-
 ### What is the Single Sign-On (SSO) authentication method? {# What is the Single Sign-On (SSO) authentication method?}
 
 SSO authentication revolutionizes the login experience by allowing users to access multiple applications, services, and accounts with a single login. A notable example is Salesforce's suite of applications, where logging into one grants access to all. This eliminates the hassle of repeatedly entering passwords when switching between applications like Salesforce Sales Cloud and Salesforce Service Cloud.  
@@ -104,8 +101,7 @@ Smartcard SSO authentication uses smartcards as secure authentication token. Eac
 
 In the rapidly evolving technology landscape, prioritizing security is essential to differentiate yourself from competitors and deliver a seamless experience to end-users.
 
-Compromising security exposes your company to various risks, including phishing attacks and data breaches. To mitigate such risks, it's crucial to select an authentication system that aligns with your budget and ensures a seamless user experience.
-As a trusted provider of Identity and Access Management (IAM) solutions, miniOrange can help you identify the most dependable authentication solution for your organizational needs. If you have any inquiries regarding the SSO authentication process, feel free to reach out to us at idpsupport@xecurify.com.
+Compromising security exposes your company to various risks, including phishing attacks and data breaches. To mitigate such risks, it's crucial to select an authentication system that aligns with your budget and ensures a seamless user experience. As a trusted provider of Identity and Access Management (IAM) solutions, miniOrange can help you identify the most dependable authentication solution for your organizational needs. We also provide solutions for WordPress to perform [WordPress SAML SSO](https://plugins.miniorange.com/wordpress-single-sign-on-sso) or [OAuth SSO](https://plugins.miniorange.com/wordpress-sso) using SAML and OAuth protocols. If you have any inquiries regarding the SSO authentication process, feel free to reach out to us at idpsupport@xecurify.com.
 
 ### FAQs {# FAQs}  
 
