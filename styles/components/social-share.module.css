@@ -20,8 +20,8 @@
 }
 
 .clicked {
-  transform: scale(0.96); 
-  transition: transform 0.3s ease; 
+  transform: scale(0.98); 
+  transition: transform 0.1s linear; 
 }
 
 .icons:hover{
