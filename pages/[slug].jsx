@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import styles from 'styles/blog-details.module.css';
 import Head from 'next/head';
 import CommentBox from 'components/comment-box';
@@ -22,6 +23,7 @@ import PostItem from 'components/post-item';
 import Headline from 'components/heading';
 
 import SocialShare from 'components/social-share';
+import ProgressBar from 'components/progress-bar';
 const INITIAL_COMMENT_TEXT = {
     content: '',
     email: '',
@@ -47,7 +49,8 @@ const Blog = ({ payload }) => {
             mainButtonLink,
             thumbnail,
             updatedOn,
-            author
+            author,
+            profilePic
         },
         tocs,
         comments,
@@ -149,8 +152,11 @@ const Blog = ({ payload }) => {
         return formattedDate;
     }
 
+    const contentRef = useRef(null);
+
     return (
         <>
+            <ProgressBar contentRef={contentRef} />
             <Head>
                 {/* SEO Meta Tags */}
                 <title>{title}</title>
@@ -203,7 +209,7 @@ const Blog = ({ payload }) => {
                                     key={headline.id}
                                     href={`#${headline.id}`}
                                     className={`title ${styles.side_nav_link} ${activeSection === headline.id
-                                        ? 'font-semibold bg-accent/10 text-accent'
+                                        ? 'bg-accent/10 text-accent'
                                         : ''
                                         }`}
                                 >
@@ -214,7 +220,7 @@ const Blog = ({ payload }) => {
                     </aside>
 
                     {/* Blog Content */}
-                    <div className='w-full [ lg:w-8/12 ]'>
+                    <div ref={contentRef} className='w-full [ lg:w-8/12 ]'>
                         <main
                             id='markdown-container'
                             dangerouslySetInnerHTML={{ __html: html }}
@@ -223,7 +229,7 @@ const Blog = ({ payload }) => {
                                 [ lg:order-2 ]
                             `}
                         ></main>
-                        <ListItemAuthor name={author}/>
+                        <ListItemAuthor name={author} profilePic={profilePic} />
                     </div>
 
                     {/* Tags Section */}
@@ -310,7 +316,8 @@ export async function getStaticProps({ params }) {
         'tags',
         'thumbnail',
         'updatedOn',
-        'author'
+        'author',
+        'profilePic'
     ]);
 
     const html = await markdownToHTML(post.content || '');
