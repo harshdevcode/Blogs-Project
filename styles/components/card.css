@@ -2,3 +2,10 @@
     @apply bg-white border border-inactive rounded-smooth 
 	hover:shadow-md hover:shadow-slate-200;
 }
+
+.blogBannerTitle{
+    font-size: 1.25rem !important;
+}
+.blogBannerDesc{
+    font-size: 0.85rem !important;
+}

@@ -10,9 +10,11 @@
 .markdown ul,
 .markdown ol,
 .markdown blockquote {
-    @apply leading-[2.295];
+    @apply leading-[2.2];
 }
-
+.markdown p{
+    @apply mb-[-1px]
+}
 .markdown h1,
 .markdown h2,
 .markdown h3 {

@@ -59,6 +59,7 @@ export default function Home({ payload }) {
                         key={data.main_blog.slug}
                         className="w-full md:w-8/12"
                         thumbnailLoading="eager"
+                        blogBannerTitle={true}
                     />
                     <div className="md:w-4/12 relative md:overflow-y-scroll w-full flex flex-col gap-md self-stretch h-full md:absolute right-0 bottom-0 top-0 pl-5">
                         {data.featured.map((post) => (
@@ -68,7 +69,7 @@ export default function Home({ payload }) {
                 </div>
 
                 {/* Latest Posts */}
-                <Headline text="Latest Posts" />
+                <Headline text="Featured Blogs" />
                 {data.latest.length !== 0 && (
                     <div className="latest-posts-grid">
                         {data.latest.map((post, index) => (

@@ -14,6 +14,7 @@ export default function PostItem({
     className,
     category,
     index,
+    blogBannerTitle
 }) {
     return (
         <Link
@@ -34,10 +35,10 @@ export default function PostItem({
             </div>
 
             <div className="p-8">
-                <Title weight="semibold" className="line-clamp-2">
+                <Title weight="semibold" className={`line-clamp-2 ${blogBannerTitle && 'blogBannerTitle'}`}>
                     {title}
                 </Title>
-                <Subtitle className={`mt-xs caption truncate`}>{description}</Subtitle>
+                <Subtitle className={`mt-xs caption truncate ${blogBannerTitle && 'blogBannerDesc'}`}>{description}</Subtitle>
                 <div className="flex items-center gap-2.5 mt-5">
                     <Icon name="Clock" color="grey" size={18} />
                     <Subtitle className="grow">{new Date(createdOn).toDateString()}</Subtitle>
