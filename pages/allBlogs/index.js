@@ -18,18 +18,29 @@ export default function AllPosts({ posts }) {
     const sortedPosts = posts.sort((a, b) => {
         if (sortingCriteria === 'latest') {
             return new Date(b.createdOn) - new Date(a.createdOn); // Sort by latest first
-        } 
-        // else if (sortingCriteria === 'category') {
-        //     return a.category.localeCompare(b.category); // Sort by category
-        // }
+        } else if (sortingCriteria === 'category') {
+            // If category is an array, compare the first element of each array
+            const categoryA = Array.isArray(a.category) ? a.category[0] : a.category;
+            const categoryB = Array.isArray(b.category) ? b.category[0] : b.category;
+            return categoryA.localeCompare(categoryB); // Sort by category
+        }
     });
 
     return (
         <div className={styles.homepage_container}>
-            {/* <button onClick={() => handleSortingCriteriaChange('latest')}>Sort by Latest</button>
-            <button onClick={() => handleSortingCriteriaChange('category')}>Sort by Category</button> */}
-
             <Headline text="All Posts" />
+            <button
+                onClick={() => handleSortingCriteriaChange('latest')}
+                className={`py-xs px-rg mr-2 bg-white border rounded-full  ${sortingCriteria === 'latest'? 'border-accent' : 'border-accent-100' } duration-150 hover:shadow-md`}
+            >
+                Sort by Date
+            </button>
+            <button
+                onClick={() => handleSortingCriteriaChange('category')}
+                className={`py-xs px-rg  bg-white border rounded-full  ${sortingCriteria === 'category'? 'border-accent' : 'border-accent-600'} duration-150 hover:shadow-md`}
+            >
+                Sort by Category
+            </button>
             {sortedPosts.map((post, index) => (
                 <PostList index={index} post={post} />
             ))}
