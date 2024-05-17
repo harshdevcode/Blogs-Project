@@ -1,20 +1,22 @@
 "use-strict"
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { getAllPosts } from '../../helpers/helpers';
 import styles from 'styles/homepage.module.css';
 import Headline from 'components/heading';
 import PostList from 'components/post-list';
+import Button from "components/button";
 
+const POSTS_PER_PAGE = 15;
 
 export default function AllPosts({ posts }) {
-    const [sortingCriteria, setSortingCriteria] = useState('latest'); // Default sorting criteria
+    const [sortingCriteria, setSortingCriteria] = useState('latest');
+    const [currentPage, setCurrentPage] = useState(1);
 
-    // Function to handle sorting criteria change
     const handleSortingCriteriaChange = (criteria) => {
         setSortingCriteria(criteria);
+        setCurrentPage(1);
     };
 
-    // Sort posts based on the selected sorting criteria
     const sortedPosts = posts.sort((a, b) => {
         if (sortingCriteria === 'latest') {
             return new Date(b.createdOn) - new Date(a.createdOn); // Sort by latest first
@@ -25,6 +27,19 @@ export default function AllPosts({ posts }) {
             return categoryA.localeCompare(categoryB); // Sort by category
         }
     });
+
+    const totalPages = Math.ceil(sortedPosts.length / POSTS_PER_PAGE);
+
+    const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
+    const currentPosts = sortedPosts.slice(startIndex, startIndex + POSTS_PER_PAGE);
+
+    const handlePageChange = (page) => {
+        setCurrentPage(page);
+    };
+
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, [currentPage]);
 
     return (
         <div className={styles.homepage_container}>
@@ -41,9 +56,34 @@ export default function AllPosts({ posts }) {
             >
                 Sort by Category
             </button>
-            {sortedPosts.map((post, index) => (
+            {currentPosts.map((post, index) => (
                 <PostList index={index} post={post} />
             ))}
+
+            <div className="flex flex-wrap justify-center items-center w-full gap-1 my-3">
+                <Button
+                    text="Previous"
+                    variant="secondary"
+                    onClick={() => handlePageChange(currentPage - 1)}
+                    disabled={currentPage === 1}
+                />
+                {Array.from({ length: totalPages }, (_, index) => (
+                    <Button
+                        key={index + 1}
+                        text={index + 1}
+                        variant={index + 1 === currentPage ? 'secondary' : ''}
+                        onClick={() => handlePageChange(index + 1)}
+                        disabled={index + 1 === currentPage}
+                    />
+                ))}
+                <Button
+                    text="Next"
+                    variant="secondary"
+                    onClick={() => handlePageChange(currentPage + 1)}
+                    disabled={currentPage === totalPages}
+                />
+            </div>
+
         </div>
     );
 }
