@@ -64,7 +64,6 @@ The following workflow explains the authentication flow between miniOrange and m
 
 - The user is then allowed to access the apps without being prompted to enter separate sign-in credentials.
 
-
 This security mechanism allows applications to trust the sign-in requests it gets from the centralized authentication system. Furthermore, these Mobile apps will only grant access to the users who have been authenticated by you/admin. This has been achieved by using a common standard called JSON Web Token (JWT) for securing the exchange of user authentication data between systems. Great care must be taken in terms of how this token is stored and managed.
 
 ![Mobile Authentication Workflow with JWT](/blog/assets/2023/mobile-authentication-using-jwt.webp)
@@ -73,6 +72,8 @@ This security mechanism allows applications to trust the sign-in requests it get
 
 miniOrange Mobile authentication benefits both businesses and their consumers. It helps in developing and deploying seamless authentication and SSO features for businesses while securing, and enhancing consumer experiences.
 
+You can empower your WordPress site with the ultimate authentication solution – our Single Sign-On plugin featuring support for [WordPress OAuth SSO](https://plugins.miniorange.com/wordpress-sso) & [WordPress SAML SSO](https://plugins.miniorange.com/wordpress-single-sign-on-sso) designed for seamless authentication, authorization and granular access control.
+
 **miniOrange provides SSO solution for Mobile & Desktop Apps that runs natively on Mobile devices-**
 
 - [SSO solution for React-based App](https://www.miniorange.com/iam/integrations/react-single-sign-on-sso)
@@ -80,4 +81,4 @@ miniOrange Mobile authentication benefits both businesses and their consumers. I
 - [SSO solution for Ionic-based App](https://www.miniorange.com/iam/integrations/ionic-single-sign-on-sso)
 - [SSO solution for NodeJS-based App](https://www.miniorange.com/iam/integrations/node-js-single-sign-on-sso)
 
-In order to see a quick demonstration of how Mobile Authentication will work for your organization, please visit 
+In order to see a quick demonstration of how Mobile Authentication will work for your organization, please visit
