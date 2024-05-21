@@ -4,9 +4,9 @@ import { getAllPosts } from '../../helpers/helpers';
 import styles from 'styles/homepage.module.css';
 import Headline from 'components/heading';
 import PostList from 'components/post-list';
-import Button from "components/button";
+import PaginationButtons from 'components/pagination-buttons';
 
-const POSTS_PER_PAGE = 15;
+const postsPerPage = 15;
 
 export default function AllPosts({ posts }) {
     const [sortingCriteria, setSortingCriteria] = useState('latest');
@@ -28,10 +28,10 @@ export default function AllPosts({ posts }) {
         }
     });
 
-    const totalPages = Math.ceil(sortedPosts.length / POSTS_PER_PAGE);
+    const totalPages = Math.ceil(sortedPosts.length / postsPerPage);
 
-    const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
-    const currentPosts = sortedPosts.slice(startIndex, startIndex + POSTS_PER_PAGE);
+    const startIndex = (currentPage - 1) * postsPerPage;
+    const currentPosts = sortedPosts.slice(startIndex, startIndex + postsPerPage);
 
     const handlePageChange = (page) => {
         setCurrentPage(page);
@@ -40,19 +40,19 @@ export default function AllPosts({ posts }) {
     useEffect(() => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }, [currentPage]);
-
+    
     return (
         <div className={styles.homepage_container}>
             <Headline text="All Posts" />
             <button
                 onClick={() => handleSortingCriteriaChange('latest')}
-                className={`py-xs px-rg mr-2 bg-white border rounded-full  ${sortingCriteria === 'latest'? 'border-accent' : 'border-accent-100' } duration-150 hover:shadow-md`}
+                className={`py-xs px-rg mr-2 bg-white border rounded-full  ${sortingCriteria === 'latest' ? 'border-accent' : 'border-accent-100'} duration-150 hover:shadow-md`}
             >
                 Sort by Date
             </button>
             <button
                 onClick={() => handleSortingCriteriaChange('category')}
-                className={`py-xs px-rg  bg-white border rounded-full  ${sortingCriteria === 'category'? 'border-accent' : 'border-accent-600'} duration-150 hover:shadow-md`}
+                className={`py-xs px-rg  bg-white border rounded-full  ${sortingCriteria === 'category' ? 'border-accent' : 'border-accent-600'} duration-150 hover:shadow-md`}
             >
                 Sort by Category
             </button>
@@ -60,29 +60,11 @@ export default function AllPosts({ posts }) {
                 <PostList index={index} post={post} />
             ))}
 
-            <div className="flex flex-wrap justify-center items-center w-full gap-1 my-3">
-                <Button
-                    text="Previous"
-                    variant="secondary"
-                    onClick={() => handlePageChange(currentPage - 1)}
-                    disabled={currentPage === 1}
-                />
-                {Array.from({ length: totalPages }, (_, index) => (
-                    <Button
-                        key={index + 1}
-                        text={index + 1}
-                        variant={index + 1 === currentPage ? 'secondary' : ''}
-                        onClick={() => handlePageChange(index + 1)}
-                        disabled={index + 1 === currentPage}
-                    />
-                ))}
-                <Button
-                    text="Next"
-                    variant="secondary"
-                    onClick={() => handlePageChange(currentPage + 1)}
-                    disabled={currentPage === totalPages}
-                />
-            </div>
+            <PaginationButtons
+                currentPage={currentPage}
+                totalPages={Math.ceil(posts.length / postsPerPage)}
+                onPageChange={setCurrentPage}
+            />
 
         </div>
     );

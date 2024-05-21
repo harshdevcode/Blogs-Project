@@ -5,6 +5,7 @@ export default function SearchResults({ returnedData, activePage, navigationPage
   const targetSubdomain = "/blog";
   const filteredResults = returnedData.data?.items?.filter((result) => result.link.includes(targetSubdomain))
   const remainingResults = returnedData.data?.items?.filter((result) => !filteredResults.includes(result));
+  // const totalPages = Math.ceil(returnedData.data?.total / 10);
 
   return (
     <div className='results-div h-full'>
@@ -45,7 +46,12 @@ export default function SearchResults({ returnedData, activePage, navigationPage
           ))}
         </div>
       }
-      { filteredResults && <PaginationButtons activePage={activePage} navigationPageChange={navigationPageChange}/> }
+      {filteredResults &&
+        <PaginationButtons
+          activePage={activePage}
+          navigationPageChange={navigationPageChange}
+          // totalPages={totalPages}
+        />}
     </div>
   );
 }
