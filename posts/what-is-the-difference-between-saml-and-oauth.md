@@ -17,7 +17,6 @@ category: ['Concepts', 'iam']
 tags: [ 'OAuth 2.0 Authentication', 'SAML Authentication',' SSO']
 ---
 
-
 ### What is SAML? {#what-is-saml}
 
 SAML (Security Assertion Markup Language) is an open standard that enables Identity Providers (IdPs) to send **authorization** credentials to service providers (SP).
@@ -82,7 +81,6 @@ Both in authorization and authentication roles, OAuth 2.0 is extensively utilize
 This protocol is also used to allow you to access one service from another without having to re-enter your login credentials. It is done by allowing you to use your credentials from one service to another.
 
 The most prevalent use case for OAuth in the corporate world is in combination with Identity and Access Management (IAM) solutions. It may be used to authorize users to use an application.
-
  
 When we compare SAML vs OAuth, both are mutually beneficial. By using SAML to offer **access to an application** while utilizing OAuth to grant **access to a protected resource**, you may utilize both protocols at the same time. With either protocol or a mix of the two, you may use an identity provider or single sign-on (SSO) service accordingly.
 
@@ -111,3 +109,5 @@ Single Sign-On is possible with both SAML and OAuth, although their applications
 - [What is OAuth (Open Authorization)?](https://www.miniorange.com/blog/what-is-oauth-2/)
 - [What is an Identity Provider (IDP)?](https://www.miniorange.com/blog/what-is-an-identity-provider-idp/)
 - [Single Sign-On (SSO)?](https://www.miniorange.com/blog/what-is-single-sign-on-sso/)
+- [WordPress SAML Single Sign-On](https://plugins.miniorange.com/wordpress-single-sign-on-sso)
+- [WordPress OAuth Single sign-On](https://plugins.miniorange.com/wordpress-sso)

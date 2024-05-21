@@ -32,7 +32,6 @@ Single sign-on authentication (SSO authentication) has revolutionized the digita
 
 Whether you run websites, develop apps, or run a business, user authentication is essential for both logistical and security reasons. We at miniOrange, understand the limitations of passwords and have come up with an ultra-secure  SSO authentication that can streamline user access, bolster security, and offer a better digital experience.
 
-
 ### What is the Single Sign-On (SSO) authentication method? {# What is the Single Sign-On (SSO) authentication method?}
 
 SSO authentication revolutionizes the login experience by allowing users to access multiple applications, services, and accounts with a single login. A notable example is Salesforce's suite of applications, where logging into one grants access to all. This eliminates the hassle of repeatedly entering passwords when switching between applications like Salesforce Sales Cloud and Salesforce Service Cloud.  
@@ -102,8 +101,7 @@ Smartcard SSO authentication uses smartcards as secure authentication token. Eac
 
 In the rapidly evolving technology landscape, prioritizing security is essential to differentiate yourself from competitors and deliver a seamless experience to end-users.
 
-Compromising security exposes your company to various risks, including phishing attacks and data breaches. To mitigate such risks, it's crucial to select an authentication system that aligns with your budget and ensures a seamless user experience.
-As a trusted provider of Identity and Access Management (IAM) solutions, miniOrange can help you identify the most dependable authentication solution for your organizational needs. If you have any inquiries regarding the SSO authentication process, feel free to reach out to us at idpsupport@xecurify.com.
+Compromising security exposes your company to various risks, including phishing attacks and data breaches. To mitigate such risks, it's crucial to select an authentication system that aligns with your budget and ensures a seamless user experience. As a trusted provider of Identity and Access Management (IAM) solutions, miniOrange can help you identify the most dependable authentication solution for your organizational needs. We also provide solutions for WordPress to perform [WordPress SAML SSO](https://plugins.miniorange.com/wordpress-single-sign-on-sso) or [OAuth SSO](https://plugins.miniorange.com/wordpress-sso) using SAML and OAuth protocols. If you have any inquiries regarding the SSO authentication process, feel free to reach out to us at idpsupport@xecurify.com.
 
 ### FAQs {# FAQs}  
 
@@ -118,8 +116,4 @@ In summary, SSO is the overarching concept of using a single login across multip
 SSO authentication stands for Single Sign-On authentication, which is a method that allows users to log in once with a single set of credentials to access multiple applications or services.  
 
 **3. What is the difference between single sign-on and MFA?**  
-The difference between single sign-on (SSO) and multi-factor authentication (MFA) is that SSO is a method where users can access multiple applications with a single set of login credentials, while MFA is an additional security layer that requires users to provide multiple forms of authentication, such as a password and a verification code.  
-
-
-
-
+The difference between single sign-on (SSO) and multi-factor authentication (MFA) is that SSO is a method where users can access multiple applications with a single set of login credentials, while MFA is an additional security layer that requires users to provide multiple forms of authentication, such as a password and a verification code.
