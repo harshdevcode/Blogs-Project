@@ -9,7 +9,7 @@ import Button from 'components/button';
 export default function Search({ closeSearchDialog }) {
   const [loading, setLoading] = useState(false);
   const [fetchedData, setFetchedData] = useState(false);
-  const [searchTerm, setSearchTerm] = useState(false);
+  const [searchTerm, setSearchTerm] = useState("");
   const [nonemptyResult, setNonemptyResult] = useState(false);
   const [error, setError] = useState(null);
   const [activePage, setActivePage] = useState(1);
@@ -45,10 +45,10 @@ export default function Search({ closeSearchDialog }) {
     setLoading(true);
     setError(null);
     try {
-
-      const response = await fetch('/blog/api/search?term=' + searchTerm + '&start=' + (start - 1) * 10);
+      const startIndex= ((start - 1) * 10)+1
+      const response = await fetch(`/blog/api/search?term=${searchTerm}&start=${startIndex}`);
       const key = await response.json();
-      // console.log('fetched data', key);
+      console.log('fetched data', key);
       if(key.data.searchInformation.totalResults === "0"){
         console.log("inside key.searchInformation.totalResults === 0");
         setNonemptyResult(false);
