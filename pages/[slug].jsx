@@ -371,7 +371,7 @@ export async function getStaticProps({ params }) {
     let comments = [];
 
     // Fetch Comments in Production only
-    if (process.env.NEXT_PUBLIC_NODE_ENV === 'production') {
+    if (process.env.NODE_ENV === 'production') {
         try {
             comments = await Comment.findAll({
                 where: { post_id: post.id, is_approved: true },
