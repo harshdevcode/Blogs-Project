@@ -29,7 +29,7 @@ Single Sign-On (SSO) based authentication systems are commonly used in enterpris
 
 ### How does Single Sign-On (SSO) work? {#how-does-single-sign-on-sso-work}
 
-![Single SIgn on Workflow](/blog/assets/2023/sso-workflow.webp)
+![Single Sign On Workflow](/blog/assets/2023/sso-workflow.webp)
 
 The authentication process using miniOrange Single Sign-On (SSO) takes place as described in the following steps:
 
@@ -114,8 +114,6 @@ Enterprise Single Sign-On products basically store user credentials like usernam
 
 Popular social networking applications like Twitter, Facebook, Google offer SSO services that allow users to log in to third-party applications with their respective social network credentials. This is very convenient for the users since they already have their information in their social media accounts and they are also logged in most of the time. But using social media SSO services also presents security risks since hackers around the world are always targeting user accounts on social networking websites.
 
- 
-
 ### What is an SSO token? {#what-is-an-sso-token}
 
 An **SSO** token is a collection of data or information that is passed from one system to another during the Single Sign On process. The data can simply be a user’s email address and information about which system is sending the token. Tokens must be digitally signed for the token receiver to verify that the token is coming from a trusted source. The certificate that is used for this digital signature is exchanged during the initial configuration process.
@@ -147,7 +145,6 @@ The Central Authentication Service (CAS) is a single sign-on protocol for web ap
 
 - [Single Sign-On (SSO) Solution](https://www.miniorange.com/products/single-sign-on-sso)
 - [Cloud Single Sign-On (SSO) Solution](https://www.miniorange.com/iam/cloud-sso)
-- [WordPress Single Sign On (SSO)](https://plugins.miniorange.com/wordpress-single-sign-on-sso)
 - [Single Sign-On Integration](https://www.miniorange.com/iam/integrations/)
-
-
+- [WordPress SAML Single Sign-On](https://plugins.miniorange.com/wordpress-single-sign-on-sso)
+- [WordPress OAuth Single Sign-On](https://plugins.miniorange.com/wordpress-sso)
