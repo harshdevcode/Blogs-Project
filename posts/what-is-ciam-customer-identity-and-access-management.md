@@ -10,7 +10,7 @@ mainButtonText: 'Free Trial'
 excerpt: 'Customer Identity and Access Management (CIAM) enhances user experience and secures data by managing customer access to applications and services.'
 thumbnail: '/blog/assets/2024/iam-and-ciam.webp'
 createdOn: '2022-10-21'
-updatedOn: '2024-05-28'
+updatedOn: '2024-06-04'
 ogTitle: 'CIAM - What is CIAM?  Customer Identity and Access Management Solution'
 ogDescription: 'Customer Identity and Access Management (CIAM) enhances user experience and secures data by managing customer access to applications and services.'
 ogImage:
