@@ -10,7 +10,7 @@ mainButtonText: 'Contact us'
 excerpt: 'Salesforce CASB shields your cloud data from unauthorized users and cyber-attacks! Learn how CASB can boost Salesforce app security and compliance.'
 thumbnail: '/blog/assets/2023/casb-salesforce-users-blog.webp'
 createdOn: '2022-05-12'
-updatedOn: '2022-05-12'
+updatedOn: '2024-06-06'
 ogTitle: ''
 ogDescription: ''
 ogImage:
