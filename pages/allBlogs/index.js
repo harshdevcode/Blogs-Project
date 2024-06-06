@@ -57,7 +57,7 @@ export default function AllPosts({ posts }) {
                 Sort by Category
             </button>
             {currentPosts.map((post, index) => (
-                <PostList index={index} post={post} />
+                <PostList key={post.slug} index={index} post={post} />
             ))}
 
             <PaginationButtons
@@ -65,7 +65,6 @@ export default function AllPosts({ posts }) {
                 totalPages={Math.ceil(posts.length / postsPerPage)}
                 onPageChange={setCurrentPage}
             />
-
         </div>
     );
 }

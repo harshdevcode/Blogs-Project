@@ -13,7 +13,6 @@ export default function PostItem({
     createdOn,
     className,
     category,
-    index,
     blogBannerTitle
 }) {
     return (
@@ -45,10 +44,10 @@ export default function PostItem({
                     <Icon name="FolderClosed" color="grey" size={18} />
                     <div className="flex flex-wrap items-center">
                         {category?.map((_category, i) => (
-                            <>
+                            <li key={`${slug}-${i}`}>
                                 <Subtitle>{capitalizeFirstLetter(_category)}</Subtitle>
                                 {i !== category.length - 1 ? <>, &nbsp;</> : null}
-                            </>
+                            </li>
                         ))}
                     </div>
                 </div>

@@ -5,26 +5,33 @@ export default function SearchResults({ returnedData }) {
   const [remainingResults, setRemainingResults] = useState([]);
   const [emptyResult, setEmptyResult] = useState(false);
   const targetSubdomain = "/blog";
+
   useEffect(() => {
-    if(returnedData.searchInformation.totalResults === "0"){
-      setEmptyResult(true);
+    if (returnedData) {
+      if (returnedData.searchInformation.totalResults === "0") {
+        setEmptyResult(true);
+      } else {
+        const newFilteredResults = returnedData.items.filter((result) =>
+          result.link.includes(targetSubdomain)
+        );
+        const newRemainingResults = returnedData.items.filter(
+          (result) => !result.link.includes(targetSubdomain)
+        );
+        setFilteredResults(newFilteredResults);
+        setRemainingResults(newRemainingResults);
+      }
     }
-    else{
-      const newFilteredResults = returnedData.items.filter((result) => result.link.includes(targetSubdomain));
-      const newRemainingResults = returnedData.items.filter((result) => !result.link.includes(targetSubdomain));
-      setFilteredResults(newFilteredResults);
-      setRemainingResults(newRemainingResults);
-    }
-  }, []);
+  }, [returnedData, targetSubdomain]);
 
   const combinedResults = [...filteredResults, ...remainingResults];
 
   return (
     <>
-      { emptyResult ?
+      {emptyResult ? (
         <div className="w-full h-full flex justify-center items-center">
           <p className="text-lg">Sorry, No Results Found</p>
-        </div> :
+        </div>
+      ) : (
         <div>
           {combinedResults.map((result) => (
             <div className="mb-6" key={result.link}>
@@ -32,13 +39,17 @@ export default function SearchResults({ returnedData }) {
                 <a href={result.link}>
                   <h2 className="text-sm title-semibold">{result.title}</h2>
                 </a>
-                <a href={result.link} className="text-title text-sml line-clamp-1">{result.link}</a>
+                <a href={result.link} className="text-title text-sml line-clamp-1">
+                  {result.link}
+                </a>
               </div>
-              <a href={result.link}><p className="text-caption line-clamp-2">{result.snippet}</p></a>
+              <a href={result.link}>
+                <p className="text-caption line-clamp-2">{result.snippet}</p>
+              </a>
             </div>
           ))}
         </div>
-      }
+      )}
     </>
   );
 }

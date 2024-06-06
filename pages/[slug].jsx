@@ -24,6 +24,7 @@ import Headline from 'components/heading';
 
 import SocialShare from 'components/social-share';
 import ProgressBar from 'components/progress-bar';
+
 const INITIAL_COMMENT_TEXT = {
     content: '',
     email: '',
@@ -132,12 +133,14 @@ const Blog = ({ payload }) => {
     useEffect(() => {
         const headings = document.querySelectorAll('h1, h2, h3');
 
-        window.addEventListener('scroll', (event) => onScroll(event, headings));
+        const handleScroll = (event) => onScroll(event, headings);
+
+        window.addEventListener('scroll', handleScroll);
 
         return () => {
-            window.removeEventListener('scroll', onScroll(headings));
+            window.removeEventListener('scroll', handleScroll);
         };
-    }, []);
+    }, [onScroll]);
 
     function convertDateFormat(updatedOn) {
         var originalDate = new Date(updatedOn);
