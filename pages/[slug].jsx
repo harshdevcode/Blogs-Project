@@ -1,29 +1,26 @@
-import { useRef } from 'react';
-import styles from 'styles/blog-details.module.css';
+import { useRef, useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
+import axios from 'axios';
+import Link from 'next/link';
+import Image from 'next/image';
 import Head from 'next/head';
 import CommentBox from 'components/comment-box';
 import CommentsList from 'components/comments-list';
 import Footer from 'components/footer';
 import TagsList from 'components/tags-list';
-import useStatus from 'hooks/useStatus';
-import markdownStyles from 'styles/markdown-styles.module.css';
-import { parse } from 'node-html-parser';
-import { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
 import Button from 'components/button';
-import Image from 'next/image';
-
-import axios from 'axios';
-import { getAllPosts, getHeadlines, getPostBySlug, markdownToHTML } from 'helpers/helpers';
-import Link from 'next/link';
-import Comment from 'database/models/Comment';
-import User from 'database/models/User';
-import ListItemAuthor from "components/list-item-author";
-import PostItem from 'components/post-item';
+import ListItemAuthor from 'components/list-item-author';
 import Headline from 'components/heading';
-
 import SocialShare from 'components/social-share';
 import ProgressBar from 'components/progress-bar';
+import useStatus from 'hooks/useStatus';
+import { getAllPosts, getHeadlines, getPostBySlug, markdownToHTML } from 'helpers/helpers';
+import Comment from 'database/models/Comment';
+import User from 'database/models/User';
+import styles from 'styles/blog-details.module.css';
+import markdownStyles from 'styles/markdown-styles.module.css';
+import { parse } from 'node-html-parser';
+
 const INITIAL_COMMENT_TEXT = {
     content: '',
     email: '',
@@ -132,12 +129,14 @@ const Blog = ({ payload }) => {
     useEffect(() => {
         const headings = document.querySelectorAll('h1, h2, h3');
 
-        window.addEventListener('scroll', (event) => onScroll(event, headings));
+        const handleScroll = (event) => onScroll(event, headings);
+
+        window.addEventListener('scroll', handleScroll);
 
         return () => {
-            window.removeEventListener('scroll', onScroll(headings));
+            window.removeEventListener('scroll', handleScroll);
         };
-    }, []);
+    }, [onScroll]);
 
     function convertDateFormat(updatedOn) {
         var originalDate = new Date(updatedOn);
