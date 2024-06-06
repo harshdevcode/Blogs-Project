@@ -44,7 +44,7 @@ export default function PostItem({
                     <Subtitle className="grow">{new Date(createdOn).toDateString()}</Subtitle>
                     <Icon name="FolderClosed" color="grey" size={18} />
                     <div className="flex flex-wrap items-center">
-                        {category.map((_category, i) => (
+                        {category?.map((_category, i) => (
                             <>
                                 <Subtitle>{capitalizeFirstLetter(_category)}</Subtitle>
                                 {i !== category.length - 1 ? <>, &nbsp;</> : null}
