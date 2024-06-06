@@ -33,7 +33,7 @@ const ReadingProgressBar = ({ contentRef }) => {
   return (
     <div
       // ref={progressBarRef}
-      style={{ width: `${readingProgress}%`, height:'4px', backgroundColor:'#f05238', position:'fixed' }}
+      style={{ width: `${readingProgress}%`, height:'4px', backgroundColor:'#f05238', position:'fixed' , zIndex: '1' }}
     />
   );
 };

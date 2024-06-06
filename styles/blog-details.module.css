@@ -30,7 +30,11 @@
     @apply w-full flex flex-col justify-center p-md bg-slate-50
 	lg:flex-row;
 }
-
+.related_blogs_container{
+    @apply w-full h-full p-md 
+    xl:px-huge;
+    font-size: 1.5rem !important;
+}
 
 /* Add hover effect to side nav links */
 .side_nav_link:hover {

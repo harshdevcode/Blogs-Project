@@ -69,6 +69,18 @@ export function getPostsForCategory(fields, category) {
     return posts;
 }
 
+export function getPostsForCategories(fields, categories){
+    const slugs = getPostSlugs();
+    const posts = slugs.map((slug)=>getPostBySlug(slug,fields))
+    .filter((post)=>{
+        if(post.category.some(category=>categories.includes(category))){
+            return post;
+        }
+    }).sort((post1, post2) => (post1.createdOn > post2.createdOn ? -1 : 1)).slice(0,3 );
+
+    return posts;
+}
+
 export function getPostsForTag(fields, tag) {
     const slugs = getPostSlugs();
 

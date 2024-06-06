@@ -14,6 +14,16 @@ import Headline from 'components/heading';
 import SocialShare from 'components/social-share';
 import ProgressBar from 'components/progress-bar';
 import useStatus from 'hooks/useStatus';
+import markdownStyles from 'styles/markdown-styles.module.css';
+import { parse } from 'node-html-parser';
+import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
+import Button from 'components/button';
+import Image from 'next/image';
+
+import axios from 'axios';
+import { getAllPosts, getHeadlines, getPostBySlug, getPostsForCategories, markdownToHTML } from 'helpers/helpers';
+import Link from 'next/link';
 import { getAllPosts, getHeadlines, getPostBySlug, markdownToHTML } from 'helpers/helpers';
 import Comment from 'database/models/Comment';
 import User from 'database/models/User';
@@ -236,6 +246,17 @@ const Blog = ({ payload }) => {
                         <TagsList tags={tags} />
                     </aside>
                 </article>
+                 {/* related blogs  */}
+                 <article className={styles.related_blogs_container  }>
+                <p className='heading text-xl pb-md 	'>More like this</p>
+                {data.relatedPosts.length !== 0 && (
+                    <div className="latest-posts-grid">
+                        {data.relatedPosts.map((post, index) => (
+                            <PostItem {...post} key={post.slug} />
+                        ))}
+                    </div>
+                )}
+                </article>
 
                 {/* Comments */}
                 <section className={styles.comments_container}>
@@ -316,9 +337,29 @@ export async function getStaticProps({ params }) {
         'thumbnail',
         'updatedOn',
         'author',
-        'profilePic'
+        'profilePic',
+        'category'
     ]);
 
+    const categories = post.category;
+
+    const relatedPosts = getPostsForCategories(
+        [
+            'title',
+            'description',
+            'date',
+            'slug',
+            'author',
+            'thumbnail',
+            'excerpt',
+            'content',
+            'category',
+            'tags',
+            'createdOn',
+            'category'
+        ],
+        categories
+    );
     const html = await markdownToHTML(post.content || '');
 
     const headlines = getHeadlines(html);
@@ -360,6 +401,7 @@ export async function getStaticProps({ params }) {
         html,
         tocs,
         canonical,
+        relatedPosts
     };
 
     return {
